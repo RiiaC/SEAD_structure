@@ -1,0 +1,41 @@
+---
+table_name: tbl_record_types
+primary_key: "[[record_type_id]]"
+columns:
+  - "[[date_updated]]"
+  - "[[record_type_description]]"
+  - "[[record_type_name]]"
+date created: Friday, September 19th 2025, 3:37:16 pm
+---
+> [!comment] This table is both optional and discouraged.
+> The [[record_type_id]] foreign key can be null for all four of its children tables, [[tbl_abundance_elements]], [[tbl_methods]], [[tbl_site_other_records]], and [[tbl_taxa_tree_orders]]. Furthermore, Phil has said of this table *"Record types is a workaround for grouping taxa and methods in a way that methods do not allow. We have tried to avoid using it as much as possible, so no important data should go in there. If possible, we use other tables, but fill record types for backwards compatibility with interface elements."*. Therefore, I will remove it from the Strucke data mapping, and just keep this note with the table itself.
+
+
+Categorizes biological proxies based on their general usage or origin, enabling the creation of meaningful subsets from the complete taxonomic index and associated abundance elements. It ensures relevance by excluding options like 'seed' from datasets related to insects. The classification is primarily at the 'Order' level in the taxonomic hierarchy. For example, 'Insects & similar' includes insects, arthropods, and other related animals, while 'Plants & pollen' groups entities with shared ecological significance, such as plant presence.
+
+| record_type_id | record_type_name          | record_type_description                                                                                                                                                                |
+| -------------- | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 0              | Undefined                 | Unspecified record type                                                                                                                                                                |
+| 1              | Insects & similar         | Insect and other arthrapod taxa, allong with other remains commonly extracted when analysing insect samples.                                                                           |
+| 2              | Plants & pollen           | Plants taxa and their pollen. Also includes non-pollen palynomorphs commonly counted and included in pollen analyses.                                                                  |
+| 3              | Non-pollen palynomorphs   | (Fossil) remains often extracted in association with pollen analyses.                                                                                                                  |
+| 4              | Molluscs                  | Snails and shellfish, terrestrial or aquatic.                                                                                                                                          |
+| 5              | Diatoms                   | A major group of eukaryotic algae encased in a silica based cell wall.                                                                                                                 |
+| 6              | Ostracods                 | A class of the Crustacea, mainly microscopic aquatic organisms encased in a bivalve like shell.                                                                                        |
+| 7              | Chironomids               | Non-biting midges, a Diptera family commonly treated as a separate proxy in palaeoecology, where the larval head capsules are preserved in sediments.                                  |
+| 8              | Cladocera                 | Water fleas, an order of the class Brachiopoda, small aquatic crustaceans, of which Daphnia is the most commonly useful genus.                                                         |
+| 9              | Charcoal                  | Carbonised remains of organic matter, the product of incomplete burning or heating.                                                                                                    |
+| 10             | Non-biological taxa       | Records for taxon based chemical/physical properties. Provides future support for chemical taxa not yet implemented.                                                                   |
+| 11             | Subjective metadata       | Subject descriptions of properties                                                                                                                                                     |
+| 12             | Soil chemistry/properties | Soil chemistry/property data, such as magnetic susceptibility, pH etc. Does not include ambient field measurement such as field based metal detector, MS-loop, fluxgate magnetaometer. |
+| 13             | Isotopes                  | Isotpic data of any nature                                                                                                                                                             |
+| 14             | Animal bones              | Animal bone data available, external to SEAD. Note: human osteaology has own category.                                                                                                 |
+| 15             | Human bones               | Human osteology data available outside of SEAD.                                                                                                                                        |
+| 16             | Other archaeology         | More archaeology data is available through sources listed.                                                                                                                             |
+| 17             | External pollen data      | Pollen data available through other sources, i.e. not stored in SEAD                                                                                                                   |
+| 18             | External plant macro data | Plant macrofossil data available through other sources, i.e. not stored in SEAD                                                                                                        |
+| 19             | Dating                    | General dating data, includes geochronologies and tephra dates                                                                                                                         |
+| 20             | Dendrochronology          | Detemination of age through tree ring measurements                                                                                                                                     |
+| 21             | Ceramic thin sections     | Ceramic thin sections                                                                                                                                                                  |
+| 22             | DNA                       | Any type of DNA analysis (e.g. ancient humans or sedimentary)                                                                                                                          |
+

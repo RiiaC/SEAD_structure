@@ -1,0 +1,45 @@
+views:
+  - type: table
+    name: ShapeShifter progress notes
+    filters:
+      and:
+        - file.path.startsWith("content/Example dataset mapping/AFL Radiocarbon Data mapping")
+        - '!file.path.contains("AFL Radiocarbon Data spreadsheet")'
+        - file.name != "index"
+        - file.name != "table of entities.base"
+    order:
+      - status
+      - file.name
+      - Entity_Name
+      - Type
+      - Public_ID
+      - Target_Entity
+      - Local_Keys
+      - Remote_Keys
+      - Target_Entity_2
+      - Local_Keys_2
+      - Remote_Keys_2
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: status
+        direction: DESC
+      - property: Type
+        direction: ASC
+      - property: Local_Keys_2
+        direction: ASC
+      - property: Target_Entity
+        direction: ASC
+      - property: Entity_Name
+        direction: ASC
+    columnSize:
+      note.status: 93
+      file.name: 192
+      note.Entity_Name: 120
+      note.Type: 110
+      note.Public_ID: 200
+      note.Target_Entity: 183
+      note.Local_Keys: 99
+      note.Remote_Keys: 106
+      note.Target_Entity_2: 143
+      note.Local_Keys_2: 124

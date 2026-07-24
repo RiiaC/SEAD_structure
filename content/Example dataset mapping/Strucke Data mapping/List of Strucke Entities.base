@@ -1,0 +1,19 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.folder == "content/Example dataset mapping/Strucke Data mapping"
+        - file.basename != "List of Strucke Entities"
+    order:
+      - status
+      - file.name
+      - Entity_Name
+      - Public_ID
+      - Type
+      - SEAD_table
+      - Target_Entity
+      - Local_Keys
+      - Remote_Keys
+    columnSize:
+      note.status: 101
