@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-GB
-  baseUrl: riiac.github.io/test_quartz
+  baseUrl: riiac.github.io/SEAD_structure
   ignorePatterns:
     - private
     - templates
