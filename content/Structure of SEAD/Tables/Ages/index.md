@@ -1,7 +1,8 @@
 ---
-date created: Thursday, December 4th 2025, 3:15:21 pm
-description: Overview of SEAD database tables and their relationships.
+publish: true
+permalink: /Structure of SEAD/Tables/Ages/index.md
 title: Tables
+description: Overview of SEAD database tables and their relationships.
 ---
 
 # Tables Overview

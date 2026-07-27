@@ -1,9 +1,15 @@
-![[SEAD logo.png]]
+---
+publish: true
+permalink: /How to get your data into SEAD/Data categories and templates.md
+---
+
+![[images/SEAD logo.png]]
 The below tables show various categories of information that can be imported into SEAD. Some of these lists have been extracted from templates developed at [Umeå Environmental Archaeology Laboratory, MAL](https://www.umu.se/en/research/infrastructure/mal/) for some of their standard data types to be imported into SEAD. Excel versions of these template files are available on request.
 
 For all of the below tables, the required data is in **bold print**, optional data is in regular print. Note: the below table and column descriptions are modified from the corresponding descriptions on https://humlab-sead.github.io/sead-schema/index.html unless otherwise specified.
 
 # Site
+
 All data in SEAD must be associated with a specific named site, with a recorded latitude and longitude. It is possible to record additional information about the site and location, including:
 
 | Column name     | Description                                                                                                                                   |
@@ -21,7 +27,9 @@ All data in SEAD must be associated with a specific named site, with a recorded 
 | Socken          | Historical parish (socken) associated with the site.                                                                                          |
 | Kommun          | Current municipality (kommun) in which the site is located.                                                                                   |
 | Koordinatsystem | Coordinate reference system used for spatial data (e.g. SWEREF 99 TM, WGS84).                                                                 |
+
 # Features
+
 When samples are associated with a specific archaeological feature that information can be recorded in SEAD:
 
 | Column name  | Description                                                                                                                                                                |
@@ -29,7 +37,9 @@ When samples are associated with a specific archaeological feature that informat
 | Feature Name | Name or identifier assigned to the archaeological feature, as used in field documentation or project records.                                                              |
 | Feature Type | Classification of the feature based on form or function (e.g. hearth, pit, posthole, ditch), following project or standard archaeological terminology.                     |
 | Description  | Free‑text description of the feature, summarising observed characteristics such as morphology, composition, dimensions, stratigraphic relationships, and notable contents. |
+
 # Sample Group
+
 The sample group is a required category for SEAD because it is the level to which many of the other tables are attached. It contains collections of related samples, typically grouped by structures (e.g., House 1), stratigraphic sequences (e.g., profile 3), or lake cores. It could also refer to a collection of bones from a single skeleton. Groups can be defined flexibly based on research needs. In the case of isolated single samples, they still need to be assigned to a sample group, but in those cases the group contains only one sample.
 
 | Column name              | Description                                                                                                                                                                                                                                                                                                                                                                           |
@@ -40,6 +50,7 @@ The sample group is a required category for SEAD because it is the level to whic
 | Publication              | Contains bibliographic information specifically relevant to a sample group, distinct from site or dataset references (e.g., a publication that reinterprets a structure within a site).                                                                                                                                                                                               |
 
 # Physical Samples
+
 This table records information about physical samples collected from specific sites. Each sample is characterised by its location within the site, its physical properties measured in specific units (e.g., liters, kilograms), and its context within its sample group. Additionally, samples may have descriptive information, notes, and external identifiers linked to other systems.
 
 | Column name         | Description                                                                                                                                                                                                                                            |
@@ -58,7 +69,9 @@ This table records information about physical samples collected from specific si
 | Volume before float | Volume of the sample prior to flotation, expressed in litres.                                                                                                                                                                                          |
 | Volume after float  | Volume of the sample remaining after flotation, expressed in litres.                                                                                                                                                                                   |
 | Sample note         | Free‑text notes providing additional information about the sample, such as preservation, deviations from standard procedures, or contextual observations.                                                                                              |
+
 # Work progress
+
 | Column name | Description |
 | ----------- | ----------- |
 | Status      |             |
@@ -70,7 +83,9 @@ This table records information about physical samples collected from specific si
 | MS          |             |
 | MS550       |             |
 | LOI         |             |
+
 # Publication
+
 | Column name | Description                                                                                                               |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------- |
 | Publication | The full citation information for publications relevant to a full dataset, method, sample, or other aspect of the dataset |
@@ -78,6 +93,7 @@ This table records information about physical samples collected from specific si
 | Year        | The publication year                                                                                                      |
 
 # Soil Chemistry: Geochemical, Physical, and Sediment Properties
+
 This section documents laboratory measurements of sediment and soil properties, including phosphorus fractions, magnetic susceptibility, loss‑on‑ignition, pH, electrical conductivity, and grain size distribution. Together, these variables characterise the chemical composition, physical structure, and depositional or anthropogenic influences affecting the sampled material.
 
 | Column name            | Description                                                                                                                                                                 |
@@ -110,8 +126,10 @@ This section documents laboratory measurements of sediment and soil properties, 
 | Grain size 0,6-2mm (%) | Percentage of the total sample mass represented by the 0.6–2 mm fraction.                                                                                                   |
 | Grain size <0,6 mm (g) | Mass of the fine fraction (<0.6 mm), measured in grams.                                                                                                                     |
 | Grain size <0,6 mm (%) | Percentage of the total sample mass represented by the <0.6 mm fraction.                                                                                                    |
-Note: The above introduction and column descriptions written by the CoPilot AI 2026-04-27. The column descriptions from the prompt: *"I was given a spreadsheet template from the Umeå Environmental Archaeology Laboratory, MAL. They did not provide metadata descriptions of the columns. Below is the list of column names. Do you have enough information to write me good, concise, yet informative metadata descriptions for each of these?"* ==I am awaiting human conformation and/or edits to this information from the MAL staff.==
+Note: The above introduction and column descriptions written by the CoPilot AI 2026-04-27. The column descriptions from the prompt: _"I was given a spreadsheet template from the Umeå Environmental Archaeology Laboratory, MAL. They did not provide metadata descriptions of the columns. Below is the list of column names. Do you have enough information to write me good, concise, yet informative metadata descriptions for each of these?"_ ==I am awaiting human conformation and/or edits to this information from the MAL staff.==
+
 # Archaeobotany: Taxonomic and Anatomical Identification (Faunal Remains)
+
 This section records taxonomic and anatomical identifications of faunal remains, including genus-, species-, and subspecies‑level determinations, along with uncertainty qualifiers. It also documents observed modifications and anatomical elements, providing information relevant to species representation, taphonomy, and human or natural processes affecting the remains.
 
 |columnn name|description|
@@ -124,7 +142,9 @@ This section records taxonomic and anatomical identifications of faunal remains,
 |Modifications|Observed modifications to the specimen indicating natural or anthropogenic alteration, such as cut marks, burning, gnawing, weathering, fragmentation, or other taphonomic features.|
 |Element|Anatomical element represented by the specimen (e.g. femur, humerus, mandible, vertebra, scale), following zooarchaeological anatomical terminology.|
 Note:  The above introduction and column descriptions written by the CoPilot AI 2026-04-27. The column descriptions from the prompt: _"In the same spreadsheet template from the Umeå Environmental Archaeology Laboratory, MAL another sheet has the below list of column names. Do you have enough information to write me good, concise, yet informative metadata descriptions for each of these?"_ ==I am awaiting human conformation and/or edits to this information from the MAL staff.==
+
 # Other Macro remains by type (Charcoal, Bone, Ceramics, and Other Materials)
+
 This section documents the presence or quantity of selected macroscopic remains recovered from samples, including charcoal, bone, ceramics, and other visible materials. These data capture coarse archaeological and environmental evidence obtained through visual sorting and provide contextual information on site formation and material deposition.
 
 |columnn name|description|

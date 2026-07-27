@@ -10,6 +10,7 @@ columns:
 connected_tables:
   - "[[tbl_analysis_entities]]"
   - "[[tbl_ceramics_lookup]]"
+publish: true
 ---
 
 Stores analysis results from ceramic thin-sections and sherds.

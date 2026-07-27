@@ -8,6 +8,7 @@ columns:
   - "[[name]]"
 connected_tables:
   - "[[tbl_value_types]]"
+publish: true
 ---
 
 Defines individual category values if value type is categorical

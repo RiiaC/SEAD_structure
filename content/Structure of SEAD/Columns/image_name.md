@@ -6,6 +6,7 @@ connected_tables:
   - "[[tbl_sample_images]]"
   - "[[tbl_site_images]]"
   - "[[tbl_taxa_images]]"
+publish: true
 ---
 
 The file name or title of the image.

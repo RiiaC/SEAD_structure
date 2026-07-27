@@ -4,6 +4,7 @@ data_type: integer
 connected_tables:
   - "[[tbl_analysis_entity_ages]]"
   - "[[tbl_chronologies]]"
+publish: true
 ---
 
 Specifies the the identifier of a specific chronology.

@@ -1,29 +1,25 @@
 ---
-Entity_Name: site
-Type: Data (Derived)
-Public_ID: "[[site_id]]"
-SEAD_table: "[[tbl_sites]]"
-status: in progress
+publish: true
+permalink: /Example dataset mapping/Strucke Data mapping/Entity site_natgridrefs.md
 ---
-> [!to do] The relevant columns for this dataset relating to site in national grid coordinates are:
-> - **northing_3006** 
-> - **easting_3006**
 
+> \[!to do] The relevant columns for this dataset relating to site in national grid coordinates are:
+>
+> - **northing\_3006**
+> - **easting\_3006**
 
-> [!warning]  the tbl_site_natgridrefs table in SEAD is currently empty. 
+> [!warning]  the tbl\_site\_natgridrefs table in SEAD is currently empty.
 > However, it looks like an appropriate place to record the given northering and easting values in this dataset
 
+- talk to Phil about this table, and if we want to use it for these columns, or if he has a better solution
+- create a data-derived entity site\_natgridrefs
+- add to it a column for `method_id` and figure out which one is appropriate for this data set
+- link this entity to [[Example dataset mapping/Strucke Data mapping/Entity site|Entity site]]
 
-- [ ] talk to Phil about this table, and if we want to use it for these columns, or if he has a better solution
-- [ ] create a data-derived entity site_natgridrefs
-- [ ] add to it a column for `method_id` and figure out which one is appropriate for this data set
-- [ ] link this entity to [[content/Example dataset mapping/Strucke Data mapping/Entity site|Entity site]]
-
-
-| method_id | method_name              | description                                                                                                                                                                                                                                                                                 |
+| method\_id | method\_name              | description                                                                                                                                                                                                                                                                                 |
 | --------- | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 69        | Swedish RT90'[2.5 gon V] | Swedish Rikets Nät (National Grid) system. Full name "RT 90 2.5 gon V 0:-15". X = south-north, Y = west-east. Essentially superceded by SWEREF 99 although still in extensive use.See http://www.lantmateriet.se/templates/LMV_Page.aspx?id=4766&lang=EN (NOTE: include URL as biblio link) |
-| 70        | SWEREF 99 TM (Swedish)   | Swedish geodetic reference system, based on UTM zone 33N bit extended to include the whole of Sweden. Coordinates are generally with decimeters of WGS 84 coordinates for the same place. See http://www.lantmateriet.se/templates/LMV_Page.aspx?id=4219                                    |
+| 69        | Swedish RT90'\[2.5 gon V] | Swedish Rikets Nät (National Grid) system. Full name "RT 90 2.5 gon V 0:-15". X = south-north, Y = west-east. Essentially superceded by SWEREF 99 although still in extensive use.See http://www.lantmateriet.se/templates/LMV\_Page.aspx?id=4766\&lang=EN (NOTE: include URL as biblio link) |
+| 70        | SWEREF 99 TM (Swedish)   | Swedish geodetic reference system, based on UTM zone 33N bit extended to include the whole of Sweden. Coordinates are generally with decimeters of WGS 84 coordinates for the same place. See http://www.lantmateriet.se/templates/LMV\_Page.aspx?id=4219                                    |
 | 71        | SWEREF 99 dd mm          | Swedish geodetic reference system for local coordinates (where dd mm are replaced by the appropriate zone meridian.NOTE: exactly how we handle the specific zones yet to be discussed - maybe one method entry per zone?                                                                    |
 | 72        | WGS84                    | World Geodetic System.System is used by the Global Positioning System.                                                                                                                                                                                                                      |
 | 73        | Local project grid       | Any coordinate or grid system established for local recording of objects. Includes abstract archaeological site grids with origin (0,0) at any location.I available, conversion factors for alignment wiwth standard reference systesm should be given in site notes.                       |
@@ -34,9 +30,8 @@ status: in progress
 | 120       | WGS84 UTM zone 33N       | WGS84 UTM zone 33N                                                                                                                                                                                                                                                                          |
 | 121       | Rikets höjdsystem 1900   | \nKorrektioner: Ingen landhöjnings- eller tidjordskorrektion                                                                                                                                                                                                                                |
 
+![[schema site national grid.png]]
 
-![[schema site national grid.png|]]
-
-````
+```
 name: 
-````
+```

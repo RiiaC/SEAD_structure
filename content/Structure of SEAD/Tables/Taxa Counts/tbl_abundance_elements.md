@@ -1,24 +1,18 @@
 ---
-table_name: tbl_abundance_elements
-primary_key: "[[abundance_element_id]]"
-foreign_keys:
-  - "[[record_type_id]]"
-columns:
-  - "[[date_updated]]"
-  - "[[element_description]]"
-  - "[[element_name]]"
-connected_tables:
-  - "[[tbl_record_types]]"
-date created: Friday, September 19th 2025, 3:37:16 pm
+publish: true
+permalink: /Structure of SEAD/Tables/Taxa Counts/tbl_abundance_elements.md
 ---
-> [!warning] The [[abundance_element_id]]  foreign key can be null for both of the children tables, [[tbl_abundances]]  and [[tbl_dating_material]]. Therefore, this is an optional table. 
-> - We do not appear to have any information in the [[content/Example dataset mapping/Strucke Data mapping/first draft of dataset/index|Strucke data ]] that counts as an "element" to count, so the abundance can simply be tied to species
 
-> [!abstract] Contains reference data that defines the type of element, part, or unit being counted, as indicated by the values in tbl_abundances. 
+> [!warning] The [[abundance_element_id]]  foreign key can be null for both of the children tables, [[tbl_abundances]]  and [[tbl_dating_material]]. Therefore, this is an optional table.
+>
+> - We do not appear to have any information in the [[Example dataset mapping/Strucke Data mapping/first draft of dataset/index|Strucke data ]] that counts as an "element" to count, so the abundance can simply be tied to species
+
+> [!abstract] Contains reference data that defines the type of element, part, or unit being counted, as indicated by the values in tbl\_abundances.
 > For insects, this is often the Minimum Number of Individuals (MNI), but it can also include individual body parts such as wings, shells, or leg segments. For plant remains (macrofossils), it generally represents specific plant parts like seeds, leaves, or bud scales.
+
 # 1: Insects & similar (Insect and other arthropod taxa, along with other remains commonly extracted when analysing insect samples)
 
-| abundance_element_id | record_type_id | element_name         |
+| abundance\_element\_id | record\_type\_id | element\_name         |
 | -------------------- | -------------- | -------------------- |
 | 1                    | 1              | Whole arthropod      |
 | 5                    | 1              | MNI                  |
@@ -29,9 +23,10 @@ date created: Friday, September 19th 2025, 3:37:16 pm
 | 10                   | 1              | Body segment (other) |
 | 11                   | 1              | Leg                  |
 | 17                   | 1              | Aedeagus             |
+
 # 2: Plants & pollen (Plants taxa and their pollen. Also includes non-pollen palynomorphs commonly counted and included in pollen analyses)
 
-| abundance_element_id | record_type_id | element_name                |
+| abundance\_element\_id | record\_type\_id | element\_name                |
 | -------------------- | -------------- | --------------------------- |
 | 2                    | 2              | Pollen grain                |
 | 3                    | 2              | Leaf                        |
@@ -69,27 +64,29 @@ date created: Friday, September 19th 2025, 3:37:16 pm
 | 47                   | 2              | Cone scale                  |
 | 48                   | 2              | Endosperm                   |
 | 49                   | 2              | Straw                       |
-# 3: Non-pollen palynomorphs ((Fossil) remains often extracted in association with pollen analyses)  
 
-| abundance_element_id | record_type_id | element_name |
+# 3: Non-pollen palynomorphs ((Fossil) remains often extracted in association with pollen analyses)
+
+| abundance\_element\_id | record\_type\_id | element\_name |
 | -------------------- | -------------- | ------------ |
 | 16                   | 3              | Spore        |
 | 38                   | 3              | Unknown      |
 
-# 4: Molluscs (Snails and shellfish, terrestrial or aquatic)  
+# 4: Molluscs (Snails and shellfish, terrestrial or aquatic)
 
-| abundance_element_id | record_type_id | element_name |
+| abundance\_element\_id | record\_type\_id | element\_name |
 | -------------------- | -------------- | ------------ |
 | 14                   | 4              | Shell        |
-# 8: Cladocera  ( Water fleas, an order of the class Brachiopoda, small aquatic crustaceans, of which Daphnia is the most commonly useful genus.)    
 
-| abundance_element_id | record_type_id | element_name |
+# 8: Cladocera  ( Water fleas, an order of the class Brachiopoda, small aquatic crustaceans, of which Daphnia is the most commonly useful genus.)
+
+| abundance\_element\_id | record\_type\_id | element\_name |
 | -------------------- | -------------- | ------------ |
 | 15                   | 8              | Carapace     |
 
- ![[Entity abundance_element schema.png|800]]
- 
-| abundance_element_id | element_name                |
+![[images/Entity abundance_element schema.png|800]]
+
+| abundance\_element\_id | element\_name                |
 | -------------------- | --------------------------- |
 | 2                    | Pollen grain                |
 | 3                    | Leaf                        |
@@ -127,4 +124,5 @@ date created: Friday, September 19th 2025, 3:37:16 pm
 | 47                   | Cone scale                  |
 | 48                   | Endosperm                   |
 | 49                   | Straw                       |
+
 # 3:

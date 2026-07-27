@@ -1,10 +1,6 @@
 ---
-table_name: tbl_project_stages
-primary_key: "[[project_stage_id]]"
-columns:
-  - "[[date_updated]]"
-  - "[[source/docs/plugins/Description]]"
-  - "[[stage_name]]"
+publish: true
+permalink: /Structure of SEAD/Tables/Project/tbl_project_stages.md
 ---
 
 Defines the various stages of an investigation, such as desktop study, prospection, full excavation, and reanalysis.

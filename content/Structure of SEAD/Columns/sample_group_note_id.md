@@ -1,8 +1,6 @@
 ---
-column_name: sample_group_note_id
-data_type: integer
-connected_tables:
-  - "[[tbl_sample_group_notes]]"
+publish: true
+permalink: /Structure of SEAD/Columns/sample_group_note_id.md
 ---
 
 Primary key (automatically incremented).

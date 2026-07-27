@@ -1,6 +1,7 @@
 ---
-date created: Monday, December 8th 2025, 3:35:06 pm
+publish: true
+permalink: /Structure of SEAD/Tables/index.md
 title: SEAD tables
 ---
-This section contains descriptions for each of the tables in the SEAD database.
 
+This section contains descriptions for each of the tables in the SEAD database.

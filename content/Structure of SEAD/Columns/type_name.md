@@ -1,17 +1,11 @@
 ---
-column_name: type_name
-data_type: character varying
-connected_tables:
-  - "[[tbl_sample_description_types]]"
-  - "[[tbl_sample_group_description_types]]"
-  - "[[tbl_sample_types]]"
-date created: Friday, September 19th 2025, 3:37:17 pm
+publish: true
+permalink: /Structure of SEAD/Columns/type_name.md
 ---
 
 Name assigned to the sample type.
 
-
-| number | type_name                 | description                                                                                                                                                                                                                                                                      |
+| number | type\_name                 | description                                                                                                                                                                                                                                                                      |
 | ------ | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1      | Decoration                | Decoration, e.g. marks, painting, protrusions, texture, glaze, varnish, perforated                                                                                                                                                                                               |
 | 2      | Vessel part               | Part of the vessel represented by the sample, e.g. lid, base, neck, rim.                                                                                                                                                                                                         |

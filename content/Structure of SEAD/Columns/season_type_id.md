@@ -4,6 +4,7 @@ data_type: integer
 connected_tables:
   - "[[tbl_season_types]]"
   - "[[tbl_seasons]]"
+publish: true
 ---
 
 Primary key (automatically incremented).

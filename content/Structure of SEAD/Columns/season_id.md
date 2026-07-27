@@ -6,6 +6,7 @@ connected_tables:
   - "[[tbl_dendro_dates]]"
   - "[[tbl_seasons]]"
   - "[[tbl_taxa_seasonality]]"
+publish: true
 ---
 
 Limits the dating range to a particular season.

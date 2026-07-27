@@ -1,19 +1,15 @@
 ---
-column_name: abundance_element_id
-data_type: integer
-connected_tables:
-  - "[[tbl_abundance_elements]]"
-  - "[[tbl_abundances]]"
-  - "[[tbl_dating_material]]"
-date created: Friday, September 19th 2025, 3:37:16 pm
+publish: true
+permalink: /Structure of SEAD/Columns/abundance_element_id.md
 ---
 
 Primary key (automatically incremented).
 
-# Insect related abundance_element_id terms:
-*(record_type_id  = 1)*
+# Insect related abundance\_element\_id terms:
 
-| abundance_element_id | element_name |element_description |
+_(record\_type\_id  = 1)_
+
+| abundance\_element\_id | element\_name |element\_description |
 | ---------- | --------- |------------------------------------------- |
 | 1 | Whole arthropod | A complete, or near complete, insect or similar individual |
 | 5 | MNI | Minimum Number of Individuals - an estimation of the number of whole animals represented by the collective parts found.|
@@ -25,10 +21,11 @@ Primary key (automatically incremented).
 | 11 | Leg | NULL|
 | 17 | Aedeagus | Reproductive organ of male insect.|
 
-# Plant related abundance_element_id terms:
-*(record_type_id  = 2)*
+# Plant related abundance\_element\_id terms:
 
-| abundance_element_id | element_name                | element_description                                                                                                                                                                       |
+_(record\_type\_id  = 2)_
+
+| abundance\_element\_id | element\_name                | element\_description                                                                                                                                                                       |
 | -------------------- | --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 2                    | Pollen grain                | Whole or partial pollen grain                                                                                                                                                             |
 | 3                    | Leaf                        | Whole or partial leaf                                                                                                                                                                     |
@@ -67,13 +64,11 @@ Primary key (automatically incremented).
 | 48                   | Endosperm                   | Internal part of seed, usually providing starch (nutrition) for the initial growth of the plant                                                                                           |
 | 49                   | Straw                       | Grassy cultivated plant (mainly cereal) stem(s)                                                                                                                                           |
 
-# other recorded types of abundance_element_id terms:
+# other recorded types of abundance\_element\_id terms:
 
-|record_type_id|abundance_element_id|element_name|element_description|
+|record\_type\_id|abundance\_element\_id|element\_name|element\_description|
 |---|---|---|---|
 |3|16|Spore|NULL|
 |3|38|Unknown|Unidentified ~pollen sized fossil|
 |4|14|Shell|NULL|
 |8|15|Carapace|Dorsal section of arthropod exoskeleton or shell, plus some vertebrates such as turtles.|
-
-   

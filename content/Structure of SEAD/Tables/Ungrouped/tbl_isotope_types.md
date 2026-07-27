@@ -8,6 +8,7 @@ columns:
   - "[[date_updated]]"
   - "[[source/docs/plugins/Description]]"
   - "[[designation]]"
+publish: true
 ---
 
 Type=lookup

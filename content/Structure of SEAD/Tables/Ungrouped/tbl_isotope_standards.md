@@ -8,6 +8,7 @@ columns:
   - "[[international_scale]]"
   - "[[isotope_ration]]"
   - "[[reference]]"
+publish: true
 ---
 
 Type=lookup

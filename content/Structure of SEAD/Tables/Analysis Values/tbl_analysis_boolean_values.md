@@ -8,6 +8,7 @@ columns:
   - "[[value]]"
 connected_tables:
   - "[[tbl_analysis_values]]"
+publish: true
 ---
 
 Stores analysis values that represent a boolean (true/false) condition.

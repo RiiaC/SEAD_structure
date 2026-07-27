@@ -5,6 +5,7 @@ columns:
   - "[[date_updated]]"
   - "[[source/docs/plugins/Description]]"
   - "[[season_type]]"
+publish: true
 ---
 
 Contains different categories of seasons.

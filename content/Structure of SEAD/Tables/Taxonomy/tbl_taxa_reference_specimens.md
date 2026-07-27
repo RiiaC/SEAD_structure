@@ -10,6 +10,7 @@ columns:
 connected_tables:
   - "[[tbl_contacts]]"
   - "[[tbl_taxa_tree_master]]"
+publish: true
 ---
 
 Contains information on reference and type specimens used for the primary description of species.

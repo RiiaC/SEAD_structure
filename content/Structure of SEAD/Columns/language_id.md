@@ -1,9 +1,6 @@
 ---
-column_name: language_id
-data_type: integer
-connected_tables:
-  - "[[tbl_languages]]"
-  - "[[tbl_taxa_common_names]]"
+publish: true
+permalink: /Structure of SEAD/Columns/language_id.md
 ---
 
 Primary key (automatically incremented).

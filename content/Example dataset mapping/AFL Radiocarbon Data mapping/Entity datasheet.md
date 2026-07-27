@@ -1,7 +1,6 @@
 ---
-Entity_Name: datasheet
-Type: Excel File(OpenPyXL)
-Public_ID: datasheet_id
-status: source
+publish: true
+permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/Entity datasheet.md
 ---
-This entity is simply opening the a1_radiocarbon_data sheet from the radiocarbon_Glykou_etal_2021_input.xlsx file and making it available as a data source within the project for the other entities.
+
+This entity is simply opening the a1\_radiocarbon\_data sheet from the radiocarbon\_Glykou\_etal\_2021\_input.xlsx file and making it available as a data source within the project for the other entities.

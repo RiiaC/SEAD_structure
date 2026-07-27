@@ -1,26 +1,18 @@
 ---
-Entity_Name: abundance_modifications
-Type: Data (Derived)
-Public_ID: "[[abundance_modification_id]]"
-Target_Entity: "[[Entity modification_types]]"
-Local_Keys:
-  - biological_age
-Remote_Keys:
-  - "[[modification_type_name]]"
-SEAD_table: "[[tbl_abundance_modifications]]"
-status: error_to_solve
+publish: true
+permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/Entity abundance_modifications.md
 ---
+
 > [!info] the table Tom suggested, on 2026-02-19, to use for the [[C. Biological Age]], as it is a characteristic of the bone being sampled
 
+- create a data-derived entity for abundance\_modifications, and add the column biological\_age
+- join it to the [[Entity modification_types]] where biological age = modification\_type\_name _(this attempted 2026-04-22, but ran into errors--Roger is looking into them)_
 
-- [x] create a data-derived entity for abundance_modifications, and add the column biological_age
-- [ ] join it to the [[Entity modification_types]] where biological age = modification_type_name *(this attempted 2026-04-22, but ran into errors--Roger is looking into them)*
-
-![[Entity abundance_modifications schema.png]]
+![[images/Entity abundance_modifications schema.png]]
 
 # YAML
 
-````
+```
 name: abundance_modifications
 type: entity
 system_id: system_id
@@ -46,6 +38,4 @@ foreign_keys:
       allow_null_keys: false
 drop_empty_rows:
   - biological_age
-`````
-
-
+```

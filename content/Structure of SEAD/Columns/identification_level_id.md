@@ -4,6 +4,7 @@ data_type: integer
 connected_tables:
   - "[[tbl_abundance_ident_levels]]"
   - "[[tbl_identification_levels]]"
+publish: true
 ---
 
 Specifies the specific identification level.

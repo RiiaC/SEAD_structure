@@ -7,6 +7,7 @@ columns:
   - "[[value]]"
 connected_tables:
   - "[[tbl_analysis_values]]"
+publish: true
 ---
 
 Storage for identifiers associated to analysis values, or analysis value that represents an identifier.

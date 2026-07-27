@@ -9,6 +9,7 @@ columns:
 connected_tables:
   - "[[tbl_biblio]]"
   - "[[tbl_relative_ages]]"
+publish: true
 ---
 
 Stores bibliographic references that define the accepted authority for a dating period, rather than the dating of a specific sample.

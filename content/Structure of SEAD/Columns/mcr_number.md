@@ -1,8 +1,6 @@
 ---
-column_name: mcr_number
-data_type: smallint
-connected_tables:
-  - "[[tbl_mcr_names]]"
+publish: true
+permalink: /Structure of SEAD/Columns/mcr_number.md
 ---
 
 A unique identifier related to each MCR taxon name.

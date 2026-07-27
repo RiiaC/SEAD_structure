@@ -5,6 +5,7 @@ connected_tables:
   - "[[tbl_taxa_synonyms]]"
   - "[[tbl_taxa_tree_authors]]"
   - "[[tbl_taxa_tree_master]]"
+publish: true
 ---
 
 Specifies the author related to the taxon synonym.

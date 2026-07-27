@@ -11,6 +11,7 @@ connected_tables:
   - "[[tbl_analysis_numerical_values]]"
   - "[[tbl_analysis_taxon_counts]]"
   - "[[tbl_analysis_value_dimensions]]"
+publish: true
 ---
 
 The boolean value (e.g., true/false or 1/0).

@@ -1,22 +1,13 @@
 ---
-Entity_Name: modification_types
-Type: Fixed Values
-Public_ID: "[[modification_type_id]]"
-Target_Entity:
-Local_Keys:
-  - 
-  - 
-  - 
-Remote_Keys:
-SEAD_table: "[[tbl_modification_types]]"
-status:
+publish: true
+permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/Entity modification_types.md
 ---
+
 > [!info] the table into which we will put the info from [[C. Biological Age]]
 
+- create fixed-value table for the modification types used in this dataset, and enter the following:
 
-- [x] create fixed-value table for the modification types used in this dataset, and enter the following:
-
-| modification_type_id | modification_type_name | modification_type_description         |
+| modification\_type\_id | modification\_type\_name | modification\_type\_description         |
 | -------------------- | ---------------------- | ------------------------------------- |
 |                      | nd                     | The estimated biological age at death |
 |                      | 0-3 m                  | The estimated biological age at death |
@@ -26,6 +17,4 @@ status:
 |                      | subadult               | The estimated biological age at death |
 |                      | adult                  | The estimated biological age at death |
 
-
-
-![[Entity modification_types schema.png]]
+![[images/Entity modification_types schema.png]]

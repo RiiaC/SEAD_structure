@@ -1,16 +1,11 @@
 ---
-table_name: tbl_sample_description_types
-primary_key: "[[sample_description_type_id]]"
-columns:
-  - "[[date_updated]]"
-  - "[[type_description]]"
-  - "[[type_name]]"
-date created: Friday, September 19th 2025, 3:37:16 pm
+publish: true
+permalink: /Structure of SEAD/Tables/sSample/tbl_sample_description_types.md
 ---
 
 > [!info] Specifies various types of sample descriptions used in the database.
 
-| sample_description_type_id | type_name                 | description                                                                                                                                                                                                                                                                      |
+| sample\_description\_type\_id | type\_name                 | description                                                                                                                                                                                                                                                                      |
 | -------------------------- | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1                          | Decoration                | Decoration, e.g. marks, painting, protrusions, texture, glaze, varnish, perforated                                                                                                                                                                                               |
 | 2                          | Vessel part               | Part of the vessel represented by the sample, e.g. lid, base, neck, rim.                                                                                                                                                                                                         |
@@ -26,6 +21,6 @@ date created: Friday, September 19th 2025, 3:37:16 pm
 
 > [!abstract] Needs to be added for the Radiocarbon data set:
 
-| sample_description_type_id | type name      | description                                                               |
+| sample\_description\_type\_id | type name      | description                                                               |
 | -------------------------- | -------------- | ------------------------------------------------------------------------- |
 |                            | Biological Age | The (infered) age or development stage of the animal whose bone was dated |

@@ -1,18 +1,6 @@
 ---
-table_name: tbl_dimensions
-primary_key: "[[dimension_id]]"
-foreign_keys:
-  - "[[method_group_id]]"
-  - "[[unit_id]]"
-columns:
-  - "[[date_updated]]"
-  - "[[dimension_abbrev]]"
-  - "[[dimension_description]]"
-  - "[[dimension_name]]"
-connected_tables:
-  - "[[tbl_method_groups]]"
-  - "[[tbl_units]]"
-date created: Friday, September 19th 2025, 3:37:16 pm
+publish: true
+permalink: /Structure of SEAD/Tables/Ungrouped/tbl_dimensions.md
 ---
 
 Contains definitions of various measurement types, such as sample weight and core length, categorized by method group.
@@ -21,7 +9,7 @@ Contains definitions of various measurement types, such as sample weight and cor
 
 ## standard measurements
 
-| dimension_id | dimension_abbrev  | dimension_name          | dimension_description                                                                 | unit_id |
+| dimension\_id | dimension\_abbrev  | dimension\_name          | dimension\_description                                                                 | unit\_id |
 | ------------ | ----------------- | ----------------------- | ------------------------------------------------------------------------------------- | ------- |
 | 1            | w                 | Weight                  | Sample weight                                                                         | 2       |
 | 3            | NULL              | Sample/core width       | Width of entire sample or (square) core width                                         | 1       |
@@ -29,9 +17,10 @@ Contains definitions of various measurement types, such as sample weight and cor
 | 5            | v                 | Volume                  | Sample volume                                                                         | 3       |
 | 6            | d                 | Core diameter           | Diameter of core                                                                      | 1       |
 | 44           | Tree diameter (m) | Tree diameter in metres | Diameter of tree sampled for dendrochronological and/or climatological investigation. | 1       |
+
 ## sample layer position measurements
 
-| dimension_id | dimension_abbrev     | dimension_name                                 | dimension_description                                                                                                                                       | unit_id |
+| dimension\_id | dimension\_abbrev     | dimension\_name                                 | dimension\_description                                                                                                                                       | unit\_id |
 | ------------ | -------------------- | ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
 | 2            | NULL                 | Lower boundary depth from unknown reference    | Depth of lower sample boundary from unknown or unspecified reference level                                                                                  | 1       |
 | 19           | NULL                 | Positive boundary depth from surface upper     | Positive values denote depth of upper sample/unit/core etc boundary from ground or water surface in metres.                                                 | 1       |
@@ -44,9 +33,10 @@ Contains definitions of various measurement types, such as sample weight and cor
 | 26           | NULL                 | Lower boundary depth (negative) from reference | Negative values denote depth of lower sample/unit/core etc boundary from reference line (e.g. profile line, core top), reference point or datum, in metres. | 1       |
 | 27           | NULL                 | Upper boundary depth from unknown reference    | Depth of upper sample boundary from unknown or unspecified reference level                                                                                  | 1       |
 | 43           | Sampling height (cm) | Sampling height in centimetres                 | Height at which a sample was retrieved. Positive values denotes distance measured from the ground-level.                                                    | 16      |
+
 ## ceramics measurements
 
-| dimension_id | dimension_abbrev | dimension_name               | dimension_description                                                                       | unit_id |
+| dimension\_id | dimension\_abbrev | dimension\_name               | dimension\_description                                                                       | unit\_id |
 | ------------ | ---------------- | ---------------------------- | ------------------------------------------------------------------------------------------- | ------- |
 | 28           | h                | Vessel height                | Vessel height                                                                               | 1       |
 | 29           | NULL             | Firing temperature (min)     | Minimum firing temperature required for creation of ceramic object                          | 9       |
@@ -63,9 +53,10 @@ Contains definitions of various measurement types, such as sample weight and cor
 | 40           | Sherd maximum    | Sherd thickness (mm) maximum | Vessel sherd thickness in millimeters, maximum size measurement                             | 10      |
 | 41           | Height minimum   | Vessel height (cm) minimum   | Vessel height in centimeters, minimum                                                       | 16      |
 | 42           | Height maximum   | Vessel height (cm) maximum   | Vessel height in centimeters, maximum                                                       | 16      |
+
 # Method Group 17:  Sample Coordinates
 
-| dimension_id | dimension_abbrev | dimension_name | dimension_description                                                                                              | unit_id |
+| dimension\_id | dimension\_abbrev | dimension\_name | dimension\_description                                                                                              | unit\_id |
 | ------------ | ---------------- | -------------- | ------------------------------------------------------------------------------------------------------------------ | ------- |
 | 7            | X/N              | X/North        | X coordinate or Northing in metres. Negative values are south of the origin (zero coordinate).                     | 1       |
 | 9            | X/N              | X/North        | X coordinate or Northing in intrinsic units. Negative values are south of the origin (zero coordinate).            | 5       |

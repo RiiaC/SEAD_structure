@@ -1,29 +1,15 @@
 ---
-Entity_Name: geochronology
-Type: Data (Derived)
-Public_ID: "[[geochron_id]]"
-Target_Entity:
-Local_Keys:
-  - 
-  - 
-  - 
-Remote_Keys:
-SEAD_table: "[[tbl_geochronology]]"
-date created: Wednesday, February 18th 2026, 9:38:29 am
-status: needs creating
+publish: true
+permalink: /Example dataset mapping/Strucke Data mapping/first draft of dataset/Entity geochronology.md
 ---
+
 > [!info] the relevant columns for this table, and their SEAD equivalent are:
 > **- labnr** = [[lab_number]]
-> **- c14_alder** [[age]]
-> **- c14_stdav** [[error_older]] and [[error_younger]]
+> **- c14\_alder** [[age]]
+> **- c14\_stdav** [[error_older]] and [[error_younger]]
 > **- c13** [[delta_13c]]
 > **- modern**           **ASK Phil about this one!**
 > **- kommentar** [[notes]]
-> **- bedomd_relevant**  **should this also fall under "notes"???**
+> **- bedomd\_relevant**  **should this also fall under "notes"???**
 
-
-
-
-
-![[tbl_geochronology schema.png]]
-
+![[images/tbl_geochronology schema.png]]

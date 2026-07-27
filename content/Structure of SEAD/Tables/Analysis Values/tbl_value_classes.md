@@ -1,18 +1,6 @@
 ---
-table_name: tbl_value_classes
-primary_key: "[[value_class_id]]"
-foreign_keys:
-  - "[[method_id]]"
-  - "[[parent_id]]"
-  - "[[value_type_id]]"
-columns:
-  - "[[source/docs/plugins/Description]]"
-  - "[[name]]"
-  - "[[value_class_uuid]]"
-connected_tables:
-  - "[[tbl_methods]]"
-  - "[[tbl_value_classes]]"
-  - "[[tbl_value_types]]"
+publish: true
+permalink: /Structure of SEAD/Tables/Analysis Values/tbl_value_classes.md
 ---
 
 Specifies a value class describing e.g. a data column

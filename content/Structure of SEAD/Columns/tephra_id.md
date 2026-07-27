@@ -5,6 +5,7 @@ connected_tables:
   - "[[tbl_tephra_dates]]"
   - "[[tbl_tephra_refs]]"
   - "[[tbl_tephras]]"
+publish: true
 ---
 
 Specifies the the specific tephra layer related to the date.

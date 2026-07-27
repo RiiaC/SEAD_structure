@@ -4,6 +4,7 @@ data_type: integer
 connected_tables:
   - "[[tbl_colours]]"
   - "[[tbl_sample_colours]]"
+publish: true
 ---
 
 Primary key (automatically incremented).

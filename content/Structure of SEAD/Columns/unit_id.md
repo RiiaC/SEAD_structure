@@ -7,6 +7,7 @@ connected_tables:
   - "[[tbl_methods]]"
   - "[[tbl_units]]"
   - "[[tbl_value_types]]"
+publish: true
 ---
 
 Specifies the unit of measurement used for the dimension.

@@ -1,10 +1,6 @@
 ---
-column_name: value_type_id
-data_type: integer
-connected_tables:
-  - "[[tbl_value_classes]]"
-  - "[[tbl_value_type_items]]"
-  - "[[tbl_value_types]]"
+publish: true
+permalink: /Structure of SEAD/Columns/value_type_id.md
 ---
 
- Identifies the type of value associated with the class.
+Identifies the type of value associated with the class.

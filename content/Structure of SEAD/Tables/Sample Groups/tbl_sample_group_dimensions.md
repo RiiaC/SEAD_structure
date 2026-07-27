@@ -12,6 +12,7 @@ connected_tables:
   - "[[tbl_dimensions]]"
   - "[[tbl_value_qualifiers]]"
   - "[[tbl_sample_groups]]"
+publish: true
 ---
 
 Contains the physical dimensions of a sample group (e.g., core length) based on a specified dimension type.
