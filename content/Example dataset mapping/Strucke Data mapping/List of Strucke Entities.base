@@ -3,7 +3,7 @@ views:
     name: Table
     filters:
       and:
-        - file.folder == "content/Example dataset mapping/Strucke Data mapping"
+        - file.folder == "Example dataset mapping/Strucke Data mapping"
         - file.basename != "List of Strucke Entities"
     order:
       - status
