@@ -4,7 +4,8 @@ permalink: /Example dataset mapping/Strucke Data mapping/index.md
 title: Strucke data mapping
 ---
 
-This folder contains my notes from data mapping of the Strucke Radiocarbon data set, **c14\_master\_v05.xlsx**, which was delivered 2026-05-14, and the revised version, **c14\_master\_v08.xlsx**, received on 2026-06-04. Note that the v5 document had English names for all columns, while for the v8 some of them have reverted to Swedish names. The newer file also contains some columns which were not present in the previous version (and lacks a couple that were) and thus the below table has been updated (as of 2026-06-12 to show the v8 column names. The list of translations below will hold either the English or the Swedish term, whichever is not present in the column name.
+> [!info] This folder contains my notes from data mapping of the Strucke Radiocarbon data set, **c14\_master\_v05.xlsx**
+> That file was delivered 2026-05-14, and the revised version, **c14\_master\_v08.xlsx**, received on 2026-06-04. Note that the v5 document had English names for all columns, while for the v8 some of them have reverted to Swedish names. The newer file also contains some columns which were not present in the previous version (and lacks a couple that were) and thus the below table has been updated (as of 2026-06-12 to show the v8 column names. The list of translations below will hold either the English or the Swedish term, whichever is not present in the column name.
 
 The file contains the below listed columns. As I had previously been working with an earlier version of this dataset, I have moved the older dataset to a sub-folder. As I complete each new Shapeshifter entity for the current version, I will move the corresponding note here from the sub-folder to this folder, until that folder is empty, at which point I will delete the sub-folder and update this introduction.
 
