@@ -1,5 +1,4 @@
 ---
-date created: Wednesday, December 3rd 2025, 6:46:13 pm
 title: SEAD Structure
 publish: true
 ---
