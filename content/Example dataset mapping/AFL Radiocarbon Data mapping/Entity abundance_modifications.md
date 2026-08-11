@@ -2,7 +2,7 @@
 Entity_Name: abundance_modifications
 Type: Data (Derived)
 Public_ID: "[[abundance_modification_id]]"
-Target_Entity: "[[Entity modification_types]]"
+Target_Entity: "[[Example dataset mapping/AFL Radiocarbon Data mapping/Entity modification_types]]"
 Local_Keys:
   - biological_age
 Remote_Keys:
@@ -15,7 +15,7 @@ publish: true
 
 
 - [x] create a data-derived entity for abundance_modifications, and add the column biological_age
-- [ ] join it to the [[Entity modification_types]] where biological age = modification_type_name *(this attempted 2026-04-22, but ran into errors--Roger is looking into them)*
+- [ ] join it to the [[Example dataset mapping/AFL Radiocarbon Data mapping/Entity modification_types]] where biological age = modification_type_name *(this attempted 2026-04-22, but ran into errors--Roger is looking into them)*
 
 ![[Entity abundance_modifications schema.png]]
 

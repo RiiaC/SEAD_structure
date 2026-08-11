@@ -15,5 +15,8 @@ views:
       - Target_Entity
       - Local_Keys
       - Remote_Keys
+    sort:
+      - property: status
+        direction: ASC
     columnSize:
       note.status: 101

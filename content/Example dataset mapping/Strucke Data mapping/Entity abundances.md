@@ -4,8 +4,8 @@ Type: Data (Derived)
 Public_ID: "[[abundance_id]]"
 Target_Entity: "[[Example dataset mapping/Strucke Data mapping/Entity analysis_entities|Entity analysis_entities]]"
 Local_Keys:
-  - labnr
-Remote_Keys: labnr
+  - lab_no
+Remote_Keys: lab_no
 SEAD_table: "[[tbl_abundances]]"
 status: in progress
 publish: true
@@ -14,9 +14,9 @@ publish: true
 > and in SEAD it is the abundances table that become an analysis entity, which in turn has analysis values and/or geochronological results.  Therefore, we need this entity, too.
 
 - [x] create a data-derived entity for abundances
-- [x] select `lab_no`, `material`,  `species_1` and `species_2`
-`
+- [x] select `labno`, `species
 - [x] add an extra column, [[abundance]] and give it always a value of 1, now we have "counted" one for each row
+- [ ] join this to [[enti]]
 
 
 

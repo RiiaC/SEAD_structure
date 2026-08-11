@@ -20,7 +20,8 @@
 		{"id":"6372154b1e2eca0e","type":"text","text":"# Datasets\n[[Structure of SEAD/Tables/Dataset/index|Datasets]]\n","x":-1440,"y":393,"width":280,"height":100,"color":"#815c32"},
 		{"id":"3c495197fb502298","type":"text","text":"# RDB\n[[Structure of SEAD/Tables/RDB/index|RDB]]\n","x":-2100,"y":-940,"width":280,"height":100,"color":"#f09600"},
 		{"id":"ff353d364bdac982","type":"text","text":"# Taxonomy\n[[Structure of SEAD/Tables/Taxonomy/index|Taxonomy]]\n","x":-1440,"y":-480,"width":280,"height":100,"color":"#3a9419"},
-		{"id":"697e19c918585e0a","type":"text","text":"# Methods\n[[Structure of SEAD/Tables/Methods/index|methods]]\n","x":-800,"y":250,"width":280,"height":95,"color":"#f648f9"}
+		{"id":"697e19c918585e0a","type":"text","text":"# Methods\n[[Structure of SEAD/Tables/Methods/index|methods]]\n","x":-800,"y":250,"width":280,"height":95,"color":"#f648f9"},
+		{"id":"1c1f5fe5f38d4f7a","x":-2100,"y":-1580,"width":460,"height":140,"type":"text","text":"# For more details, see also\n[[SEAD Structure.canvas]]"}
 	],
 	"edges":[
 		{"id":"0e8a8c33a2e6acfd","fromNode":"5dc277b56bdaa5ed","fromSide":"right","toNode":"b641da17579b638d","toSide":"left"},
