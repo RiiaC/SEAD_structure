@@ -1,6 +1,9 @@
 ---
+column_name: rdb_definition
+data_type: character varying
+connected_tables:
+  - "[[tbl_rdb_codes]]"
 publish: true
-permalink: /Structure of SEAD/Columns/rdb_definition.md
 ---
 
 Detailed description of the rarity category.

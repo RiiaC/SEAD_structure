@@ -1,6 +1,10 @@
 ---
+column_name: material_dated
+data_type: character varying
+connected_tables:
+  - "[[tbl_dating_material]]"
+date created: Friday, September 19th 2025, 3:37:17 pm
 publish: true
-permalink: /Structure of SEAD/Columns/material_dated.md
 ---
 
 Text field describing the specific material that was dated.

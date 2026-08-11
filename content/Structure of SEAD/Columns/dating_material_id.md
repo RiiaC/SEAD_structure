@@ -1,6 +1,9 @@
 ---
+column_name: dating_material_id
+data_type: integer
+connected_tables:
+  - "[[tbl_dating_material]]"
 publish: true
-permalink: /Structure of SEAD/Columns/dating_material_id.md
 ---
 
 Primary key (automatically incremented).

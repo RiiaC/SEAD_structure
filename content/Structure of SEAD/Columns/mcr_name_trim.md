@@ -1,6 +1,9 @@
 ---
+column_name: mcr_name_trim
+data_type: character varying
+connected_tables:
+  - "[[tbl_mcr_names]]"
 publish: true
-permalink: /Structure of SEAD/Columns/mcr_name_trim.md
 ---
 
 The abbreviated or trimmed version of the MCR taxon name for consistency.

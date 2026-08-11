@@ -1,14 +1,26 @@
 ---
+Entity_Name: analysis_entities
+Type: Data (Derived)
+Public_ID: "[[analysis_entity_id]]"
+Target_Entity: "[[Example dataset mapping/Strucke Data mapping/Entity physical_samples|Entity physical_samples]]"
+Local_Keys:
+  - lab_no
+Remote_Keys:
+  - lab_no
+SEAD_table: "[[tbl_analysis_entities]]"
+status: in progress
 publish: true
-permalink: /Example dataset mapping/Strucke Data mapping/Entity analysis_entities.md
 ---
+> [!info]  The table that records what is actually analysed. 
+> In this dataset, perhaps we can simply attach an analysis_entities_id to every row by `labnr` and call it good?
 
-> [!info]  The table that records what is actually analysed.
-> In this dataset, perhaps we can simply attach an analysis\_entities\_id to every row by `labnr` and call it good?
-
-- create the data-derived analysis\_entities and select \`labn\_no
-- wait for Roger's response to my message sent 2026-05-05 for the error message I got when I tried to create a join with [[Example dataset mapping/Strucke Data mapping/Entity physical_samples|Entity physical_samples]] on `lab_no`
+- [x] create the data-derived analysis_entities and select `labn_no
+- [ ] wait for Roger's response to my message sent 2026-05-05 for the error message I got when I tried to create a join with [[Example dataset mapping/Strucke Data mapping/Entity physical_samples|Entity physical_samples]] on `lab_no`
 
 > [!warning] Do not set either of the joined entities to "drop duplicates", or you will get an error message on the join.
 
-![[images/Entity analysis_entities schema.png]]
+
+
+![[Entity analysis_entities schema.png]]
+
+

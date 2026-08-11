@@ -1,17 +1,20 @@
 ---
+Entity_Name: abundance_element
+Type: Data (Derived)
+Public_ID: "[[abundance_element_id]]"
+SEAD_table: "[[tbl_abundance_elements]]"
+status: complete
 publish: true
-permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/Entity abundance_element.md
 ---
-
-- remove the entity for dating material, it isn't actually needed for this dataset
+- [x] remove the entity for dating material, it isn't actually needed for this dataset
 
 > [!info] specifies the sort of bone analysed
 
 This entity corresponds to the [[B. Element]] column in the Radiocarbon data source data file, which lists which sort of bone underwent Radiocarbon dating, and to the `K. Bone` column of the Carbon data spreadsheet
 
-There are 12 types of bones in the raidocarbon data set. Use the _Drop Duplicates,_ and _Drop Empty Rows_ options to create this list:
+There are 12 types of bones in the raidocarbon data set. Use the *Drop Duplicates,* and *Drop Empty Rows* options to create this list:
 
-| system\_id | Element    |
+| system_id | Element    |
 | --------- | ---------- |
 | 1         | Phalanx    |
 | 2         | Femur      |
@@ -25,10 +28,9 @@ There are 12 types of bones in the raidocarbon data set. Use the _Drop Duplicate
 | 10        | Occipitale |
 | 11        | Cranium    |
 | 12        | Radius     |
-
 # YAML
 
-```
+````
 name: abundance_element
 type: entity
 system_id: system_id
@@ -43,6 +45,12 @@ drop_duplicates:
 check_functional_dependency: false
 drop_empty_rows:
   - element
-```
+`````
 
-![[images/Entity abundance_element schema.png|800]]
+
+
+
+![[Entity abundance_element schema.png|800]]
+
+
+

@@ -6,4 +6,4 @@ connected_tables:
 publish: true
 ---
 
-Identifier for the person or authority in tbl\_contacts responsible for assessing the preservation status and threats.
+Identifier for the person or authority in tbl_contacts responsible for assessing the preservation status and threats.

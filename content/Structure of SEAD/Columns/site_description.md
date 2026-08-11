@@ -1,6 +1,9 @@
 ---
+column_name: site_description
+data_type: text
+connected_tables:
+  - "[[tbl_sites]]"
 publish: true
-permalink: /Structure of SEAD/Columns/site_description.md
 ---
 
 A detailed description of the site's characteristics and significance.

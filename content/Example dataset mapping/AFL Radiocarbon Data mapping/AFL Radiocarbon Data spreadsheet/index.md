@@ -1,26 +1,24 @@
 ---
-publish: true
-permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/AFL Radiocarbon Data spreadsheet/index.md
+date created: Monday, September 22nd 2025, 2:09:42 pm
 title: Radiocarbon Data spreadsheet
+publish: true
 ---
 
 # Welcome to The AFL Radiocarbon Dataset Mapping by spreadsheet section of this web page
 
-> [!info] This folder contains information pertaining to the ongoing mapping of the AFL Radiocarbon data set to the SEAD database structure.
+>[!info] This folder contains information pertaining to the ongoing mapping of the AFL Radiocarbon data set to the SEAD database structure. 
 
-This section documents the process of mapping a dataset to the SEAD database structure prior to importing the data, using an example dataset, in the form of a spreadsheet called radiocarbon\_Glykou\_etal\_2021\_input.xlsx. This folder contains one file for each of the columns in the first tab of that spreadsheet (**a1\_radiocarbon\_data tab**).
+This section documents the process of mapping a dataset to the SEAD database structure prior to importing the data, using an example dataset, in the form of a spreadsheet called radiocarbon_Glykou_etal_2021_input.xlsx. This folder contains one file for each of the columns in the first tab of that spreadsheet (**a1_radiocarbon_data tab**). 
 
 Each of these files contain the notes from the process of doing the data mapping to a spreadsheet, which would later be used to import the data into SEAD. However, before this process was complete the new [SEAD Shape Shifter ](https://shape-shifter.sead.se/)tool for data mapping and ingesting to SEAD was developed, and thus the mapping work has been switched to the [[Example dataset mapping/AFL Radiocarbon Data mapping/index|new folder to track progress of the dataset mapping]] using that tool.
 
 Three are three ways navigate the mapping:you can approach it from [[#The mapped SEAD tables used for this dataset]], via [[#The columns of this dataset]], or through the interactive graph. To access the graph-view, click on any of the files from these two menus and then click on the "expand" symbol in the upper right hand corner of the Graph.View. You can then drag nodes to activate labels and reveal the mapping, or click on a node to read more about that node.
-
 ## The columns of this dataset
-
 This table tracks the progress in mapping
 
 | column name           | relevant entity                                                                                           | column and/or additional needed entities | comment                                                                                                                                                                                                                                                                                                                                                                               |
 | --------------------- | --------------------------------------------------------------------------------------------------------- | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[A. Map Fig.1]]      | N/A                                                                                                       |                                          | This column of **radiocarbon\_Glykou\_etal\_2021\_input** specifies which number on <span style="color:rgb(0, 0, 0)">Fig</span>ure 1 of the paper Glykou et al 2021 shows the location of the sample for a given row. This information will probably not be imported into SEAD, but is useful to double check the new locations that will be imported into SEAD as a result of this data. |
+| [[A. Map Fig.1]]      | N/A                                                                                                       |                                          | This column of **radiocarbon_Glykou_etal_2021_input** specifies which number on <span style="color:rgb(0, 0, 0)">Fig</span>ure 1 of the paper Glykou et al 2021 shows the location of the sample for a given row. This information will probably not be imported into SEAD, but is useful to double check the new locations that will be imported into SEAD as a result of this data. |
 | [[B. Element]]        | [[Entity abundance_element]]                                                                              | [[element_name]]                         | List of which sorts of bones were dated                                                                                                                                                                                                                                                                                                                                               |
 | [[C. Biological Age]] | [[Example dataset mapping/AFL Radiocarbon Data mapping/Entity abundance_modifications]]                   |                                          | for our purposes, this is a description of the bone                                                                                                                                                                                                                                                                                                                                   |
 | [[D. Site]]           | [[Example dataset mapping/Strucke Data mapping/Entity site\|Entity site]]                                 |                                          |                                                                                                                                                                                                                                                                                                                                                                                       |
@@ -35,3 +33,9 @@ This table tracks the progress in mapping
 | [[M.from 2σ]]         | [[Example dataset mapping/AFL Radiocarbon Data mapping/Entity Geochronology\|Entity Geochronology]]       |                                          | <span style="color:rgb(0, 0, 0)">Skip K-M if there is data in F & G</span><br>                                                                                                                                                                                                                                                                                                        |
 | [[N.to 2σ]]           | [[Example dataset mapping/AFL Radiocarbon Data mapping/Entity Geochronology\|Entity Geochronology]]       |                                          | <span style="color:rgb(0, 0, 0)">Skip K-M if there is data in F & G</span><br>                                                                                                                                                                                                                                                                                                        |
 | [[O. Source]]         | [[Example dataset mapping/Strucke Data mapping/Entity biblio\|Entity biblio]]                             |                                          |                                                                                                                                                                                                                                                                                                                                                                                       |
+
+
+
+
+
+

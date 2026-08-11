@@ -1,6 +1,9 @@
 ---
+column_name: lithology_id
+data_type: integer
+connected_tables:
+  - "[[tbl_lithology]]"
 publish: true
-permalink: /Structure of SEAD/Columns/lithology_id.md
 ---
 
 Primary key (automatically incremented).

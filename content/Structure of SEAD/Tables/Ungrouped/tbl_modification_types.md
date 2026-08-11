@@ -1,11 +1,16 @@
 ---
+table_name: tbl_modification_types
+primary_key: "[[modification_type_id]]"
+columns:
+  - "[[date_updated]]"
+  - "[[modification_type_description]]"
+  - "[[modification_type_name]]"
 publish: true
-permalink: /Structure of SEAD/Tables/Ungrouped/tbl_modification_types.md
 ---
 
 Specifies various modifications or alterations observed in Quaternary or sub-fossils, such as carbonization, mineralization, and fragmentation.
 
-| modification\_type\_id | modification\_type\_name           | modification\_type\_description                                                                                       |
+| modification_type_id | modification_type_name           | modification_type_description                                                                                       |
 | -------------------- | -------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | 1                    | Carbonised                       | Organic matter converted to carbon, most commonly though heating.                                                   |
 | 2                    | Calcified                        | Organic matter replaced by calcium                                                                                  |
@@ -18,10 +23,11 @@ Specifies various modifications or alterations observed in Quaternary or sub-fos
 | 9                    | Encased in amber                 | Fossil is encapsulated in a piece of amber.                                                                         |
 | 10                   | Corroded                         | Surface of fossil has been damage by chemical processes.                                                            |
 
+
 > [!note] this is the table that Tom Ryan suggests we put things like the estimated "biological age" of an animal that grew the bones:
 > The numbers in the first column are my guess as to what the `modification_type_id` will be once these new types exist in SEAD.
 
-| modification\_type\_id | modification\_type\_name | modification\_type\_description                                          |
+| modification_type_id | modification_type_name | modification_type_description                                          |
 | -------------------- | ---------------------- | ---------------------------------------------------------------------- |
 | 11                   | nd                     | The estimated biological age at death for this bone was not determined |
 | 12                   | 0-3 m                  | The estimated biological age at death for this bone was 0 to 3 months  |

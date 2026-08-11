@@ -1,6 +1,9 @@
 ---
+column_name: taxonomic_order_biblio_id
+data_type: integer
+connected_tables:
+  - "[[tbl_taxonomic_order_biblio]]"
 publish: true
-permalink: /Structure of SEAD/Columns/taxonomic_order_biblio_id.md
 ---
 
 Primary key (automatically incremented).

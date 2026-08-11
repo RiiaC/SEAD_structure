@@ -1,6 +1,9 @@
 ---
+column_name: location
+data_type: character varying
+connected_tables:
+  - "[[tbl_sample_locations]]"
 publish: true
-permalink: /Structure of SEAD/Columns/location.md
 ---
 
 The specific location description of the sample.

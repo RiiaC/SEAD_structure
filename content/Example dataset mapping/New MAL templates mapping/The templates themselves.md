@@ -1,16 +1,13 @@
 ---
 publish: true
-permalink: /Example dataset mapping/New MAL templates mapping/The templates themselves.md
 ---
 
 > [!info]  There are two templates, one for the data itself, the other for the metadata
 
 # The metadata template
-
-The metadata template file, **makro\_metadata\_mall.xlsx,** contains six sheets:
+The metadata template file, **makro_metadata_mall.xlsx,** contains six sheets:
 
 ## The Sites sheet
-
 The information in this sheet corresponds to three SEAD tables, [[tbl_sites]], [[tbl_site_locations]], and [[tbl_locations]]
 
 | Column name                      | Column description                                                                                                                                                                                                                   | corresponding SEAD table | corresponding SEAD column    |
@@ -23,7 +20,7 @@ The information in this sheet corresponds to three SEAD tables, [[tbl_sites]], [
 | Latitude                         | The latitude of the site, preferanly in decimal degrees.                                                                                                                                                                             | [[tbl_sites]]            | [[latitude_dd]]              |
 | Longitude                        | The longitude of the site, preferably in decimal degrees.                                                                                                                                                                            | [[tbl_sites]]            | [[longitude_dd]]             |
 | Koordinatsystem                  | if the latitude and longitude are not given in decimal degrees, what is their coordinate system?                                                                                                                                     |                          |                              |
-| site\_description                 | A detailed description of the site’s characteristics and significance.                                                                                                                                                               | [[tbl_sites]]            | [[site_description]]         |
+| site_description                 | A detailed description of the site’s characteristics and significance.                                                                                                                                                               | [[tbl_sites]]            | [[site_description]]         |
 | Settlement                       | the nearest settlement to the site (could be the name of a farm, or of a town), where [[location_type_id]] = 2 (sub-country  administrative region)                                                                                  | [[tbl_locations]]        | [[location]]                 |
 | Landskap                         |                                                                                                                                                                                                                                      | [[tbl_locations]]        | [[location]]                 |
 | Län                              | the province in which the site is located, where [[location_type_id]] = 2 (sub-country  administrative region)                                                                                                                       | [[tbl_locations]]        | [[location]]                 |
@@ -31,9 +28,7 @@ The information in this sheet corresponds to three SEAD tables, [[tbl_sites]], [
 | Socken                           | the parish in which the site is located, where [[location_type_id]] = 2 (sub-country  administrative region)                                                                                                                         | [[tbl_locations]]        | [[location]]                 |
 | Kommun                           | the municipality in which the site is located, where [[location_type_id]] = 2 (sub-country  administrative region)                                                                                                                   | [[tbl_locations]]        | [[location]]                 |
 | Land                             | the country in which the site is located  where [[location_type_id]] = 1 (country)                                                                                                                                                   | [[tbl_locations]]        | [[location]]                 |
-
 ## the Features Sheet
-
 The information in this sheet corresponds to two SEAD tables, [[tbl_features]] and [[tbl_feature_types]], and will be connected to the samples themselves based on the [[feature_name]]
 
 | Column name  | Column description                                                                                                                                                                                                                 | corresponding SEAD table | corresponding SEAD column |
@@ -41,9 +36,7 @@ The information in this sheet corresponds to two SEAD tables, [[tbl_features]] a
 | Feature Name | The established reference name or number for the feature, such as ‘well 47’, ‘anl.3’, or ‘c107’. Note: A sample may derive from multiple features (e.g., ‘c107’ within ‘well 47’), but each feature should be recorded separately. | [[tbl_features]]         | [[feature_name]]          |
 | Feature Type | The name of the feature type, providing a concise label for identification.                                                                                                                                                        | [[tbl_feature_types]]    | [[feature_type_name]]     |
 | Description  | A detailed description of the feature, which may include field and lab notes or interpretative information helpful for analyzing the sample data.                                                                                  | [[tbl_features]]         | [[feature_description]]   |
-
 ## the Sample Groups Sheet
-
 | Column name              | Column description                                                                                                 | corresponding SEAD table                                  | corresponding SEAD column                                 |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------- | --------------------------------------------------------- |
 | Site name                | This must be entered **exactly** as it was in the Sites sheet [[The templates themselves#The Sites sheet\|above]]. | (see [[The templates themselves#The Sites sheet\|above]]) | (see [[The templates themselves#The Sites sheet\|above]]) |
@@ -51,7 +44,6 @@ The information in this sheet corresponds to two SEAD tables, [[tbl_features]] a
 | sample group description | Detailed description of the sample group, providing context and additional information.                            | [[tbl_sample_groups]]                                     | [[sample_group_description]]                              |
 
 ## the Samples Sheet
-
 | Column name         | Column descriptin                                                                                                                                                                             | corresponding SEAD table                                          | corresponding SEAD column                                         |
 | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------------- |
 | Sample group name   | This must be entered **exactly** as it was in the Sample Groups sheet [[The templates themselves#the Sample Groups Sheet\|above]].                                                            | (see [[The templates themselves#the Sample Groups Sheet\|above]]) | (see [[The templates themselves#the Sample Groups Sheet\|above]]) |
@@ -68,9 +60,7 @@ The information in this sheet corresponds to two SEAD tables, [[tbl_features]] a
 | Volume before float | The sample volume before float<br>Note: use also [[dimension_id]] = 5 (Volume)                                                                                                                | [[tbl_measured_value_dimensions]]                                 | [[dimension_value]]                                               |
 | Volume after float  | The sample volume after float<br>Note: use also [[dimension_id]] = 5 (Volume)                                                                                                                 | [[tbl_measured_value_dimensions]]                                 | [[dimension_value]]                                               |
 | Sample note         | Contains miscellaneous notes related to samples that do not belong in other tables, such as ‘stored in a cellar until processing in 2020’.                                                    | [[tbl_sample_notes]]                                              | [[note]]                                                          |
-
 ## the Work Progress Sheet
-
 I am not certain if this is a sheet that ought to be included in a template given to researchers looking to include their data in SEAD, it seems to be for internal lab notes on doing the analysis, and not the results? I sent a note to the MAL email address asking, but I am not certain anyone will see it this summer.
 
 | Column name | Column description                                                                                                                   | corresponding SEAD table | corresponding SEAD column |
@@ -85,7 +75,6 @@ I am not certain if this is a sheet that ought to be included in a template give
 | MS          |                                                                                                                                      |                          |                           |
 | MS550       |                                                                                                                                      |                          |                           |
 | LOI         |                                                                                                                                      |                          |                           |
-
 ## The Publications Sheet
 
 | Column name               | Column description                                                                                                 | corresponding SEAD table                                  | corresponding SEAD column                                 |     |
@@ -94,16 +83,13 @@ I am not certain if this is a sheet that ought to be included in a template give
 | Authors                   | The authors of the publication that pertains to the site mentioned in the first column                             | [[tbl_biblio]]                                            | [[node_modules/buffer/AUTHORS]]                                               |     |
 | Year                      | Year the referenced work was published                                                                             | [[tbl_biblio]]                                            | [[year]]                                                  |     |
 | Full citation information | Complete citation including all necessary details such as author, title, publication date, and publisher.          | [[tbl_biblio]]                                            | [[full_reference]]                                        |     |
-
 # The data template
-
-The metadata template file, **makro\_data\_mall.xlsx,** contains four sheets:
-
+The metadata template file, **makro_data_mall.xlsx,** contains four sheets:
 ## the Soil Chemistry sheet
 
 | Column name            | Column description                                                                                                                                                           | corresponding SEAD table                                          | corresponding SEAD column                                         |
 | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------------- |
-| Sample name            | This must be entered **exactly** as it was in the Sample Groups sheet of the **makro\_metadata\_mall.xlsx** file  [[The templates themselves#the Sample Groups Sheet\|above]]. | (see [[The templates themselves#the Sample Groups Sheet\|above]]) | (see [[The templates themselves#the Sample Groups Sheet\|above]]) |
+| Sample name            | This must be entered **exactly** as it was in the Sample Groups sheet of the **makro_metadata_mall.xlsx** file  [[The templates themselves#the Sample Groups Sheet\|above]]. | (see [[The templates themselves#the Sample Groups Sheet\|above]]) | (see [[The templates themselves#the Sample Groups Sheet\|above]]) |
 | Pº weight (g)          | weight of the sample, in grams<br>Note: [[dimension_id]] = 1 = weight = sample weight,                                                                                       | [[tbl_measured_value_dimensions]]                                 | [[dimension_value]]                                               |
 | Abs. Pº                |                                                                                                                                                                              |                                                                   |                                                                   |
 | Pº                     | [[method_id]] = 37                                                                                                                                                           |                                                                   |                                                                   |

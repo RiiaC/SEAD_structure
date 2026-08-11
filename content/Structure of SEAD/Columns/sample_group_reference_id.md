@@ -1,6 +1,9 @@
 ---
+column_name: sample_group_reference_id
+data_type: integer
+connected_tables:
+  - "[[tbl_sample_group_references]]"
 publish: true
-permalink: /Structure of SEAD/Columns/sample_group_reference_id.md
 ---
 
 Primary key (automatically incremented).

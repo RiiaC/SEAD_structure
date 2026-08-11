@@ -1,9 +1,7 @@
 ---
-publish: true
-permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/Carbon data spreadsheet/index.md
 title: Carbon data spreadsheet
+publish: true
 ---
-
 This folder describes the contents of the carbon data spreadsheet from the AFL Radiocarbon Dataset.
 
 | Column name              | corresponding entity                                                                                      | SEAD column                                                                          | Description                                                                                                                                                                                                  |
@@ -25,3 +23,4 @@ This folder describes the contents of the carbon data spreadsheet from the AFL R
 | O.  C/N ratio            |                                                                                                           |                                                                                      | The atomic carbon-to-nitrogen ratio of extracted collagen.                                                                                                                                                   |
 | P.  %C                   |                                                                                                           |                                                                                      | The percentage of carbon present in the collagen sample.                                                                                                                                                     |
 | Q.  %N                   |                                                                                                           |                                                                                      | The percentage of nitrogen present in the collagen sample.                                                                                                                                                   |
+

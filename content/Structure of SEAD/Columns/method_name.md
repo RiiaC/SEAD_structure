@@ -1,11 +1,15 @@
 ---
+column_name: method_name
+data_type: character varying
+connected_tables:
+  - "[[tbl_methods]]"
+date created: Friday, September 19th 2025, 3:37:17 pm
 publish: true
-permalink: /Structure of SEAD/Columns/method_name.md
 ---
 
-Full name of the analysis \[\[tbl\_memethod.
+Full name of the analysis [[tbl_memethod.
 
-method\_id	method\_name
+method_id	method_name
 3	Palaeoentomology
 6	Chironomid analyses
 8	Plant macrofossil analyses
@@ -36,11 +40,11 @@ method\_id	method\_name
 60	Grab samples
 61	Temporary record
 62	Paraffin floatation
-65	Hydroflouric acid treatment
+65	Hydroflouric acid treatment 
 66	Centrifugation
 67	UK Ordnance Survey National Grid
 68	Irish Grid Reference System
-69	Swedish RT90\[2.5 gon V]
+69	Swedish RT90[2.5 gon V]
 70	SWEREF 99 TM (Swedish)
 71	SWEREF 99 dd mm
 72	WGS84
@@ -140,3 +144,5 @@ method\_id	method\_name
 173	Ceramics collection
 174	Composite chronology
 175	Ancient DNA analysis
+
+

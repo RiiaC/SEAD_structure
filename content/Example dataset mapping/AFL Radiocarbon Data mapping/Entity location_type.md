@@ -1,8 +1,11 @@
 ---
+Entity_Name: location_type
+Type: SQL query
+Public_ID: "[[location_type_id]]"
+SEAD_table: "[[tbl_location_types]]"
+status: complete
 publish: true
-permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/Entity location_type.md
 ---
+This query calls up the full list of all of SEAD's location types (there are 14 of them) so that the location_type_id will be available to be joined to the location entity
 
-This query calls up the full list of all of SEAD's location types (there are 14 of them) so that the location\_type\_id will be available to be joined to the location entity
-
-![[images/Entity location schema.png]]
+![[Entity location schema.png]]

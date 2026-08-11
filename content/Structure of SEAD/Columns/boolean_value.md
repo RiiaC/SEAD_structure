@@ -6,4 +6,4 @@ connected_tables:
 publish: true
 ---
 
-Boolean (true/false) interpretation of the value (is is\_boolean is true).
+Boolean (true/false) interpretation of the value (is is_boolean is true).

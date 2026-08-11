@@ -1,11 +1,17 @@
 ---
+table_name: tbl_method_groups
+primary_key: "[[method_group_id]]"
+columns:
+  - "[[date_updated]]"
+  - "[[source/docs/plugins/Description]]"
+  - "[[group_name]]"
+date created: Friday, September 19th 2025, 3:37:16 pm
 publish: true
-permalink: /Structure of SEAD/Tables/Methods/tbl_method_groups.md
 ---
 
 > [!info] Categorizes various analysis methods into groups based on their similarities, such as dating methods, isotope analyses, palaeoentomology, or geographic location.
 
-List copied **2026-04-20** from [https://browser.sead.se/postgrest/tbl\_methods](https://browser.sead.se/postgrest/tbl_method_groups))
+List copied **2026-04-20** from [https://browser.sead.se/postgrest/tbl_methods](https://browser.sead.se/postgrest/tbl_method_groups))
 
 | method group | group name                           |
 | ------------ | ------------------------------------ |

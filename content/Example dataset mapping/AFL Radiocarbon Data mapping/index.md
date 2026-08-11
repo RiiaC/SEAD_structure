@@ -1,12 +1,11 @@
 ---
-publish: true
-permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/index.md
 title: AFL Radiocarbon Data mapping
+publish: true
 ---
 
 # Welcome to The AFL Radiocarbon Dataset Mapping via SEAD Shape Shifter section of this web page
 
-> [!info] This folder contains information pertaining to the ongoing mapping of the AFL Radiocarbon data set to the SEAD database structure.
+>[!info] This folder contains information pertaining to the ongoing mapping of the AFL Radiocarbon data set to the SEAD database structure. 
 
 This section documents the process of mapping AFL Radiocarbon Dataset to the SEAD database structure prior to importing the data. This data is associated with the paper [Glykou et al 2021](https://www.sciencedirect.com/science/article/pii/S0277379120306636) and was originally delivered as three spreadsheets, one for the radiocarbon results, one for strontium analysis results, and one for carbon results. In April 2026 a revised dataset was provided which reveals connections between these datasets by giving a unique sample name to each harp seal bone that was analysed, as well as specifying the various lab numbers used for different types of analysis, so it is easy to see which samples have undergone multiple types of analysis.
 

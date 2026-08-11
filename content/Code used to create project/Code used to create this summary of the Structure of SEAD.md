@@ -1,3 +1,6 @@
+---
+publish:
+---
 > [! info] The below sets of code were used on 2025-09-19 to generate the list of  [[Structure of SEAD/Tables/index|SEAD tables]] and [[Structure of SEAD/Columns/index|SEAD columns]] as shown on this web page.
 
 # Step 1: Generate the plain list
