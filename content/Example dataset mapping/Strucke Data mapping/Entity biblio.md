@@ -18,7 +18,7 @@ publish: true
 - [x] in the Basic tab choose as Columns: author, publication_year, title, journal, place_of_publication (and village_farm to associate it later to sites)
 - [x] add an Extra Column called **full_reference** using {author} {publication_year}{title} {journal} {place_of_publication}
 - [x] drop duplicates based on the **full_reference**
-- [ ] create the [[Example dataset mapping/Strucke Data mapping/first draft of dataset/Entity site_references|Entity site_references]] and do the joins
+- [ ] create the [[Example dataset mapping/Strucke Data mapping/Entity site_references|Entity site_references]] and do the joins
 
 ````
 name: biblio
