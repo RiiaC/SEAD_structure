@@ -25,5 +25,33 @@ publish: true
 ````
 - [x] create a Foreign key connecting this table to [[Example dataset mapping/Strucke Data mapping/Entity modification_types|Entity modification_types]] on the foreign key [[modification_type_name]]
 
+# schema image
 
-![[abundance_modifications schema.png]]
+![[abundance_modifications schema.png|500]]
+
+# YAML as of 2026-08-12
+````
+name: abundance_modifications
+type: entity
+keys: []
+columns:
+  - material
+public_id: abundance_modification_id
+source: datasheet
+foreign_keys:
+  - entity: modification_types
+    local_keys:
+      - modification_type_name
+    remote_keys:
+      - modification_type_name
+    how: inner
+    constraints:
+      cardinality: many_to_one
+      allow_unmatched_right: true
+      require_unique_left: false
+      require_unique_right: false
+      allow_row_decrease: true
+extra_columns:
+  modification_type_name: '=coalesce(regex_extract(lower(trim(material)), ''obrända|obränt|brända|(ej förkolnat)|förkolnat''),  '''' )'
+
+```

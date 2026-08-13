@@ -25,7 +25,7 @@ publish: true
 
 
 
-![[site_references schema.png]]
+![[site_references schema.png|500]]
 
 
 

@@ -16,7 +16,7 @@ publish: true
 - [x] create a data-derived entity for abundances
 - [x] select `labno`, `species
 - [x] add an extra column, [[abundance]] and give it always a value of 1, now we have "counted" one for each row
-- [ ] join this to [[enti]]
+- [x] join this to [[Example dataset mapping/Strucke Data mapping/Entity abundance_modifications|Entity abundance_modifications]] om `lab_no`
 
 
 
