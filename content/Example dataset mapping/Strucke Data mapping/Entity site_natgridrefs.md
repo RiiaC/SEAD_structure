@@ -1,7 +1,7 @@
 ---
-Entity_Name: site
+Entity_Name: site_natgridrefs
 Type: Data (Derived)
-Public_ID: "[[site_id]]"
+Public_ID: "[[site_natgridref_id]]"
 SEAD_table: "[[tbl_sites]]"
 status: in progress
 publish: true
@@ -16,7 +16,8 @@ publish: true
 
 
 - [ ] talk to Phil about this table, and if we want to use it for these columns, or if he has a better solution
-- [ ] create a data-derived entity site_natgridrefs
+- [x] create a data-derived entity site_natgridrefs with columns `northing_3006` and `easting_3006`
+- [x] drop duplicates on `northing_3006`
 - [ ] add to it a column for `method_id` and figure out which one is appropriate for this data set
 - [ ] link this entity to [[Example dataset mapping/Strucke Data mapping/Entity site|Entity site]]
 

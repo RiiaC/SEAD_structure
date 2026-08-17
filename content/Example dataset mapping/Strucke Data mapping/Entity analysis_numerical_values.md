@@ -9,7 +9,7 @@ Local_Keys:
   - 
 Remote_Keys:
 SEAD_table: "[[tbl_analysis_numerical_values]]"
-status: needs creating
+status: in progress
 publish: true
 ---
 > [!info] Percent of Modern Carbon

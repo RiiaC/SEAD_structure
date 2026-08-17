@@ -15,6 +15,6 @@ publish: true
 
 ****
 
-- [ ] create a data-derived entity site_property
+- [ ] figure out why there is both a site_property and a site_property 2 in https://shape-shifter.sead.se/projects/Riia_Strucke_v8 and decide which you want
 - [ ] link this entity to [[Example dataset mapping/Strucke Data mapping/Entity site|Entity site]]
 

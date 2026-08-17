@@ -9,7 +9,7 @@ Local_Keys:
   - 
 Remote_Keys:
 SEAD_table: "[[tbl_feature_types]]"
-status: needs creating
+status: in progress
 publish: true
 ---
 > [!info] The Strucke column `context_type` seems to equate to SEADs `tbl_feature_types`

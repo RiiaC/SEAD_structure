@@ -9,3 +9,9 @@ publish: true
 ---
 
 Specifies human languages used for the common names of taxa.
+
+
+| language_id | language_name_english | language_name_native |
+| ----------- | --------------------- | -------------------- |
+| 1           | English               | English              |
+| 2           | Swedish               | Svenska              |

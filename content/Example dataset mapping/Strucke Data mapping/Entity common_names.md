@@ -76,9 +76,9 @@ I prepared a quick first draft of a list of the terms in the "species" column th
 > Be meticulous about this task and don't stop until all words are done
 
 Johan shared the result of that first attempt with me. We discussed it, and AI was re-set the task, but this time to include the corresponding SEAD id numbers for each of the taxon/species/etc levels for each of these that already exists in the database. The revised version ran overnight, and got stuck in the process whilst unattended, so it was re-run with OpenAI to create a the document **Strucke-species-openai-output 1.csv**.
-# processing the results
+## processing the results
 The above `species-openai-output 1.csv` document was used to create a spreadsheet, `strucke common names report.xlsx`, using the following workflows:
-## workflow to create report, part 1, generating the first draft
+### workflow to create report, part 1, generating the first draft
 - create `Strucke-species-openai-output 1.csv` as described in my notes for the 2026-06-11 common names mapping meeting, and save to a scrap paper document (no changes to the original). Re-arrange the column order to group the columns showing if each level matches with SEAD, the Taxonomic names, and their corresponding SEAD id numbers. This results in a sequence of columns for 
 	- Common name DB match
 	- Species DB match
@@ -123,9 +123,9 @@ When I was done, the columns looked like this:
 | genus_id               | If this term, or a reasonable variant thereof, already exists in SEAD's `tbl_taxa_tree_genera`, its corresponding `genus_id` is recorded here                                                                                                                                                                                                      |
 | family_id              | If this term, or a reasonable variant thereof, already exists in SEAD's `tbl_taxa_tree_families`, its corresponding `family_id` is recorded here                                                                                                                                                                                                   |
 | taxonomic_order_id     | If this term, or a reasonable variant thereof, already exists in SEAD's `tbl_taxa_tree_orders`, its corresponding `order_id` is recorded here                                                                                                                                                                                                      |
-## workflow to create report, part 2, making the draft easier to read
+### workflow to create report, part 2, making the draft easier to read
 Since the sheet had been sorted as above, I pulled out the various sections to their own sheets and cleaned them up as follows:
-### not species
+#### not species
 This sheet contains all of the terms that occurs in the `Species` column that are not, in fact a species term. Some of them are a specification of what part of the plant, animal, or thing was dated (ben, kotte, etc.) Others specify the size (litet, stor, etc.)
 These terms often occur in conjunction with other terms in the same cell, sometimes as compound words. Therefore, the first column of this sheet contains the root form of the word, the second column gives a count of of the number of cells in the species column of the `c14_master_v08.xlsx` spreadsheet  in which that root appears. The remaining columns contain the various full forms of the word or phrase in which the root word appears. In theory, this information will help with normalisation. 
 It is recommended that all of the non-species terms be removed from the species column and put into either a new column, or one of the existing columns, as appropriate, so that the species column contains only species.
@@ -138,10 +138,11 @@ It is recommended that all of the non-species terms be removed from the species 
 6. paste them into an unused corner of a spreadsheet, remove duplicates, and sort the remaining cells containing the root term
 7. copy them, and paste them, transposed, into the columns next to the count of the term. 
 8. Repeat for all terms of the list, deleting any compound versions of terms that appear elsewhere on the list
-### the other sheets 
+#### the other sheets 
 The other sheets will get their own write-ups when I get far enough along as to create them. In the short term, the other sheet, called "species" still contains:
 - the list of species which are present in SEAD with the name recorded in Swedish (black text)
 - those species, with Swedish names, which are not present in SEAD (red text)
 - those species for which the Latin names were given instead of a Swedish name (its own column)
 - and those terms which are general terms for a group of plants or animals (Däggdjur, Fisk, Fågel etc.) (pink text)
-
+# see also Bruno's work
+Bruno tried a more automated version: https://github.com/Br1CM/sead_strucke_data_cleaning

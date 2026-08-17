@@ -18,6 +18,8 @@ SEAD_table: "[[tbl_locations]]"
 > 
 >  Since the entire dataset is Sweden specific, we can also add a column to every row for **Country** ( [[location_type_id]] = 1) and set it to Sweden.
 
+- [ ] create data derived entity with the above columns
+- [ ] connect the table as needed to sites and site locations
 
 
 

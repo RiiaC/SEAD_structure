@@ -9,7 +9,7 @@ Local_Keys:
   - 
 Remote_Keys:
 SEAD_table: "[[tbl_geochronology]]"
-status: needs creating
+status: in progress
 publish: true
 ---
 > [!info] the columns of this dataset having to do with geochronology include:
