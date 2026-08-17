@@ -2,8 +2,8 @@
 title: Strucke data mapping
 publish: true
 ---
-> [!info] This folder contains my notes from data mapping of the Strucke Radiocarbon data set, **c14_master_v05.xlsx**
-> The file was delivered 2026-05-14, and the revised version, **c14_master_v08.xlsx**, received on 2026-06-04. Note that the v5 document had English names for all columns, while for the v8 some of them have reverted to Swedish names. The newer file also contains some columns which were not present in the previous version (and lacks a couple that were) and thus the below table has been updated (as of 2026-06-12 to show the v8 column names. The list of translations below will hold either the English or the Swedish term, whichever is not present in the column name.
+> [!info] This folder contains my notes from data mapping of the Strucke Radiocarbon data set.
+> The version v5 file was delivered 2026-05-14, and the revised version, **c14_master_v08.xlsx**, received on 2026-06-04. Note that the v5 document had English names for all columns, while for the v8 some of them have reverted to Swedish names. The newer file also contains some columns which were not present in the previous version (and lacks a couple that were) and thus the below table has been updated (as of 2026-06-12 to show the v8 column names. The list of translations below will hold either the English or the Swedish term, whichever is not present in the column name.
 
 The file contains the below listed columns, which I am mapping as described below. This is still a work in progress. For the various mapped entities the "status" refers to weather or not there is a corresponding SEAD Shape Shifter entity already in existence, and if that entity needs further edits before it is ready for use in data ingestion.
 
