@@ -23,3 +23,17 @@ publish: true
 
 ![[Entity physical_samples schema.png]]
 
+
+# YAML as of 2026-08-25
+````
+name: physical_samples
+type: entity
+system_id: system_id
+keys: []
+columns:
+  - lab_id
+  - fid
+public_id: physical_sample_id
+source: datasheet_v9
+
+```

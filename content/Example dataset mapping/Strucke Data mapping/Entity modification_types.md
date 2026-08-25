@@ -37,3 +37,38 @@ publish: true
 
 
 
+# YAML as of 2026-08-25
+````
+name: modification_types
+type: fixed
+system_id: system_id
+keys: []
+columns:
+  - system_id
+  - modification_type_id
+  - modification_type_name
+  - modification_type_description
+public_id: modification_type_id
+values:
+  - - 1
+    - null
+    - null
+    - null
+  - - 2
+    - null
+    - null
+    - null
+  - - 3
+    - null
+    - null
+    - null
+  - - 4
+    - null
+    - null
+    - null
+  - - 5
+    - null
+    - null
+    - null
+
+```

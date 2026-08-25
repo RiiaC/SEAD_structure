@@ -24,3 +24,33 @@ publish: true
 
 
 
+# YAML as of 2026-08-25
+````
+name: abundances
+type: entity
+system_id: system_id
+keys: []
+columns:
+  - species
+  - lab_id
+  - fid
+public_id: abundance_id
+source: datasheet_v9
+foreign_keys:
+  - entity: analysis_entities
+    local_keys:
+      - lab_no
+    remote_keys:
+      - lab_no
+    how: inner
+    constraints:
+      cardinality: one_to_many
+      allow_unmatched_right: true
+      require_unique_left: false
+      require_unique_right: false
+      allow_row_decrease: true
+      allow_null_keys: false
+      allow_unmatched_left: true
+extra_columns:
+  abundance: '1'
+`````

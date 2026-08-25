@@ -9,7 +9,7 @@ Local_Keys:
   - 
 Remote_Keys:
 SEAD_table: "[[tbl_languages]]"
-status: in progress
+status: to troubleshoot
 publish: true
 ---
 > [!info] most of the common names in the list of species for this data set are in Swedish, which has language_id = 2 in SEAD
@@ -19,3 +19,7 @@ publish: true
 
 
 
+
+# YAML as of 2026-08-25
+````
+```

@@ -3,7 +3,7 @@ Entity_Name: site
 Type: Data (Derived)
 Public_ID: "[[site_id]]"
 SEAD_table: "[[tbl_sites]]"
-status: in progress
+status: to troubleshoot
 publish: true
 ---
 > [!to do] The relevant columns for this dataset relating to site properties are:
@@ -18,3 +18,7 @@ publish: true
 - [ ] figure out why there is both a site_property and a site_property 2 in https://shape-shifter.sead.se/projects/Riia_Strucke_v8 and decide which you want
 - [ ] link this entity to [[Example dataset mapping/Strucke Data mapping/Entity site|Entity site]]
 
+
+# YAML as of 2026-08-25
+````
+```

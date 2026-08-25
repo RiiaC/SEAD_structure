@@ -9,7 +9,7 @@ Local_Keys:
   - 
 Remote_Keys:
 SEAD_table: "[[tbl_taxa_common_names]]"
-status: needs creating
+status: to troubleshoot
 publish: true
 ---
 > [!info] The "species" column of the Strucke data usually contains the Swedish word for the material dated, which is often a name of a plant or animal. 
@@ -20,6 +20,9 @@ publish: true
 > 2. ~~Determine the corresponding order/family/genus/species name, as appropriate~~ Determine the corresponding species
 > 3. For each of these that is already present in SEAD, determine the corresponding `taxon_id`~~, `genus_id`, `family_id`, and `taxonomic_order_id`~~ (given the way SEAD is set up, matching the `taxon_id`is good enough, and the rest of the matches will propagate from there. However, see [[GitHub SEAD_change_control issue 434]] for notes on places where that propagation may be in error and probably should be fixed)
 
+- [x] create entity, with `species` as the column, drop duplicates
+- [ ] figure out which approach to use to match the common names already in SEAD to this data
+- [ ] figure out which approach to use to add any new common names to SEAD
 # First try, mapping "species" to SEAD's `tbl_taxa_common_names` etc.
 I prepared a quick first draft of a list of the terms in the "species" column thusly:
 1. Use Excel's pivot table function to determine the count of each unique string in the `species` column. The table of the ten most popular is:
@@ -146,3 +149,20 @@ The other sheets will get their own write-ups when I get far enough along as to 
 - and those terms which are general terms for a group of plants or animals (Däggdjur, Fisk, Fågel etc.) (pink text)
 # see also Bruno's work
 Bruno tried a more automated version: https://github.com/Br1CM/sead_strucke_data_cleaning
+
+
+# YAML as of 2026-08-25
+````
+name: common_names
+type: entity
+system_id: system_id
+keys: []
+columns:
+  - species
+public_id: taxon_common_name_id
+source: datasheet_v9
+drop_duplicates:
+  - species
+check_functional_dependency: false
+
+```

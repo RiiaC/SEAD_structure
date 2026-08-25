@@ -39,6 +39,20 @@ publish: true
 
 ![[schema site national grid.png|]]
 
+
+# YAML as of 2026-08-25
 ````
-name: 
-````
+name: site_natgridrefs
+type: entity
+system_id: system_id
+keys: []
+columns:
+  - fid
+  - northing_3006
+  - easting_3006
+public_id: site_natgridref_id
+source: datasheet_v9
+drop_empty_rows:
+  - northing_3006
+
+```

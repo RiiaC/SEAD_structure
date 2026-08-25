@@ -26,14 +26,13 @@ publish: true
 
 ![[Entity site schema.png]]
 
-# YAML for this entity as of 2026-06-29:
+# YAML for this entity as of 2026-08:24:
 ````
 name: site
 type: entity
 system_id: system_id
 keys: []
 columns:
-  - village_farm
   - latitude
   - longitude
   - location_precision
@@ -43,11 +42,15 @@ columns:
   - uppdragsnummer
   - northing_3006
   - easting_3006
+  - place_name
+  - landskap
+  - fid
 public_id: site_id
-source: datasheet
+source: datasheet_v9
 drop_duplicates:
   - site_id
 check_functional_dependency: false
 drop_empty_rows:
   - site_id
+
 ````

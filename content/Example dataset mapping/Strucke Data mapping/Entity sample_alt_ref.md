@@ -22,3 +22,20 @@ publish: true
 
 
 
+# YAML as of 2026-08-25
+````
+name: sample_alt_ref
+type: entity
+system_id: system_id
+keys: []
+columns:
+  - lab_id
+  - fid
+public_id: sample_alt_ref_id
+source: datasheet_v9
+drop_empty_rows:
+  - lab_no
+extra_columns:
+  alt_ref_type: 3
+
+```
