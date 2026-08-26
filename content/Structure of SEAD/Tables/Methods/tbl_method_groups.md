@@ -3,7 +3,7 @@ table_name: tbl_method_groups
 primary_key: "[[method_group_id]]"
 columns:
   - "[[date_updated]]"
-  - "[[source/docs/plugins/Description]]"
+  - "[[description]]"
   - "[[group_name]]"
 date created: Friday, September 19th 2025, 3:37:16 pm
 publish: true

@@ -4,7 +4,7 @@ primary_key: "[[alt_ref_type_id]]"
 columns:
   - "[[alt_ref_type]]"
   - "[[date_updated]]"
-  - "[[source/docs/plugins/Description]]"
+  - "[[description]]"
 publish: true
 ---
 

@@ -5,7 +5,7 @@ foreign_keys:
   - "[[method_id]]"
 columns:
   - "[[date_updated]]"
-  - "[[source/docs/plugins/Description]]"
+  - "[[description]]"
   - "[[name]]"
 connected_tables:
   - "[[tbl_methods]]"

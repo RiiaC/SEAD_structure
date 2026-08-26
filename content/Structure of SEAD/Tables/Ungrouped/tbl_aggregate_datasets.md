@@ -8,7 +8,7 @@ columns:
   - "[[aggregate_dataset_name]]"
   - "[[aggregate_dataset_uuid]]"
   - "[[date_updated]]"
-  - "[[source/docs/plugins/Description]]"
+  - "[[description]]"
 connected_tables:
   - "[[tbl_aggregate_order_types]]"
   - "[[tbl_biblio]]"

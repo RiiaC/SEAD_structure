@@ -6,7 +6,7 @@ foreign_keys:
   - "[[project_type_id]]"
 columns:
   - "[[date_updated]]"
-  - "[[source/docs/plugins/Description]]"
+  - "[[description]]"
   - "[[project_abbrev_name]]"
   - "[[project_name]]"
 connected_tables:

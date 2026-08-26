@@ -6,7 +6,7 @@ columns:
   - "[[alternative_designation]]"
   - "[[atomic_number]]"
   - "[[date_updated]]"
-  - "[[source/docs/plugins/Description]]"
+  - "[[description]]"
   - "[[designation]]"
 publish: true
 ---

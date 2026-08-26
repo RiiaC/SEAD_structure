@@ -4,7 +4,7 @@ primary_key: "[[data_type_group_id]]"
 columns:
   - "[[data_type_group_name]]"
   - "[[date_updated]]"
-  - "[[source/docs/plugins/Description]]"
+  - "[[description]]"
 date created: Friday, September 19th 2025, 3:37:16 pm
 publish: true
 ---

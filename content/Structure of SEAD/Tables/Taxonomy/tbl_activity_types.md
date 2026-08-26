@@ -4,7 +4,7 @@ primary_key: "[[activity_type_id]]"
 columns:
   - "[[activity_type]]"
   - "[[date_updated]]"
-  - "[[source/docs/plugins/Description]]"
+  - "[[description]]"
 publish: true
 ---
 

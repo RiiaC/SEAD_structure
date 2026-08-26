@@ -3,7 +3,7 @@ table_name: tbl_project_types
 primary_key: "[[project_type_id]]"
 columns:
   - "[[date_updated]]"
-  - "[[source/docs/plugins/Description]]"
+  - "[[description]]"
   - "[[project_type_name]]"
 publish: true
 ---

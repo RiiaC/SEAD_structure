@@ -6,7 +6,7 @@ foreign_keys:
   - "[[unit_id]]"
 columns:
   - "[[base_type]]"
-  - "[[source/docs/plugins/Description]]"
+  - "[[description]]"
   - "[[name]]"
   - "[[precision]]"
   - "[[value_type_uuid]]"

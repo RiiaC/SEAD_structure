@@ -7,7 +7,7 @@ columns:
   - "[[date_updated]]"
   - "[[depth_bottom]]"
   - "[[depth_top]]"
-  - "[[source/docs/plugins/Description]]"
+  - "[[description]]"
   - "[[lower_boundary]]"
 connected_tables:
   - "[[tbl_sample_groups]]"

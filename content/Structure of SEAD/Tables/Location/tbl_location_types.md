@@ -3,7 +3,7 @@ table_name: tbl_location_types
 primary_key: "[[location_type_id]]"
 columns:
   - "[[date_updated]]"
-  - "[[source/docs/plugins/Description]]"
+  - "[[description]]"
   - "[[location_type]]"
 date created: Friday, September 19th 2025, 3:37:16 pm
 publish: true

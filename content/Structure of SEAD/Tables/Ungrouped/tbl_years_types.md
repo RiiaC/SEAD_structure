@@ -3,7 +3,7 @@ table_name: tbl_years_types
 primary_key: "[[years_type_id]]"
 columns:
   - "[[date_updated]]"
-  - "[[source/docs/plugins/Description]]"
+  - "[[description]]"
   - "[[name]]"
 publish: true
 ---

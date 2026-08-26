@@ -4,7 +4,7 @@ primary_key: "[[aggregate_order_type_id]]"
 columns:
   - "[[aggregate_order_type]]"
   - "[[date_updated]]"
-  - "[[source/docs/plugins/Description]]"
+  - "[[description]]"
 publish: true
 ---
 

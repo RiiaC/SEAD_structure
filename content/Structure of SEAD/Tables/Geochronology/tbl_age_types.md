@@ -4,7 +4,7 @@ primary_key: "[[age_type_id]]"
 columns:
   - "[[age_type]]"
   - "[[date_updated]]"
-  - "[[source/docs/plugins/Description]]"
+  - "[[description]]"
 publish: true
 ---
 

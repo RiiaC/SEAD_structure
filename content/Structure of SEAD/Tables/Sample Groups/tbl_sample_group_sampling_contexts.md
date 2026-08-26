@@ -3,7 +3,7 @@ table_name: tbl_sample_group_sampling_contexts
 primary_key: "[[sampling_context_id]]"
 columns:
   - "[[date_updated]]"
-  - "[[source/docs/plugins/Description]]"
+  - "[[description]]"
   - "[[sampling_context]]"
   - "[[sort_order]]"
 publish: true

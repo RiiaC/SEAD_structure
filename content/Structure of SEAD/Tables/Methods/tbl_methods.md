@@ -8,7 +8,7 @@ foreign_keys:
   - "[[unit_id]]"
 columns:
   - "[[date_updated]]"
-  - "[[source/docs/plugins/Description]]"
+  - "[[description]]"
   - "[[method_abbrev_or_alt_name]]"
   - "[[method_name]]"
   - "[[method_uuid]]"

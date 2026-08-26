@@ -8,7 +8,7 @@ columns:
   - "[[assessment_author_contact_id]]"
   - "[[assessment_type]]"
   - "[[date_updated]]"
-  - "[[source/docs/plugins/Description]]"
+  - "[[description]]"
   - "[[preservation_status_or_threat]]"
   - "[[site_id]]"
 connected_tables:

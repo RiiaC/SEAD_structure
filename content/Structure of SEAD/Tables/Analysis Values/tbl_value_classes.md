@@ -6,7 +6,7 @@ foreign_keys:
   - "[[parent_id]]"
   - "[[value_type_id]]"
 columns:
-  - "[[source/docs/plugins/Description]]"
+  - "[[description]]"
   - "[[name]]"
   - "[[value_class_uuid]]"
 connected_tables:

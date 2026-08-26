@@ -3,7 +3,7 @@ table_name: tbl_units
 primary_key: "[[unit_id]]"
 columns:
   - "[[date_updated]]"
-  - "[[source/docs/plugins/Description]]"
+  - "[[description]]"
   - "[[unit_abbrev]]"
   - "[[unit_name]]"
 publish: true

@@ -7,7 +7,7 @@ foreign_keys:
   - "[[taxon_id]]"
 columns:
   - "[[date_updated]]"
-  - "[[source/docs/plugins/Description]]"
+  - "[[description]]"
   - "[[material_dated]]"
 connected_tables:
   - "[[tbl_abundance_elements]]"

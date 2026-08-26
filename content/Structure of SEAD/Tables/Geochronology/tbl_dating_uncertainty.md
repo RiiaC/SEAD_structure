@@ -3,7 +3,7 @@ table_name: tbl_dating_uncertainty
 primary_key: "[[dating_uncertainty_id]]"
 columns:
   - "[[date_updated]]"
-  - "[[source/docs/plugins/Description]]"
+  - "[[description]]"
   - "[[uncertainty]]"
 date created: Friday, September 19th 2025, 3:37:16 pm
 publish: true

@@ -2,7 +2,7 @@
 table_name: tbl_value_qualifiers
 primary_key: "[[qualifier_id]]"
 columns:
-  - "[[source/docs/plugins/Description]]"
+  - "[[description]]"
   - "[[qualifier_uuid]]"
   - "[[symbol]]"
 publish: true

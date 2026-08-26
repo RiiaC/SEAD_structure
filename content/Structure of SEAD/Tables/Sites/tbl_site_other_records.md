@@ -8,7 +8,7 @@ foreign_keys:
   - "[[tbl_locations]]"
 columns:
   - "[[date_updated]]"
-  - "[[source/docs/plugins/Description]]"
+  - "[[description]]"
   - "[[site_other_records_uuid]]"
 connected_tables:
   - "[[tbl_biblio]]"

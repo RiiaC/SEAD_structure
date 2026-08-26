@@ -6,7 +6,7 @@ foreign_keys:
   - "[[sample_group_id]]"
 columns:
   - "[[date_updated]]"
-  - "[[source/docs/plugins/Description]]"
+  - "[[description]]"
   - "[[image_location]]"
   - "[[image_name]]"
 connected_tables:

@@ -3,7 +3,7 @@ table_name: tbl_image_types
 primary_key: "[[image_type_id]]"
 columns:
   - "[[date_updated]]"
-  - "[[source/docs/plugins/Description]]"
+  - "[[description]]"
   - "[[image_type]]"
 publish: true
 ---

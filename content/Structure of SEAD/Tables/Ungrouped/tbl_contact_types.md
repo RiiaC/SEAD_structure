@@ -4,7 +4,7 @@ primary_key: "[[contact_type_id]]"
 columns:
   - "[[contact_type_name]]"
   - "[[date_updated]]"
-  - "[[source/docs/plugins/Description]]"
+  - "[[description]]"
 publish: true
 ---
 

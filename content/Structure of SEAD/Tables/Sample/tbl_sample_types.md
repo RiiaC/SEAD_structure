@@ -3,7 +3,7 @@ table_name: tbl_sample_types
 primary_key: "[[sample_type_id]]"
 columns:
   - "[[date_updated]]"
-  - "[[source/docs/plugins/Description]]"
+  - "[[description]]"
   - "[[type_name]]"
 date created: Friday, September 19th 2025, 3:37:16 pm
 publish: true

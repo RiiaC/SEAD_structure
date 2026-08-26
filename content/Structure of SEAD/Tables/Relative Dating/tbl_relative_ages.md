@@ -11,7 +11,7 @@ columns:
   - "[[cal_age_older]]"
   - "[[cal_age_younger]]"
   - "[[date_updated]]"
-  - "[[source/docs/plugins/Description]]"
+  - "[[description]]"
   - "[[notes]]"
   - "[[relative_age_name]]"
   - "[[relative_age_uuid]]"
