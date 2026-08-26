@@ -5,7 +5,7 @@ publish: true
 > [!info]  There are two templates, one for the data itself, the other for the metadata
 
 # The metadata template
-The metadata template file, **makro_metadata_mall.xlsx,** contains six sheets:
+The metadata template file, **makro_metadata_mall.xlsx,** contains five sheets:
 
 ## The Sites sheet
 The information in this sheet corresponds to three SEAD tables, [[tbl_sites]], [[tbl_site_locations]], and [[tbl_locations]]
@@ -60,21 +60,7 @@ The information in this sheet corresponds to two SEAD tables, [[tbl_features]] a
 | Volume before float | The sample volume before float<br>Note: use also [[dimension_id]] = 5 (Volume)                                                                                                                | [[tbl_measured_value_dimensions]]                                 | [[dimension_value]]                                               |
 | Volume after float  | The sample volume after float<br>Note: use also [[dimension_id]] = 5 (Volume)                                                                                                                 | [[tbl_measured_value_dimensions]]                                 | [[dimension_value]]                                               |
 | Sample note         | Contains miscellaneous notes related to samples that do not belong in other tables, such as ‘stored in a cellar until processing in 2020’.                                                    | [[tbl_sample_notes]]                                              | [[note]]                                                          |
-## the Work Progress Sheet
-I am not certain if this is a sheet that ought to be included in a template given to researchers looking to include their data in SEAD, it seems to be for internal lab notes on doing the analysis, and not the results? I sent a note to the MAL email address asking, but I am not certain anyone will see it this summer.
 
-| Column name | Column description                                                                                                                   | corresponding SEAD table | corresponding SEAD column |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------ | ------------------------- |
-|             | There is no column heading in this column. I assume  it would need to be `sample name` in order to connect back to the Samples Sheet |                          |                           |
-| Status      |                                                                                                                                      |                          |                           |
-| Subsample   |                                                                                                                                      |                          |                           |
-| Floterat    |                                                                                                                                      |                          |                           |
-| Sållat      |                                                                                                                                      |                          |                           |
-| CitP        |                                                                                                                                      |                          |                           |
-| CitPOI      |                                                                                                                                      |                          |                           |
-| MS          |                                                                                                                                      |                          |                           |
-| MS550       |                                                                                                                                      |                          |                           |
-| LOI         |                                                                                                                                      |                          |                           |
 ## The Publications Sheet
 
 | Column name               | Column description                                                                                                 | corresponding SEAD table                                  | corresponding SEAD column                                 |     |
