@@ -1,12 +1,6 @@
 ---
-column_name: data_type_id
-data_type: integer
-connected_tables:
-  - "[[tbl_data_types]]"
-  - "[[tbl_datasets]]"
-  - "[[tbl_value_types]]"
-date created: Friday, September 19th 2025, 3:37:16 pm
 publish: true
+permalink: /Structure of SEAD/Columns/data_type_id.md
 ---
 
 Primary key (automatically incremented).

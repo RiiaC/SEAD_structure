@@ -1,9 +1,6 @@
 ---
-column_name: genus_name
-data_type: character varying
-connected_tables:
-  - "[[tbl_taxa_tree_genera]]"
 publish: true
+permalink: /Structure of SEAD/Columns/genus_name.md
 ---
 
 Name of the genus.

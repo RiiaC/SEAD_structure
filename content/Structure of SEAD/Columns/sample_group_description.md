@@ -1,9 +1,6 @@
 ---
-column_name: sample_group_description
-data_type: text
-connected_tables:
-  - "[[tbl_sample_groups]]"
 publish: true
+permalink: /Structure of SEAD/Columns/sample_group_description.md
 ---
 
 Detailed description of the sample group, providing context and additional information.

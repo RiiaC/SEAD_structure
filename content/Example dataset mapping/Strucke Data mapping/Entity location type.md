@@ -1,21 +1,11 @@
 ---
-Entity_Name: location_type
-Type: Data (Derived)
-Public_ID: "[[location_type_id]]"
-Target_Entity:
-Local_Keys:
-  - 
-  - 
-  - 
-Remote_Keys:
-SEAD_table: "[[tbl_location_types]]"
-status: to troubleshoot
 publish: true
+permalink: /Example dataset mapping/Strucke Data mapping/Entity location type.md
 ---
-> [!info] the types of locations present in this data set are:
-> 
 
-| location_type_id | location_type       |
+> [!info] the types of locations present in this data set are:
+
+| location\_type\_id | location\_type       |
 | ---------------- | ------------------- |
 | 1                | Country             |
 | 2                | provience           |
@@ -23,8 +13,9 @@ publish: true
 | 17               | Archaeological site |
 
 Figure out how to accomplish these
-- [ ] The entire dataset is Swedish, so all rows can have added `location_type_id = 1` , `location_name = Sweden
-- [ ] All 25 Swedish provinces are represented in this dataset (sometimes with the name spelled out in full, sometimes as an abbreviation, as shown below), and each should be associated with `location_type_id = 2` , `location_name = (contents of the Province column)
+
+- [ ] The entire dataset is Swedish, so all rows can have added `location_type_id = 1` , \`location\_name = Sweden
+- [ ] All 25 Swedish provinces are represented in this dataset (sometimes with the name spelled out in full, sometimes as an abbreviation, as shown below), and each should be associated with `location_type_id = 2` , \`location\_name = (contents of the Province column)
 
 | abbreviation | Province name |
 | ------------ | ------------- |
@@ -57,8 +48,8 @@ Figure out how to accomplish these
 - [ ] the settlements need to have h `location_type_id = 4`  associated with them
 - [ ] the archaeological sites (lämningsnummber and RAÄ nummer) need to have h `location_type_id = 17` associated with them
 
-
 # YAML as of 2026-08-25
+
 ````
 name: location_type
 type: entity
@@ -77,3 +68,4 @@ public_id: location_type_id
 source: datasheet_v9
 
 ```
+````

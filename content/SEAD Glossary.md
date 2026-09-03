@@ -1,10 +1,10 @@
 ---
-date created: Tuesday, December 23rd 2025, 7:48:31 am
 publish: true
+permalink: /SEAD Glossary.md
 ---
->[!info]+ This glossary was prepared in September 2025 
->by compiling the description information for tables exported from the SEAD database and supplementing that information with definitions of some of the terms used in those definitions. If you feel that any of these definitions need further clarification please send an [email to me](mailto:Riia.Chmielowski@umu.se).
 
+> [!info]+ This glossary was prepared in September 2025
+> by compiling the description information for tables exported from the SEAD database and supplementing that information with definitions of some of the terms used in those definitions. If you feel that any of these definitions need further clarification please send an [email to me](mailto:Riia.Chmielowski@umu.se).
 
 # Glossary Table
 
@@ -78,5 +78,3 @@ publish: true
 |Text, Distribution|[[tbl_text_distribution]]|Descriptive information for taxa, including reference for the source (e.g. Scandinavia northof Tromsø, British Isles– rare)|
 |Units|[[tbl_units]]|Measurement unit definitions (e.g. Mm, millimetres)|
 |Years Types|[[tbl_years_types]]|Contains the names and descriptions of different types of years used for dating, such as radiocarbon or calendar years.|
-
-

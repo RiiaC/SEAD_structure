@@ -7,4 +7,4 @@ connected_tables:
 publish: true
 ---
 
-Specifies the identifier of the system in tbl_rdb_systems.
+Specifies the identifier of the system in tbl\_rdb\_systems.

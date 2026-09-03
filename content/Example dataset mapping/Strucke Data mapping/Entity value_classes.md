@@ -1,20 +1,6 @@
 ---
-Entity_Name:
-Type:
-Public_ID:
-Target_Entity:
-Local_Keys:
-  - 
-  - 
-  - 
-Remote_Keys:
-SEAD_table:
-status:
 publish: true
+permalink: /Example dataset mapping/Strucke Data mapping/Entity value_classes.md
 ---
 
 > [!info]
-
-
-
-

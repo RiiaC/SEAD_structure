@@ -1,9 +1,6 @@
 ---
-column_name: sample_dimension_id
-data_type: integer
-connected_tables:
-  - "[[tbl_sample_dimensions]]"
 publish: true
+permalink: /Structure of SEAD/Columns/sample_dimension_id.md
 ---
 
 Primary key (automatically incremented).

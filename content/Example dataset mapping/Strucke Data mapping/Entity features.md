@@ -1,24 +1,16 @@
 ---
-Entity_Name: features
-Type: Data (Derived)
-Public_ID: "[[feature_id]]"
-Target_Entity: "[[Entity feature_types]]"
-Local_Keys:
-  - context_id
-Remote_Keys:
-  - context_id
-SEAD_table: "[[tbl_features]]"
-status: complete
 publish: true
+permalink: /Example dataset mapping/Strucke Data mapping/Entity features.md
 ---
-> [!info] the column context_id contains the name of the archaeological feature that was sampled for this analysis
 
+> [!info] the column context\_id contains the name of the archaeological feature that was sampled for this analysis
 
 - [x] create entity
 - [x] join to [[Entity feature_types]]
-![[Entity features schema.png]]
+  ![[images/Entity features schema.png]]
 
 # YAML as of 2026-08-25
+
 ````
 name: features
 type: entity
@@ -47,3 +39,4 @@ drop_empty_rows:
   - anlaggning
 
 ```
+````

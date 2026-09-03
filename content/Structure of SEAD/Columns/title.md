@@ -1,9 +1,6 @@
 ---
-column_name: title
-data_type: character varying
-connected_tables:
-  - "[[tbl_biblio]]"
 publish: true
+permalink: /Structure of SEAD/Columns/title.md
 ---
 
 Title of the referenced work.

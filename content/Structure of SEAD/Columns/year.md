@@ -1,9 +1,6 @@
 ---
-column_name: year
-data_type: character varying
-connected_tables:
-  - "[[tbl_biblio]]"
 publish: true
+permalink: /Structure of SEAD/Columns/year.md
 ---
 
 Year the referenced work was published.

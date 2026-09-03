@@ -1,31 +1,17 @@
 ---
-Entity_Name:
-Type:
-Public_ID: "[[method_id]]"
-Target_Entity:
-Local_Keys:
-  - 
-  - 
-  - 
-Remote_Keys:
-SEAD_table: "[[tbl_methods]]"
-status: to troubleshoot
 publish: true
+permalink: /Example dataset mapping/Strucke Data mapping/Entity methods.md
 ---
+
 > [!info] these are all radiocarbon dates
 
- - [x] create the entity
- - [ ] determine which method from the list at [[tbl_methods#3. Dating by radiometric methods]]  is the best match for this data set. 
-       In the meantime, going with 39 = conventional
- - [ ] 
-
-
-
-
-
-
+- [x] create the entity
+- [ ] determine which method from the list at [[tbl_methods#3. Dating by radiometric methods]]  is the best match for this data set.
+  In the meantime, going with 39 = conventional
+- \[ ]
 
 # YAML as of 2026-08-25
+
 ````
 name: methods
 type: entity
@@ -39,3 +25,4 @@ extra_columns:
   method: 39
 
 ```
+````

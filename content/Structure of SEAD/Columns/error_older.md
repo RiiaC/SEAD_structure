@@ -6,4 +6,4 @@ connected_tables:
 publish: true
 ---
 
-Upper bound of the measured error range. Matches 'error_younger' for symmetrical errors.
+Upper bound of the measured error range. Matches 'error\_younger' for symmetrical errors.

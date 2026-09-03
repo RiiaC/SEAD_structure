@@ -1,29 +1,27 @@
 ---
-Entity_Name: taxa_tree_master
-Type: Fixed Values
-Public_ID: "[[taxon_id]]"
-Target_Entity: "[[Entity tbl_taxa_tree_genera]]"
-Local_Keys:
-  - "[[genus_id]]"
-Remote_Keys: system_id
-status: complete
 publish: true
+permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/Entity taxa_tree_master.md
 ---
-Since this is fixed values, I just created these extra columns, using an internal to this dataset holding value of 1 for the genus_id:
+
+Since this is fixed values, I just created these extra columns, using an internal to this dataset holding value of 1 for the genus\_id:
 
 | New Column Name | Source Column |
 | --------------- | ------------- |
 | species         | groenlandicus |
-| genus_id        | 1             |
-> [!info] The fixed value genus_id is necessary because a species name has an associated genus name that precedes it (The harp seal is formally called *Pagophilus groenlandicus*)
+| genus\_id        | 1             |
+
+> [!info] The fixed value genus\_id is necessary because a species name has an associated genus name that precedes it (The harp seal is formally called _Pagophilus groenlandicus_)
 > Therefore, this key is used to associate the species with the genus.
 
-![[Entity taxa_tree_master schema.png]]
+![[images/Entity taxa_tree_master schema.png]]
 
 ---
+
 # YAML
+
 as of 2026-03-23:
-````
+
+```
   name: taxa_tree_master
 type: fixed
 public_id: taxon_id
@@ -40,3 +38,4 @@ values:
     - null
     - null
     - null
+```

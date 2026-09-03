@@ -1,9 +1,6 @@
 ---
-column_name: qualifier_symbol_id
-data_type: integer
-connected_tables:
-  - "[[tbl_value_qualifier_symbols]]"
 publish: true
+permalink: /Structure of SEAD/Columns/qualifier_symbol_id.md
 ---
 
 Primary key (automatically incremented).

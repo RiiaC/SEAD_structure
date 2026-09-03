@@ -1,9 +1,6 @@
 ---
-column_name: language_name_native
-data_type: character varying
-connected_tables:
-  - "[[tbl_languages]]"
 publish: true
+permalink: /Structure of SEAD/Columns/language_name_native.md
 ---
 
 The name of the language in its native script or form.

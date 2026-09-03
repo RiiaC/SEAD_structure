@@ -1,14 +1,6 @@
 ---
-table_name: tbl_sample_group_notes
-primary_key: "[[sample_group_note_id]]"
-foreign_keys:
-  - "[[sample_group_id]]"
-columns:
-  - "[[date_updated]]"
-  - "[[note]]"
-connected_tables:
-  - "[[tbl_sample_groups]]"
 publish: true
+permalink: /Structure of SEAD/Tables/Sample Groups/tbl_sample_group_notes.md
 ---
 
 Contains notes pertaining to groups of samples.

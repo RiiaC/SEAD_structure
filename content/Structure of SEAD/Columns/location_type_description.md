@@ -1,9 +1,6 @@
 ---
-column_name: location_type_description
-data_type: text
-connected_tables:
-  - "[[tbl_sample_location_types]]"
 publish: true
+permalink: /Structure of SEAD/Columns/location_type_description.md
 ---
 
 A detailed description of the sample location type.

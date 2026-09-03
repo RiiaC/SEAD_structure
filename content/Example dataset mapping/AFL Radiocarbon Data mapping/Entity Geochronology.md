@@ -1,17 +1,11 @@
 ---
-Entity_Name: geochronology
-Type:
-Public_ID:
-Target_Entity:
-Local_Keys:
-  - 
-Remote_Keys:
-SEAD_table: "[[tbl_geochronology]]"
-status: needs creating
 publish: true
+permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/Entity Geochronology.md
 ---
+
 > [!info] the table in which the various results are collected
 > For the Radiocarbon sheet these are:
+>
 > - [[F. BP]] this corresponds to [[age]]
 > - [[G. ±]]  this corresponds to both [[error_older]] and [[error_younger]]
 > - [[H. δ13C]]  this corresponds to [[delta_13c]]
@@ -22,15 +16,4 @@ publish: true
 > - [[M.from 2σ]]
 > - [[N.to 2σ]]
 
-
-
-
 ![[images/Entity Geochronology schema.png]]
-
-
-
-
-
-
-
-

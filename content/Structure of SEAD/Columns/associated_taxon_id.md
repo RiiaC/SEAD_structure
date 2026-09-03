@@ -6,4 +6,4 @@ connected_tables:
 publish: true
 ---
 
-Identifier for the taxon related to the primary taxon (defined by taxon_id).
+Identifier for the taxon related to the primary taxon (defined by taxon\_id).

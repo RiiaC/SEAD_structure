@@ -1,24 +1,11 @@
 ---
-table_name: tbl_value_types
-primary_key: "[[value_type_id]]"
-foreign_keys:
-  - "[[data_type_id]]"
-  - "[[unit_id]]"
-columns:
-  - "[[base_type]]"
-  - "[[description]]"
-  - "[[name]]"
-  - "[[precision]]"
-  - "[[value_type_uuid]]"
-connected_tables:
-  - "[[tbl_data_types]]"
-  - "[[tbl_units]]"
 publish: true
+permalink: /Structure of SEAD/Tables/Analysis Values/tbl_value_types.md
 ---
 
 Specifies actual type of values belonging to a value class
 
-| [[value_type_id]] | [[unit_id]] | [[data_type_id]] | name                | base_type | description                                  |
+| [[value_type_id]] | [[unit_id]] | [[data_type_id]] | name                | base\_type | description                                  |
 | ----------------- | ----------- | ---------------- | ------------------- | --------- | -------------------------------------------- |
 | 0                 | NULL        | NULL             | Not used            | text      | Not used                                     |
 | 1                 | NULL        | 5                | Count               | integer   | An (positive) integer result of an analysis  |

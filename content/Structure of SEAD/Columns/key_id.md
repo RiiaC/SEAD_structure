@@ -1,9 +1,6 @@
 ---
-column_name: key_id
-data_type: integer
-connected_tables:
-  - "[[tbl_text_identification_keys]]"
 publish: true
+permalink: /Structure of SEAD/Columns/key_id.md
 ---
 
 Primary key (automatically incremented).

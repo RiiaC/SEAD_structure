@@ -1,10 +1,6 @@
 ---
-column_name: site_uuid
-data_type: uuid
-connected_tables:
-  - "[[tbl_sites]]"
 publish: true
+permalink: /Structure of SEAD/Columns/site_uuid.md
 ---
 
 nan
-

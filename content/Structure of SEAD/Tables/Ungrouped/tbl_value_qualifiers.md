@@ -1,11 +1,6 @@
 ---
-table_name: tbl_value_qualifiers
-primary_key: "[[qualifier_id]]"
-columns:
-  - "[[description]]"
-  - "[[qualifier_uuid]]"
-  - "[[symbol]]"
 publish: true
+permalink: /Structure of SEAD/Tables/Ungrouped/tbl_value_qualifiers.md
 ---
 
 List of base value qualifiers such as '>', '<' etc
@@ -25,5 +20,3 @@ List of base value qualifiers such as '>', '<' etc
 | 11               | ±       | Plus-minus. Indicates a value range where the actual value could be either greater or smaller by a specific amount. |
 | 12               | ≈ but ≠ | Almost equal to but not the same. The value is very close to the compared value but not be exactly the same.        |
 | 13               | ≃       | The value might be the same as the compared value (or asymptotically equal to or).                                  |
-
-

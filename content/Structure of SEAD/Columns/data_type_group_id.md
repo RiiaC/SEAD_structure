@@ -1,11 +1,6 @@
 ---
-column_name: data_type_group_id
-data_type: integer
-connected_tables:
-  - "[[tbl_data_type_groups]]"
-  - "[[tbl_data_types]]"
-date created: Friday, September 19th 2025, 3:37:16 pm
 publish: true
+permalink: /Structure of SEAD/Columns/data_type_group_id.md
 ---
 
 Primary key (automatically incremented).

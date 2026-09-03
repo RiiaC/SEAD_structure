@@ -1,9 +1,6 @@
 ---
-column_name: analysis_numerical_value_id
-data_type: bigint
-connected_tables:
-  - "[[tbl_analysis_numerical_values]]"
 publish: true
+permalink: /Structure of SEAD/Columns/analysis_numerical_value_id.md
 ---
 
 Primary key (automatically incremented).

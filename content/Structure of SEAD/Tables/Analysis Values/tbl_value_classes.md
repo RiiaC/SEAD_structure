@@ -1,25 +1,12 @@
 ---
-table_name: tbl_value_classes
-primary_key: "[[value_class_id]]"
-foreign_keys:
-  - "[[method_id]]"
-  - "[[parent_id]]"
-  - "[[value_type_id]]"
-columns:
-  - "[[description]]"
-  - "[[name]]"
-  - "[[value_class_uuid]]"
-connected_tables:
-  - "[[tbl_methods]]"
-  - "[[tbl_value_classes]]"
-  - "[[tbl_value_types]]"
 publish: true
+permalink: /Structure of SEAD/Tables/Analysis Values/tbl_value_classes.md
 ---
 
 Specifies a value class describing e.g. a data column
 
 # Dendrochronology value classes
- 
+
 | [[value_class_id]] | [[value_type_id]] | [[parent_id]] | name                            | description                                                                                                                                    |
 | ------------------ | ----------------- | ------------- | ------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1                  | 8                 | NULL          | Tree species                    | Species name of the tree the sample came from.                                                                                                 |
@@ -49,7 +36,7 @@ Specifies a value class describing e.g. a data column
 
 # Ancient DNA analysis value classes
 
-|value_class_id|value_type_id|parent_id|name|description|
+|value\_class\_id|value\_type\_id|parent\_id|name|description|
 |---|---|---|---|---|
 |43|17|NULL|Molecular sex - Rx|Prediction of molecular sex of individual. Rx is based on the ratio of reads aligning to the X chromosome and autosomes.|
 |42|9|NULL|mtDNA haplogroup|Prediction of mitochondrial DNA haplogroup.|
@@ -81,4 +68,3 @@ Specifies a value class describing e.g. a data column
 |27|11|NULL|5’ damage|Proportion of T nucleotides (given C nucleotide in reference) at the 5’ end of sequence reads. Representative of damage to DNA due to deamination of cytosines.|
 |26|11|NULL|3’ damage|Proportion of A nucleotides (given G nucleotide in reference) at the 3’ end of sequence reads. Representative of damage to DNA due to deamination of cytosines on complementary strand.|
 |25|7|NULL|Methods metadata download link|Link to methods metadata worksheet (with lab and bioinformatics methods, tools, parameters, etc.).|
-
