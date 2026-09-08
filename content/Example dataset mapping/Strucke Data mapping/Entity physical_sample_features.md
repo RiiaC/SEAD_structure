@@ -1,19 +1,29 @@
 ---
+Entity_Name: physical_sample_features
+Type:
+Public_ID: "[[physical_sample_feature_id]]"
+Target_Entity: "[[Example dataset mapping/Strucke Data mapping/Entity physical_samples|Entity physical_samples]]"
+Local_Keys:
+  - fid
+Remote_Keys:
+  - fid
+SEAD_table: "[[tbl_physical_sample_features]]"
+status: complete
 publish: true
-permalink: /Example dataset mapping/Strucke Data mapping/Entity physical_sample_features.md
 ---
-
 > [!info] this table links the features and the physical samples
->
 > >
 
 - [x] create entity
 - [x] join to both of the other tables
 
-![[images/Entity physical_sample_features schema.png]]
+
+
+
+![[Entity physical_sample_features schema.png]]
+
 
 # YAML as of 2026-08-25
-
 ````
 name: physical_sample_features
 type: entity
@@ -52,4 +62,3 @@ foreign_keys:
       allow_row_decrease: true
 
 ```
-````
