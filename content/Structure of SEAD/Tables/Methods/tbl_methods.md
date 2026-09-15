@@ -216,6 +216,6 @@ permalink: /Structure of SEAD/Tables/Methods/tbl_methods.md
 
 ## 22. Dating by radi+ation exposure methods
 
-| method\_id | method\_name | description  | method\_abbrev\_or\_alt\_name |
-|---|---|---|---|
-|150|Thermoluminescence|Dating using the release of stored energy properties of (mainly sonte) material previously exposed to the sun.|TL|22|
+| method\_id | method\_name        | description                                                                                                    | method\_abbrev\_or\_alt\_name |     |
+| --------- | ------------------ | -------------------------------------------------------------------------------------------------------------- | ------------------------- | --- |
+| 150       | Thermoluminescence | Dating using the release of stored energy properties of (mainly sonte) material previously exposed to the sun. | TL                        | 22  |
