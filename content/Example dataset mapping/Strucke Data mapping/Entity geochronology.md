@@ -5,6 +5,7 @@ permalink: /Example dataset mapping/Strucke Data mapping/Entity geochronology.md
 
 > [!info] the columns of this dataset having to do with geochronology include:
 >
+> - `lab_id`= [[lab_number]]
 > - c14\_age\_bp	 = [[age]]
 > - c14\_error = [[error_older]] and [[error_younger]]
 > - d13C	= [[delta_13c]]

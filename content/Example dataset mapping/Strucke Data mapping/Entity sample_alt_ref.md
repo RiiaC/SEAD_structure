@@ -3,7 +3,9 @@ publish: true
 permalink: /Example dataset mapping/Strucke Data mapping/Entity sample_alt_ref.md
 ---
 
-> [!info] the lab\_no column of the Strucke data refers to the number of the lab that did the dating analysis, and corresponds to the [[alt_ref]] column of [[tbl_sample_alt_refs]], where [[alt_ref_type]] =  3 = Lab Number.
+> [!info] Phil says no, not this. Lab number is NOT radiocarbon lab number
+>
+> the lab\_no column of the Strucke data refers to the number of the lab that did the dating analysis, and corresponds to the [[alt_ref]] column of [[tbl_sample_alt_refs]], where [[alt_ref_type]] =  3 = Lab Number.
 
 - [x] create entity looking at `lab_no` column, and drop any empty rows
 - [x] add a column where [[alt_ref_type]] =  3 (Lab Number) for all rows

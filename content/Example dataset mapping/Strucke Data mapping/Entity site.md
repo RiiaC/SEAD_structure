@@ -11,16 +11,18 @@ permalink: /Example dataset mapping/Strucke Data mapping/Entity site.md
 > - **location\_precision** \*\*=  [[site_location_accuracy]]
 > - **site\_id** = Lämningsnummer= [[national_site_identifier]]
 >
->   In addition, we have coordinates in the Swedish system, which likely go under [[tbl_site_natgridrefs]]:
+>   In addition, we have coordinates in the Swedish system, which could go under [[tbl_site_natgridrefs]]:
 > - **northing\_3006**
 > - **easting\_3006**
+>   However, as these can be calculated from latitude and longitude, we will not retain them as per SEAD policy for not storing information that can be calculated from other information in the same data set.
+
+> \[! warning] Adapt this to use Bruno's [[Entity supersites]] format
 
 ---
 
 - [x] create a data-derived entity sites
 - [ ] link to this entity from [[Example dataset mapping/Strucke Data mapping/Entity location|Entity location]]
 - [ ] link to this entity from [[Example dataset mapping/Strucke Data mapping/Entity site_property|Entity site_property]]
-- [ ] link to this entity from [[Entity site_natgridrefs]] (or wherever else we wind up putting  **northing\_3006** and **easting\_3006**
 
 ![[images/Entity site schema.png]]
 
