@@ -1,6 +1,7 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data mapping/Entity site.md
+modified: 2026-09-16T14:25:03.428Z
 ---
 
 > \[!to do] The relevant columns for this dataset relating to site are:
@@ -16,7 +17,7 @@ permalink: /Example dataset mapping/Strucke Data mapping/Entity site.md
 > - **easting\_3006**
 >   However, as these can be calculated from latitude and longitude, we will not retain them as per SEAD policy for not storing information that can be calculated from other information in the same data set.
 
-> \[! warning] Adapt this to use Bruno's [[Entity supersites]] format
+> \[! warning] Adapt this to use Bruno's [[Example dataset mapping/Strucke Data mapping/Entity supersites]] format
 
 ---
 

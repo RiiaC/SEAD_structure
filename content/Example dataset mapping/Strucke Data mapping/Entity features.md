@@ -1,12 +1,13 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data mapping/Entity features.md
+modified: 2026-09-16T14:25:03.392Z
 ---
 
 > [!info] the column context\_id contains the name of the archaeological feature that was sampled for this analysis
 
 - [x] create entity
-- [x] join to [[Entity feature_types]]
+- [x] join to [[Example dataset mapping/Strucke Data mapping/Entity feature_types]]
   ![[images/Entity features schema.png]]
 
 # YAML as of 2026-08-25

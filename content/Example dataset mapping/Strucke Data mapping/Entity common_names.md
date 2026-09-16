@@ -1,6 +1,7 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data mapping/Entity common_names.md
+modified: 2026-09-16T14:25:03.372Z
 ---
 
 > [!info] The "species" column of the Strucke data usually contains the Swedish word for the material dated, which is often a name of a plant or animal.
@@ -146,7 +147,7 @@ It is recommended that all of the non-species terms be removed from the species 
 
 #### workflow to get this sheet in the above format
 
-1. take the list of "not species" found in [[Entity common_names#workflow to create report, part 1, generating the first draft|part 1]] above and pull them to their own sheet.
+1. take the list of "not species" found in [[Example dataset mapping/Strucke Data mapping/Entity common_names#workflow to create report, part 1, generating the first draft|part 1]] above and pull them to their own sheet.
 2. for each term do a "find all" for the `species` column of the `c14_master_v08.xlsx` spreadsheet
 3. make a note in the second column of this report sheet of the number of occurrences of this term
 4. return to the the `c14_master_v08.xlsx` spreadsheet, click on one of the occurrences in the "find all" window, then hit cntrl-A to select all occurrences.
