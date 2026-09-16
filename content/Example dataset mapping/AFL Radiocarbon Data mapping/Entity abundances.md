@@ -1,6 +1,7 @@
 ---
 publish: true
 permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/Entity abundances.md
+modified: 2026-09-16T15:23:06.355Z
 ---
 
 - [x] create a data-derived entity and pull in columns for element, biological age, and lab\_nr
@@ -12,7 +13,7 @@ permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/Entity abundanc
 | abundance       | 1             |
 | taxon\_id        | 1             |
 
-- [ ] add join to the [[Entity abundance_element]] on the element to fills the [[abundance_element_id]] column of this entity with the appropriate numbers for each bone from the system\_id row of the [[Entity abundance_element]] sheet. (_errors for this on 2026-04-22, message sent to Roger_)
+- [ ] add join to the [[Example dataset mapping/AFL Radiocarbon Data mapping/Entity abundance_element]] on the element to fills the [[abundance_element_id]] column of this entity with the appropriate numbers for each bone from the system\_id row of the [[Example dataset mapping/AFL Radiocarbon Data mapping/Entity abundance_element]] sheet. (_errors for this on 2026-04-22, message sent to Roger_)
 - [ ] create a second join to link the various taxa information to the abundances (_waiting for the first join's errors to be solved before attempting this_)
 
 ![[images/Entity abundances schema.png|1000]]
