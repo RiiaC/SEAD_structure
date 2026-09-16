@@ -1,6 +1,7 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke datamapping with Brunos code/Entity abundance_modifications.md
+modified: 2026-09-16T13:29:43.906Z
 ---
 
 > [!info] The "material" column of the Strucke data sometimes has additional information in the cell which would fall under [[tbl_abundance_modifications]]:
@@ -20,7 +21,7 @@ permalink: /Example dataset mapping/Strucke datamapping with Brunos code/Entity 
 
 - [x] create a Foreign key connecting this table to [[Example dataset mapping/Strucke datamapping with Brunos code/Entity modification_types|Entity modification_types]] on the foreign key [[modification_type_name]]
 - [x] since I had also added two columns for "edited material" and "modification" to the v9 incoming dataset, also add those columns to this entity, to permit a quick visual check to see how that code did.
-- [ ] create a Foreign key connecting this entity to [[Example dataset mapping/Strucke datamapping with Brunos code/Entity abundances|Entity abundances]] on the key "species"
+- [ ] create a Foreign key connecting this entity to [[Entity abundance|Entity abundance]] on the key "species"
   - [ ] figure out why this one is failing
 
 # schema image
