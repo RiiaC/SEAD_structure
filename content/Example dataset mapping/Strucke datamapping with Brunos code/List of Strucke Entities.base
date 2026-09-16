@@ -1,0 +1,26 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.folder == "Example dataset mapping/Strucke Data mapping"
+        - file.basename != "List of Strucke Entities"
+    order:
+      - status
+      - file.name
+      - Entity_Name
+      - Public_ID
+      - Type
+      - SEAD_table
+      - Target_Entity
+      - Local_Keys
+      - Remote_Keys
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: status
+        direction: ASC
+    columnSize:
+      note.status: 101
+  - type: cards
+    name: View
