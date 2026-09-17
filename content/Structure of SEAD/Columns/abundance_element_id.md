@@ -1,6 +1,7 @@
 ---
 publish: true
 permalink: /Structure of SEAD/Columns/abundance_element_id.md
+modified: 2026-09-17T06:01:59.529Z
 ---
 
 Primary key (automatically incremented).

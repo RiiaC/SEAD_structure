@@ -14,14 +14,14 @@
 		{"id":"fdb1a8a285a53e0d","type":"text","text":"# Geochronology\n[[Structure of SEAD/Tables/Geochronology/index|Geochronology]]\n","x":100,"y":-1060,"width":280,"height":100,"color":"#e6e90a"},
 		{"id":"3a19b2dfd6eeae1a","type":"text","text":"# Analysis Values\n[[Structure of SEAD/Tables/Analysis Values/index|Analysis Values]]","x":-560,"y":-790,"width":280,"height":100,"color":"#ca49b3"},
 		{"id":"5ca61a4110849594","type":"text","text":"# Projects\n[[Structure of SEAD/Tables/Project/index|Projects]]\n\n","x":-1300,"y":145,"width":280,"height":100,"color":"#4fe8bd"},
-		{"id":"e44568756b6d3462","type":"text","text":"# Ungrouped\n[[Structure of SEAD/Tables/Ungrouped/index|Ungrouped]]\n","x":-1640,"y":640,"width":280,"height":100,"color":"#70700b"},
 		{"id":"9c699f3ec818b3af","type":"text","text":"# Ecocodes\n[[Structure of SEAD/Tables/Ecocode/index|Ecocodes]]\n","x":-1640,"y":-170,"width":280,"height":100,"color":"#72b8ee"},
 		{"id":"538a86a90e639358","type":"text","text":"# Bibliography\n[[Structure of SEAD/Tables/Bibliography/index|Bibliography]]\n","x":-1960,"y":-480,"width":280,"height":100,"color":"#aa3c5d"},
 		{"id":"6372154b1e2eca0e","type":"text","text":"# Datasets\n[[Structure of SEAD/Tables/Dataset/index|Datasets]]\n","x":-1440,"y":393,"width":280,"height":100,"color":"#815c32"},
 		{"id":"3c495197fb502298","type":"text","text":"# RDB\n[[Structure of SEAD/Tables/RDB/index|RDB]]\n","x":-2100,"y":-940,"width":280,"height":100,"color":"#f09600"},
 		{"id":"ff353d364bdac982","type":"text","text":"# Taxonomy\n[[Structure of SEAD/Tables/Taxonomy/index|Taxonomy]]\n","x":-1440,"y":-480,"width":280,"height":100,"color":"#3a9419"},
 		{"id":"697e19c918585e0a","type":"text","text":"# Methods\n[[Structure of SEAD/Tables/Methods/index|methods]]\n","x":-800,"y":250,"width":280,"height":95,"color":"#f648f9"},
-		{"id":"1c1f5fe5f38d4f7a","x":-2100,"y":-1580,"width":460,"height":140,"type":"text","text":"# For more details, see also\n[[SEAD Structure.canvas]]"}
+		{"id":"1c1f5fe5f38d4f7a","type":"text","text":"# For more details, see also\n[[SEAD Structure.canvas]]","x":-2100,"y":-1580,"width":460,"height":140},
+		{"id":"e44568756b6d3462","type":"text","text":"# Ungrouped\n[[Structure of SEAD/Tables/Ungrouped/index|Ungrouped]]\n","x":-1720,"y":720,"width":280,"height":80,"color":"#70700b"}
 	],
 	"edges":[
 		{"id":"0e8a8c33a2e6acfd","fromNode":"5dc277b56bdaa5ed","fromSide":"right","toNode":"b641da17579b638d","toSide":"left"},
