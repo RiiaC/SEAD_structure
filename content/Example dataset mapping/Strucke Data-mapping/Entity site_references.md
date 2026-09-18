@@ -1,7 +1,7 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity site_references.md
-modified: 2026-09-16T16:07:18.526Z
+modified: 2026-09-18T05:50:38.954Z
 ---
 
 > [!info] This entity compiles a unique list of the references cited in the dataset and matches each to their site(s)
@@ -11,7 +11,7 @@ modified: 2026-09-16T16:07:18.526Z
 - [x] add an extra column:
   \`full\_reference: '{forfattare} {tryckar} {titel} {tidskrift} {forlagsort}'
 - [x] join to [[Example dataset mapping/Strucke Data-mapping/Entity site|Entity site]] on [[site_id]]
-- [x] join to [[Example dataset mapping/Strucke Data-mapping/Entity biblio|Entity biblio]] on `fid`
+- [x] join to [[Entity citation|Entity citation]] on `fid`
 - [ ] ask Roger if `fid` is an ok way to join these
 - [ ] check Bruno's work on the reference list to see which, if any references from this dataset are already in SEAD, and if they are, figure out how best enter their [[biblio_id]] here.
 

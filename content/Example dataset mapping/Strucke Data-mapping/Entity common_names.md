@@ -1,8 +1,13 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity common_names.md
-modified: 2026-09-16T16:07:18.462Z
+modified: 2026-09-18T06:08:02.134Z
 ---
+
+> [!warning] Bruno hadn't created a common names entity, possibly as he hadn't gotten that far before running out of time?
+>
+> - [ ] check to see if Bruno's approach needs this.
+>   The below are my notes from my Shape Shifter project
 
 > [!info] The "species" column of the Strucke data usually contains the Swedish word for the material dated, which is often a name of a plant or animal.
 > Therefore, this information needs to be mapped to SEAD's list of common names for plants or animals, which, in turn, is linked via `taxon_id` to the corresponding order/family/genus/species name for the plant or animal (to whichever level is appropriate based on the common name)

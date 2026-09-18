@@ -16,9 +16,11 @@ views:
       - Local_Keys
       - Remote_Keys
     sort:
+      - property: status
+        direction: ASC
       - property: file.name
         direction: ASC
     columnSize:
-      note.status: 101
+      note.status: 227
   - type: cards
     name: View

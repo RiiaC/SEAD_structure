@@ -1,7 +1,7 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity analysis_entity.md
-modified: 2026-09-17T15:33:24.682Z
+modified: 2026-09-18T06:08:17.985Z
 ---
 
 > [!info]  The table that records what is actually analysed.

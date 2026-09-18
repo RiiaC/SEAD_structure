@@ -1,7 +1,7 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity datasheet.md
-modified: 2026-09-17T15:58:29.380Z
+modified: 2026-09-18T07:01:51.405Z
 ---
 
 > [!info] This entity reads a csv file,  `StruckeC14_Sweden_v1.csv`,  which has been [published to Zenodo](https://zenodo.org/records/21932353) on 2026-08-14
