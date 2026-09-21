@@ -1,12 +1,12 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity geochronology.md
-modified: 2026-09-18T12:19:00.357Z
+modified: 2026-09-21T07:07:57.477Z
 ---
 
 > [!info] These are columns of this dataset having to do with geochronology. They are linked to SEAD's column names by setting the Extra Columns to:
 >
-> - [[lab_id]] = [[lab_number]]
+> - [[lab_id]] = [[Structure of SEAD/Columns/lab_number]]
 > - [[c14_age_bp]] = [[age]]
 > - [[c14_error]] = [[error_older]] and [[error_younger]]
 > - [[d13C]]	= [[delta_13c]]

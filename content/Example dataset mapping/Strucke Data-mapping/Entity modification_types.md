@@ -1,8 +1,10 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity modification_types.md
-modified: 2026-09-17T05:54:02.048Z
+modified: 2026-09-21T05:02:46.286Z
 ---
+
+- [ ] I think we should also add a [[modification_type_description]], do the others agree?
 
 > [!info] The "material" column of the Strucke data sometimes has additional information in the cell which would fall under [[tbl_abundance_modifications]]:
 >
@@ -26,40 +28,19 @@ modified: 2026-09-17T05:54:02.048Z
 
 ![[images/abundance_modifications schema.png]]
 
-# YAML as of 2026-08-25
+# YAML as of 2026-09-21
 
 ````
-name: modification_types
-type: fixed
+name: modification_type
+type: entity
 system_id: system_id
 keys: []
 columns:
-  - system_id
-  - modification_type_id
-  - modification_type_name
-  - modification_type_description
+  - modification_type
 public_id: modification_type_id
-values:
-  - - 1
-    - null
-    - null
-    - null
-  - - 2
-    - null
-    - null
-    - null
-  - - 3
-    - null
-    - null
-    - null
-  - - 4
-    - null
-    - null
-    - null
-  - - 5
-    - null
-    - null
-    - null
-
+source: superabundance
+drop_duplicates: true
+check_functional_dependency: false
+drop_empty_rows: true
 ```
 ````

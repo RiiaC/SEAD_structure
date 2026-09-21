@@ -1,7 +1,7 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity language.md
-modified: 2026-09-18T13:14:46.541Z
+modified: 2026-09-21T04:52:11.402Z
 ---
 
 > [!info] most of the common names in the list of species for this data set are in Swedish, which has language\_id = 2 in SEAD
@@ -9,7 +9,7 @@ modified: 2026-09-18T13:14:46.541Z
 >
 > - [ ] Figure out how best to attach `language_id` = 2 to all rows in the dataset with a Swedish common name listed for species.
 
-![[Pasted image 20260918151342.png|600]]
+![[images/entity languages schema 1.png|600]]
 
 # YAML as of 2026-09-18
 

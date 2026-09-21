@@ -1,13 +1,14 @@
 ---
 publish: true
 permalink: /Structure of SEAD/Tables/Sample/tbl_alt_ref_types.md
+modified: 2026-09-21T07:07:57.525Z
 ---
 
 Defines the types of alternative references or names assigned to samples. These references might include identifiers like lab numbers, field numbers, museum numbers, or site excavation numbers, indicating the origin or purpose of the sample's alternative reference.
 
 | **[[alt_ref_type_id]]** | **[[alt_ref_type]]**                    | **[[description]]**                                                                                                                                                                                                                  |
 | ----------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 3                       | Lab number                              | Sample number/name used by the lab which performed the analyses or managed the samples for analysis. **Note:** this is NOT use for radiocarbon laboratories, which are recorded in the [[lab_number]] field of [[tbl_geochronology]] |
+| 3                       | Lab number                              | Sample number/name used by the lab which performed the analyses or managed the samples for analysis. **Note:** this is NOT use for radiocarbon laboratories, which are recorded in the [[Structure of SEAD/Columns/lab_number]] field of [[tbl_geochronology]] |
 | 4                       | Other alternative sample name           | Any other form of reference used in the sample documentation.                                                                                                                                                                        |
 | 5                       | Archaeological excavation sample number | Sample number used on-site during archaeological excavation, and relating to excavation documentation.                                                                                                                               |
 | 6                       | Field number                            | Sampling number used during field survey.                                                                                                                                                                                            |

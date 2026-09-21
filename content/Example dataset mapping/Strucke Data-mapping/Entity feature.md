@@ -1,7 +1,7 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity feature.md
-modified: 2026-09-18T11:46:44.367Z
+modified: 2026-09-21T04:56:33.534Z
 ---
 
 > [!info] This entity tells SEAD that the [[context_id]] of this dataset is the same things as [[feature_name]], and links each named feature of the dataset to the appropriate type of feature based on the [[context_type]] column

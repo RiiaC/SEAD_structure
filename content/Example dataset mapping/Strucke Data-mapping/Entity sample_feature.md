@@ -1,37 +1,32 @@
 ---
 publish: true
-permalink: /Example dataset mapping/Strucke Data-mapping/Entity physical_sample_features.md
-modified: 2026-09-21T05:15:18.701Z
+permalink: /Example dataset mapping/Strucke Data-mapping/Entity sample_feature.md
+modified: 2026-09-21T06:57:34.057Z
 ---
 
-> [!info] this table links the features and the physical samples
->
-> >
+> [!info] uses info from [[Entity supersite]] to create the joins
 
-- [ ] add one to the new shape shifter projectt
--
-
-![[images/Entity physical_sample_features schema.png]]
-
-# YAML as of 2026-08-25
+# YAML as of 2026-09-21
 
 ````
-name: physical_sample_features
+name: sample_feature
 type: entity
 system_id: system_id
-keys: []
+keys:
+  - lab_id
+  - unique_row_identifier
 columns:
-  - fid
-  - context_id
-  - context_type
+  - lab_id
+  - unique_row_identifier
+  - physical_sample_key
 public_id: physical_sample_feature_id
-source: datasheet_v9
+source: supersite
 foreign_keys:
-  - entity: physical_samples
+  - entity: sample
     local_keys:
-      - fid
+      - physical_sample_key
     remote_keys:
-      - fid
+      - physical_sample_key
     how: inner
     constraints:
       cardinality: many_to_one
@@ -39,11 +34,11 @@ foreign_keys:
       require_unique_left: false
       require_unique_right: false
       allow_row_decrease: true
-  - entity: features
+  - entity: feature
     local_keys:
-      - fid
+      - unique_row_identifier
     remote_keys:
-      - fid
+      - unique_row_identifier
     how: inner
     constraints:
       cardinality: many_to_one
@@ -51,6 +46,8 @@ foreign_keys:
       require_unique_left: false
       require_unique_right: false
       allow_row_decrease: true
-
+drop_duplicates: true
+check_functional_dependency: false
+drop_empty_rows: true
 ```
 ````
