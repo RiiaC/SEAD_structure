@@ -1,7 +1,43 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity datasheet.md
-modified: 2026-09-18T07:01:51.405Z
+created: 2026-09-15T10:31:11.700Z
+modified: 2026-09-23T05:19:01.206Z
+published: 2026-09-23T05:19:01.206Z
+Entity_Name: datasheet
+Type: CSV file
+Public_ID: datasheet_id
+columns:
+  - "[[assessed_relevant]]"
+  - "[[author]]"
+  - "[[c14_age_bp]]"
+  - "[[c14_data_status]]"
+  - "[[c14_error]]"
+  - "[[comment]]"
+  - "[[context_id]]"
+  - "[[context_type]]"
+  - "[[d13C]]"
+  - "[[journal]]"
+  - "[[lab_id]]"
+  - "[[landskap]]"
+  - "[[latitude]]"
+  - "[[location_precision]]"
+  - "[[longitude]]"
+  - "[[material]]"
+  - "[[place_name]]"
+  - "[[place_of_publication]]"
+  - "[[pMC_error]]"
+  - "[[pMC_value]]"
+  - "[[publication_year]]"
+  - "[[raa_id]]"
+  - "[[site_id]]"
+  - "[[site_type]]"
+  - "[[socken]]"
+  - "[[species]]"
+  - "[[title]]"
+  - "[[uppdragsnummer]]"
+status: complete
+change_it: true
 ---
 
 > [!info] This entity reads a csv file,  `StruckeC14_Sweden_v1.csv`,  which has been [published to Zenodo](https://zenodo.org/records/21932353) on 2026-08-14

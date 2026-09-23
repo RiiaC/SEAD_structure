@@ -6,6 +6,7 @@ columns:
   - "[[date_updated]]"
   - "[[description]]"
 publish: true
+change_it: true
 ---
 
 Specifies various contact types, categorizing them by their roles or functions such as laboratory, sample taker, or dataset creator. This categorization aids in linking contacts to their respective roles within the system.

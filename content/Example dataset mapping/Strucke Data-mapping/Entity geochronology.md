@@ -1,7 +1,39 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity geochronology.md
-modified: 2026-09-21T07:07:57.477Z
+created: 2026-09-15T10:31:11.739Z
+modified: 2026-09-23T05:19:01.250Z
+published: 2026-09-23T05:19:01.250Z
+Entity_Name: geochronology
+Type: Data (Derived)
+Source_entity: "[[Example dataset mapping/Strucke Data-mapping/Entity supergeochron|Entity supergeochron]]"
+Public_ID: "[[geochron_id]]"
+columns:
+  - "[[c14_age]]"
+  - "[[c14_error]]"
+  - "[[comment]]"
+  - "[[d13C]]"
+  - "[[lab_id]]"
+  - "[[lab_prefix_raw]]"
+  - "[[unique_row_identifer]]"
+Target_Entity: "[[Entity dating_lab]]"
+Local_Keys:
+  - "[[lab_prefix_raw]]"
+Remote_Keys:
+  - "[[extracted_lab_prefix]]"
+SEAD_table: "[[tbl_geochronology]]"
+status: outstanding_question
+Target_Entity_2: "[[Entity analysis_entity]]"
+Local_Keys_2: "[[unique_row_identifer]]"
+Remote_Keys_2: "[[unique_row_identifer]]"
+extra_columns:
+  - "[[age]]"
+  - "[[delta_13c]]"
+  - "[[error_older]]"
+  - "[[error_younger]]"
+  - "[[Structure of SEAD/Columns/lab_number]]"
+  - "[[notes]]"
+change_it: true
 ---
 
 > [!info] These are columns of this dataset having to do with geochronology. They are linked to SEAD's column names by setting the Extra Columns to:

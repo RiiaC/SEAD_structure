@@ -4,6 +4,7 @@ data_type: date
 connected_tables:
   - "[[tbl_updates_log]]"
 publish: true
+change_it: true
 ---
 
 nan

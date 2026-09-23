@@ -3,6 +3,15 @@ publish: true
 permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/AFL Radiocarbon Data spreadsheet/I. R(t).md
 aliases:
   - I.
+created: 2026-07-24T09:34:08.095Z
+modified: 2026-09-23T05:18:59.794Z
+published: 2026-09-23T05:18:59.794Z
+date created: Friday, September 26th 2025, 12:46:49 pm
+example_data:
+  - "111"
+  - "193"
+  - "190"
+change_it: true
 ---
 
 > [!info] Column I. Reservoir offset, or R(t)

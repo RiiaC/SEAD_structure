@@ -4,6 +4,7 @@ data_type: integer
 connected_tables:
   - "[[tbl_value_types]]"
 publish: true
+change_it: true
 ---
 
 Specifies the level of precision for numerical values.

@@ -1,6 +1,20 @@
 ---
 publish: true
 permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/Entity abundance_modifications.md
+created: 2026-07-24T09:34:07.931Z
+modified: 2026-09-23T05:18:59.984Z
+published: 2026-09-23T05:18:59.984Z
+Entity_Name: abundance_modifications
+Type: Data (Derived)
+Public_ID: "[[abundance_modification_id]]"
+Target_Entity: "[[Example dataset mapping/AFL Radiocarbon Data mapping/Entity modification_types]]"
+Local_Keys:
+  - biological_age
+Remote_Keys:
+  - "[[modification_type_name]]"
+SEAD_table: "[[tbl_abundance_modifications]]"
+status: error_to_solve
+change_it: true
 ---
 
 > [!info] the table Tom suggested, on 2026-02-19, to use for the [[C. Biological Age]], as it is a characteristic of the bone being sampled

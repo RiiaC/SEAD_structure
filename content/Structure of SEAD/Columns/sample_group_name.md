@@ -4,6 +4,7 @@ data_type: character varying
 connected_tables:
   - "[[tbl_sample_groups]]"
 publish: true
+change_it: true
 ---
 
 A unique identifier name for the sample group. For ceramics, this should be the vessel number.

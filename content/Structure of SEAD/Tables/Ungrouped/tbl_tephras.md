@@ -13,6 +13,7 @@ columns:
   - "[[tephra_name]]"
   - "[[tephra_uuid]]"
 publish: true
+change_it: true
 ---
 
 Details of volcanic tephra layers, including their age estimates (e.g., Hekla 1984).

@@ -1,7 +1,21 @@
 ---
 publish: true
 permalink: /Structure of SEAD/Tables/Geochronology/tbl_geochron_refs.md
-modified: 2026-09-18T11:55:20.911Z
+created: 2026-07-24T09:34:41.032Z
+modified: 2026-09-23T05:19:10.073Z
+published: 2026-09-23T05:19:10.073Z
+table_name: tbl_geochron_refs
+primary_key: "[[geochron_ref_id]]"
+columns:
+  - "[[date_updated]]"
+connected_tables:
+  - "[[tbl_biblio]]"
+  - "[[tbl_geochronology]]"
+foreign_keys:
+  - "[[biblio_id]]"
+  - "[[geochron_id]]"
+date created: Friday, September 19th 2025, 3:37:16 pm
+change_it: true
 ---
 
 Contains references for geochronological (radiometric) dating of samples.

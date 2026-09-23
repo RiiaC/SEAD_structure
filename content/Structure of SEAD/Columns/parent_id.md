@@ -4,6 +4,7 @@ data_type: integer
 connected_tables:
   - "[[tbl_value_classes]]"
 publish: true
+change_it: true
 ---
 
 References a parent value class for hierarchical structuring.

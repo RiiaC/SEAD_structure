@@ -1,7 +1,28 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity sample_feature.md
-modified: 2026-09-21T06:57:34.057Z
+created: 2026-09-21T05:22:14.834Z
+modified: 2026-09-23T05:19:01.407Z
+published: 2026-09-23T05:19:01.407Z
+Entity_Name: sample_feature
+Type: Data (Derived)
+Source_entity: "[[Entity supersite|Entity supersite]]"
+Public_ID: "[[physical_sample_feature_id]]"
+columns:
+  - "[[lab_id]]"
+  - "[[physical_sample_key]]"
+  - "[[unique_row_identifer]]"
+Target_Entity: "[[Entity sample]]"
+Local_Keys:
+  - "[[physical_sample_key]]"
+Remote_Keys:
+  - "[[physical_sample_key]]"
+SEAD_table: "[[tbl_physical_sample_features]]"
+status: complete
+Target_Entity_2: "[[Entity feature]]"
+Local_Keys_2: "[[unique_row_identifer]]"
+Remote_Keys_2: "[[unique_row_identifer]]"
+change_it: true
 ---
 
 > [!info] uses info from [[Entity supersite]] to create the joins

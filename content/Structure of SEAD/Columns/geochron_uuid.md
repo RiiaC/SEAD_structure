@@ -4,6 +4,7 @@ data_type: uuid
 connected_tables:
   - "[[tbl_geochronology]]"
 publish: true
+change_it: true
 ---
 
 nan

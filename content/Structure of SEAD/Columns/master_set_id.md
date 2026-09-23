@@ -5,6 +5,7 @@ connected_tables:
   - "[[tbl_dataset_masters]]"
   - "[[tbl_datasets]]"
 publish: true
+change_it: true
 ---
 
 Primary key (automatically incremented).

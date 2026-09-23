@@ -1,7 +1,14 @@
 ---
 publish: true
 permalink: /Structure of SEAD/Columns/feature_name.md
-modified: 2026-09-18T11:39:21.824Z
+created: 2026-07-24T09:34:39.657Z
+modified: 2026-09-23T05:19:05.251Z
+published: 2026-09-23T05:19:05.251Z
+connected_tables:
+  - "[[tbl_features]]"
+column_name: feature_name
+data_type: character varying
+change_it: true
 ---
 
 The established reference name or number for the feature, such as 'well 47', 'anl.3', or 'c107'. Note: A sample may derive from multiple features (e.g., 'c107' within 'well 47'), but each feature should be recorded separately.

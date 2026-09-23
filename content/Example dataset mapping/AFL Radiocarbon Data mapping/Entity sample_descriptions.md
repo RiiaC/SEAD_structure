@@ -1,6 +1,20 @@
 ---
 publish: true
 permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/Entity sample_descriptions.md
+created: 2026-07-24T09:34:08.011Z
+modified: 2026-09-23T05:19:00.202Z
+published: 2026-09-23T05:19:00.202Z
+Entity_Name: sample_description
+Type: Data (Derived)
+Public_ID: "[[sample_description_id]]"
+Target_Entity: "[[Entity sample_description_type]]"
+Local_Keys:
+  - description_type_id
+Remote_Keys: system_id
+SEAD_table: "[[tbl_sample_descriptions]]"
+date created: Wednesday, February 18th 2026, 9:38:29 am
+status: change this?
+change_it: true
 ---
 
 I created this extra column with which to do the join.

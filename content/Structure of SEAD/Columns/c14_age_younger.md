@@ -5,6 +5,7 @@ connected_tables:
   - "[[tbl_relative_ages]]"
   - "[[tbl_tephras]]"
 publish: true
+change_it: true
 ---
 
 C14 age of the younger boundary of the period, if applicable. Leave blank for calendar ages.

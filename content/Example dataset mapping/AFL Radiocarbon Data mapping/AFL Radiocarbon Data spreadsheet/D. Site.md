@@ -3,6 +3,16 @@ publish: true
 permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/AFL Radiocarbon Data spreadsheet/D. Site.md
 aliases:
   - D.
+created: 2026-07-24T09:34:08.075Z
+modified: 2026-09-23T05:18:59.679Z
+published: 2026-09-23T05:18:59.679Z
+best_matched_column: "[[site_name]]"
+date created: Friday, September 26th 2025, 12:46:49 pm
+example_data:
+  - Neustadt LA 156
+  - Hemmor
+  - Trørød
+change_it: true
 ---
 
 > [!info] The Site column

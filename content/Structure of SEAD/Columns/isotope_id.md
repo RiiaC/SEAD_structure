@@ -4,6 +4,7 @@ data_type: integer
 connected_tables:
   - "[[tbl_isotopes]]"
 publish: true
+change_it: true
 ---
 
 nan

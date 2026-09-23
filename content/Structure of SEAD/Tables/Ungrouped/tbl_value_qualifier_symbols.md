@@ -1,6 +1,19 @@
 ---
 publish: true
 permalink: /Structure of SEAD/Tables/Ungrouped/tbl_value_qualifier_symbols.md
+created: 2026-07-24T09:34:41.699Z
+modified: 2026-09-23T05:19:12.674Z
+published: 2026-09-23T05:19:12.674Z
+table_name: tbl_value_qualifier_symbols
+primary_key: "[[qualifier_symbol_id]]"
+foreign_keys:
+  - "[[cardinal_qualifier_id]]"
+columns:
+  - "[[qualifier_uuid]]"
+  - "[[symbol]]"
+connected_tables:
+  - "[[tbl_value_qualifiers]]"
+change_it: true
 ---
 
 Specifies alternative symbols for value qualifiers

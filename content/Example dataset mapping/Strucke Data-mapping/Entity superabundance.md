@@ -1,7 +1,17 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity superabundance.md
-modified: 2026-09-17T10:33:13.169Z
+created: 2026-09-15T10:31:11.849Z
+modified: 2026-09-23T05:19:01.500Z
+published: 2026-09-23T05:19:01.500Z
+Entity_Name: superabundance
+Type: Data (Derived)
+Source_entity: "[[Example dataset mapping/Strucke Data-mapping/Entity datasheet|Entity datasheet]]"
+Public_ID: transition_id
+columns:
+SEAD_table: N/A
+status: in progress
+change_it: true
 ---
 
 > [!info] This is an extra entity that Bruno created to make it possible two split multiple species, elements, and modification types into different rows

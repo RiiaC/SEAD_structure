@@ -4,6 +4,7 @@ data_type: numeric
 connected_tables:
   - "[[tbl_coordinate_method_dimensions]]"
 publish: true
+change_it: true
 ---
 
 Specifies the lower bound of the legal value range for the dimension, if applicable.

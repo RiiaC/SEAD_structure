@@ -4,6 +4,7 @@ data_type: integer
 connected_tables:
   - "[[tbl_species_associations]]"
 publish: true
+change_it: true
 ---
 
 Identifier for the taxon related to the primary taxon (defined by taxon\_id).

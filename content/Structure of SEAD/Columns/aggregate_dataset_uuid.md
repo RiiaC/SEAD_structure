@@ -4,6 +4,7 @@ data_type: uuid
 connected_tables:
   - "[[tbl_aggregate_datasets]]"
 publish: true
+change_it: true
 ---
 
 nan

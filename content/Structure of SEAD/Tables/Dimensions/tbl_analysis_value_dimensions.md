@@ -10,6 +10,7 @@ connected_tables:
   - "[[tbl_analysis_values]]"
   - "[[tbl_dimensions]]"
 publish: true
+change_it: true
 ---
 
 Storage for dimension of analysis value.

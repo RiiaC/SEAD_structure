@@ -5,6 +5,7 @@ connected_tables:
   - "[[tbl_ceramics]]"
   - "[[tbl_ceramics_lookup]]"
 publish: true
+change_it: true
 ---
 
 Specifies the detailed ceramic type or classification information.

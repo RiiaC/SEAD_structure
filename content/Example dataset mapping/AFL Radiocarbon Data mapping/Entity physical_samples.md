@@ -1,6 +1,19 @@
 ---
 publish: true
 permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/Entity physical_samples.md
+created: 2026-07-24T09:34:07.997Z
+modified: 2026-09-23T05:19:00.165Z
+published: 2026-09-23T05:19:00.165Z
+Entity_Name: physical _samples
+Type: Data (Derived)
+Public_ID: "[[physical_sample_id]]"
+Target_Entity: "[[Example dataset mapping/AFL Radiocarbon Data mapping/Entity sample_groups]]"
+Local_Keys:
+  - lab_nr
+Remote_Keys: lab-nr
+SEAD_table: "[[tbl_physical_samples]]"
+status: complete
+change_it: true
 ---
 
 > [!info] This join assigns each sample number to a sample group of one item.

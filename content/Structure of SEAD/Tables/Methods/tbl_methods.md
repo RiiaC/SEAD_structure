@@ -1,6 +1,29 @@
 ---
 publish: true
 permalink: /Structure of SEAD/Tables/Methods/tbl_methods.md
+created: 2026-07-24T09:34:41.141Z
+modified: 2026-09-23T05:19:10.416Z
+published: 2026-09-23T05:19:10.416Z
+table_name: tbl_methods
+primary_key: "[[method_id]]"
+foreign_keys:
+  - "[[biblio_id]]"
+  - "[[method_group_id]]"
+  - "[[record_type_id]]"
+  - "[[unit_id]]"
+columns:
+  - "[[date_updated]]"
+  - "[[description]]"
+  - "[[method_abbrev_or_alt_name]]"
+  - "[[method_name]]"
+  - "[[method_uuid]]"
+connected_tables:
+  - "[[tbl_biblio]]"
+  - "[[tbl_method_groups]]"
+  - "[[tbl_record_types]]"
+  - "[[tbl_units]]"
+date created: Friday, September 19th 2025, 3:37:16 pm
+change_it: true
 ---
 
 > [!info] Contains definitions and details of various analysis methods.

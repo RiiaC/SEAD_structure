@@ -1,7 +1,20 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity property_type.md
-modified: 2026-09-21T05:13:53.272Z
+created: 2026-09-15T10:31:11.804Z
+modified: 2026-09-23T05:19:01.366Z
+published: 2026-09-23T05:19:01.366Z
+Entity_Name: property_type
+Type: Fixed Values
+Public_ID: property_type_id
+columns:
+  - "[[description]]"
+  - "[[property_type_name]]"
+  - "[[value_class_id]]"
+  - "[[value_type_id]]"
+SEAD_table: "[[property_type]]"
+status: outstanding_question
+change_it: true
 ---
 
 > [!info] in order to use the new [[tbl_site_properties]] table, we need to define the [[property_type]]s

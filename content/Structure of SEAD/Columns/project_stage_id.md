@@ -5,6 +5,7 @@ connected_tables:
   - "[[tbl_project_stages]]"
   - "[[tbl_projects]]"
 publish: true
+change_it: true
 ---
 
 Primary key (automatically incremented).

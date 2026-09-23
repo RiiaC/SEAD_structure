@@ -1,7 +1,14 @@
 ---
 publish: true
 permalink: /Structure of SEAD/Columns/property_type_id.md
-modified: 2026-09-21T05:09:10.439Z
+created: 2026-07-24T09:34:40.203Z
+modified: 2026-09-23T05:19:07.073Z
+published: 2026-09-23T05:19:07.073Z
+connected_tables:
+  - "[[tbl_property_type]]"
+column_name: property_type_id
+data_type:
+change_it: true
 ---
 
 > [!info] This is a new column to go with the new table that Roger mentioned during the [2026-03-03 shape-shifter working meeting](obsidian://open?vault=UmUArkeologi_Obsidian\&file=m%C3%B6ter%2FSEAD%20taskforce%20meetings%2F2026-03-03%20shape-shifter%20working%20meeting) as a nice solution for the fact that we have a variety of different types of [[national_site_identifier]] numbers, and that there are other sorts of properties that a site could have.

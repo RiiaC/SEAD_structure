@@ -9,6 +9,7 @@ connected_tables:
   - "[[tbl_analysis_numerical_ranges]]"
   - "[[tbl_analysis_numerical_values]]"
 publish: true
+change_it: true
 ---
 
 Indicates if value is an alternative interpretation of analysed value.

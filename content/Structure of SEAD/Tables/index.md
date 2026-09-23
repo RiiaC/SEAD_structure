@@ -3,6 +3,11 @@ publish: true
 permalink: /Structure of SEAD/Tables/index.md
 title: Tables
 description: Overview of SEAD database tables and their relationships.
+created: 2026-07-24T09:34:40.830Z
+modified: 2026-09-23T05:19:10.229Z
+published: 2026-09-23T05:19:10.229Z
+date created: Thursday, December 4th 2025, 3:15:21 pm
+change_it: true
 ---
 
 # Tables Overview

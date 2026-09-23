@@ -6,6 +6,7 @@ connected_tables:
   - "[[tbl_analysis_integer_ranges]]"
   - "[[tbl_analysis_numerical_ranges]]"
 publish: true
+change_it: true
 ---
 
 Indicates if higher value is uncertain (e.g. question mark).

@@ -1,6 +1,17 @@
 ---
 publish: true
 permalink: /Structure of SEAD/Tables/Sample/tbl_sample_types.md
+created: 2026-07-24T09:34:41.379Z
+modified: 2026-09-23T05:19:11.338Z
+published: 2026-09-23T05:19:11.338Z
+table_name: tbl_sample_types
+primary_key: "[[sample_type_id]]"
+columns:
+  - "[[date_updated]]"
+  - "[[description]]"
+  - "[[type_name]]"
+date created: Friday, September 19th 2025, 3:37:16 pm
+change_it: true
 ---
 
 Defines the physical form or category of a sample. This can include specific sub-samples related to the sampling method of a sample group, or general bulk samples. Examples include 'Core Subsample', 'Grab Sample', and 'Bulk (Bag) Sample'.

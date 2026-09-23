@@ -6,6 +6,7 @@ connected_tables:
   - "[[tbl_isotope_standards]]"
   - "[[tbl_isotopes]]"
 publish: true
+change_it: true
 ---
 
 nan

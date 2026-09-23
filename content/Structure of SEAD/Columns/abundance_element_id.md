@@ -1,7 +1,17 @@
 ---
 publish: true
 permalink: /Structure of SEAD/Columns/abundance_element_id.md
-modified: 2026-09-17T06:01:59.529Z
+created: 2026-07-24T09:34:39.019Z
+modified: 2026-09-23T05:19:02.795Z
+published: 2026-09-23T05:19:02.795Z
+connected_tables:
+  - "[[tbl_abundance_elements]]"
+  - "[[tbl_abundances]]"
+  - "[[tbl_dating_material]]"
+column_name: abundance_element_id
+data_type: integer
+date created: Friday, September 19th 2025, 3:37:16 pm
+change_it: true
 ---
 
 Primary key (automatically incremented).

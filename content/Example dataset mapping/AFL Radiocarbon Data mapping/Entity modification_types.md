@@ -1,6 +1,21 @@
 ---
 publish: true
 permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/Entity modification_types.md
+created: 2026-07-24T09:34:07.989Z
+modified: 2026-09-23T05:19:00.132Z
+published: 2026-09-23T05:19:00.132Z
+Entity_Name: modification_types
+Type: Fixed Values
+Public_ID: "[[modification_type_id]]"
+Target_Entity:
+Local_Keys:
+  - 
+  - 
+  - 
+Remote_Keys:
+SEAD_table: "[[tbl_modification_types]]"
+status:
+change_it: true
 ---
 
 > [!info] the table into which we will put the info from [[C. Biological Age]]

@@ -4,6 +4,7 @@ data_type: boolean
 connected_tables:
   - "[[tbl_analysis_values]]"
 publish: true
+change_it: true
 ---
 
 Boolean (true/false) interpretation of the value (is is\_boolean is true).

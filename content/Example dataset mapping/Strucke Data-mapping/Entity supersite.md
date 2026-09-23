@@ -1,7 +1,36 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity supersite.md
-modified: 2026-09-22T14:02:51.133Z
+created: 2026-09-15T10:31:11.864Z
+modified: 2026-09-23T05:19:01.604Z
+published: 2026-09-23T05:19:01.604Z
+Entity_Name: supersite
+Type: Data (Derived)
+Source_entity: "[[Example dataset mapping/Strucke Data-mapping/Entity datasheet|Entity datasheet]]"
+Public_ID:
+columns:
+  - "[[author]]"
+  - "[[context_id]]"
+  - "[[context_type]]"
+  - "[[journal]]"
+  - "[[lab_id]]"
+  - "[[landskap]]"
+  - "[[latitude]]"
+  - "[[location_precision]]"
+  - "[[longitude]]"
+  - "[[place_name]]"
+  - "[[place_of_publication]]"
+  - "[[publication_year]]"
+  - "[[raa_id]]"
+  - "[[site_id]]"
+  - "[[site_type]]"
+  - "[[socken]]"
+  - "[[title]]"
+  - "[[unique_row_identifer]]"
+  - "[[uppdragsnummer]]"
+SEAD_table: N/A
+status: complete
+change_it: true
 ---
 
 > [!info] This is an extra entity that Bruno created to accomplish two goals:

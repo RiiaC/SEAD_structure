@@ -1,6 +1,16 @@
 ---
 publish: true
 permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/Entity sample_description_type.md
+created: 2026-07-24T09:34:08.013Z
+modified: 2026-09-23T05:19:00.234Z
+published: 2026-09-23T05:19:00.234Z
+Entity_Name: sample_description_type
+Type: Fixed Values
+Public_ID: "[[sample_description_type_id]]"
+SEAD_table: "[[tbl_sample_description_types]]"
+date created: Thursday, February 19th 2026, 11:04:54 am
+status: change this?
+change_it: true
 ---
 
 Since this is fixed values, I just created these extra columns:

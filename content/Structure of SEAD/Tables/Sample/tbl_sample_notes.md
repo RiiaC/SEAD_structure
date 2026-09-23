@@ -10,6 +10,7 @@ columns:
 connected_tables:
   - "[[tbl_physical_samples]]"
 publish: true
+change_it: true
 ---
 
 Contains miscellaneous notes related to samples that do not belong in other tables, such as 'stored in a cellar until processing in 2020'.

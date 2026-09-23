@@ -1,7 +1,37 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity site_property.md
-modified: 2026-09-22T06:29:41.998Z
+created: 2026-09-15T10:31:11.835Z
+modified: 2026-09-23T05:19:01.483Z
+published: 2026-09-23T05:19:01.483Z
+Entity_Name: site
+Type: Data (Derived)
+Source_entity: "[[Entity supersite|Entity supersite]]"
+Public_ID: "[[site_id]]"
+columns:
+  - "[[lamningsnummer_1]]"
+  - "[[lamningsnummer_2]]"
+  - "[[lamningsnummer_3]]"
+  - "[[lamningsnummer_4]]"
+  - "[[raa_id]]"
+  - "[[site_key]]"
+  - "[[site_type]]"
+  - "[[uppdragsnummer_1]]"
+  - "[[uppdragsnummer_2]]"
+  - "[[uppdragsnummer_3]]"
+Target_Entity: "[[Z_Not_plotted/original Strucke Data mapping/Entity property_type|Entity property_type]]"
+Local_Keys:
+  - "[[property_type_id]]"
+Remote_Keys:
+  - "[[property_type_id]]"
+SEAD_table: "[[tbl_sites]]"
+status: outstanding_question
+Target_Entity_2: "[[Z_Not_plotted/original Strucke Data mapping/Entity site|Entity site]]"
+Local_Keys_2: "[[site_key]]"
+Remote_Keys_2: "[[site_key]]"
+extra_columns:
+  - "[[property_type_id]]"
+change_it: true
 ---
 
 > \[!to do] The relevant columns for this dataset relating to site properties are:

@@ -1,7 +1,18 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity common_names.md
-modified: 2026-09-18T06:08:02.134Z
+created: 2026-09-15T10:31:11.685Z
+modified: 2026-09-23T05:19:01.170Z
+published: 2026-09-23T05:19:01.170Z
+Entity_Name: common_names
+Type: CSV file
+Public_ID: "[[taxon_common_name_id]]"
+Target_Entity:
+Local_Keys: []
+Remote_Keys:
+SEAD_table: "[[tbl_taxa_common_names]]"
+status: needs creating
+change_it: true
 ---
 
 > [!warning] Bruno hadn't created a common names entity, possibly as he hadn't gotten that far before running out of time?

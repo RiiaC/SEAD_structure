@@ -2,6 +2,10 @@
 publish: true
 permalink: /How to get your data into SEAD/Domain-specific information/Archaeobotany-Palaeobotany (Plant macrofossil analysis)/index.md
 title: Archaeobotany/Palaeobotany (Plant macrofossil analysis)
+created: 2026-07-24T09:34:19.185Z
+modified: 2026-09-23T05:19:02.027Z
+published: 2026-09-23T05:19:02.027Z
+change_it: true
 ---
 
 ![[images/SEAD logo.png]]

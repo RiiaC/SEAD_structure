@@ -4,6 +4,7 @@ data_type: integer
 connected_tables:
   - "[[tbl_datasets]]"
 publish: true
+change_it: true
 ---
 
 Specifies any subsequent version of this dataset.

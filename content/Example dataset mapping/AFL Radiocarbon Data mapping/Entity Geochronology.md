@@ -1,6 +1,19 @@
 ---
 publish: true
 permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/Entity Geochronology.md
+created: 2026-07-24T09:34:07.966Z
+modified: 2026-09-23T05:19:00.018Z
+published: 2026-09-23T05:19:00.018Z
+Entity_Name: geochronology
+Type:
+Public_ID:
+Target_Entity:
+Local_Keys:
+  - 
+Remote_Keys:
+SEAD_table: "[[tbl_geochronology]]"
+status: needs creating
+change_it: true
 ---
 
 > [!info] the table in which the various results are collected

@@ -1,6 +1,15 @@
 ---
 publish: true
 permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/Entity abundance_element.md
+created: 2026-07-24T09:34:07.925Z
+modified: 2026-09-23T05:18:59.953Z
+published: 2026-09-23T05:18:59.953Z
+Entity_Name: abundance_element
+Type: Data (Derived)
+Public_ID: "[[abundance_element_id]]"
+SEAD_table: "[[tbl_abundance_elements]]"
+status: complete
+change_it: true
 ---
 
 - [x] remove the entity for dating material, it isn't actually needed for this dataset

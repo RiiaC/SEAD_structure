@@ -1,7 +1,21 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity location.md
-modified: 2026-09-18T13:19:42.903Z
+created: 2026-09-15T10:31:11.764Z
+modified: 2026-09-23T05:19:01.316Z
+published: 2026-09-23T05:19:01.316Z
+Entity_Name: site
+Type: Data (Derived)
+Source_entity: "[[Entity dataset]]"
+Public_ID: "[[location_id]]"
+columns:
+  - "[[landskap]]"
+  - "[[socken]]"
+SEAD_table: "[[tbl_locations]]"
+status: outstanding_question
+extra_columns:
+  - "[[location_type_id]]"
+change_it: true
 ---
 
 > [!info] The relevant columns for this dataset relating to site and location include

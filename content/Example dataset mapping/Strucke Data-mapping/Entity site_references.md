@@ -1,7 +1,20 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity site_references.md
-modified: 2026-09-22T06:33:25.645Z
+created: 2026-09-15T10:31:11.842Z
+modified: 2026-09-23T05:19:01.533Z
+published: 2026-09-23T05:19:01.533Z
+Entity_Name: site_references
+Type: Data (Derived)
+Source_entity: "[[Entity supersite|Entity supersite]]"
+Public_ID: "[[site_reference_id]]"
+columns:
+Target_Entity:
+Local_Keys: []
+Remote_Keys:
+SEAD_table: "[[tbl_site_references]]"
+status: in progress
+change_it: true
 ---
 
 > [!info] This entity compiles a unique list of the references cited in the dataset and matches each to their site(s)

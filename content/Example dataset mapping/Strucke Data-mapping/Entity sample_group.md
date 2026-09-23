@@ -1,7 +1,26 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity sample_group.md
-modified: 2026-09-22T14:06:08.379Z
+created: 2026-09-21T05:17:11.019Z
+modified: 2026-09-23T05:19:01.416Z
+published: 2026-09-23T05:19:01.416Z
+Entity_Name: sample_group
+Type: Data (Derived)
+Source_entity: "[[Entity supersite|Entity supersite]]"
+Public_ID: sample_group_id
+columns:
+  - "[[context_id]]"
+  - "[[context_type]]"
+  - "[[sample_group_key]]"
+  - "[[site_key]]"
+Target_Entity: "[[Example dataset mapping/Strucke Data-mapping/Entity site|Entity site]]"
+Local_Keys:
+  - "[[site_key]]"
+Remote_Keys:
+  - "[[site_key]]"
+SEAD_table: "[[tbl_sample_groups]]"
+status: complete
+change_it: true
 ---
 
 > [!info] tells SEAD which site each sample group comes from

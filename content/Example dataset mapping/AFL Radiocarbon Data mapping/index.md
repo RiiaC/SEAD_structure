@@ -2,6 +2,10 @@
 publish: true
 permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/index.md
 title: AFL Radiocarbon Data mapping
+created: 2026-07-24T09:34:08.046Z
+modified: 2026-09-23T05:19:00.350Z
+published: 2026-09-23T05:19:00.350Z
+change_it: true
 ---
 
 # Welcome to The AFL Radiocarbon Dataset Mapping via SEAD Shape Shifter section of this web page

@@ -1,6 +1,10 @@
 ---
 publish: true
 permalink: /Code used to create project/Code used to create this summary of the Structure of SEAD.md
+created: 2026-08-06T08:54:27.308Z
+modified: 2026-09-23T05:18:59.532Z
+published: 2026-09-23T05:18:59.532Z
+change_it: true
 ---
 
 > \[! info] The below sets of code were used on 2025-09-19 to generate the list of  [[Structure of SEAD/Tables/index|SEAD tables]] and [[Structure of SEAD/Columns/index|SEAD columns]] as shown on this web page. Therefore, the SEAD structure as shown here, is only up to date as of then.

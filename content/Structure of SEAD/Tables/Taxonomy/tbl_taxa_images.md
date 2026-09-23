@@ -13,6 +13,7 @@ connected_tables:
   - "[[tbl_image_types]]"
   - "[[tbl_taxa_tree_master]]"
 publish: true
+change_it: true
 ---
 
 Contains references to images of taxa, stored either in external databases or available online.

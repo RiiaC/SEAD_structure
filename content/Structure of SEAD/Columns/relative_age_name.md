@@ -4,6 +4,7 @@ data_type: character varying
 connected_tables:
   - "[[tbl_relative_ages]]"
 publish: true
+change_it: true
 ---
 
 Name of the dating period, e.g., 'Bronze Age'. Calendar ages should be named appropriately, such as 'AD 1492' or '74 BC'.

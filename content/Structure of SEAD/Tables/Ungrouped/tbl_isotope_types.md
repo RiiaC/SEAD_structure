@@ -9,6 +9,7 @@ columns:
   - "[[description]]"
   - "[[designation]]"
 publish: true
+change_it: true
 ---
 
 Type=lookup

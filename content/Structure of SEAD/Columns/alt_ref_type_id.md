@@ -6,6 +6,7 @@ connected_tables:
   - "[[tbl_physical_samples]]"
   - "[[tbl_sample_alt_refs]]"
 publish: true
+change_it: true
 ---
 
 Primary key (automatically incremented).

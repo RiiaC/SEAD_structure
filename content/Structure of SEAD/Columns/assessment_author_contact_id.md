@@ -4,6 +4,7 @@ data_type: integer
 connected_tables:
   - "[[tbl_site_preservation_status]]"
 publish: true
+change_it: true
 ---
 
 Identifier for the person or authority in tbl\_contacts responsible for assessing the preservation status and threats.

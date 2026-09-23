@@ -1,7 +1,28 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity feature.md
-modified: 2026-09-21T04:56:33.534Z
+created: 2026-09-18T08:09:42.978Z
+modified: 2026-09-23T05:19:01.284Z
+published: 2026-09-23T05:19:01.284Z
+Entity_Name: features
+Type: Data (Derived)
+Source_entity: "[[Example dataset mapping/Strucke Data-mapping/Entity datasheet|Entity datasheet]]"
+Public_ID: "[[feature_id]]"
+columns:
+  - "[[context_id]]"
+  - "[[context_type]]"
+  - "[[feature_name]]"
+  - "[[unique_row_identifer]]"
+Target_Entity: "[[Entity feature_type]]"
+Local_Keys:
+  - "[[context_type]]"
+  - context_id
+Remote_Keys:
+  - "[[context_type]]"
+  - context_id
+SEAD_table: "[[tbl_features]]"
+status: complete
+change_it: true
 ---
 
 > [!info] This entity tells SEAD that the [[context_id]] of this dataset is the same things as [[feature_name]], and links each named feature of the dataset to the appropriate type of feature based on the [[context_type]] column

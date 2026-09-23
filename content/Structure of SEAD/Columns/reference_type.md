@@ -4,6 +4,7 @@ data_type: character varying
 connected_tables:
   - "[[tbl_taxa_synonyms]]"
 publish: true
+change_it: true
 ---
 
 Type of reference related to the synonym, such as usage, definition, or incorrect usage.

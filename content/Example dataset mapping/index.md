@@ -2,7 +2,10 @@
 publish: true
 permalink: /Example dataset mapping/index.md
 title: Example dataset mapping
-modified: 2026-09-16T16:07:43.277Z
+created: 2026-07-24T09:34:07.909Z
+modified: 2026-09-23T05:19:00.399Z
+published: 2026-09-23T05:19:00.399Z
+change_it: true
 ---
 
 This folder contains the various data mapping projects in progress, with notes as to how the mapping is being accomplished.

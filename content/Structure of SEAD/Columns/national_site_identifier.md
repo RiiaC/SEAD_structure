@@ -1,6 +1,15 @@
 ---
 publish: true
 permalink: /Structure of SEAD/Columns/national_site_identifier.md
+created: 2026-07-24T09:34:40.108Z
+modified: 2026-09-23T05:19:06.780Z
+published: 2026-09-23T05:19:06.780Z
+column_name: national_site_identifier
+data_type: character varying
+connected_tables:
+  - "[[tbl_sites]]"
+date created: Friday, September 19th 2025, 3:37:17 pm
+change_it: true
 ---
 
 A unique identifier assigned to the site by the national authority.

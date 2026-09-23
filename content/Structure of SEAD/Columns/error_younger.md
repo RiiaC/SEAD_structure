@@ -4,6 +4,7 @@ data_type: numeric
 connected_tables:
   - "[[tbl_geochronology]]"
 publish: true
+change_it: true
 ---
 
 Lower bound of the measured error range. Matches 'error\_older' for symmetrical errors.

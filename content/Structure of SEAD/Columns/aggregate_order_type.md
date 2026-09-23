@@ -4,6 +4,7 @@ data_type: character varying
 connected_tables:
   - "[[tbl_aggregate_order_types]]"
 publish: true
+change_it: true
 ---
 
 aggregate order name, e.g. site name, age, sample depth, altitude

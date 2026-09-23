@@ -1,7 +1,24 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity dataset.md
-modified: 2026-09-18T06:19:48.614Z
+created: 2026-09-15T10:31:11.692Z
+modified: 2026-09-23T05:19:01.216Z
+published: 2026-09-23T05:19:01.216Z
+Entity_Name: dataset
+Type: Fixed Values
+Public_ID: "[[dataset_id]]"
+columns:
+  - "[[data_type]]"
+  - "[[dataset_name]]"
+  - "[[master_set_business_key]]"
+Target_Entity: "[[Entity master_dataset]]"
+Local_Keys:
+  - "[[master_set_business_key]]"
+Remote_Keys:
+  - "[[business_key]]"
+SEAD_table: "[[tbl_datasets]]"
+status: outstanding_question
+change_it: true
 ---
 
 > [!info] Gives a name to the full dataset, in this case: _Strucke data_

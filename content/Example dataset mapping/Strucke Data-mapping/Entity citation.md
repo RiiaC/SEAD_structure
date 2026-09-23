@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity citation.md
 created: 2026-09-15T10:31:11.679Z
-modified: 2026-09-23T04:52:45.608Z
-published: 2026-09-23T04:52:45.608Z
+modified: 2026-09-23T05:19:01.189Z
+published: 2026-09-23T05:19:01.189Z
 Entity_Name: biblio
 Type: Data (Derived)
 Source_entity: "[[Example dataset mapping/Strucke Data-mapping/Entity datasheet|Entity datasheet]]"
@@ -16,6 +16,7 @@ columns:
   - "[[title]]"
 SEAD_table: "[[tbl_biblio]]"
 status: outstanding_question
+change_it: true
 ---
 
 > \[!to do] The relevant columns for this dataset relating to publications for each sample are

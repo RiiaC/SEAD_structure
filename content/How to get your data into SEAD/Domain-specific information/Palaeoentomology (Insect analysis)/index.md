@@ -2,6 +2,10 @@
 publish: true
 permalink: /How to get your data into SEAD/Domain-specific information/Palaeoentomology (Insect analysis)/index.md
 title: Palaeoentomology (Insect analysis)
+created: 2026-07-24T09:34:19.212Z
+modified: 2026-09-23T05:19:02.100Z
+published: 2026-09-23T05:19:02.100Z
+change_it: true
 ---
 
 ![[images/SEAD logo.png]]

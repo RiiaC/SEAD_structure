@@ -5,6 +5,7 @@ connected_tables:
   - "[[tbl_season_types]]"
   - "[[tbl_seasons]]"
 publish: true
+change_it: true
 ---
 
 The name or identifier of the season type.

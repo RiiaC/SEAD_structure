@@ -1,7 +1,13 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/columns/place_name.md
-modified: 2026-09-16T16:12:07.031Z
+created: 2026-09-16T15:37:44.640Z
+modified: 2026-09-23T05:19:00.817Z
+published: 2026-09-23T05:19:00.817Z
+connected_tables:
+column_name: place_name
+data_type: original_to_dataset
+change_it: true
 ---
 
 > \[! info]+ the name of the site (often the name of the village or farm name)

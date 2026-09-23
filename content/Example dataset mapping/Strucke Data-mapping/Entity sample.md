@@ -1,7 +1,25 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity sample.md
-modified: 2026-09-21T05:21:41.679Z
+created: 2026-09-17T15:32:52.387Z
+modified: 2026-09-23T05:19:01.388Z
+published: 2026-09-23T05:19:01.388Z
+Entity_Name: physical_samples
+Type: Data (Derived)
+Source_entity: "[[Entity supersite|Entity supersite]]"
+Public_ID: "[[physical_sample_id]]"
+columns:
+  - "[[lab_id]]"
+  - "[[physical_sample_key]]"
+  - "[[sample_group_key]]"
+Target_Entity: "[[Entity sample_group]]"
+Local_Keys:
+  - "[[sample_group_key]]"
+Remote_Keys:
+  - "[[sample_group_key]]"
+SEAD_table: "[[tbl_physical_samples]]"
+status: complete
+change_it: true
 ---
 
 > [!info] links the samples with sample group names as defined in the [[Entity supersite]] entity

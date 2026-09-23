@@ -5,6 +5,7 @@ connected_tables:
   - "[[tbl_season_types]]"
   - "[[tbl_seasons]]"
 publish: true
+change_it: true
 ---
 
 Primary key (automatically incremented).

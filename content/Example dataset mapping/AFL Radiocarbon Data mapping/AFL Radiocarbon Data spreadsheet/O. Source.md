@@ -3,6 +3,18 @@ publish: true
 permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/AFL Radiocarbon Data spreadsheet/O. Source.md
 aliases:
   - O.
+created: 2026-07-24T09:34:08.127Z
+modified: 2026-09-23T05:18:59.896Z
+published: 2026-09-23T05:18:59.896Z
+best_matched_column:
+  - "[[Quartz AUTHORS]]"
+  - "[[year]]"
+date created: Friday, September 26th 2025, 12:51:21 pm
+example_data:
+  - Bennike et al., 2008
+  - Rundkvist et al., 2004
+  - this study
+change_it: true
 ---
 
 > [!info] The Source column

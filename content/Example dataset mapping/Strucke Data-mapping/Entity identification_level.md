@@ -1,7 +1,19 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity identification_level.md
-modified: 2026-09-18T13:09:50.246Z
+created: 2026-09-17T06:25:00.750Z
+modified: 2026-09-23T05:19:01.284Z
+published: 2026-09-23T05:19:01.284Z
+Entity_Name: identification_level
+Type: Fixed Values
+Public_ID:
+columns:
+  - "[[identification_level_name]]"
+  - "[[indentification_level_abbrev]]"
+  - "[[notes]]"
+SEAD_table: "[[tbl_identification_levels]]"
+status: outstanding_question
+change_it: true
 ---
 
 > [!info] some of the species in this dataset are marked with a question mark,

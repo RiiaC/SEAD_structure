@@ -11,6 +11,7 @@ columns:
 connected_tables:
   - "[[tbl_ecocode_systems]]"
 publish: true
+change_it: true
 ---
 
 Represents a hierarchical classification system for taxon groups, allowing integration of diverse classification types such as habitat, food type, and food condition.

@@ -4,6 +4,7 @@ data_type: uuid
 connected_tables:
   - "[[tbl_text_distribution]]"
 publish: true
+change_it: true
 ---
 
 nan

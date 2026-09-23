@@ -9,6 +9,7 @@ columns:
   - "[[isotope_ration]]"
   - "[[reference]]"
 publish: true
+change_it: true
 ---
 
 Type=lookup

@@ -4,6 +4,7 @@ data_type: boolean
 connected_tables:
   - "[[tbl_analysis_values]]"
 publish: true
+change_it: true
 ---
 
 Indicates if value is an anomaly i.e. not complying to expected value class.

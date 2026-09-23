@@ -1,7 +1,13 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/columns/c14_data_status.md
-modified: 2026-09-16T16:11:30.795Z
+created: 2026-09-16T16:09:21.244Z
+modified: 2026-09-23T05:19:00.476Z
+published: 2026-09-23T05:19:00.476Z
+connected_tables:
+column_name: c14_data_status
+data_type: original_to_dataset
+change_it: true
 ---
 
 > \[! info]+ this seems to be an descriptive evaluation of the c14 data quality, with three possible values:

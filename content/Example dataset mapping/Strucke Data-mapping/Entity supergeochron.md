@@ -1,7 +1,21 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity supergeochron.md
-modified: 2026-09-08T10:25:13.557Z
+created: 2026-09-15T10:31:11.857Z
+modified: 2026-09-23T05:19:01.516Z
+published: 2026-09-23T05:19:01.516Z
+Entity_Name: supergeochron
+Type:
+Public_ID:
+Target_Entity:
+Local_Keys:
+  - 
+  - 
+  - 
+Remote_Keys:
+SEAD_table: N/A
+status: needs creating
+change_it: true
 ---
 
 > [!info] This is an extra entity that Bruno created to make it possible to extract the lab names from the lab\_id number and to make the connection to the geochronrefs table easier.

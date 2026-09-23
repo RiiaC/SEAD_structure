@@ -4,6 +4,7 @@ data_type: text
 connected_tables:
   - "[[tbl_species_association_types]]"
 publish: true
+change_it: true
 ---
 
 Detailed description of the association type.

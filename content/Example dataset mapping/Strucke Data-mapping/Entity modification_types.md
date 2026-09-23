@@ -1,7 +1,21 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity modification_types.md
-modified: 2026-09-21T05:02:46.286Z
+created: 2026-09-15T10:31:11.778Z
+modified: 2026-09-23T05:19:01.433Z
+published: 2026-09-23T05:19:01.433Z
+Entity_Name: modification_types
+Type: Data (Derived)
+Source_entity: "[[Entity superabundance]]"
+Public_ID: "[[modification_type_id]]"
+columns:
+  - "[[modification_type]]"
+Target_Entity:
+Local_Keys: []
+Remote_Keys:
+SEAD_table: "[[tbl_modification_types]]"
+status: outstanding_question
+change_it: true
 ---
 
 - [ ] I think we should also add a [[modification_type_description]], do the others agree?

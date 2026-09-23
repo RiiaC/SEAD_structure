@@ -4,6 +4,7 @@ data_type: character varying
 connected_tables:
   - "[[tbl_contacts]]"
 publish: true
+change_it: true
 ---
 
 Primary address, such as a street or institutional address.

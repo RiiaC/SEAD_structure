@@ -1,7 +1,21 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity language.md
-modified: 2026-09-21T04:52:11.402Z
+created: 2026-09-15T10:31:11.745Z
+modified: 2026-09-23T05:19:01.332Z
+published: 2026-09-23T05:19:01.332Z
+Entity_Name: language
+Type: Fixed Values
+Public_ID: language_id
+columns:
+  - "[[language_name_english]]"
+  - "[[language_name_english]]"
+Target_Entity:
+Local_Keys: []
+Remote_Keys:
+SEAD_table: "[[tbl_languages]]"
+status: outstanding_question
+change_it: true
 ---
 
 > [!info] most of the common names in the list of species for this data set are in Swedish, which has language\_id = 2 in SEAD

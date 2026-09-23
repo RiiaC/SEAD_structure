@@ -4,6 +4,7 @@ data_type: bigint
 connected_tables:
   - "[[tbl_analysis_notes]]"
 publish: true
+change_it: true
 ---
 
 Primary key (automatically incremented).

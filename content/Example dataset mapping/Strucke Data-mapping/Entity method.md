@@ -1,7 +1,19 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity method.md
-modified: 2026-09-18T13:27:42.014Z
+created: 2026-09-15T10:31:11.770Z
+modified: 2026-09-23T05:19:01.333Z
+published: 2026-09-23T05:19:01.333Z
+Entity_Name: method
+Type: SQL query
+Source_entity: SEAD
+Public_ID: "[[method_id]]"
+Target_Entity:
+Local_Keys: []
+Remote_Keys:
+SEAD_table: "[[tbl_methods]]"
+status: outstanding_question
+change_it: true
 ---
 
 > [!info] these are all radiocarbon dates. I am not clear why Bruno has this sql looking for all methods in SEAD

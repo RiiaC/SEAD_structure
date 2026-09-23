@@ -5,6 +5,7 @@ connected_tables:
   - "[[tbl_contact_types]]"
   - "[[tbl_dataset_contacts]]"
 publish: true
+change_it: true
 ---
 
 Primary key (automatically incremented).

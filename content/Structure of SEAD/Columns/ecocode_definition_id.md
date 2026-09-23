@@ -5,6 +5,7 @@ connected_tables:
   - "[[tbl_ecocode_definitions]]"
   - "[[tbl_ecocodes]]"
 publish: true
+change_it: true
 ---
 
 Primary key (automatically incremented).

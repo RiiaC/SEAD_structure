@@ -5,6 +5,7 @@ connected_tables:
   - "[[tbl_horizons]]"
   - "[[tbl_sample_horizons]]"
 publish: true
+change_it: true
 ---
 
 Primary key (automatically incremented).

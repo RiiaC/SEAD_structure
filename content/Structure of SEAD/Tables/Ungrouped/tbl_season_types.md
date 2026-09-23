@@ -6,6 +6,7 @@ columns:
   - "[[description]]"
   - "[[season_type]]"
 publish: true
+change_it: true
 ---
 
 Contains different categories of seasons.
