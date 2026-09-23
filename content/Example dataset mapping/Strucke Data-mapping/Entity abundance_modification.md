@@ -1,10 +1,29 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity abundance_modification.md
-modified: 2026-09-17T14:45:43.360Z
+created: 2026-09-15T10:31:11.627Z
+modified: 2026-09-23T05:10:43.338Z
+published: 2026-09-23T05:10:43.338Z
+Entity_Name: abundance_modifications
+Type: Data (Derived)
+Source_entity: "[[Entity superabundance]]"
+Public_ID: "[[abundance_modification_id]]"
+columns:
+  - "[[abundance_key]]"
+  - "[[modification_type]]"
+Target_Entity: "[[Example dataset mapping/Strucke Data-mapping/Entity modification_types|Entity modification_types]]"
+Local_Keys:
+  - "[[modification_type]]"
+Remote_Keys:
+  - "[[modification_type]]"
+SEAD_table: "[[tbl_abundance_modifications]]"
+status: complete
+Target_Entity_2: "[[Entity abundance]]"
+Local_Keys_2: "[[abundance_key]]"
+Remote_Keys_2: "[[abundance_key]]"
 ---
 
-> \[! info] The "material" column of the Strucke data sometimes has additional information in the cell which should fall under [[tbl_abundance_modifications]]:
+> [!info] The "material" column of the Strucke data sometimes has additional information in the cell which should fall under [[tbl_abundance_modifications]]:
 >
 > - (ej förkolnat)
 > - brända
