@@ -1,7 +1,21 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity citation.md
-modified: 2026-09-18T06:05:15.588Z
+created: 2026-09-15T10:31:11.679Z
+modified: 2026-09-23T04:52:45.608Z
+published: 2026-09-23T04:52:45.608Z
+Entity_Name: biblio
+Type: Data (Derived)
+Source_entity: "[[Example dataset mapping/Strucke Data-mapping/Entity datasheet|Entity datasheet]]"
+Public_ID: "[[biblio_id]]"
+columns:
+  - "[[author]]"
+  - "[[journal]]"
+  - "[[place_of_publication]]"
+  - "[[publication_year]]"
+  - "[[title]]"
+SEAD_table: "[[tbl_biblio]]"
+status: outstanding_question
 ---
 
 > \[!to do] The relevant columns for this dataset relating to publications for each sample are
@@ -14,7 +28,7 @@ modified: 2026-09-18T06:05:15.588Z
 >   To make [[full_reference]] combine all of the above using the Extra Columns tab, and the expression `{author} ({publication_year}) {title}, {journal}, {place_of_publication}`
 
 > [!warning] as of 2026-09-18 the above code to make [[full_reference]] gives a warning: "_´full\_reference´ conflicts with an existing or reserved result column_."
-> Roger has been asked about this.
+> Roger has been asked about this, and will look into it.
 
 # YAML as of 2026-09-17
 

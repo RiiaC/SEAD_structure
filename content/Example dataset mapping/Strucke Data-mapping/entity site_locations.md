@@ -1,36 +1,34 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/entity site_locations.md
-modified: 2026-09-17T05:54:19.545Z
+modified: 2026-09-22T05:51:07.541Z
 ---
 
 > [!info] connects [[Example dataset mapping/Strucke Data-mapping/Entity site|Entity site]] and [[Example dataset mapping/Strucke Data-mapping/Entity location|Entity location]]
 
 ![[images/Entity site schema.png]]
 
-# YAML as of 2026-08-25
+# YAML as of 2026-09-22
 
 ````
-name: site_locations
+name: site_location
 type: entity
 system_id: system_id
-keys: []
+keys:
+  - site_key
+  - location_name
 columns:
-  - fid
   - socken
   - landskap
-  - place_name
-  - raa_id
-  - site_type
-  - site_id
+  - site_key
 public_id: site_location_id
-source: datasheet_v9
+source: supersite
 foreign_keys:
   - entity: location
     local_keys:
-      - fid
+      - location_name
     remote_keys:
-      - fid
+      - location_name
     how: inner
     constraints:
       cardinality: many_to_one
@@ -40,17 +38,27 @@ foreign_keys:
       allow_row_decrease: true
   - entity: site
     local_keys:
-      - fid
+      - site_key
     remote_keys:
-      - fid
+      - site_key
     how: inner
     constraints:
-      cardinality: many_to_one
+      cardinality: one_to_one
       allow_unmatched_right: true
       require_unique_left: false
       require_unique_right: false
       allow_row_decrease: true
-
+drop_duplicates: true
+check_functional_dependency: false
+drop_empty_rows: true
+unnest:
+  id_vars:
+    - site_key
+  value_vars:
+    - socken
+    - landskap
+  var_name: location_type_column
+  value_name: location_name
 ```
 
 

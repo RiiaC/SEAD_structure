@@ -1,7 +1,7 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity site_references.md
-modified: 2026-09-18T05:50:38.954Z
+modified: 2026-09-22T06:33:25.645Z
 ---
 
 > [!info] This entity compiles a unique list of the references cited in the dataset and matches each to their site(s)

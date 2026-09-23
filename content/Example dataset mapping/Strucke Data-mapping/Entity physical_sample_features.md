@@ -1,15 +1,14 @@
 ---
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity physical_sample_features.md
-modified: 2026-09-21T05:15:18.701Z
+modified: 2026-09-22T13:44:17.429Z
 ---
 
 > [!info] this table links the features and the physical samples
 >
 > >
 
-- [ ] add one to the new shape shifter projectt
--
+- [ ] add one to the new shape shifter project?
 
 ![[images/Entity physical_sample_features schema.png]]
 

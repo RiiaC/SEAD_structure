@@ -78,7 +78,7 @@
 		{"id":"dd90b05319367045","type":"file","file":"Structure of SEAD/Tables/Taxonomy/tbl_taxa_tree_master.md","x":-3720,"y":-441,"width":400,"height":200,"color":"#3a9419"},
 		{"id":"cc92ac583c247c7b","type":"file","file":"Structure of SEAD/Tables/Taxonomy/tbl_taxonomic_order.md","x":-4900,"y":804,"width":400,"height":221,"color":"#3a9419"},
 		{"id":"6ed1de5d21a99a23","type":"file","file":"Structure of SEAD/Tables/Taxonomy/tbl_species_associations.md","x":-4900,"y":-842,"width":400,"height":248,"color":"#3a9419"},
-		{"id":"577bdb4ad50233ef","type":"file","file":"Structure of SEAD/Tables/Taxonomy/tbl_taxa_common_names.md","x":-4590,"y":-548,"width":400,"height":215,"color":"#3a9419"},
+		{"id":"577bdb4ad50233ef","type":"file","file":"Example dataset mapping/Strucke Data-mapping/tbl_taxa_common_names.md","x":-4590,"y":-548,"width":400,"height":215,"color":"#3a9419"},
 		{"id":"754eafed02213c50","type":"file","file":"Structure of SEAD/Tables/Ecocode/tbl_ecocode_groups.md","x":-3690,"y":-2424,"width":400,"height":202,"color":"#72b8ee"},
 		{"id":"b4a80f7f29d74e2c","type":"file","file":"Structure of SEAD/Tables/Ungrouped/tbl_text_identification_keys.md","x":-3120,"y":858,"width":400,"height":240,"color":"#707070"},
 		{"id":"b145aa0a43eb66d7","type":"file","file":"Structure of SEAD/Tables/Taxonomy/tbl_taxonomy_notes.md","x":-4300,"y":878,"width":400,"height":200,"color":"#3a9419"},
