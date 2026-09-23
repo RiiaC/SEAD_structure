@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity site_property.md
 created: 2026-09-15T10:31:11.835Z
-modified: 2026-09-23T05:19:01.483Z
-published: 2026-09-23T05:19:01.483Z
+modified: 2026-09-23T09:24:18.933Z
+published: 2026-09-23T09:24:18.933Z
 Entity_Name: site
 Type: Data (Derived)
 Source_entity: "[[Entity supersite|Entity supersite]]"
@@ -41,7 +41,7 @@ change_it: true
 > - **uppdragsnummer** = [[site_property]], where [[property_type]] = uppdragsnummer (the official government number on record for a specific Swedish archaeological excavation)
 > - **lämningsnummer** = is a [[national_site_identifier]], but is likely to go into the new [[site_property]] table with [[property_type]] = to lämningsnummer. Note: this is also what we are using for [[site_name]], if one is listed.
 
-> \[! note]   This entity requires a "unnest" function
+> [!note]   This entity requires a "unnest" function
 > Some sites had multiple [[lämningsnummer]] and [[uppdragsnummer]] so they have been split in  [[Entity supersite]] into multiple columns each before coming to this table. now it is necessary to make multiple rows of them
 
 ## unnest

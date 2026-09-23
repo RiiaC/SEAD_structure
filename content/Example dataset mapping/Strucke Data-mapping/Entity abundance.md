@@ -2,17 +2,17 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity abundance.md
 created: 2026-09-15T10:31:11.633Z
-modified: 2026-09-23T05:19:01.086Z
-published: 2026-09-23T05:19:01.086Z
+modified: 2026-09-23T09:09:52.685Z
+published: 2026-09-23T09:09:52.685Z
+Entity_Name: abundance
+Type: Data (Derived)
+Source_entity: "[[Entity superabundance|Entity superabundance]]"
+Public_ID: "[[abundance_id]]"
 columns:
   - "[[abundance_key]]"
   - "[[element_name]]"
   - "[[species_split]]"
   - "[[unique_row_identifer]]"
-Entity_Name: abundance
-Type: Data (Derived)
-Source_entity: "[[Entity superabundance|Entity superabundance]]"
-Public_ID: "[[abundance_id]]"
 Target_Entity: "[[Example dataset mapping/Strucke Data-mapping/Entity abundance_element|Entity abundance_element]]"
 Local_Keys:
   - element_name

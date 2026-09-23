@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity superabundance.md
 created: 2026-09-15T10:31:11.849Z
-modified: 2026-09-23T05:19:01.500Z
-published: 2026-09-23T05:19:01.500Z
+modified: 2026-09-23T09:24:18.938Z
+published: 2026-09-23T09:24:18.938Z
 Entity_Name: superabundance
 Type: Data (Derived)
 Source_entity: "[[Example dataset mapping/Strucke Data-mapping/Entity datasheet|Entity datasheet]]"
@@ -42,7 +42,7 @@ uses `=regex_extract(trim(replace(replace(replace(replace(replace(replace(replac
 
 uses `=regex_extract(replace(replace(concat(coalesce(regex_extract(lower(trim(material)), '\(ej förkolnat\)'), ''), ',',coalesce(regex_extract(lower(trim(material)), '(?<!ej )förkolnat'), ''),',',coalesce(regex_extract(lower(trim(material)), 'obrända'), ''),',', coalesce(regex_extract(lower(trim(material)), 'obränt'),''),',',coalesce(regex_extract(lower(trim(material)), '(?<!o)brända'), '')),',,', ','),',,', ','),'^,*(.*?),*$',1)`  to extract from the `material` column the words that describe "modifications" to the material (the item was burned, not burned, etc.)
 
-> \[! note] See also Bruno's documentation notes for [Reproducing Manual Resolution Cleaning in ShapeShifter ](https://github.com/Br1CM/sead_strucke_data_cleaning/blob/split-archive-current-pipeline/current/docs/shapeshifter_guide.md)
+> [!note] See also Bruno's documentation notes for [Reproducing Manual Resolution Cleaning in ShapeShifter ](https://github.com/Br1CM/sead_strucke_data_cleaning/blob/split-archive-current-pipeline/current/docs/shapeshifter_guide.md)
 
 # YAML as of 2026-09-16
 

@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity abundance_modification.md
 created: 2026-09-15T10:31:11.627Z
-modified: 2026-09-23T05:19:52.270Z
-published: 2026-09-23T05:19:52.270Z
+modified: 2026-09-23T09:18:49.379Z
+published: 2026-09-23T09:18:49.379Z
 Entity_Name: abundance_modifications
 Type: Data (Derived)
 Source_entity: "[[Entity superabundance]]"
@@ -32,7 +32,7 @@ change_it: true
 > - obränt
 >   Therefore, the [[modification_type]] column was extracted in the [[Entity superabundance]]m and the [[abundance_key]] used to ensure that each type is properly tied to other information.
 
-> \[! note] None of these modifications are already in SEAD (see [[tbl_modification_types]]),
+> [!note] None of these modifications are already in SEAD (see [[tbl_modification_types]]),
 > so they will all get new [[modification_type_id]] as well as [[abundance_modification_id]] numbers.
 
 # schema image

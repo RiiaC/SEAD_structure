@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity abundance_ident_level.md
 created: 2026-09-17T06:04:01.507Z
-modified: 2026-09-23T05:19:01.099Z
-published: 2026-09-23T05:19:01.099Z
+modified: 2026-09-23T09:18:12.032Z
+published: 2026-09-23T09:18:12.032Z
 Entity_Name: abundance_ident_level
 Type: Data (Derived)
 Source_entity: "[[Entity superabundance|Entity superabundance]]"
@@ -14,7 +14,7 @@ columns:
   - "[[species]]"
 Target_Entity: "[[Entity identification_level]]"
 Local_Keys:
-  - "[[identification_level_name]]"
+  - "[[identification_name]]"
 Remote_Keys:
   - "[[identification_level_name]]"
 SEAD_table: "[[tbl_identification_levels]]"
@@ -23,9 +23,14 @@ Target_Entity_2: "[[Entity abundance]]"
 Local_Keys_2: "[[abundance_key]]"
 Remote_Keys_2: "[[abundance_key]]"
 change_it: true
+extra_columns:
+  - "[[identification_name]]"
 ---
 
-> [!info] This one exists to make it possible to record the question mark (identification level 1) that sometimes appears next to a species name
+> [!info] This one exists to make it possible to record the question mark that sometimes appears next to a species name, giving them:
+>
+> - [[identification_level_id]] = 1
+> - [[identification_name]] = ?
 
 # YAML as of 2026-09-17
 
