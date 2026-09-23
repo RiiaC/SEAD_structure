@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity analysis_entity.md
 created: 2026-09-15T10:31:11.659Z
-modified: 2026-09-23T05:19:01.151Z
-published: 2026-09-23T05:19:01.151Z
+modified: 2026-09-23T09:26:44.779Z
+published: 2026-09-23T09:26:44.779Z
 Entity_Name: analysis_entity
 Type: Data (Derived)
 Source_entity: "[[Entity supersite|Entity supersite]]"
@@ -22,6 +22,8 @@ Target_Entity_2: "[[Entity sample]]"
 Local_Keys_2: "[[physical_sample_key]]"
 Remote_Keys_2: "[[physical_sample_key]]"
 change_it: true
+extra_columns:
+  - "[[dataset_name]]"
 ---
 
 > [!info]  The table that records what is actually analysed.

@@ -2,6 +2,9 @@
 publish: true
 permalink: /index.md
 title: SEAD Structure
+created: 2026-07-24T09:35:52.386Z
+modified: 2026-09-01T06:42:43.411Z
+published: 2026-09-01T06:42:43.411Z
 ---
 
 # Welcome to a compilation of resources for SEAD data mapping
