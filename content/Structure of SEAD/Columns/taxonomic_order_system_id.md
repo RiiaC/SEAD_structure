@@ -6,7 +6,6 @@ connected_tables:
   - "[[tbl_taxonomic_order_biblio]]"
   - "[[tbl_taxonomic_order_systems]]"
 publish: true
-change_it: true
 ---
 
 Specifies the taxonomic ordering system.

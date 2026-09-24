@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity feature_type.md
 created: 2026-09-15T10:31:11.718Z
-modified: 2026-09-23T05:19:01.266Z
-published: 2026-09-23T05:19:01.266Z
+modified: 2026-09-24T05:44:37.309Z
+published: 2026-09-24T05:44:37.309Z
 Entity_Name: feature_type
 Type: Data (Derived)
 Source_entity: "[[Entity dataset]]"
@@ -13,7 +13,6 @@ columns:
   - "[[feature_type_name]]"
 SEAD_table: "[[tbl_feature_types]]"
 status: outstanding_question
-change_it: true
 ---
 
 > [!info] This entity tells Shape Shifter that Strucke column `context_type` is SEAD's [[feature_type_name]]

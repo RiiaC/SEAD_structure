@@ -4,7 +4,6 @@ data_type: integer
 connected_tables:
   - "[[tbl_analysis_entity_prep_methods]]"
 publish: true
-change_it: true
 ---
 
 Primary key (automatically incremented).

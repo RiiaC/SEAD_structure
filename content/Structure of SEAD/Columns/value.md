@@ -12,7 +12,6 @@ connected_tables:
   - "[[tbl_analysis_taxon_counts]]"
   - "[[tbl_analysis_value_dimensions]]"
 publish: true
-change_it: true
 ---
 
 The boolean value (e.g., true/false or 1/0).

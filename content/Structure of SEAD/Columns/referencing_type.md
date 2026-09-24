@@ -4,7 +4,6 @@ data_type: text
 connected_tables:
   - "[[tbl_species_associations]]"
 publish: true
-change_it: true
 ---
 
 Type or method of reference used for the species association documentation.

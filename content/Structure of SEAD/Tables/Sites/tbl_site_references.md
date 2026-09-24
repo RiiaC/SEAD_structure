@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Sites/tbl_site_references.md
 created: 2026-07-24T09:34:41.311Z
-modified: 2026-09-23T05:19:12.374Z
-published: 2026-09-23T05:19:12.374Z
+modified: 2026-09-24T05:44:41.130Z
+published: 2026-09-24T05:44:41.130Z
 table_name: tbl_site_references
 primary_key: "[[site_reference_id]]"
 columns:
@@ -16,7 +16,6 @@ foreign_keys:
   - "[[site_id]]"
   - "[[tbl_locations]]"
 date created: Friday, September 19th 2025, 3:37:16 pm
-change_it: true
 ---
 
 Catalogs publications that describe or mention sites. Publications related to specific sample groups, physical samples, or datasets are documented at their respective hierarchical levels.

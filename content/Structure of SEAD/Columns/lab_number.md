@@ -2,13 +2,12 @@
 publish: true
 permalink: /Structure of SEAD/Columns/lab_number.md
 created: 2026-07-24T09:34:39.862Z
-modified: 2026-09-23T09:24:18.944Z
-published: 2026-09-23T09:24:18.944Z
+modified: 2026-09-24T05:44:39.245Z
+published: 2026-09-24T05:44:39.245Z
 column_name: lab_number
 data_type: character varying
 connected_tables:
   - "[[tbl_geochronology]]"
-change_it: true
 ---
 
 Identifier assigned by the laboratory for the sample.

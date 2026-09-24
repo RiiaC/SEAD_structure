@@ -4,7 +4,6 @@ data_type: integer
 connected_tables:
   - "[[tbl_aggregate_samples]]"
 publish: true
-change_it: true
 ---
 
 nan

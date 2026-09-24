@@ -4,7 +4,6 @@ data_type: uuid
 connected_tables:
   - "[[tbl_sample_groups]]"
 publish: true
-change_it: true
 ---
 
 nan

@@ -3,9 +3,8 @@ publish: true
 permalink: /How to get your data into SEAD/Domain-specific information/Geoarchaeology (Soil analyses)/index.md
 title: Geoarchaeology (Soil analyses)
 created: 2026-07-24T09:34:19.203Z
-modified: 2026-09-23T05:19:02.084Z
-published: 2026-09-23T05:19:02.084Z
-change_it: true
+modified: 2026-09-24T05:44:37.732Z
+published: 2026-09-24T05:44:37.732Z
 ---
 
 ![[images/SEAD logo.png]]

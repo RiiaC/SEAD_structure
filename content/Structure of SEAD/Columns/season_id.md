@@ -7,7 +7,6 @@ connected_tables:
   - "[[tbl_seasons]]"
   - "[[tbl_taxa_seasonality]]"
 publish: true
-change_it: true
 ---
 
 Limits the dating range to a particular season.

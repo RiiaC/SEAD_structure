@@ -10,7 +10,6 @@ columns:
 connected_tables:
   - "[[tbl_methods]]"
 publish: true
-change_it: true
 ---
 
 Contains the names and definitions of colours as classified by specific methods or colour spaces, such as Munsell or 2.5YR.

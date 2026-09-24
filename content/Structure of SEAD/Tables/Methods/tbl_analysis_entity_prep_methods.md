@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Methods/tbl_analysis_entity_prep_methods.md
 created: 2026-07-24T09:34:41.112Z
-modified: 2026-09-23T05:19:10.315Z
-published: 2026-09-23T05:19:10.315Z
+modified: 2026-09-24T05:44:40.745Z
+published: 2026-09-24T05:44:40.745Z
 table_name: tbl_analysis_entity_prep_methods
 primary_key: "[[analysis_entity_prep_method_id]]"
 foreign_keys:
@@ -14,7 +14,6 @@ columns:
 connected_tables:
   - "[[tbl_analysis_entities]]"
   - "[[tbl_methods]]"
-change_it: true
 ---
 
 Links analysis entities with their respective preparation methods.

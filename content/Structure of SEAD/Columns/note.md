@@ -6,7 +6,6 @@ connected_tables:
   - "[[tbl_sample_group_notes]]"
   - "[[tbl_sample_notes]]"
 publish: true
-change_it: true
 ---
 
 nan

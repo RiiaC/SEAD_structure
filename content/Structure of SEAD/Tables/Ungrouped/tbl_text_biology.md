@@ -12,7 +12,6 @@ connected_tables:
   - "[[tbl_biblio]]"
   - "[[tbl_taxa_tree_master]]"
 publish: true
-change_it: true
 ---
 
 Contains ecological, habitat, and behavioral information for various taxa, along with references to their sources, such as 'in hollows on old oaks.'

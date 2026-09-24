@@ -10,7 +10,6 @@ connected_tables:
   - "[[tbl_colours]]"
   - "[[tbl_physical_samples]]"
 publish: true
-change_it: true
 ---
 
 Contains information about the colors related to physical samples.

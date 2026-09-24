@@ -2,12 +2,11 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/columns/abundance_key.md
 created: 2026-09-17T05:22:58.760Z
-modified: 2026-09-23T09:24:18.739Z
-published: 2026-09-23T09:24:18.739Z
+modified: 2026-09-24T05:44:37.008Z
+published: 2026-09-24T05:44:37.008Z
 connected_tables:
 column_name: abundance_key
 data_type: created_from_other_columns
-change_it: true
 ---
 
 > [!info]+ created in [[Entity superabundance]]

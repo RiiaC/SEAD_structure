@@ -4,10 +4,9 @@ permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/AFL Radiocarbon
 aliases:
   - C.
 created: 2026-07-24T09:34:08.069Z
-modified: 2026-09-23T05:18:59.695Z
-published: 2026-09-23T05:18:59.695Z
+modified: 2026-09-24T05:44:36.807Z
+published: 2026-09-24T05:44:36.807Z
 date created: Friday, September 26th 2025, 12:46:49 pm
-change_it: true
 ---
 
 > [!info] Biological Age

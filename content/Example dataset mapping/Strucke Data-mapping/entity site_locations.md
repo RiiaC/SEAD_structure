@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/entity site_locations.md
 created: 2026-09-15T10:31:11.828Z
-modified: 2026-09-23T05:19:01.433Z
-published: 2026-09-23T05:19:01.433Z
+modified: 2026-09-24T05:44:37.411Z
+published: 2026-09-24T05:44:37.411Z
 Entity_Name: site_locations
 Type: Data (Derived)
 Source_entity: "[[Entity supersite|Entity supersite]]"
@@ -22,7 +22,6 @@ status: complete
 Target_Entity_2: "[[Example dataset mapping/Strucke Data-mapping/Entity site|Entity site]]"
 Local_Keys_2: "[[site_key]]"
 Remote_Keys_2: "[[site_key]]"
-change_it: true
 ---
 
 > [!info] connects [[Example dataset mapping/Strucke Data-mapping/Entity site|Entity site]] and [[Example dataset mapping/Strucke Data-mapping/Entity location|Entity location]]

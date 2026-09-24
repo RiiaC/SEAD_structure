@@ -4,7 +4,6 @@ data_type: character varying
 connected_tables:
   - "[[tbl_dating_labs]]"
 publish: true
-change_it: true
 ---
 
 Official name of the radiocarbon lab, standardized according to radiocarbon.org/laboratories.

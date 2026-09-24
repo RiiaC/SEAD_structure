@@ -4,7 +4,6 @@ data_type: character varying
 connected_tables:
   - "[[tbl_lithology]]"
 publish: true
-change_it: true
 ---
 
 Details regarding the boundary characteristics at the lower end of the lithological layer.

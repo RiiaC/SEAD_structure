@@ -2,9 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/New MAL templates mapping/The templates themselves.md
 created: 2026-07-24T09:34:08.140Z
-modified: 2026-09-23T05:19:00.386Z
-published: 2026-09-23T05:19:00.386Z
-change_it: true
+modified: 2026-09-24T05:44:36.975Z
+published: 2026-09-24T05:44:36.975Z
 ---
 
 > [!info]  There are two templates, one for the data itself, the other for the metadata

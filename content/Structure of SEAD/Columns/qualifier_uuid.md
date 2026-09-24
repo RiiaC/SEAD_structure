@@ -5,7 +5,6 @@ connected_tables:
   - "[[tbl_value_qualifier_symbols]]"
   - "[[tbl_value_qualifiers]]"
 publish: true
-change_it: true
 ---
 
 nan

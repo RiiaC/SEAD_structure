@@ -11,7 +11,6 @@ connected_tables:
   - "[[tbl_taxa_tree_master]]"
   - "[[tbl_taxonomic_order_systems]]"
 publish: true
-change_it: true
 ---
 
 Contains taxonomic codes for organizing species within a taxonomic hierarchy or referencing external database systems (e.g., GBIF, Artdatabanken).

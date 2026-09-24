@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Taxa Counts/tbl_abundance_elements.md
 created: 2026-07-24T09:34:41.402Z
-modified: 2026-09-23T05:19:11.373Z
-published: 2026-09-23T05:19:11.373Z
+modified: 2026-09-24T05:44:41.147Z
+published: 2026-09-24T05:44:41.147Z
 table_name: tbl_abundance_elements
 primary_key: "[[abundance_element_id]]"
 foreign_keys:
@@ -15,7 +15,6 @@ columns:
 connected_tables:
   - "[[tbl_record_types]]"
 date created: Friday, September 19th 2025, 3:37:16 pm
-change_it: true
 ---
 
 > [!warning] The [[abundance_element_id]]  foreign key can be null for both of the children tables, [[tbl_abundances]]  and [[tbl_dating_material]]. Therefore, this is an optional table.

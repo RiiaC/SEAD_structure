@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Ungrouped/tbl_data_type_groups.md
 created: 2026-07-24T09:34:41.528Z
-modified: 2026-09-23T05:19:12.366Z
-published: 2026-09-23T05:19:12.366Z
+modified: 2026-09-24T05:44:41.346Z
+published: 2026-09-24T05:44:41.346Z
 table_name: tbl_data_type_groups
 primary_key: "[[data_type_group_id]]"
 columns:
@@ -11,7 +11,6 @@ columns:
   - "[[date_updated]]"
   - "[[description]]"
 date created: Friday, September 19th 2025, 3:37:16 pm
-change_it: true
 ---
 
 Contains classifications for various data types, such as relative scale and semi-quantitative.

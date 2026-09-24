@@ -2,15 +2,14 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Sample/tbl_alt_ref_types.md
 created: 2026-07-24T09:34:41.319Z
-modified: 2026-09-23T05:19:11.139Z
-published: 2026-09-23T05:19:11.139Z
+modified: 2026-09-24T05:44:40.932Z
+published: 2026-09-24T05:44:40.932Z
 table_name: tbl_alt_ref_types
 primary_key: "[[alt_ref_type_id]]"
 columns:
   - "[[alt_ref_type]]"
   - "[[date_updated]]"
   - "[[description]]"
-change_it: true
 ---
 
 Defines the types of alternative references or names assigned to samples. These references might include identifiers like lab numbers, field numbers, museum numbers, or site excavation numbers, indicating the origin or purpose of the sample's alternative reference.

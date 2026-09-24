@@ -5,7 +5,6 @@ columns:
   - "[[last_updated]]"
   - "[[table_name]]"
 publish: true
-change_it: true
 ---
 
 nan

@@ -3,10 +3,9 @@ publish: true
 permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/AFL Radiocarbon Data spreadsheet/index.md
 title: Radiocarbon Data spreadsheet
 created: 2026-07-24T09:34:08.100Z
-modified: 2026-09-23T05:18:59.811Z
-published: 2026-09-23T05:18:59.811Z
+modified: 2026-09-24T05:44:36.830Z
+published: 2026-09-24T05:44:36.830Z
 date created: Monday, September 22nd 2025, 2:09:42 pm
-change_it: true
 ---
 
 # Welcome to The AFL Radiocarbon Dataset Mapping by spreadsheet section of this web page

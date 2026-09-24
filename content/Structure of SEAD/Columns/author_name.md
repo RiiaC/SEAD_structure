@@ -4,7 +4,6 @@ data_type: character varying
 connected_tables:
   - "[[tbl_taxa_tree_authors]]"
 publish: true
-change_it: true
 ---
 
 The name of the authority related to the species or synonym.

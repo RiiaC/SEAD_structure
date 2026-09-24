@@ -10,7 +10,6 @@ columns:
 connected_tables:
   - "[[tbl_methods]]"
 publish: true
-change_it: true
 ---
 
 Serves as a reference for ceramic types and their associated details.

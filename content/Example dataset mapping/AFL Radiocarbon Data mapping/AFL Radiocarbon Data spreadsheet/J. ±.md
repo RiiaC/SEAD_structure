@@ -4,14 +4,13 @@ permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/AFL Radiocarbon
 aliases:
   - J.
 created: 2026-07-24T09:34:08.102Z
-modified: 2026-09-23T05:18:59.777Z
-published: 2026-09-23T05:18:59.777Z
+modified: 2026-09-24T05:44:36.830Z
+published: 2026-09-24T05:44:36.830Z
 date created: Friday, September 26th 2025, 12:49:54 pm
 example_data:
   - "116"
   - "34"
   - "43"
-change_it: true
 ---
 
 > [!info] the margin of error for the given R(t) value

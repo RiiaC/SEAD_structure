@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity dating_material.md
 created: 2026-09-15T10:31:11.713Z
-modified: 2026-09-23T05:19:01.233Z
-published: 2026-09-23T05:19:01.233Z
+modified: 2026-09-24T05:44:37.292Z
+published: 2026-09-24T05:44:37.292Z
 Entity_Name: dating_material
 Type: Data (Derived)
 Source_entity: "[[Entity superabundance]]"
@@ -23,7 +23,6 @@ status: outstanding_question
 Target_Entity_2: "[[Z_Not_plotted/original Strucke Data mapping/Entity geochronology|Entity geochronology]]"
 Local_Keys_2: "[[unique_row_identifer]]"
 Remote_Keys_2: "[[unique_row_identifer]]"
-change_it: true
 ---
 
 > [!info] the "material" column of the Strucke data contains information about the material dated, such as "trakol", or "ben".

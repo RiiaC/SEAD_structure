@@ -5,9 +5,8 @@ aliases:
   - SEAD Shape Shifter User Guide
 title: SEAD Shape Shifter User Guide
 created: 2026-07-24T09:34:34.804Z
-modified: 2026-09-23T05:19:02.675Z
-published: 2026-09-23T05:19:02.675Z
-change_it: true
+modified: 2026-09-24T05:44:37.944Z
+published: 2026-09-24T05:44:37.944Z
 ---
 
 # SEAD Shape Shifter User Guide

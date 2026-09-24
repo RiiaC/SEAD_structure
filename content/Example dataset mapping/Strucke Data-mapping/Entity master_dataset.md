@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity master_dataset.md
 created: 2026-09-18T06:12:27.634Z
-modified: 2026-09-23T05:19:01.383Z
-published: 2026-09-23T05:19:01.383Z
+modified: 2026-09-24T05:44:37.366Z
+published: 2026-09-24T05:44:37.366Z
 Entity_Name: master_dataset
 Type: Fixed Values
 Public_ID: master_set_id
@@ -16,7 +16,6 @@ columns:
   - "[[url]]"
 SEAD_table: "[[tbl_dataset_masters]]"
 status: complete
-change_it: true
 ---
 
 > [!info] A master dataset _"Represents a major grouping identifier for datasets, typically indicating a contributing database, project, user, or laboratory (e.g., BugsCEP, MAL, Lund Dendro Lab)."_

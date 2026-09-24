@@ -2,9 +2,8 @@
 publish: true
 permalink: /Descriptions of files in the SEAD Teams folder/GitHub SEAD_change_control issue 434.md
 created: 2026-07-24T09:34:57.253Z
-modified: 2026-09-23T05:18:59.578Z
-published: 2026-09-23T05:18:59.578Z
-change_it: true
+modified: 2026-09-24T05:44:36.741Z
+published: 2026-09-24T05:44:36.741Z
 ---
 
 > [!info]+ This page is a duplicate of the information in the GitHub SEAD\_change\_control issue 434:

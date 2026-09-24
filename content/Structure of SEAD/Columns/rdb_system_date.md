@@ -4,7 +4,6 @@ data_type: integer
 connected_tables:
   - "[[tbl_rdb_systems]]"
 publish: true
-change_it: true
 ---
 
 The date related to the RDB system, possibly indicating the version or update year.

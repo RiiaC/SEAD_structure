@@ -4,14 +4,13 @@ permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/AFL Radiocarbon
 aliases:
   - K.
 created: 2026-07-24T09:34:08.110Z
-modified: 2026-09-23T05:18:59.827Z
-published: 2026-09-23T05:18:59.827Z
+modified: 2026-09-24T05:44:36.830Z
+published: 2026-09-24T05:44:36.830Z
 date created: Friday, September 26th 2025, 12:50:11 pm
 example_data:
   - "-4744"
   - "-2764"
   - "836"
-change_it: true
 ---
 
 > [!info] Calibrated age (from 1σ), given in years BCE

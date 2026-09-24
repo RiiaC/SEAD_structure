@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Sample Groups/tbl_sample_group_images.md
 created: 2026-07-24T09:34:41.247Z
-modified: 2026-09-23T05:19:10.906Z
-published: 2026-09-23T05:19:10.906Z
+modified: 2026-09-24T05:44:41.046Z
+published: 2026-09-24T05:44:41.046Z
 table_name: tbl_sample_group_images
 primary_key: "[[sample_group_image_id]]"
 foreign_keys:
@@ -17,7 +17,6 @@ columns:
 connected_tables:
   - "[[tbl_image_types]]"
   - "[[tbl_sample_groups]]"
-change_it: true
 ---
 
 Contains images related to sample groups, such as photographs or annotated sketches of cores.

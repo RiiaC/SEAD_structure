@@ -4,7 +4,6 @@ data_type: character varying
 connected_tables:
   - "[[tbl_imported_taxa_replacements]]"
 publish: true
-change_it: true
 ---
 
 nan

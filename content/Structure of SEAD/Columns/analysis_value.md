@@ -4,7 +4,6 @@ data_type: text
 connected_tables:
   - "[[tbl_analysis_values]]"
 publish: true
-change_it: true
 ---
 
 The resulting value from the analysis (untyped as a string)

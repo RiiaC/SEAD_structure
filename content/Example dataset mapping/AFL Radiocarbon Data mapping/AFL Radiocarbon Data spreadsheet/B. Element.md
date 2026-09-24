@@ -4,8 +4,8 @@ permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/AFL Radiocarbon
 aliases:
   - B.
 created: 2026-07-24T09:34:08.062Z
-modified: 2026-09-23T05:18:59.661Z
-published: 2026-09-23T05:18:59.661Z
+modified: 2026-09-24T05:44:36.775Z
+published: 2026-09-24T05:44:36.775Z
 best_matched_column:
   - "[[element_name]]"
 date created: Monday, September 22nd 2025, 2:26:42 pm
@@ -13,7 +13,6 @@ example_data:
   - Phalanx
   - Femur
   - Mandibula
-change_it: true
 ---
 
 > [!info] Element refers to the types of things that were analysed for the dataset.

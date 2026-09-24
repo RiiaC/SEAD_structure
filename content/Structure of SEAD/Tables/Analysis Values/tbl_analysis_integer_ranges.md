@@ -15,7 +15,6 @@ connected_tables:
   - "[[tbl_analysis_values]]"
   - "[[tbl_value_qualifier_symbols]]"
 publish: true
-change_it: true
 ---
 
 Storage for analysis values that represents an integer range.

@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity geochron_refs.md
 created: 2026-09-15T10:31:11.732Z
-modified: 2026-09-23T05:19:01.300Z
-published: 2026-09-23T05:19:01.300Z
+modified: 2026-09-24T05:44:37.309Z
+published: 2026-09-24T05:44:37.309Z
 Entity_Name: geochron_refs
 Type: Data (Derived)
 Source_entity: "[[Example dataset mapping/Strucke Data-mapping/Entity supergeochron|Entity supergeochron]]"
@@ -21,7 +21,6 @@ status: complete
 Target_Entity_2: "[[Entity citation]]"
 Local_Keys_2: "[[unique_row_identifer]]"
 Remote_Keys_2: "[[unique_row_identifer]]"
-change_it: true
 ---
 
 > [!info] As the entire dataset is radiocarbon dates, all of the publications that reported those dats count as "geochron refs".

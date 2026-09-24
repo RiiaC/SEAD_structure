@@ -4,7 +4,6 @@ data_type: character varying
 connected_tables:
   - "[[tbl_tephras]]"
 publish: true
-change_it: true
 ---
 
 Name of the tephra layer, such as a specific volcanic event.

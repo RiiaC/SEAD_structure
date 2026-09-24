@@ -4,7 +4,6 @@ data_type: character varying
 connected_tables:
   - "[[tbl_sample_group_coordinates]]"
 publish: true
-change_it: true
 ---
 
 Specifies the accuracy level of the recorded position.

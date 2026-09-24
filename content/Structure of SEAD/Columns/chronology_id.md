@@ -5,7 +5,6 @@ connected_tables:
   - "[[tbl_analysis_entity_ages]]"
   - "[[tbl_chronologies]]"
 publish: true
-change_it: true
 ---
 
 Specifies the the identifier of a specific chronology.

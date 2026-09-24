@@ -2,15 +2,14 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Ungrouped/tbl_value_qualifiers.md
 created: 2026-07-24T09:34:41.694Z
-modified: 2026-09-23T05:19:12.689Z
-published: 2026-09-23T05:19:12.689Z
+modified: 2026-09-24T05:44:41.480Z
+published: 2026-09-24T05:44:41.480Z
 table_name: tbl_value_qualifiers
 primary_key: "[[qualifier_id]]"
 columns:
   - "[[description]]"
   - "[[qualifier_uuid]]"
   - "[[symbol]]"
-change_it: true
 ---
 
 List of base value qualifiers such as '>', '<' etc

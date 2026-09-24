@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/Entity methods.md
 created: 2026-07-24T09:34:07.983Z
-modified: 2026-09-23T05:19:00.098Z
-published: 2026-09-23T05:19:00.098Z
+modified: 2026-09-24T05:44:36.915Z
+published: 2026-09-24T05:44:36.915Z
 Entity_Name: methods
 Type: Fixed Values
 Public_ID: "[[method_id]]"
@@ -11,7 +11,6 @@ Target_Entity: "[[Entity method_groups]]"
 Local_Keys:
   - "[[method_group_id]]"
 Remote_Keys: "[[method_group_id]]"
-change_it: true
 ---
 
 > [!info] there are several types of radiocarbon methods already in SEAD:|

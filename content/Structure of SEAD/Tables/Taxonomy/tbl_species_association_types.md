@@ -6,7 +6,6 @@ columns:
   - "[[association_type_name]]"
   - "[[date_updated]]"
 publish: true
-change_it: true
 ---
 
 Defines the permissible types of associations between species, such as 'predates on', 'is predated by', 'parasitic on', and 'parasitized by'.

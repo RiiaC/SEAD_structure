@@ -6,7 +6,6 @@ connected_tables:
   - "[[tbl_dendro_dates]]"
   - "[[tbl_dendro_lookup]]"
 publish: true
-change_it: true
 ---
 
 nan

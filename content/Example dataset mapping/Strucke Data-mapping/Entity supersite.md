@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity supersite.md
 created: 2026-09-15T10:31:11.864Z
-modified: 2026-09-23T05:19:01.604Z
-published: 2026-09-23T05:19:01.604Z
+modified: 2026-09-24T05:44:37.455Z
+published: 2026-09-24T05:44:37.455Z
 Entity_Name: supersite
 Type: Data (Derived)
 Source_entity: "[[Example dataset mapping/Strucke Data-mapping/Entity datasheet|Entity datasheet]]"
@@ -30,7 +30,6 @@ columns:
   - "[[uppdragsnummer]]"
 SEAD_table: N/A
 status: complete
-change_it: true
 ---
 
 > [!info] This is an extra entity that Bruno created to accomplish two goals:

@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Analysis Values/tbl_analysis_dating_ranges.md
 created: 2026-07-24T09:34:40.866Z
-modified: 2026-09-23T05:19:09.406Z
-published: 2026-09-23T05:19:09.406Z
+modified: 2026-09-24T05:44:40.479Z
+published: 2026-09-24T05:44:40.479Z
 table_name: tbl_analysis_dating_ranges
 primary_key: "[[analysis_dating_range_id]]"
 foreign_keys:
@@ -25,7 +25,6 @@ connected_tables:
   - "[[tbl_dating_uncertainty]]"
   - "[[tbl_value_qualifier_symbols]]"
   - "[[tbl_seasons]]"
-change_it: true
 ---
 
 Storage for analysis values that represents a dating range.

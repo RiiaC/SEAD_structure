@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity dating_lab.md
 created: 2026-09-15T10:31:11.707Z
-modified: 2026-09-23T05:19:01.233Z
-published: 2026-09-23T05:19:01.233Z
+modified: 2026-09-24T05:44:37.291Z
+published: 2026-09-24T05:44:37.291Z
 Entity_Name: dating_lab
 Type: Fixed Values
 Public_ID: dating_lab_id
@@ -12,7 +12,6 @@ columns:
   - "[[manual_prefix]]"
 SEAD_table: "[[tbl_dating_labs]]"
 status: outstanding_question
-change_it: true
 ---
 
 > [!info] the [[lab_id]] column of the Strucke Data gives both the name of the lab, and the number that lab used to identify the sample.

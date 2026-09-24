@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity dataset.md
 created: 2026-09-15T10:31:11.692Z
-modified: 2026-09-23T05:19:01.216Z
-published: 2026-09-23T05:19:01.216Z
+modified: 2026-09-24T05:44:37.261Z
+published: 2026-09-24T05:44:37.261Z
 Entity_Name: dataset
 Type: Fixed Values
 Public_ID: "[[dataset_id]]"
@@ -18,7 +18,6 @@ Remote_Keys:
   - "[[business_key]]"
 SEAD_table: "[[tbl_datasets]]"
 status: outstanding_question
-change_it: true
 ---
 
 > [!info] Gives a name to the full dataset, in this case: _Strucke data_

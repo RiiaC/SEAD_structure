@@ -3,9 +3,8 @@ publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/index.md
 title: Strucke data mapping
 created: 2026-09-15T10:31:11.890Z
-modified: 2026-09-23T05:19:01.550Z
-published: 2026-09-23T05:19:01.550Z
-change_it: true
+modified: 2026-09-24T05:44:37.461Z
+published: 2026-09-24T05:44:37.461Z
 ---
 
 > [!info] This folder contains notes from using [my copy of Bruno's Shapeshifter project](https://shape-shifter.sead.se/projects/Brunos_copy_Riia_Strucke_v8) to accomplish the data mapping of the Strucke Radiocarbon data set.

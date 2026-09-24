@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity site_property.md
 created: 2026-09-15T10:31:11.835Z
-modified: 2026-09-23T09:24:18.933Z
-published: 2026-09-23T09:24:18.933Z
+modified: 2026-09-24T05:44:37.411Z
+published: 2026-09-24T05:44:37.411Z
 Entity_Name: site
 Type: Data (Derived)
 Source_entity: "[[Entity supersite|Entity supersite]]"
@@ -31,7 +31,6 @@ Local_Keys_2: "[[site_key]]"
 Remote_Keys_2: "[[site_key]]"
 extra_columns:
   - "[[property_type_id]]"
-change_it: true
 ---
 
 > \[!to do] The relevant columns for this dataset relating to site properties are:

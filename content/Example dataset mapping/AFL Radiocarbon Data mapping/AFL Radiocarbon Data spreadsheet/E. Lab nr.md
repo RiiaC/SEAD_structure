@@ -4,8 +4,8 @@ permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/AFL Radiocarbon
 aliases:
   - E.
 created: 2026-07-24T09:34:08.075Z
-modified: 2026-09-23T05:18:59.726Z
-published: 2026-09-23T05:18:59.726Z
+modified: 2026-09-24T05:44:36.792Z
+published: 2026-09-24T05:44:36.792Z
 best_matched_column:
   - "[[sample_name]]"
 date created: Friday, September 26th 2025, 12:46:49 pm
@@ -13,7 +13,6 @@ example_data:
   - Hela-1329
   - Ua-50229
   - LuS-6133
-change_it: true
 ---
 
 > [!info]  The Lab nr column

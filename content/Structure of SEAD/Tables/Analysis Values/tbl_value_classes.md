@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Analysis Values/tbl_value_classes.md
 created: 2026-07-24T09:34:40.911Z
-modified: 2026-09-23T05:19:09.522Z
-published: 2026-09-23T05:19:09.522Z
+modified: 2026-09-24T05:44:40.512Z
+published: 2026-09-24T05:44:40.512Z
 table_name: tbl_value_classes
 primary_key: "[[value_class_id]]"
 foreign_keys:
@@ -18,7 +18,6 @@ connected_tables:
   - "[[tbl_methods]]"
   - "[[tbl_value_classes]]"
   - "[[tbl_value_types]]"
-change_it: true
 ---
 
 Specifies a value class describing e.g. a data column

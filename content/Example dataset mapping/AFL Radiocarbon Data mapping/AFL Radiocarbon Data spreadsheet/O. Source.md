@@ -4,8 +4,8 @@ permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/AFL Radiocarbon
 aliases:
   - O.
 created: 2026-07-24T09:34:08.127Z
-modified: 2026-09-23T05:18:59.896Z
-published: 2026-09-23T05:18:59.896Z
+modified: 2026-09-24T05:44:36.842Z
+published: 2026-09-24T05:44:36.842Z
 best_matched_column:
   - "[[Quartz AUTHORS]]"
   - "[[year]]"
@@ -14,7 +14,6 @@ example_data:
   - Bennike et al., 2008
   - Rundkvist et al., 2004
   - this study
-change_it: true
 ---
 
 > [!info] The Source column

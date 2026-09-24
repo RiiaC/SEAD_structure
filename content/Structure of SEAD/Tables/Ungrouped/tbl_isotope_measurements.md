@@ -12,7 +12,6 @@ connected_tables:
   - "[[tbl_isotope_types]]"
   - "[[tbl_methods]]"
 publish: true
-change_it: true
 ---
 
 nan

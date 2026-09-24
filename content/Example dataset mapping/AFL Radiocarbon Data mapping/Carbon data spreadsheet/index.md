@@ -3,9 +3,8 @@ publish: true
 permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/Carbon data spreadsheet/index.md
 title: Carbon data spreadsheet
 created: 2026-07-24T09:34:08.134Z
-modified: 2026-09-23T05:18:59.915Z
-published: 2026-09-23T05:18:59.915Z
-change_it: true
+modified: 2026-09-24T05:44:36.759Z
+published: 2026-09-24T05:44:36.759Z
 ---
 
 This folder describes the contents of the carbon data spreadsheet from the AFL Radiocarbon Dataset.

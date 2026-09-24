@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity datasheet.md
 created: 2026-09-15T10:31:11.700Z
-modified: 2026-09-23T05:19:01.206Z
-published: 2026-09-23T05:19:01.206Z
+modified: 2026-09-24T05:44:37.275Z
+published: 2026-09-24T05:44:37.275Z
 Entity_Name: datasheet
 Type: CSV file
 Public_ID: datasheet_id
@@ -37,7 +37,6 @@ columns:
   - "[[title]]"
   - "[[uppdragsnummer]]"
 status: complete
-change_it: true
 ---
 
 > [!info] This entity reads a csv file,  `StruckeC14_Sweden_v1.csv`,  which has been [published to Zenodo](https://zenodo.org/records/21932353) on 2026-08-14

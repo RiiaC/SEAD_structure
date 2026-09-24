@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Location/tbl_location_types.md
 created: 2026-07-24T09:34:41.052Z
-modified: 2026-09-23T05:19:10.282Z
-published: 2026-09-23T05:19:10.282Z
+modified: 2026-09-24T05:44:40.712Z
+published: 2026-09-24T05:44:40.712Z
 table_name: tbl_location_types
 primary_key: "[[location_type_id]]"
 columns:
@@ -11,7 +11,6 @@ columns:
   - "[[description]]"
   - "[[location_type]]"
 date created: Friday, September 19th 2025, 3:37:16 pm
-change_it: true
 ---
 
 Contains definitions for various geographical terms, specifying their resolution and context (e.g., administrative unit, historical administrative unit, lake, country).

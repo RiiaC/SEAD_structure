@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/Entity taxa_tree_master.md
 created: 2026-07-24T09:34:08.039Z
-modified: 2026-09-23T05:19:00.317Z
-published: 2026-09-23T05:19:00.317Z
+modified: 2026-09-24T05:44:36.959Z
+published: 2026-09-24T05:44:36.959Z
 Entity_Name: taxa_tree_master
 Type: Fixed Values
 Public_ID: "[[taxon_id]]"
@@ -12,7 +12,6 @@ Local_Keys:
   - "[[genus_id]]"
 Remote_Keys: system_id
 status: complete
-change_it: true
 ---
 
 Since this is fixed values, I just created these extra columns, using an internal to this dataset holding value of 1 for the genus\_id:

@@ -4,7 +4,6 @@ data_type: character varying
 connected_tables:
   - "[[tbl_species_association_types]]"
 publish: true
-change_it: true
 ---
 
 Short name or label for the association type.

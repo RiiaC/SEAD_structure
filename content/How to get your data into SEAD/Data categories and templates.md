@@ -2,9 +2,8 @@
 publish: true
 permalink: /How to get your data into SEAD/Data categories and templates.md
 created: 2026-07-24T09:34:19.147Z
-modified: 2026-09-23T05:19:02.154Z
-published: 2026-09-23T05:19:02.154Z
-change_it: true
+modified: 2026-09-24T05:44:37.694Z
+published: 2026-09-24T05:44:37.694Z
 ---
 
 ![[images/SEAD logo.png]]

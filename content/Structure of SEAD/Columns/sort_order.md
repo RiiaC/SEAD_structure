@@ -7,7 +7,6 @@ connected_tables:
   - "[[tbl_seasons]]"
   - "[[tbl_taxa_tree_orders]]"
 publish: true
-change_it: true
 ---
 
 Indicates the display order of ecocode definitions.

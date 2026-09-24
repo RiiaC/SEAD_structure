@@ -2,12 +2,11 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/columns/material.md
 created: 2026-09-17T06:08:37.727Z
-modified: 2026-09-23T09:24:18.838Z
-published: 2026-09-23T09:24:18.838Z
+modified: 2026-09-24T05:44:37.108Z
+published: 2026-09-24T05:44:37.108Z
 connected_tables:
 column_name: material
 data_type: created_from_other_columns
-change_it: true
 ---
 
 > [!info]+ | The sort of material dated

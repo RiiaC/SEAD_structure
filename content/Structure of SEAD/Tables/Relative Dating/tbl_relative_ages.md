@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Relative Dating/tbl_relative_ages.md
 created: 2026-07-24T09:34:41.196Z
-modified: 2026-09-23T05:19:10.681Z
-published: 2026-09-23T05:19:10.681Z
+modified: 2026-09-24T05:44:40.900Z
+published: 2026-09-24T05:44:40.900Z
 table_name: tbl_relative_ages
 primary_key: "[[relative_age_id]]"
 foreign_keys:
@@ -24,7 +24,6 @@ connected_tables:
   - "[[tbl_relative_age_types]]"
   - "[[tbl_locations]]"
 date created: Friday, September 19th 2025, 3:37:16 pm
-change_it: true
 ---
 
 > [!info] Contains definitions of ages based on historical periods or calendar events, including age ranges and geographical relevance (e.g., Mesolithic in Sweden).

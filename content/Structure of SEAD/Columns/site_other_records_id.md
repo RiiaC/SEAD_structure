@@ -4,7 +4,6 @@ data_type: integer
 connected_tables:
   - "[[tbl_site_other_records]]"
 publish: true
-change_it: true
 ---
 
 Primary key (automatically incremented).

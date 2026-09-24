@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity analysis_value.md
 created: 2026-09-15T10:31:11.671Z
-modified: 2026-09-23T05:19:01.134Z
-published: 2026-09-23T05:19:01.134Z
+modified: 2026-09-24T05:44:37.258Z
+published: 2026-09-24T05:44:37.258Z
 Entity_Name: analysis_value
 Type: Data (Derived)
 Source_entity: "[[Example dataset mapping/Strucke Data-mapping/Entity datasheet|Entity datasheet]]"
@@ -22,7 +22,6 @@ status: complete
 Target_Entity_2: "[[Entity value_class]]"
 Local_Keys_2: "[[value_type_name]]"
 Remote_Keys_2: "[[name]]"
-change_it: true
 ---
 
 > [!info] this table uses the joins to connect the analysis values reported for percent modern carbon (pMC) and its error to the labels showing which values are the pMC, and which the error

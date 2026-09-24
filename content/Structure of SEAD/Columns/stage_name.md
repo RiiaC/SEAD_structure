@@ -4,7 +4,6 @@ data_type: character varying
 connected_tables:
   - "[[tbl_project_stages]]"
 publish: true
-change_it: true
 ---
 
 The name of the project stage within the investigative cycle, such as desktop study, prospection, or final excavation.

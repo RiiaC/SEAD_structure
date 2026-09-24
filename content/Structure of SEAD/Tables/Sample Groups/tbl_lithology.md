@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Sample Groups/tbl_lithology.md
 created: 2026-07-24T09:34:41.210Z
-modified: 2026-09-23T05:19:10.755Z
-published: 2026-09-23T05:19:10.755Z
+modified: 2026-09-24T05:44:41.012Z
+published: 2026-09-24T05:44:41.012Z
 table_name: tbl_lithology
 primary_key: "[[lithology_id]]"
 foreign_keys:
@@ -16,7 +16,6 @@ columns:
   - "[[lower_boundary]]"
 connected_tables:
   - "[[tbl_sample_groups]]"
-change_it: true
 ---
 
 Provides a detailed description of sedimentary units within a sample group. It allows for the characterization of a soil profile at various depths, corresponding to the sample depths (e.g., 0-10 cm: humus, 10-30 cm: sand).

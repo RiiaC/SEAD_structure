@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity sample_feature.md
 created: 2026-09-21T05:22:14.834Z
-modified: 2026-09-23T05:19:01.407Z
-published: 2026-09-23T05:19:01.407Z
+modified: 2026-09-24T05:44:37.395Z
+published: 2026-09-24T05:44:37.395Z
 Entity_Name: sample_feature
 Type: Data (Derived)
 Source_entity: "[[Entity supersite|Entity supersite]]"
@@ -22,7 +22,6 @@ status: complete
 Target_Entity_2: "[[Entity feature]]"
 Local_Keys_2: "[[unique_row_identifer]]"
 Remote_Keys_2: "[[unique_row_identifer]]"
-change_it: true
 ---
 
 > [!info] uses info from [[Entity supersite]] to create the joins

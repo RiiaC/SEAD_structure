@@ -13,7 +13,6 @@ connected_tables:
   - "[[tbl_value_types]]"
   - "[[tbl_years_types]]"
 publish: true
-change_it: true
 ---
 
 Name of the ceramic type.

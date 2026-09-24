@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Geochronology/tbl_dating_uncertainty.md
 created: 2026-07-24T09:34:41.549Z
-modified: 2026-09-23T05:19:10.024Z
-published: 2026-09-23T05:19:10.024Z
+modified: 2026-09-24T05:44:40.686Z
+published: 2026-09-24T05:44:40.686Z
 table_name: tbl_dating_uncertainty
 primary_key: "[[dating_uncertainty_id]]"
 columns:
@@ -11,7 +11,6 @@ columns:
   - "[[description]]"
   - "[[uncertainty]]"
 date created: Friday, September 19th 2025, 3:37:16 pm
-change_it: true
 ---
 
 Defines various types of dating uncertainties, such as 'from', 'to', 'circa (Ca.)', and '?'. These uncertainties help specify date ranges or approximate periods, such as 'from Mesolithic to Neolithic' or 'from AD 100 to AD 300'.

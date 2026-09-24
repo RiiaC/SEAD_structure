@@ -4,7 +4,6 @@ data_type: character varying
 connected_tables:
   - "[[tbl_mcr_names]]"
 publish: true
-change_it: true
 ---
 
 The full scientific name of the species as used in MCR calculations.

@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity Taxa.md
 created: 2026-09-15T10:31:11.872Z
-modified: 2026-09-23T05:19:01.617Z
-published: 2026-09-23T05:19:01.617Z
+modified: 2026-09-24T05:44:37.444Z
+published: 2026-09-24T05:44:37.444Z
 Entity_Name: Taxa
 Type: Data (Derived)
 Public_ID: "[[taxon_id]]"
@@ -15,7 +15,6 @@ Local_Keys:
 Remote_Keys:
 SEAD_table: tbl_taxa_tree_master
 status: needs creating
-change_it: true
 ---
 
 > [!info] The "species" column of the Strucke data usually contains the Swedish word for the material dated, which is often a name of a plant or animal.

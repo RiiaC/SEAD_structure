@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Sites/tbl_sites.md
 created: 2026-07-24T09:34:41.278Z
-modified: 2026-09-23T05:19:10.988Z
-published: 2026-09-23T05:19:10.988Z
+modified: 2026-09-24T05:44:41.063Z
+published: 2026-09-24T05:44:41.063Z
 table_name: tbl_sites
 primary_key: "[[site_id]]"
 foreign_keys:
@@ -21,7 +21,6 @@ connected_tables:
   - "[[tbl_site_preservation_status]]"
 date created: Friday, September 19th 2025, 3:37:16 pm
 url: https://humlab-sead.github.io/sead-schema/tables/tbl_sites.html
-change_it: true
 ---
 
 Records detailed information about each excavation or sampling location i.e. a defined location where samples have been collected through excavation.

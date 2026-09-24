@@ -5,7 +5,6 @@ connected_tables:
   - "[[tbl_species_association_types]]"
   - "[[tbl_species_associations]]"
 publish: true
-change_it: true
 ---
 
 Primary key (automatically incremented).

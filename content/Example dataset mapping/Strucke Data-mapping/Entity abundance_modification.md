@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity abundance_modification.md
 created: 2026-09-15T10:31:11.627Z
-modified: 2026-09-23T09:18:49.379Z
-published: 2026-09-23T09:18:49.379Z
+modified: 2026-09-24T05:44:37.230Z
+published: 2026-09-24T05:44:37.230Z
 Entity_Name: abundance_modifications
 Type: Data (Derived)
 Source_entity: "[[Entity superabundance]]"
@@ -21,7 +21,6 @@ status: complete
 Target_Entity_2: "[[Entity abundance]]"
 Local_Keys_2: "[[abundance_key]]"
 Remote_Keys_2: "[[abundance_key]]"
-change_it: true
 ---
 
 > [!info] The "material" column of the Strucke data sometimes has additional information in the cell which should fall under [[tbl_abundance_modifications]]:

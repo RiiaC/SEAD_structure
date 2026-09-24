@@ -12,7 +12,6 @@ connected_tables:
   - "[[tbl_biblio]]"
   - "[[tbl_taxa_tree_master]]"
 publish: true
-change_it: true
 ---
 
 Contains general notes on taxa, primarily regarding identification issues (e.g., potential confusion with similar taxa), and may include references and image links.

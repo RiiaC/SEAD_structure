@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity abundance_ident_level.md
 created: 2026-09-17T06:04:01.507Z
-modified: 2026-09-23T09:18:12.032Z
-published: 2026-09-23T09:18:12.032Z
+modified: 2026-09-24T05:44:37.242Z
+published: 2026-09-24T05:44:37.242Z
 Entity_Name: abundance_ident_level
 Type: Data (Derived)
 Source_entity: "[[Entity superabundance|Entity superabundance]]"
@@ -22,7 +22,6 @@ status: complete
 Target_Entity_2: "[[Entity abundance]]"
 Local_Keys_2: "[[abundance_key]]"
 Remote_Keys_2: "[[abundance_key]]"
-change_it: true
 extra_columns:
   - "[[identification_name]]"
 ---

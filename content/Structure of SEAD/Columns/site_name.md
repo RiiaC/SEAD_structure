@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Columns/site_name.md
 created: 2026-07-24T09:34:40.516Z
-modified: 2026-09-23T05:19:08.279Z
-published: 2026-09-23T05:19:08.279Z
+modified: 2026-09-24T05:44:40.080Z
+published: 2026-09-24T05:44:40.080Z
 column_name: site_name
 data_type: character varying
 connected_tables:
@@ -15,7 +15,6 @@ example_data:
   - Valby
   - Åker 303:1
   - Atteby gård
-change_it: true
 ---
 
 The official or commonly used name of the site.

@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity site.md
 created: 2026-09-15T10:31:11.820Z
-modified: 2026-09-23T05:19:01.450Z
-published: 2026-09-23T05:19:01.450Z
+modified: 2026-09-24T05:44:37.395Z
+published: 2026-09-24T05:44:37.395Z
 Entity_Name: site
 Type: Data (Derived)
 Source_entity: "[[Entity supersite|Entity supersite]]"
@@ -20,7 +20,6 @@ SEAD_table: "[[tbl_sites]]"
 status: complete
 extra_columns:
   - "[[place_name_resolved]]"
-change_it: true
 ---
 
 > \[!to do] The relevant columns for this dataset relating to site are:

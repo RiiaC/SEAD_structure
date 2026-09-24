@@ -6,7 +6,6 @@ columns:
   - "[[description]]"
   - "[[name]]"
 publish: true
-change_it: true
 ---
 
 nan

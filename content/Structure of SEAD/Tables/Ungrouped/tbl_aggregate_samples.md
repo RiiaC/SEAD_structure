@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Ungrouped/tbl_aggregate_samples.md
 created: 2026-07-24T09:34:41.506Z
-modified: 2026-09-23T05:19:11.458Z
-published: 2026-09-23T05:19:11.458Z
+modified: 2026-09-24T05:44:41.313Z
+published: 2026-09-24T05:44:41.313Z
 table_name: tbl_aggregate_samples
 primary_key: "[[aggregate_sample_id]]"
 foreign_keys:
@@ -15,7 +15,6 @@ columns:
 connected_tables:
   - "[[tbl_aggregate_datasets]]"
   - "[[tbl_analysis_entities]]"
-change_it: true
 ---
 
 20120504pib: can we drop aggregate sample name? seems excessive and unnecessary sample names can be traced.

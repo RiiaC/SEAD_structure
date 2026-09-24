@@ -4,7 +4,6 @@ data_type: character varying
 connected_tables:
   - "[[tbl_rdb_systems]]"
 publish: true
-change_it: true
 ---
 
 The version or edition number of the RDB system.

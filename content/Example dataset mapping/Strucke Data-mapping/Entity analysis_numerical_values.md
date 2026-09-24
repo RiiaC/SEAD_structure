@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity analysis_numerical_values.md
 created: 2026-09-15T10:31:11.664Z
-modified: 2026-09-23T05:19:01.117Z
-published: 2026-09-23T05:19:01.117Z
+modified: 2026-09-24T05:44:37.242Z
+published: 2026-09-24T05:44:37.242Z
 Entity_Name: analysis_values
 Type: Data (Derived)
 Source_entity: "[[Example dataset mapping/Strucke Data-mapping/Entity datasheet|Entity datasheet]]"
@@ -21,7 +21,6 @@ Remote_Keys:
   - "[[value_type_name]]"
 SEAD_table: "[[tbl_analysis_numerical_values]]"
 status: outstanding_question
-change_it: true
 ---
 
 > [!info] Percent of Modern Carbon

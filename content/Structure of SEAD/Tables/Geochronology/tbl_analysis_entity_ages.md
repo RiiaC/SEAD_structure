@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Geochronology/tbl_analysis_entity_ages.md
 created: 2026-07-24T09:34:40.843Z
-modified: 2026-09-23T05:19:09.989Z
-published: 2026-09-23T05:19:09.989Z
+modified: 2026-09-24T05:44:40.669Z
+published: 2026-09-24T05:44:40.669Z
 table_name: tbl_analysis_entity_ages
 primary_key: "[[analysis_entity_age_id]]"
 foreign_keys:
@@ -19,7 +19,6 @@ columns:
 connected_tables:
   - "[[tbl_analysis_entities]]"
   - "[[tbl_chronologies]]"
-change_it: true
 ---
 
 > [!info] Represents a virtual entity that defines a single proxy within a specific physical sample, acting as a statistical sample. A physical sample can contain multiple analysis entities, each linking various proxies. This structure facilitates the precise recording of specific species used in methods like radiocarbon dating.

@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity physical_sample_features.md
 created: 2026-09-15T10:31:11.786Z
-modified: 2026-09-23T05:19:01.350Z
-published: 2026-09-23T05:19:01.350Z
+modified: 2026-09-24T05:44:37.366Z
+published: 2026-09-24T05:44:37.366Z
 Entity_Name: physical_sample_features
 Type:
 Public_ID: "[[physical_sample_feature_id]]"
@@ -14,7 +14,6 @@ Remote_Keys:
   - fid
 SEAD_table: "[[tbl_physical_sample_features]]"
 status: is this needed
-change_it: true
 ---
 
 > [!info] this table links the features and the physical samples

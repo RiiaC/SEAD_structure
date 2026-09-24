@@ -5,7 +5,6 @@ connected_tables:
   - "[[tbl_aggregate_datasets]]"
   - "[[tbl_aggregate_order_types]]"
 publish: true
-change_it: true
 ---
 
 nan

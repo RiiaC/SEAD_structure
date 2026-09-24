@@ -12,7 +12,6 @@ columns:
 connected_tables:
   - "[[tbl_taxa_tree_master]]"
 publish: true
-change_it: true
 ---
 
 Contains measurements related to the size of organisms, such as maximum length.

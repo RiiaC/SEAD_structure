@@ -4,7 +4,6 @@ data_type: character varying
 connected_tables:
   - "[[tbl_taxonomic_order_systems]]"
 publish: true
-change_it: true
 ---
 
 The name of the taxonomic order system.

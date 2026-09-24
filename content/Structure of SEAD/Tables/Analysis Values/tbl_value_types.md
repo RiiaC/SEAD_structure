@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Analysis Values/tbl_value_types.md
 created: 2026-07-24T09:34:40.915Z
-modified: 2026-09-23T05:19:09.556Z
-published: 2026-09-23T05:19:09.556Z
+modified: 2026-09-24T05:44:40.512Z
+published: 2026-09-24T05:44:40.512Z
 table_name: tbl_value_types
 primary_key: "[[value_type_id]]"
 foreign_keys:
@@ -18,7 +18,6 @@ columns:
 connected_tables:
   - "[[tbl_data_types]]"
   - "[[tbl_units]]"
-change_it: true
 ---
 
 Specifies actual type of values belonging to a value class

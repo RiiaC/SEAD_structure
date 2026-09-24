@@ -13,7 +13,6 @@ connected_tables:
   - "[[tbl_dating_uncertainty]]"
   - "[[tbl_tephras]]"
 publish: true
-change_it: true
 ---
 
 Records tephrachronology-based sample dates, including associated uncertainties and additional notes.

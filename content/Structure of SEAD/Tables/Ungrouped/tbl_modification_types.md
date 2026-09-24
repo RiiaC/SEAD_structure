@@ -2,15 +2,14 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Ungrouped/tbl_modification_types.md
 created: 2026-07-24T09:34:41.617Z
-modified: 2026-09-23T05:19:12.539Z
-published: 2026-09-23T05:19:12.539Z
+modified: 2026-09-24T05:44:41.412Z
+published: 2026-09-24T05:44:41.412Z
 table_name: tbl_modification_types
 primary_key: "[[modification_type_id]]"
 columns:
   - "[[date_updated]]"
   - "[[modification_type_description]]"
   - "[[modification_type_name]]"
-change_it: true
 ---
 
 Specifies various modifications or alterations observed in Quaternary or sub-fossils, such as carbonization, mineralization, and fragmentation.

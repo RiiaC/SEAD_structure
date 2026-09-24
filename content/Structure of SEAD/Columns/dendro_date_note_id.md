@@ -4,7 +4,6 @@ data_type: integer
 connected_tables:
   - "[[tbl_dendro_date_notes]]"
 publish: true
-change_it: true
 ---
 
 nan

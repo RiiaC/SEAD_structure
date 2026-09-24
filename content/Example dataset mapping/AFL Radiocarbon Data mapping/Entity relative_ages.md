@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/Entity relative_ages.md
 created: 2026-07-24T09:34:07.999Z
-modified: 2026-09-23T05:19:00.183Z
-published: 2026-09-23T05:19:00.183Z
+modified: 2026-09-24T05:44:36.923Z
+published: 2026-09-24T05:44:36.923Z
 Entity_Name:
 Type:
 Public_ID:
@@ -15,7 +15,6 @@ Local_Keys:
 Remote_Keys:
 SEAD_table: "[[tbl_relative_ages]]"
 status: needs creating
-change_it: true
 ---
 
 > [!info] the description of the relative age from archaeological context.
