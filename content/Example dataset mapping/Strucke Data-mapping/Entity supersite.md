@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity supersite.md
 created: 2026-09-15T10:31:11.864Z
-modified: 2026-09-24T05:44:37.455Z
-published: 2026-09-24T05:44:37.455Z
+modified: 2026-09-28T11:27:27.911Z
+published: 2026-09-28T11:27:27.911Z
 Entity_Name: supersite
 Type: Data (Derived)
 Source_entity: "[[Example dataset mapping/Strucke Data-mapping/Entity datasheet|Entity datasheet]]"
@@ -40,6 +40,8 @@ status: complete
 > Doing this step makes it easier to create the linking tables later\*
 
 # the extra columns:
+
+Roger suggests intead of multipile lamnings nummber, just extract the first, and put the full set into a single
 
 ## extracting the extra lamningsnummer from the cells with multiple:
 

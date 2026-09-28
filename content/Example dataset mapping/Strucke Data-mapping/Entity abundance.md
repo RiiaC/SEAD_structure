@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity abundance.md
 created: 2026-09-15T10:31:11.633Z
-modified: 2026-09-24T05:44:37.230Z
-published: 2026-09-24T05:44:37.230Z
+modified: 2026-09-28T10:59:49.079Z
+published: 2026-09-28T10:59:49.079Z
 Entity_Name: abundance
 Type: Data (Derived)
 Source_entity: "[[Entity superabundance|Entity superabundance]]"
@@ -18,13 +18,15 @@ Local_Keys:
   - element_name
 Remote_Keys: element_name
 SEAD_table: "[[tbl_abundances]]"
-status: complete
+status: outstanding_question
 Target_Entity_2: "[[Entity species]]"
 Local_Keys_2: species_split
 Remote_Keys_2: species_split
 Target_Entity_3: "[[Entity analysis_entity|Entity analysis_entity]]"
 Local_Keys_3: unique_row_identifier
 ---
+
+- [ ] figure out why the preview shows only two items
 
 > [!info] we don't have reported counts for the various bits of plants and animals that were dated in the many projects that comprise this dataset,
 > but we do know that at least one something had to be present to have been dated. In SEAD it is the [[tbl_abundances]] (the plant or animal that was counted) that is linked to the [[tbl_analysis_entities]], which in turn has analysis values and/or geochronological results.  Therefore, we need this entity, too, and can assign a count of 1 to each analysed item.
