@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity site_property.md
 created: 2026-09-15T10:31:11.835Z
-modified: 2026-09-24T05:44:37.411Z
-published: 2026-09-24T05:44:37.411Z
+modified: 2026-09-28T05:21:03.121Z
+published: 2026-09-28T05:21:03.121Z
 Entity_Name: site
 Type: Data (Derived)
 Source_entity: "[[Entity supersite|Entity supersite]]"
@@ -25,7 +25,7 @@ Local_Keys:
 Remote_Keys:
   - "[[property_type_id]]"
 SEAD_table: "[[tbl_sites]]"
-status: outstanding_question
+status: complete
 Target_Entity_2: "[[Z_Not_plotted/original Strucke Data mapping/Entity site|Entity site]]"
 Local_Keys_2: "[[site_key]]"
 Remote_Keys_2: "[[site_key]]"
@@ -54,11 +54,6 @@ extra_columns:
 ```
 =to_int(replace(replace(replace(replace(replace(replace(replace(replace(replace(property_type, 'lamningsnummer_1', '4'), 'lamningsnummer_2', '4'), 'lamningsnummer_3', '4'), 'lamningsnummer_4', '4'), 'uppdragsnummer_1', '3'), 'uppdragsnummer_2', '3'), 'uppdragsnummer_3', '3'), 'site_type', '2'), 'raa_id', '1')) 
 ```
-
-## replace
-
-- [ ] Figure out where Bruno was going with this, it doesn't look complete
-  (sent a message2026-09-22)
 
 | columns                                                                                                                                                                                                                                     | replacments                      |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |

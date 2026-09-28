@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity geochronology.md
 created: 2026-09-15T10:31:11.739Z
-modified: 2026-09-24T05:44:37.342Z
-published: 2026-09-24T05:44:37.342Z
+modified: 2026-09-28T05:11:32.702Z
+published: 2026-09-28T05:11:32.702Z
 Entity_Name: geochronology
 Type: Data (Derived)
 Source_entity: "[[Example dataset mapping/Strucke Data-mapping/Entity supergeochron|Entity supergeochron]]"
@@ -31,8 +31,8 @@ extra_columns:
   - "[[delta_13c]]"
   - "[[error_older]]"
   - "[[error_younger]]"
-  - "[[Structure of SEAD/Columns/lab_number]]"
   - "[[notes]]"
+  - "[[Structure of SEAD/Columns/lab_number]]"
 ---
 
 > [!info] These are columns of this dataset having to do with geochronology. They are linked to SEAD's column names by setting the Extra Columns to:
