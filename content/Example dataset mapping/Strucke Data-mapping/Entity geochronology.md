@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity geochronology.md
 created: 2026-09-15T10:31:11.739Z
-modified: 2026-09-28T05:11:32.702Z
-published: 2026-09-28T05:11:32.702Z
+modified: 2026-09-29T08:50:07.326Z
+published: 2026-09-29T08:50:07.326Z
 Entity_Name: geochronology
 Type: Data (Derived)
 Source_entity: "[[Example dataset mapping/Strucke Data-mapping/Entity supergeochron|Entity supergeochron]]"
@@ -44,7 +44,7 @@ extra_columns:
 > - comment = [[notes]]
 
 - [ ] decide what do with [[c14_data_status]],  which contains only three different values; `ok`, `c14_data_saknas`, and `orealistiskt_c14_värde` (the last one has only one example in the data set). Should it be merged with comment to make a composite note? (e.g.: _"c14\_data\_status ok, Anltyp grop i slutundersökning. Daterar inte anläggningen utan senare inblandning"_ or "_c14\_data\_saknas, Ej med i avhandlingen_" or "_orealistiskt\_c14\_värde, Faller helt utanför ramen_")
-  ![[images/Entity geochronology schema 1.png]]
+  ![[images/Entity geochronology schema 1.png|500]]
 
 # YAML as of 2026-09-18
 

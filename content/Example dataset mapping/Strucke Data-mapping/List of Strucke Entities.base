@@ -11,6 +11,7 @@ views:
       - Entity_Name
       - Public_ID
       - Type
+      - extra_columns
       - SEAD_table
       - Target_Entity
       - Local_Keys

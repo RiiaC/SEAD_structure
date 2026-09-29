@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity datasheet.md
 created: 2026-09-15T10:31:11.700Z
-modified: 2026-09-24T05:44:37.275Z
-published: 2026-09-24T05:44:37.275Z
+modified: 2026-09-29T08:16:40.847Z
+published: 2026-09-29T08:16:40.847Z
 Entity_Name: datasheet
 Type: CSV file
 Public_ID: datasheet_id
@@ -37,12 +37,14 @@ columns:
   - "[[title]]"
   - "[[uppdragsnummer]]"
 status: complete
+extra_columns:
+  - "[[unique_row_identifer]]"
 ---
 
 > [!info] This entity reads a csv file,  `StruckeC14_Sweden_v1.csv`,  which has been [published to Zenodo](https://zenodo.org/records/21932353) on 2026-08-14
 > This is the entity from which the other entities for this dataset will be created. This is, in theory, the final version of the Strucke Data set.
 
-In addition to the input columns named in the [[Example dataset mapping/Strucke Data-mapping/index|index]] for this section, it also contains an extra column, `unique_row_identifier`, which is comprised of enough of the other columns combined to ensure that each row is uniquely identified, using the code `{lab_id}/{context_id}/{species}/{site_id}`
+In addition to the input columns named in the [[Example dataset mapping/Strucke Data-mapping/index|index]] for this section, it also contains an extra column, [[unique_row_identifer]] , which is comprised of enough of the other columns combined to ensure that each row is uniquely identified, using the code: `{lab_id}/{context_id}/{species}/{site_id}`
 
 # YAML as of 2026-09-16
 
