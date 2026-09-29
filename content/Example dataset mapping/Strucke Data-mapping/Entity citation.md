@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity citation.md
 created: 2026-09-15T10:31:11.679Z
-modified: 2026-09-24T05:44:37.261Z
-published: 2026-09-24T05:44:37.261Z
+modified: 2026-09-29T10:48:32.323Z
+published: 2026-09-29T10:48:32.323Z
 Entity_Name: biblio
 Type: Data (Derived)
 Source_entity: "[[Example dataset mapping/Strucke Data-mapping/Entity datasheet|Entity datasheet]]"
@@ -28,7 +28,8 @@ status: outstanding_question
 >   To make [[full_reference]] combine all of the above using the Extra Columns tab, and the expression `{author} ({publication_year}) {title}, {journal}, {place_of_publication}`
 
 > [!warning] as of 2026-09-18 the above code to make [[full_reference]] gives a warning: "_´full\_reference´ conflicts with an existing or reserved result column_."
-> Roger has been asked about this, and will look into it.
+> Roger has been asked about this, and will look into it. Roger replied 2026-09-29:
+> Ok, I think this is a false positive error message i.e. it can be ignored. I will fix it though, I think the issue is caused by having an extra column used as a business key. The check tests if the name is used, and finds it in "business keys". Having an extra column as a business key is perfectly legal.
 
 # YAML as of 2026-09-17
 
