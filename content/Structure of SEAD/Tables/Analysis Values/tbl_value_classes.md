@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Analysis Values/tbl_value_classes.md
 created: 2026-07-24T09:34:40.911Z
-modified: 2026-09-29T11:08:52.069Z
-published: 2026-09-29T11:08:52.069Z
+modified: 2026-09-30T06:21:30.819Z
+published: 2026-09-30T06:21:30.819Z
 table_name: tbl_value_classes
 primary_key: "[[value_class_id]]"
 columns:
