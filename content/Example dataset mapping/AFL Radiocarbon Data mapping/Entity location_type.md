@@ -2,10 +2,10 @@
 publish: true
 permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/Entity location_type.md
 created: 2026-07-24T09:34:07.973Z
-modified: 2026-09-24T05:44:36.892Z
-published: 2026-09-24T05:44:36.892Z
+modified: 2026-10-02T08:16:47.346Z
+published: 2026-10-02T08:16:47.346Z
 Entity_Name: location_type
-Type: SQL query
+Type: Data (Derived)
 Public_ID: "[[location_type_id]]"
 SEAD_table: "[[tbl_location_types]]"
 status: complete

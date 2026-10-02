@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"3a90815ef2715cc0","type":"file","file":"Structure of SEAD/Tables/Analysis Entities/tbl_analysis_entities.md","x":135,"y":507,"width":337,"height":243},
+		{"id":"93782f0b1eacabbd","type":"file","file":"Structure of SEAD/Tables/Taxa Counts/tbl_abundances.md","x":170,"y":65,"width":400,"height":259},
+		{"id":"e05cc3cf924f4c9c","type":"file","file":"Structure of SEAD/Tables/Taxa Counts/tbl_abundance_elements.md","x":668,"y":-6,"width":403,"height":330},
+		{"id":"ab7f7d7c38c6010a","type":"file","file":"Structure of SEAD/Tables/Geochronology/tbl_dating_material.md","x":1123,"y":241,"width":444,"height":331},
+		{"id":"8adb1239226c7676","type":"file","file":"Structure of SEAD/Tables/Geochronology/tbl_geochronology.md","x":639,"y":506,"width":399,"height":211},
+		{"id":"498bad454f9c9109","type":"file","file":"Structure of SEAD/Tables/Dataset/tbl_datasets.md","x":-75,"y":877,"width":378,"height":281},
+		{"id":"9a53c6781e2bdf54","type":"file","file":"Structure of SEAD/Tables/Bibliography/tbl_biblio.md","x":401,"y":862,"width":469,"height":309},
+		{"id":"6a5e973f4c9d8b54","type":"file","file":"Structure of SEAD/Tables/Geochronology/tbl_geochron_refs.md","x":955,"y":815,"width":390,"height":241},
+		{"id":"82962834dd24a831","type":"file","file":"Structure of SEAD/Tables/Methods/tbl_methods.md","x":-663,"y":885,"width":487,"height":343},
+		{"id":"e5d8de1d8a610895","type":"file","file":"Structure of SEAD/Tables/Taxonomy/tbl_taxa_tree_master.md","x":-241,"y":-45,"width":324,"height":286},
+		{"id":"19be9a414105328e","type":"file","file":"Example dataset mapping/AFL Radiocarbon Data mapping/Entity site.md","x":-1477,"y":-40,"width":400,"height":235,"color":"#1e50f0"},
+		{"id":"a8aa6459d56eec30","type":"file","file":"Example dataset mapping/AFL Radiocarbon Data mapping/Entity sample_groups.md","x":-866,"y":-135,"width":362,"height":376},
+		{"id":"23e20c29d017e717","type":"file","file":"Example dataset mapping/AFL Radiocarbon Data mapping/Entity site_location.md","x":-1632,"y":260,"width":355,"height":555,"color":"#1e50f0"},
+		{"id":"8ebc41c0408e0579","x":-1134,"y":626,"width":400,"height":378,"color":"#1e50f0","type":"file","file":"Example dataset mapping/AFL Radiocarbon Data mapping/Entity location.md"},
+		{"id":"e039f9f05209566e","x":-1598,"y":922,"width":400,"height":269,"color":"#1e50f0","type":"file","file":"Example dataset mapping/AFL Radiocarbon Data mapping/Entity location_type.md"},
+		{"id":"6b2a4a20470ccbf1","x":-479,"y":383,"width":400,"height":378,"type":"file","file":"Example dataset mapping/AFL Radiocarbon Data mapping/Entity physical_samples.md"}
+	],
+	"edges":[
+		{"id":"744d5ccdd1946d6d","fromNode":"3a90815ef2715cc0","fromSide":"left","toNode":"6b2a4a20470ccbf1","toSide":"right"},
+		{"id":"11351d278198f3da","fromNode":"93782f0b1eacabbd","fromSide":"bottom","toNode":"3a90815ef2715cc0","toSide":"top"},
+		{"id":"0c72663e10431ad8","fromNode":"e05cc3cf924f4c9c","fromSide":"left","toNode":"93782f0b1eacabbd","toSide":"right"},
+		{"id":"4401dd5c9d1829ef","fromNode":"ab7f7d7c38c6010a","fromSide":"top","toNode":"e05cc3cf924f4c9c","toSide":"right"},
+		{"id":"64649e8dd86fcf35","fromNode":"8adb1239226c7676","fromSide":"left","toNode":"3a90815ef2715cc0","toSide":"right"},
+		{"id":"1910e01dbf41b59e","fromNode":"8adb1239226c7676","fromSide":"right","toNode":"ab7f7d7c38c6010a","toSide":"bottom"},
+		{"id":"cf00cb99e76aac97","fromNode":"3a90815ef2715cc0","fromSide":"bottom","toNode":"498bad454f9c9109","toSide":"top"},
+		{"id":"20ebef346558767f","fromNode":"498bad454f9c9109","fromSide":"right","toNode":"9a53c6781e2bdf54","toSide":"left"},
+		{"id":"003d4e2a60b99b79","fromNode":"9a53c6781e2bdf54","fromSide":"bottom","toNode":"6a5e973f4c9d8b54","toSide":"bottom"},
+		{"id":"021433163dece14b","fromNode":"498bad454f9c9109","fromSide":"left","toNode":"82962834dd24a831","toSide":"right"},
+		{"id":"efcbb8500aa4b20c","fromNode":"93782f0b1eacabbd","fromSide":"left","toNode":"e5d8de1d8a610895","toSide":"right"},
+		{"id":"739db3230fc74bba","fromNode":"6a5e973f4c9d8b54","fromSide":"top","toNode":"8adb1239226c7676","toSide":"bottom"},
+		{"id":"9ec1558d7874e483","fromNode":"8ebc41c0408e0579","fromSide":"bottom","toNode":"e039f9f05209566e","toSide":"right","color":"#1e50f0"},
+		{"id":"6e77595449bd14f3","fromNode":"6b2a4a20470ccbf1","fromSide":"left","toNode":"a8aa6459d56eec30","toSide":"bottom","color":"#1e50f0"},
+		{"id":"c27986ca69142989","fromNode":"a8aa6459d56eec30","fromSide":"left","toNode":"19be9a414105328e","toSide":"right","color":"#1e50f0"},
+		{"id":"46e5be82b814fcd3","fromNode":"19be9a414105328e","fromSide":"bottom","toNode":"23e20c29d017e717","toSide":"top","color":"#1e50f0"},
+		{"id":"582f1290a5aca055","fromNode":"23e20c29d017e717","fromSide":"right","toNode":"8ebc41c0408e0579","toSide":"top","color":"#1e50f0"}
+	]
+}

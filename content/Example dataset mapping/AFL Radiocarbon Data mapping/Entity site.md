@@ -2,13 +2,13 @@
 publish: true
 permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/Entity site.md
 created: 2026-07-24T09:34:08.023Z
-modified: 2026-09-24T05:44:36.942Z
-published: 2026-09-24T05:44:36.942Z
+modified: 2026-10-02T08:09:19.605Z
+published: 2026-10-02T08:09:19.605Z
 Entity_Name: site
-Type: Excel File(OpenPyXL)
+Type: Data (Derived)
 Public_ID: "[[site_id]]"
-date created: Wednesday, February 18th 2026, 10:15:23 am
 status: complete
+date created: Wednesday, February 18th 2026, 10:15:23 am
 ---
 
 > \[!to do] figure out what to do about the fact that the site\_id column contains both SEAD site\_id number and comments (asked R\&R in a chat 2026-02-20)

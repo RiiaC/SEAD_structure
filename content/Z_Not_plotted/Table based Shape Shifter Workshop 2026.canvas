@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"0b4a24fc82c8d255","type":"file","file":"Structure of SEAD/Tables/Sample Groups/tbl_sample_groups.md","x":-762,"y":98,"width":456,"height":286},
+		{"id":"d5d9d7f2e299f92a","type":"file","file":"Structure of SEAD/Tables/Sample/tbl_physical_samples.md","x":-504,"y":506,"width":526,"height":316},
+		{"id":"3a90815ef2715cc0","type":"file","file":"Structure of SEAD/Tables/Analysis Entities/tbl_analysis_entities.md","x":135,"y":507,"width":337,"height":243},
+		{"id":"93782f0b1eacabbd","type":"file","file":"Structure of SEAD/Tables/Taxa Counts/tbl_abundances.md","x":170,"y":65,"width":400,"height":259},
+		{"id":"e05cc3cf924f4c9c","type":"file","file":"Structure of SEAD/Tables/Taxa Counts/tbl_abundance_elements.md","x":668,"y":-6,"width":403,"height":330},
+		{"id":"ab7f7d7c38c6010a","type":"file","file":"Structure of SEAD/Tables/Geochronology/tbl_dating_material.md","x":1123,"y":241,"width":444,"height":331},
+		{"id":"8adb1239226c7676","type":"file","file":"Structure of SEAD/Tables/Geochronology/tbl_geochronology.md","x":639,"y":506,"width":399,"height":211},
+		{"id":"498bad454f9c9109","type":"file","file":"Structure of SEAD/Tables/Dataset/tbl_datasets.md","x":-75,"y":877,"width":378,"height":281},
+		{"id":"9a53c6781e2bdf54","type":"file","file":"Structure of SEAD/Tables/Bibliography/tbl_biblio.md","x":401,"y":862,"width":469,"height":309},
+		{"id":"6a5e973f4c9d8b54","x":955,"y":815,"width":390,"height":241,"type":"file","file":"Structure of SEAD/Tables/Geochronology/tbl_geochron_refs.md"},
+		{"id":"cfc6ee6026009c69","type":"file","file":"Structure of SEAD/Tables/Sites/tbl_sites.md","x":-1477,"y":-84,"width":521,"height":364},
+		{"id":"dfe85582f86a5daf","x":-1163,"y":704,"width":464,"height":317,"type":"file","file":"Structure of SEAD/Tables/Location/tbl_locations.md"},
+		{"id":"0ddba06651236e64","x":-1596,"y":919,"width":380,"height":272,"type":"file","file":"Structure of SEAD/Tables/Location/tbl_location_types.md"},
+		{"id":"9d63ff31c0c39afe","x":-1444,"y":362,"width":455,"height":288,"type":"file","file":"Structure of SEAD/Tables/Sites/tbl_site_locations.md"},
+		{"id":"82962834dd24a831","type":"file","file":"Structure of SEAD/Tables/Methods/tbl_methods.md","x":-663,"y":885,"width":487,"height":343},
+		{"id":"e5d8de1d8a610895","type":"file","file":"Structure of SEAD/Tables/Taxonomy/tbl_taxa_tree_master.md","x":-241,"y":-45,"width":324,"height":286}
+	],
+	"edges":[
+		{"id":"7cd2ffc2b23e67b6","fromNode":"0b4a24fc82c8d255","fromSide":"left","toNode":"cfc6ee6026009c69","toSide":"right"},
+		{"id":"84fa19b794511b58","fromNode":"d5d9d7f2e299f92a","fromSide":"left","toNode":"0b4a24fc82c8d255","toSide":"bottom"},
+		{"id":"744d5ccdd1946d6d","fromNode":"3a90815ef2715cc0","fromSide":"left","toNode":"d5d9d7f2e299f92a","toSide":"right"},
+		{"id":"11351d278198f3da","fromNode":"93782f0b1eacabbd","fromSide":"bottom","toNode":"3a90815ef2715cc0","toSide":"top"},
+		{"id":"0c72663e10431ad8","fromNode":"e05cc3cf924f4c9c","fromSide":"left","toNode":"93782f0b1eacabbd","toSide":"right"},
+		{"id":"4401dd5c9d1829ef","fromNode":"ab7f7d7c38c6010a","fromSide":"top","toNode":"e05cc3cf924f4c9c","toSide":"right"},
+		{"id":"64649e8dd86fcf35","fromNode":"8adb1239226c7676","fromSide":"left","toNode":"3a90815ef2715cc0","toSide":"right"},
+		{"id":"1910e01dbf41b59e","fromNode":"8adb1239226c7676","fromSide":"right","toNode":"ab7f7d7c38c6010a","toSide":"bottom"},
+		{"id":"cf00cb99e76aac97","fromNode":"3a90815ef2715cc0","fromSide":"bottom","toNode":"498bad454f9c9109","toSide":"top"},
+		{"id":"20ebef346558767f","fromNode":"498bad454f9c9109","fromSide":"right","toNode":"9a53c6781e2bdf54","toSide":"left"},
+		{"id":"003d4e2a60b99b79","fromNode":"9a53c6781e2bdf54","fromSide":"bottom","toNode":"6a5e973f4c9d8b54","toSide":"bottom"},
+		{"id":"021433163dece14b","fromNode":"498bad454f9c9109","fromSide":"left","toNode":"82962834dd24a831","toSide":"right"},
+		{"id":"efcbb8500aa4b20c","fromNode":"93782f0b1eacabbd","fromSide":"left","toNode":"e5d8de1d8a610895","toSide":"right"},
+		{"id":"739db3230fc74bba","fromNode":"6a5e973f4c9d8b54","fromSide":"top","toNode":"8adb1239226c7676","toSide":"bottom"},
+		{"id":"9d3f883469cc45f7","fromNode":"cfc6ee6026009c69","fromSide":"bottom","toNode":"9d63ff31c0c39afe","toSide":"top"},
+		{"id":"b3b8442e0e9b7991","fromNode":"9d63ff31c0c39afe","fromSide":"right","toNode":"dfe85582f86a5daf","toSide":"top"},
+		{"id":"9ec1558d7874e483","fromNode":"dfe85582f86a5daf","fromSide":"bottom","toNode":"0ddba06651236e64","toSide":"right"}
+	]
+}

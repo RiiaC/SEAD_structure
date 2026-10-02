@@ -2,12 +2,12 @@
 publish: true
 permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/Entity sample_groups.md
 created: 2026-07-24T09:34:08.013Z
-modified: 2026-09-24T05:44:36.937Z
-published: 2026-09-24T05:44:36.937Z
+modified: 2026-10-02T08:12:30.808Z
+published: 2026-10-02T08:12:30.808Z
 Entity_Name: sample_group
 Type: Data (Derived)
 Public_ID: "[[sample_group_id]]"
-Target_Entity: "[[Example dataset mapping/AFL Radiocarbon Data mapping/Entity site]]"
+Target_Entity: "[[Example dataset mapping/AFL Radiocarbon Data mapping/Entity site|Entity site]]"
 Local_Keys:
   - site
 Remote_Keys:

@@ -2,17 +2,10 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Dataset/tbl_datasets.md
 created: 2026-07-24T09:34:40.942Z
-modified: 2026-09-24T05:44:40.537Z
-published: 2026-09-24T05:44:40.537Z
+modified: 2026-10-02T06:45:57.206Z
+published: 2026-10-02T06:45:57.206Z
 table_name: tbl_datasets
 primary_key: "[[dataset_id]]"
-foreign_keys:
-  - "[[biblio_id]]"
-  - "[[data_type_id]]"
-  - "[[master_set_id]]"
-  - "[[method_id]]"
-  - "[[project_id]]"
-  - "[[updated_dataset_id]]"
 columns:
   - "[[dataset_name]]"
   - "[[dataset_uuid]]"
@@ -21,9 +14,16 @@ connected_tables:
   - "[[tbl_biblio]]"
   - "[[tbl_data_types]]"
   - "[[tbl_dataset_masters]]"
+  - "[[tbl_datasets]]"
   - "[[tbl_methods]]"
   - "[[tbl_projects]]"
-  - "[[tbl_datasets]]"
+foreign_keys:
+  - "[[biblio_id]]"
+  - "[[data_type_id]]"
+  - "[[master_set_id]]"
+  - "[[method_id]]"
+  - "[[project_id]]"
+  - "[[updated_dataset_id]]"
 date created: Friday, September 19th 2025, 3:37:16 pm
 ---
 
