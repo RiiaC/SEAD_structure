@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Sample/tbl_physical_samples.md
 created: 2026-07-24T09:34:41.325Z
-modified: 2026-09-24T05:44:40.936Z
-published: 2026-09-24T05:44:40.936Z
+modified: 2026-10-02T09:16:37.141Z
+published: 2026-10-02T09:16:37.141Z
 table_name: tbl_physical_samples
 primary_key: "[[physical_sample_id]]"
 foreign_keys:
@@ -18,7 +18,6 @@ connected_tables:
   - "[[tbl_alt_ref_types]]"
   - "[[tbl_sample_groups]]"
   - "[[tbl_sample_types]]"
-date created: Friday, September 19th 2025, 3:37:16 pm
 ---
 
 Records information about physical samples collected from specific sites. Each sample is characterized by its location within the site, its physical properties measured in specific units (e.g., liters, kilograms), and its context within a sample set. Additionally, samples may have descriptive information, notes, and external identifiers linked to other systems.

@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Dataset/tbl_dataset_masters.md
 created: 2026-07-24T09:34:40.950Z
-modified: 2026-09-24T05:44:40.546Z
-published: 2026-09-24T05:44:40.546Z
+modified: 2026-10-02T09:16:36.893Z
+published: 2026-10-02T09:16:36.893Z
 table_name: tbl_dataset_masters
 primary_key: "[[master_set_id]]"
 columns:
@@ -18,7 +18,6 @@ connected_tables:
 foreign_keys:
   - "[[biblio_id]]"
   - "[[contact_id]]"
-date created: Friday, September 19th 2025, 3:37:16 pm
 ---
 
 > [!info] Represents a major grouping identifier for datasets, typically indicating a contributing database, project, user, or laboratory (e.g., BugsCEP, MAL, Lund Dendro Lab).

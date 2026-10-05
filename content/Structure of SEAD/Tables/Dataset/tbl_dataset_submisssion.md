@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Dataset/tbl_dataset_submisssion.md
 created: 2026-07-24T09:34:40.965Z
-modified: 2026-09-24T05:44:40.546Z
-published: 2026-09-24T05:44:40.546Z
+modified: 2026-10-02T09:16:36.915Z
+published: 2026-10-02T09:16:36.915Z
 table_name: tbl_dataset_submissions
 primary_key: "[[dataset_submission_id]]"
 foreign_keys:
@@ -18,7 +18,6 @@ connected_tables:
   - "[[tbl_contacts]]"
   - "[[tbl_datasets]]"
   - "[[tbl_dataset_submission_types]]"
-date created: Friday, September 19th 2025, 3:37:16 pm
 ---
 
 Contains records of various submission events related to a dataset, such as initial recording, database entries, and integrations with SEAD.

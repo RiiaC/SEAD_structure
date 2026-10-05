@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Dimensions/tbl_dimensions.md
 created: 2026-07-24T09:34:41.554Z
-modified: 2026-09-24T05:44:40.613Z
-published: 2026-09-24T05:44:40.613Z
+modified: 2026-10-02T09:16:36.946Z
+published: 2026-10-02T09:16:36.946Z
 table_name: tbl_dimensions
 primary_key: "[[dimension_id]]"
 foreign_keys:
@@ -17,7 +17,6 @@ columns:
 connected_tables:
   - "[[tbl_method_groups]]"
   - "[[tbl_units]]"
-date created: Friday, September 19th 2025, 3:37:16 pm
 ---
 
 Contains definitions of various measurement types, such as sample weight and core length, categorized by method group.

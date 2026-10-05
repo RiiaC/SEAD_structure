@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Columns/location_id.md
 created: 2026-07-24T09:34:39.913Z
-modified: 2026-09-24T05:44:39.312Z
-published: 2026-09-24T05:44:39.312Z
+modified: 2026-10-02T09:16:36.276Z
+published: 2026-10-02T09:16:36.276Z
 column_name: location_id
 data_type: integer
 connected_tables:
@@ -14,7 +14,6 @@ connected_tables:
   - "[[tbl_site_locations]]"
   - "[[tbl_taxa_seasonality]]"
   - "[[tbl_locations]]"
-date created: Friday, September 19th 2025, 3:37:16 pm
 ---
 
 Specifies to a location, associating the contact with a specific geographic or organizational location.

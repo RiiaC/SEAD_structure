@@ -4,12 +4,11 @@ permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/AFL Radiocarbon
 aliases:
   - O.
 created: 2026-07-24T09:34:08.127Z
-modified: 2026-09-24T05:44:36.842Z
-published: 2026-09-24T05:44:36.842Z
+modified: 2026-10-02T09:16:35.478Z
+published: 2026-10-02T09:16:35.478Z
 best_matched_column:
   - "[[Quartz AUTHORS]]"
   - "[[year]]"
-date created: Friday, September 26th 2025, 12:51:21 pm
 example_data:
   - Bennike et al., 2008
   - Rundkvist et al., 2004

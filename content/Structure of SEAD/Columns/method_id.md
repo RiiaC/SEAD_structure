@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Columns/method_id.md
 created: 2026-07-24T09:34:40.071Z
-modified: 2026-09-24T05:44:39.496Z
-published: 2026-09-24T05:44:39.496Z
+modified: 2026-10-02T09:16:36.365Z
+published: 2026-10-02T09:16:36.365Z
 column_name: method_id
 data_type: integer
 connected_tables:
@@ -22,7 +22,6 @@ connected_tables:
   - "[[tbl_sample_groups]]"
   - "[[tbl_site_natgridrefs]]"
   - "[[tbl_value_classes]]"
-date created: Friday, September 19th 2025, 3:37:16 pm
 ---
 
 Specifies the preparation method related to the analysis entity.

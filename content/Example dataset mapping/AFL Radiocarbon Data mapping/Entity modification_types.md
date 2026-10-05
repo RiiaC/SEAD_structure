@@ -2,16 +2,13 @@
 publish: true
 permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/Entity modification_types.md
 created: 2026-07-24T09:34:07.989Z
-modified: 2026-09-24T05:44:36.904Z
-published: 2026-09-24T05:44:36.904Z
+modified: 2026-10-02T09:17:53.457Z
+published: 2026-10-02T09:17:53.457Z
 Entity_Name: modification_types
 Type: Fixed Values
 Public_ID: "[[modification_type_id]]"
 Target_Entity:
-Local_Keys:
-  - 
-  - 
-  - 
+Local_Keys: []
 Remote_Keys:
 SEAD_table: "[[tbl_modification_types]]"
 status:

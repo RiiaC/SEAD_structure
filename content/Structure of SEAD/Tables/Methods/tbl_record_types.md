@@ -2,15 +2,14 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Methods/tbl_record_types.md
 created: 2026-07-24T09:34:41.151Z
-modified: 2026-09-24T05:44:40.846Z
-published: 2026-09-24T05:44:40.846Z
+modified: 2026-10-02T09:16:37.102Z
+published: 2026-10-02T09:16:37.102Z
 table_name: tbl_record_types
 primary_key: "[[record_type_id]]"
 columns:
   - "[[date_updated]]"
   - "[[record_type_description]]"
   - "[[record_type_name]]"
-date created: Friday, September 19th 2025, 3:37:16 pm
 ---
 
 > [!comment] This table is both optional and discouraged.

@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Columns/dating_uncertainty_id.md
 created: 2026-07-24T09:34:39.489Z
-modified: 2026-09-24T05:44:38.701Z
-published: 2026-09-24T05:44:38.701Z
+modified: 2026-10-02T09:16:36.146Z
+published: 2026-10-02T09:16:36.146Z
 column_name: dating_uncertainty_id
 data_type: integer
 connected_tables:
@@ -13,7 +13,6 @@ connected_tables:
   - "[[tbl_geochronology]]"
   - "[[tbl_relative_dates]]"
   - "[[tbl_tephra_dates]]"
-date created: Friday, September 19th 2025, 3:37:16 pm
 ---
 
 Specifies the uncertainty category related to the dating method used.

@@ -2,15 +2,23 @@
 publish: true
 permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/Entity site.md
 created: 2026-07-24T09:34:08.023Z
-modified: 2026-10-02T08:09:19.605Z
-published: 2026-10-02T08:09:19.605Z
+modified: 2026-10-02T09:17:06.606Z
+published: 2026-10-02T09:17:06.606Z
 Entity_Name: site
 Type: Data (Derived)
 Public_ID: "[[site_id]]"
+SEAD_table: "[[tbl_sites]]"
 status: complete
-date created: Wednesday, February 18th 2026, 10:15:23 am
 ---
 
-> \[!to do] figure out what to do about the fact that the site\_id column contains both SEAD site\_id number and comments (asked R\&R in a chat 2026-02-20)
+> [!info]
 
-![[images/Entity site schema.png]]
+# YAML as of 2026-10-02
+
+````
+.
+```
+> [!to do] figure out what to do about the fact that the site_id column contains both SEAD site_id number and comments (asked R&R in a chat 2026-02-20)
+
+![[Entity site schema.png]]
+````

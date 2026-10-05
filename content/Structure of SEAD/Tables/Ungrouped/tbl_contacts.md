@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Ungrouped/tbl_contacts.md
 created: 2026-07-24T09:34:41.526Z
-modified: 2026-09-24T05:44:41.334Z
-published: 2026-09-24T05:44:41.334Z
+modified: 2026-10-02T09:16:37.445Z
+published: 2026-10-02T09:16:37.445Z
 table_name: tbl_contacts
 primary_key: "[[contact_id]]"
 columns:
@@ -16,7 +16,6 @@ columns:
   - "[[location_id]]"
   - "[[phone_number]]"
   - "[[url]]"
-date created: Friday, September 19th 2025, 3:37:16 pm
 ---
 
 Contains contact information for various roles, such as dataset authors, specimen identifiers, and laboratory managers.

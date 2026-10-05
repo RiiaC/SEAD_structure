@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity analysis_entity.md
 created: 2026-09-15T10:31:11.659Z
-modified: 2026-09-24T05:44:37.242Z
-published: 2026-09-24T05:44:37.242Z
+modified: 2026-10-02T08:56:15.963Z
+published: 2026-10-02T08:56:15.963Z
 Entity_Name: analysis_entity
 Type: Data (Derived)
 Source_entity: "[[Entity supersite|Entity supersite]]"
@@ -11,7 +11,7 @@ Public_ID: "[[analysis_entity_id]]"
 columns:
   - "[[physical_sample_key]]"
   - "[[unique_row_identifer]]"
-Target_Entity: "[[Entity dataset|Entity dataset]]"
+Target_Entity: "[[Example dataset mapping/Strucke Data-mapping/Entity dataset|Entity dataset]]"
 Local_Keys:
   - "[[dataset_name]]"
 Remote_Keys:

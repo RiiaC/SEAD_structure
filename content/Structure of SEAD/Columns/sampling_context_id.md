@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Columns/sampling_context_id.md
 created: 2026-07-24T09:34:40.464Z
-modified: 2026-09-24T05:44:40.016Z
-published: 2026-09-24T05:44:40.016Z
+modified: 2026-10-02T09:16:36.647Z
+published: 2026-10-02T09:16:36.647Z
 column_name: sampling_context_id
 data_type: integer
 connected_tables:
@@ -12,7 +12,6 @@ connected_tables:
   - "[[tbl_sample_group_sampling_contexts]]"
   - "[[tbl_sample_groups]]"
   - "[[tbl_sample_location_type_sampling_contexts]]"
-date created: Friday, September 19th 2025, 3:37:17 pm
 ---
 
 Specifies the sampling context, providing contextual details about the sampling environment.

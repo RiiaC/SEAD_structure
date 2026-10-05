@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Taxa Counts/tbl_abundances.md
 created: 2026-07-24T09:34:41.397Z
-modified: 2026-09-24T05:44:41.152Z
-published: 2026-09-24T05:44:41.152Z
+modified: 2026-10-02T09:16:37.303Z
+published: 2026-10-02T09:16:37.303Z
 table_name: tbl_abundances
 primary_key: "[[abundance_id]]"
 columns:
@@ -17,7 +17,6 @@ foreign_keys:
   - "[[abundance_element_id]]"
   - "[[analysis_entity_id]]"
   - "[[taxon_id]]"
-date created: Friday, September 19th 2025, 3:37:16 pm
 ---
 
 Records data related to biological proxies, such as individual counts, presence indicators, or scaled values, linking each entry to a specific taxon through an analysis entity. It serves as a species list detailing abundance information for a single physical sample. The intermediate analysis entity allows for the association of multiple proxies per sample. Entries typically reflect count values (abundance), but can also denote presence (1) or use categorical or relative scales, as specified by the dataset's data type.

@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Columns/biblio_id.md
 created: 2026-07-24T09:34:39.278Z
-modified: 2026-09-24T05:44:38.412Z
-published: 2026-09-24T05:44:38.412Z
+modified: 2026-10-02T09:16:36.034Z
+published: 2026-10-02T09:16:36.034Z
 column_name: biblio_id
 data_type: integer
 connected_tables:
@@ -27,5 +27,4 @@ connected_tables:
   - "[[tbl_text_biology]]"
   - "[[tbl_text_distribution]]"
   - "[[tbl_text_identification_keys]]"
-date created: Friday, September 19th 2025, 3:37:16 pm
 ---

@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Columns/taxon_id.md
 created: 2026-07-24T09:34:40.680Z
-modified: 2026-09-24T05:44:40.262Z
-published: 2026-09-24T05:44:40.262Z
+modified: 2026-10-02T09:16:36.739Z
+published: 2026-10-02T09:16:36.739Z
 connected_tables:
   - "[[tbl_abundances]]"
   - "[[tbl_analysis_taxon_counts]]"
@@ -30,7 +30,6 @@ connected_tables:
   - "[[tbl_text_identification_keys]]"
 column_name: taxon_id
 data_type: integer
-date created: Friday, September 19th 2025, 3:37:16 pm
 ---
 
 Specifies the taxonomic unit related to this record.

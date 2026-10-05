@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Ungrouped/tbl_aggregate_datasets.md
 created: 2026-07-24T09:34:41.502Z
-modified: 2026-09-24T05:44:41.297Z
-published: 2026-09-24T05:44:41.297Z
+modified: 2026-10-02T09:16:37.429Z
+published: 2026-10-02T09:16:37.429Z
 table_name: tbl_aggregate_datasets
 primary_key: "[[aggregate_dataset_id]]"
 foreign_keys:
@@ -17,7 +17,6 @@ columns:
 connected_tables:
   - "[[tbl_aggregate_order_types]]"
   - "[[tbl_biblio]]"
-date created: Friday, September 19th 2025, 3:37:16 pm
 ---
 
 nan

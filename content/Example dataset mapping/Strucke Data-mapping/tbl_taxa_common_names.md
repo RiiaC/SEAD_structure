@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/tbl_taxa_common_names.md
 created: 2026-07-24T09:34:41.431Z
-modified: 2026-09-24T05:44:37.461Z
-published: 2026-09-24T05:44:37.461Z
+modified: 2026-10-02T09:16:35.626Z
+published: 2026-10-02T09:16:35.626Z
 table_name: tbl_taxa_common_names
 primary_key: "[[taxon_common_name_id]]"
 foreign_keys:
@@ -15,7 +15,6 @@ columns:
 connected_tables:
   - "[[tbl_languages]]"
   - "[[tbl_taxa_tree_master]]"
-date created: Friday, September 19th 2025, 3:37:16 pm
 status:
 Entity_Name:
 Public_ID:

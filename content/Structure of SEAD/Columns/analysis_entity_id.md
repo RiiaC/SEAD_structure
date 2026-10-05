@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Columns/analysis_entity_id.md
 created: 2026-07-24T09:34:39.163Z
-modified: 2026-09-24T05:44:38.227Z
-published: 2026-09-24T05:44:38.227Z
+modified: 2026-10-02T09:16:35.983Z
+published: 2026-10-02T09:16:35.983Z
 connected_tables:
   - "[[tbl_abundances]]"
   - "[[tbl_aggregate_samples]]"
@@ -22,7 +22,6 @@ connected_tables:
   - "[[tbl_tephra_dates]]"
 column_name: analysis_entity_id
 data_type: bigint
-date created: Friday, September 19th 2025, 3:37:16 pm
 ---
 
 Identifies the specific analysis entity associated with this record.

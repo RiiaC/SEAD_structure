@@ -4,9 +4,8 @@ permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/AFL Radiocarbon
 aliases:
   - M.
 created: 2026-07-24T09:34:08.116Z
-modified: 2026-09-24T05:44:36.842Z
-published: 2026-09-24T05:44:36.842Z
-date created: Friday, September 26th 2025, 12:50:11 pm
+modified: 2026-10-02T09:16:35.480Z
+published: 2026-10-02T09:16:35.480Z
 example_data:
   - "-4836"
   - "-2840"

@@ -2,15 +2,14 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Sample/tbl_sample_description_types.md
 created: 2026-07-24T09:34:41.353Z
-modified: 2026-09-24T05:44:40.972Z
-published: 2026-09-24T05:44:40.972Z
+modified: 2026-10-02T09:16:37.167Z
+published: 2026-10-02T09:16:37.167Z
 table_name: tbl_sample_description_types
 primary_key: "[[sample_description_type_id]]"
 columns:
   - "[[date_updated]]"
   - "[[type_description]]"
   - "[[type_name]]"
-date created: Friday, September 19th 2025, 3:37:16 pm
 ---
 
 > [!info] Specifies various types of sample descriptions used in the database.

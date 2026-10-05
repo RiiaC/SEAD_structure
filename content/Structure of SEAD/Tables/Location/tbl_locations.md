@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Location/tbl_locations.md
 created: 2026-07-24T09:34:41.048Z
-modified: 2026-09-24T05:44:40.712Z
-published: 2026-09-24T05:44:40.712Z
+modified: 2026-10-02T09:16:37.111Z
+published: 2026-10-02T09:16:37.111Z
 table_name: tbl_locations
 primary_key: "[[location_id]]"
 foreign_keys:
@@ -15,7 +15,6 @@ columns:
   - "[[location_name]]"
 connected_tables:
   - "[[tbl_location_types]]"
-date created: Friday, September 19th 2025, 3:37:16 pm
 ---
 
 Represents geographical locations, typically defined by regions. These can be current or historical locations.

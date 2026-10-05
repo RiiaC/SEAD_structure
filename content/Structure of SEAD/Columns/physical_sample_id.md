@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Columns/physical_sample_id.md
 created: 2026-07-24T09:34:40.145Z
-modified: 2026-09-24T05:44:39.617Z
-published: 2026-09-24T05:44:39.617Z
+modified: 2026-10-02T09:16:36.448Z
+published: 2026-10-02T09:16:36.448Z
 column_name: physical_sample_id
 data_type: integer
 connected_tables:
@@ -19,7 +19,6 @@ connected_tables:
   - "[[tbl_sample_images]]"
   - "[[tbl_sample_locations]]"
   - "[[tbl_sample_notes]]"
-date created: Friday, September 19th 2025, 3:37:16 pm
 ---
 
 Identifies the specific physical sample.

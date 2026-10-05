@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Dataset/tbl_data_types.md
 created: 2026-07-24T09:34:40.968Z
-modified: 2026-09-24T05:44:40.559Z
-published: 2026-09-24T05:44:40.559Z
+modified: 2026-10-02T09:16:36.924Z
+published: 2026-10-02T09:16:36.924Z
 table_name: tbl_data_types
 primary_key: "[[data_type_id]]"
 foreign_keys:
@@ -14,7 +14,6 @@ columns:
   - "[[definition]]"
 connected_tables:
   - "[[tbl_data_type_groups]]"
-date created: Friday, September 19th 2025, 3:37:16 pm
 ---
 
 > [!info] Specifies the types of quantification methods used in datasets, including definitions of each classification system.

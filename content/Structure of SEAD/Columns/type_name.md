@@ -2,15 +2,14 @@
 publish: true
 permalink: /Structure of SEAD/Columns/type_name.md
 created: 2026-07-24T09:34:40.743Z
-modified: 2026-09-24T05:44:40.346Z
-published: 2026-09-24T05:44:40.346Z
+modified: 2026-10-02T09:16:36.756Z
+published: 2026-10-02T09:16:36.756Z
 column_name: type_name
 data_type: character varying
 connected_tables:
   - "[[tbl_sample_description_types]]"
   - "[[tbl_sample_group_description_types]]"
   - "[[tbl_sample_types]]"
-date created: Friday, September 19th 2025, 3:37:17 pm
 ---
 
 Name assigned to the sample type.

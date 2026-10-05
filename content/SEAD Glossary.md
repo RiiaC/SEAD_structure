@@ -2,9 +2,8 @@
 publish: true
 permalink: /SEAD Glossary.md
 created: 2026-07-24T07:36:14.733Z
-modified: 2026-09-17T17:25:25.413Z
-published: 2026-09-17T17:25:25.413Z
-date created: Tuesday, December 23rd 2025, 7:48:31 am
+modified: 2026-10-02T09:16:38.257Z
+published: 2026-10-02T09:16:38.257Z
 ---
 
 > [!info]+ This glossary was prepared in September 2025

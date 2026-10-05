@@ -4,9 +4,8 @@ permalink: /Structure of SEAD/Tables/index.md
 title: Tables
 description: Overview of SEAD database tables and their relationships.
 created: 2026-07-24T09:34:40.830Z
-modified: 2026-09-24T05:44:40.698Z
-published: 2026-09-24T05:44:40.698Z
-date created: Thursday, December 4th 2025, 3:15:21 pm
+modified: 2026-10-02T09:16:37.036Z
+published: 2026-10-02T09:16:37.036Z
 ---
 
 # Tables Overview

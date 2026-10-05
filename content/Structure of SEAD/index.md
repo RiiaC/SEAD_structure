@@ -2,9 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/index.md
 created: 2026-07-24T09:34:38.991Z
-modified: 2026-09-24T05:44:40.433Z
-published: 2026-09-24T05:44:40.433Z
-date created: Wednesday, December 3rd 2025, 6:34:01 pm
+modified: 2026-10-02T09:16:37.483Z
+published: 2026-10-02T09:16:37.483Z
 Title: SEAD database table and columns
 ---
 

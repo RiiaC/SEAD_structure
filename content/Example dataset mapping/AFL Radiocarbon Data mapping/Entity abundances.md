@@ -2,20 +2,18 @@
 publish: true
 permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/Entity abundances.md
 created: 2026-07-24T09:34:07.925Z
-modified: 2026-09-24T05:44:36.775Z
-published: 2026-09-24T05:44:36.775Z
-foreign_keys:
-  - "[[rdb_system_id]]"
+modified: 2026-10-02T09:19:21.172Z
+published: 2026-10-02T09:19:21.172Z
 Entity_Name: abundances
 Type: Data (Derived)
 Public_ID: "[[abundance_id]]"
-Target_Entity: "[[Example dataset mapping/AFL Radiocarbon Data mapping/Entity abundance_element]]"
-Local_Keys:
-Remote_Keys:
-SEAD_table: "[[tbl_abundances]]"
-Target_Entity_2: "[[Example dataset mapping/AFL Radiocarbon Data mapping/Entity taxa_tree_master]]"
+Target_Entity: "[[Example dataset mapping/AFL Radiocarbon Data mapping/Entity abundance_element|Entity abundance_element]]"
+Target_Entity_2: "[[Example dataset mapping/AFL Radiocarbon Data mapping/Entity taxa_tree_master|Entity taxa_tree_master]]"
 Local_Keys_2: "[[taxon_id]]"
+SEAD_table: "[[tbl_abundances]]"
 status: error_to_solve
+foreign_keys:
+  - "[[rdb_system_id]]"
 ---
 
 - [x] create a data-derived entity and pull in columns for element, biological age, and lab\_nr

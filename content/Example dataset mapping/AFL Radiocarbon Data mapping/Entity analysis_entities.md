@@ -2,18 +2,12 @@
 publish: true
 permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/Entity analysis_entities.md
 created: 2026-07-24T09:34:07.945Z
-modified: 2026-09-24T05:44:36.862Z
-published: 2026-09-24T05:44:36.862Z
-Entity_Name:
-Type:
-Public_ID:
-Target_Entity:
-Local_Keys:
-  - 
-  - 
-  - 
-Remote_Keys:
-SEAD_table:
+modified: 2026-10-02T09:13:37.026Z
+published: 2026-10-02T09:13:37.026Z
+Entity_Name: analysis_entities
+Type: Data (Derived)
+Public_ID: "[[analysis_entity_id]]"
+SEAD_table: "[[tbl_analysis_entities]]"
 status: needs creating
 ---
 

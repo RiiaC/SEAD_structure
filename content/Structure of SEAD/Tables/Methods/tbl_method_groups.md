@@ -2,15 +2,14 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Methods/tbl_method_groups.md
 created: 2026-07-24T09:34:41.143Z
-modified: 2026-09-24T05:44:40.834Z
-published: 2026-09-24T05:44:40.834Z
+modified: 2026-10-02T09:16:37.093Z
+published: 2026-10-02T09:16:37.093Z
 table_name: tbl_method_groups
 primary_key: "[[method_group_id]]"
 columns:
   - "[[date_updated]]"
   - "[[description]]"
   - "[[group_name]]"
-date created: Friday, September 19th 2025, 3:37:16 pm
 ---
 
 > [!info] Categorizes various analysis methods into groups based on their similarities, such as dating methods, isotope analyses, palaeoentomology, or geographic location.
