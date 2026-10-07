@@ -2,12 +2,10 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Sites/tbl_sites.md
 created: 2026-07-24T09:34:41.278Z
-modified: 2026-10-02T09:16:37.265Z
-published: 2026-10-02T09:16:37.265Z
+modified: 2026-10-06T13:57:55.380Z
+published: 2026-10-06T13:57:55.380Z
 table_name: tbl_sites
 primary_key: "[[site_id]]"
-foreign_keys:
-  - "[[site_preservation_status_id]]"
 columns:
   - "[[altitude]]"
   - "[[latitude_dd]]"
@@ -19,6 +17,8 @@ columns:
   - "[[site_uuid]]"
 connected_tables:
   - "[[tbl_site_preservation_status]]"
+foreign_keys:
+  - "[[site_preservation_status_id]]"
 url: https://humlab-sead.github.io/sead-schema/tables/tbl_sites.html
 ---
 
