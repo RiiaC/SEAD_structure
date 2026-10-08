@@ -1,0 +1,17 @@
+---
+publish: true
+permalink: /Structure of SEAD/Tables/Columns/site_property.md
+created: 2026-07-24T09:34:40.543Z
+modified: 2026-10-02T09:16:36.695Z
+published: 2026-10-02T09:16:36.695Z
+column_name: site_property
+data_type: character varying
+connected_tables:
+  - "[[tbl_site_properties]]"
+example_data:
+  - "Ösmo 303\r"
+  - "Jörlanda 185\r"
+---
+
+> [!info] This is a suggested new SEAD column to be added to the new [[tbl_site_properties]]
+> it will contain things like RAÄ numbers and other things that describe a site
