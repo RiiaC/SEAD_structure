@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity site_property.md
 created: 2026-09-15T10:31:11.835Z
-modified: 2026-09-28T05:21:03.121Z
-published: 2026-09-28T05:21:03.121Z
+modified: 2026-10-21T07:17:55.128Z
+published: 2026-10-21T07:17:55.128Z
 Entity_Name: site
 Type: Data (Derived)
 Source_entity: "[[Entity supersite|Entity supersite]]"
@@ -24,11 +24,11 @@ Local_Keys:
   - "[[property_type_id]]"
 Remote_Keys:
   - "[[property_type_id]]"
-SEAD_table: "[[tbl_sites]]"
-status: complete
 Target_Entity_2: "[[Z_Not_plotted/original Strucke Data mapping/Entity site|Entity site]]"
 Local_Keys_2: "[[site_key]]"
 Remote_Keys_2: "[[site_key]]"
+SEAD_table: "[[tbl_sites]]"
+status: complete
 extra_columns:
   - "[[property_type_id]]"
 ---

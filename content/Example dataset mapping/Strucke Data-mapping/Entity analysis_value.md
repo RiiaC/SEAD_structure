@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity analysis_value.md
 created: 2026-09-15T10:31:11.671Z
-modified: 2026-09-24T05:44:37.258Z
-published: 2026-09-24T05:44:37.258Z
+modified: 2026-10-21T07:26:00.545Z
+published: 2026-10-21T07:26:00.545Z
 Entity_Name: analysis_value
 Type: Data (Derived)
 Source_entity: "[[Example dataset mapping/Strucke Data-mapping/Entity datasheet|Entity datasheet]]"
@@ -17,14 +17,21 @@ Local_Keys:
   - "[[unique_row_identifer]]"
 Remote_Keys:
   - "[[unique_row_identifer]]"
-SEAD_table: "[[tbl_analysis_values]]"
-status: complete
 Target_Entity_2: "[[Entity value_class]]"
 Local_Keys_2: "[[value_type_name]]"
 Remote_Keys_2: "[[name]]"
+SEAD_table: "[[tbl_analysis_values]]"
+status: complete
 ---
 
-> [!info] this table uses the joins to connect the analysis values reported for percent modern carbon (pMC) and its error to the labels showing which values are the pMC, and which the error
+> [!info] this table uses both an unest and joins
+> to connect the analysis values reported for percent modern carbon (pMC) and its error to the labels showing which values are the pMC, and which the error
+
+# unnest
+
+| ID Variables             | _(columns to keep as is)_<br>Value Variables | _(columns to unpivot)_<br>Variable Name Column | _(name for the new column containing variable names)_<br>Value Name Column |
+| ------------------------ | -------------------------------------------- | ---------------------------------------------- | -------------------------------------------------------------------------- |
+| [[unique_row_identifer]] | [[pMC_value]], [[pMC_error]]                 | [[value_type_name]]                            | [[analysis_value]]]                                                        |
 
 # YAML as of 2026-09-17
 

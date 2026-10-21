@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity location.md
 created: 2026-09-15T10:31:11.764Z
-modified: 2026-09-29T08:55:33.151Z
-published: 2026-09-29T08:55:33.151Z
+modified: 2026-10-21T07:24:12.201Z
+published: 2026-10-21T07:24:12.201Z
 Entity_Name: site
 Type: Data (Derived)
 Source_entity: "[[Example dataset mapping/Strucke Data-mapping/Entity datasheet|Entity datasheet]]"
@@ -28,6 +28,14 @@ extra_columns:
 >
 > - Bruno used the extra column [[location_type_id]] =  2 for everything in the dataset
 > - [ ] Since the entire dataset is Sweden specific, should we also add a column to every row for **Country** ( [[location_type_id]] = 1) and set it to Sweden?
+
+# Unnest
+
+| ID Variables | _(columns to keep as is)_<br>Value Variables | _(columns to unpivot)_<br>Variable Name Column | _(name for the new column containing variable names)_<br>Value Name Column |
+| ------------ | -------------------------------------------- | ---------------------------------------------- | -------------------------------------------------------------------------- |
+|              | [[landskap]], [[socken]]                     | [[location_type_name]]                         | [[location_name]]                                                          |
+
+# lookup table info
 
 | location\_type\_id | location\_type       |
 | ---------------- | ------------------- |
