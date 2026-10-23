@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity species.md
 created: 2026-09-16T13:49:39.544Z
-modified: 2026-09-24T06:25:06.749Z
-published: 2026-09-24T06:25:06.749Z
+modified: 2026-10-22T10:41:49.539Z
+published: 2026-10-22T10:41:49.539Z
 Entity_Name: species
 Type: Data (Derived)
 Source_entity: "[[Entity superabundance]]"
@@ -15,11 +15,11 @@ Local_Keys:
   - "[[species_split]]"
 Remote_Keys:
   - "[[species_split]]"
-SEAD_table: "[[tbl_taxa_tree_master]]"
-status: complete
 Target_Entity_2: "[[Example dataset mapping/Strucke Data-mapping/Entity taxa_tree_master|Entity taxa_tree_master]]"
 Local_Keys_2: "[[species_split]]"
 Remote_Keys_2: "[[species_split]]"
+SEAD_table: "[[tbl_taxa_tree_master]]"
+status: complete
 ---
 
 > [!info] This entity takes the [[species_split]] output column from the [[Entity superabundance]] and links it to both the [[Entity species_resolution]] and [[Example dataset mapping/Strucke Data-mapping/Entity taxa_tree_master|Entity taxa_tree_master]]

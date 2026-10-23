@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity dataset.md
 created: 2026-09-15T10:31:11.692Z
-modified: 2026-09-24T05:44:37.261Z
-published: 2026-09-24T05:44:37.261Z
+modified: 2026-10-22T10:57:39.149Z
+published: 2026-10-22T10:57:39.149Z
 Entity_Name: dataset
 Type: Fixed Values
 Public_ID: "[[dataset_id]]"
@@ -27,7 +27,10 @@ status: outstanding_question
 > - [ ] check to see if Bruno solved the dataset methods another way, possibly with just a fixed values column somewhere?
 
 - [ ] later, when Sakarias and colleagues publish the paper based on this dataset, it can be added to the citations and linked with the foreign key bibilo\_id for that paper in [[Entity citation|Entity citation]]
-- [ ] wait for reply to chat of 2026-03-11 06:57 before deciding if we need an entity for [[tbl_data_types]]
+- [ ] assign [[tbl_data_types]]
+- [ ] [[tbl_methods]]
+- [ ] [[project_name]]
+- [ ] [[tbl_dataset_submisssion]]
 
 ![[images/Entity datasets schema.png]]
 
