@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/New MAL templates mapping/The templates themselves.md
 created: 2026-07-24T09:34:08.140Z
-modified: 2026-10-23T07:47:07.567Z
-published: 2026-10-23T07:47:07.567Z
+modified: 2026-10-23T12:57:19.244Z
+published: 2026-10-23T12:57:19.244Z
 ---
 
 > [!info]  There are two templates, one for the data itself, the other for the metadata
@@ -129,7 +129,7 @@ This section records taxonomic and anatomical identifications of faunal remains,
 | Genus uncertainty   | Indicator describing uncertainty or qualification associated with the genus‑level identification (e.g. cf., aff., ?, probable), as defined by laboratory or project conventions. |                                                                   |                                                                   |
 | Genus               |                                                                                                                                                                                  |                                                                   |                                                                   |
 | Species uncertainty |                                                                                                                                                                                  |                                                                   |                                                                   |
-| Species             |                                                                                                                                                                                  |                                                                   |                                                                   |
+| Species             |                                                                                                                                                                                  | [[tbl_taxa_tree_master]]                                          | [[species]]                                                       |
 | Subspecies          |                                                                                                                                                                                  |                                                                   |                                                                   |
 | Modifications       |                                                                                                                                                                                  |                                                                   |                                                                   |
 | Element             |                                                                                                                                                                                  |                                                                   |                                                                   |
