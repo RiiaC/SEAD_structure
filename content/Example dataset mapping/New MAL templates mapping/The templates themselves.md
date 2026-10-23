@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/New MAL templates mapping/The templates themselves.md
 created: 2026-07-24T09:34:08.140Z
-modified: 2026-10-23T12:57:19.244Z
-published: 2026-10-23T12:57:19.244Z
+modified: 2026-10-23T13:54:31.509Z
+published: 2026-10-23T13:54:31.509Z
 ---
 
 > [!info]  There are two templates, one for the data itself, the other for the metadata
@@ -122,6 +122,8 @@ The metadata template file, **makro\_data\_mall.xlsx,** contains four sheets:
 ## the Archaeobotany sheet (Taxonomic and Anatomical Identification; Faunal Remains)
 
 This section records taxonomic and anatomical identifications of faunal remains, including genus-, species-, and subspecies‑level determinations, along with uncertainty qualifiers. It also documents observed modifications and anatomical elements, providing information relevant to species representation, taphonomy, and human or natural processes affecting the remains.
+
+> [!warning] the notes for this sheet are still in progress, as of 2026-10-23. If this doesn't change soon, [poke me](Riia.Chmielowski@umu.se).
 
 | Column name         | Column description                                                                                                                                                               | corresponding SEAD table                                          | corresponding SEAD column                                         |
 | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------------- |
