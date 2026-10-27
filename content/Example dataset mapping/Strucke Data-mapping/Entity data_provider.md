@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity data_provider.md
 created: 2026-10-27T11:56:04.629Z
-modified: 2026-10-27T14:00:25.263Z
-published: 2026-10-27T14:00:25.263Z
+modified: 2026-10-27T15:02:07.380Z
+published: 2026-10-27T15:02:07.380Z
 Entity_Name: data_provider
 Type:
 Source_entity:
@@ -19,7 +19,9 @@ SEAD_table: "[[tbl_data_providers]]"
 status:
 ---
 
-> [!info]
+> [!info] This is one of the metadata tables needed for this project
+
+- [ ] finish filling this in--add info on contact and connect this table to the other metadata tables
 
 # YAML as of 2026-10-27
 

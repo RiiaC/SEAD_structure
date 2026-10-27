@@ -2,8 +2,8 @@
 publish: true
 permalink: /SEAD Glossary.md
 created: 2026-07-24T07:36:14.733Z
-modified: 2026-10-02T09:16:38.257Z
-published: 2026-10-02T09:16:38.257Z
+modified: 2026-10-27T14:50:31.332Z
+published: 2026-10-27T14:50:31.332Z
 ---
 
 > [!info]+ This glossary was prepared in September 2025
@@ -27,7 +27,7 @@ published: 2026-10-02T09:16:38.257Z
 |Data type groups|[[data_type_group_name]]|Grouping of different data types (e.g. Relative scale, semi-quantitative)|
 |Dataset|[[dataset_name]]|A collection of analysis entities undertaken in a manner meaningful for a given proxy.|
 |Dataset Masters|[[tbl_dataset_masters]]|Major grouping unit for datasets, usually designating contributing database,project, user or lab e.g. Bugscep, MAL, Lund Dendro lab|
-|Dataset submissions|[[tbl_dataset_submisssion]]|Records details for different submission events for a dataset (e.g. Originalrecording to paper, entry into Bugs database, ingestion into SEAD).|
+|Dataset submissions|[[tbl_dataset_submisssions]]|Records details for different submission events for a dataset (e.g. Originalrecording to paper, entry into Bugs database, ingestion into SEAD).|
 |Dating Labs|[[tbl_dating_labs]]|The official radiocarbon laboratory identifiers and names as taken fromhttp://www.radiocarbon.org/Info/labcodes.html, for transparency in C14 and other dating records|
 |Dendro Dates|[[tbl_dendro_dates]]|Dendrochronological dates (calculated felling year)|
 |Ecocode|[[tbl_ecocodes]]|An ecological, habitat, or ethnographic (etc.) Category to which a taxon can be assigned|

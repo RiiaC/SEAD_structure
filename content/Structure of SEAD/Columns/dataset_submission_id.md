@@ -2,7 +2,7 @@
 column_name: dataset_submission_id
 data_type: integer
 connected_tables:
-  - "[[tbl_dataset_submisssion]]"
+  - "[[tbl_dataset_submisssions]]"
 publish: true
 ---
 

@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity dataset.md
 created: 2026-09-15T10:31:11.692Z
-modified: 2026-10-22T10:57:39.149Z
-published: 2026-10-22T10:57:39.149Z
+modified: 2026-10-27T14:50:31.305Z
+published: 2026-10-27T14:50:31.305Z
 Entity_Name: dataset
 Type: Fixed Values
 Public_ID: "[[dataset_id]]"
@@ -30,7 +30,7 @@ status: outstanding_question
 - [ ] assign [[tbl_data_types]]
 - [ ] [[tbl_methods]]
 - [ ] [[project_name]]
-- [ ] [[tbl_dataset_submisssion]]
+- [ ] [[tbl_dataset_submisssions]]
 
 ![[images/Entity datasets schema.png]]
 

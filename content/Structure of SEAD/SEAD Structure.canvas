@@ -157,7 +157,7 @@
 		{"id":"e9ce944e73f495f3","type":"file","file":"Structure of SEAD/Tables/Dataset/tbl_dataset_contacts.md","x":-11805,"y":-3221,"width":400,"height":220,"color":"#815c32"},
 		{"id":"c742f1a1784824c9","type":"file","file":"Structure of SEAD/Tables/Analysis Entities/tbl_analysis_entities.md","x":-12105,"y":-6290,"width":400,"height":243,"color":"#acef92"},
 		{"id":"d260c5a726f3fd6c","type":"file","file":"Structure of SEAD/Tables/Dendro/tbl_dendro.md","x":-12705,"y":-6290,"width":400,"height":234,"color":"#048b69"},
-		{"id":"dfd0b6e32a62541b","type":"file","file":"Structure of SEAD/Tables/Dataset/tbl_dataset_submisssion.md","x":-11805,"y":-2919,"width":400,"height":220,"color":"#815c32"},
+		{"id":"dfd0b6e32a62541b","type":"file","file":"Structure of SEAD/Tables/Dataset/tbl_dataset_submisssions.md","x":-11805,"y":-2919,"width":400,"height":220,"color":"#815c32"},
 		{"id":"86821fe99fec8c8e","type":"file","file":"Structure of SEAD/Tables/Geochronology/tbl_age_types.md","x":-11765,"y":-6900,"width":400,"height":178,"color":"#e6e90a"},
 		{"id":"3e96b181b1cbbdbf","type":"file","file":"Structure of SEAD/Tables/Geochronology/tbl_dating_uncertainty.md","x":-11765,"y":-6550,"width":400,"height":180,"color":"#dce90a"},
 		{"id":"205870f2881ab3f5","type":"file","file":"Structure of SEAD/Tables/Dendro/tbl_dendro_lookup.md","x":-13065,"y":-6669,"width":400,"height":240,"color":"#288b69"},

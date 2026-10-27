@@ -2,14 +2,14 @@
 publish: true
 permalink: /Structure of SEAD/Columns/notes.md
 created: 2026-07-24T09:34:40.114Z
-modified: 2026-09-24T05:44:39.573Z
-published: 2026-09-24T05:44:39.573Z
+modified: 2026-10-27T14:50:31.477Z
+published: 2026-10-27T14:50:31.477Z
 column_name: notes
 data_type: text
 connected_tables:
   - "[[tbl_biblio]]"
   - "[[tbl_chronologies]]"
-  - "[[tbl_dataset_submisssion]]"
+  - "[[tbl_dataset_submisssions]]"
   - "[[tbl_ecocode_definitions]]"
   - "[[tbl_ecocode_systems]]"
   - "[[tbl_geochronology]]"
