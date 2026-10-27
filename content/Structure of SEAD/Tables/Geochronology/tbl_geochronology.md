@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Geochronology/tbl_geochronology.md
 created: 2026-07-24T09:34:41.028Z
-modified: 2026-10-06T14:43:30.096Z
-published: 2026-10-06T14:43:30.096Z
+modified: 2026-10-27T14:06:28.710Z
+published: 2026-10-27T14:06:28.710Z
 table_name: tbl_geochronology
 primary_key: "[[geochron_id]]"
 columns:
@@ -14,7 +14,7 @@ columns:
   - "[[error_younger]]"
   - "[[geochron_uuid]]"
   - "[[notes]]"
-  - "[[Structure of SEAD/Tables/Columns/lab_number]]"
+  - "[[Structure of SEAD/Columns/lab_number]]"
 connected_tables:
   - "[[tbl_analysis_entities]]"
   - "[[tbl_dating_labs]]"

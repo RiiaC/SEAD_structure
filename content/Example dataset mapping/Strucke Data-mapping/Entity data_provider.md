@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity data_provider.md
 created: 2026-10-27T11:56:04.629Z
-modified: 2026-10-27T12:01:58.409Z
-published: 2026-10-27T12:01:58.409Z
+modified: 2026-10-27T14:00:25.263Z
+published: 2026-10-27T14:00:25.263Z
 Entity_Name: data_provider
 Type:
 Source_entity:
@@ -15,7 +15,7 @@ columns:
 Target_Entity:
 Local_Keys: []
 Remote_Keys:
-SEAD_table:
+SEAD_table: "[[tbl_data_providers]]"
 status:
 ---
 
