@@ -2,9 +2,9 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Dataset/tbl_data_providers.md
 created: 2026-10-27T14:00:49.180Z
-modified: 2026-10-27T14:06:17.173Z
-published: 2026-10-27T14:06:17.173Z
-table_name: tbl_dataset_submissions
+modified: 2026-11-02T14:09:22.309Z
+published: 2026-11-02T14:09:22.309Z
+table_name: tbl_data_providers
 primary_key: "[[data_provider_id]]"
 columns:
   - "[[biblio_id]]"

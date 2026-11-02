@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity data_provider.md
 created: 2026-10-27T11:56:04.629Z
-modified: 2026-10-27T15:02:07.380Z
-published: 2026-10-27T15:02:07.380Z
+modified: 2026-11-02T14:26:50.649Z
+published: 2026-11-02T14:26:50.649Z
 Entity_Name: data_provider
 Type:
 Source_entity:
@@ -21,7 +21,7 @@ status:
 
 > [!info] This is one of the metadata tables needed for this project
 
-- [ ] finish filling this in--add info on contact and connect this table to the other metadata tables
+- [ ] Get the table structure info for the new [[tbl_data_providers]] and figure out how to connect this entity to the rest of the project
 
 # YAML as of 2026-10-27
 
