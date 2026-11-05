@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Sample/tbl_sample_types.md
 created: 2026-07-24T09:34:41.379Z
-modified: 2026-10-02T09:16:37.196Z
-published: 2026-10-02T09:16:37.196Z
+modified: 2026-11-04T13:23:10.065Z
+published: 2026-11-04T13:23:10.065Z
 table_name: tbl_sample_types
 primary_key: "[[sample_type_id]]"
 columns:
@@ -37,3 +37,9 @@ Defines the physical form or category of a sample. This can include specific sub
 | 20             | Photograph                    | Sample consists of a photograph which has been the basis for measurements (e.g. photograph of dendrochronological cross-section).                                       |
 | 21             | Tracing                       | A thin paper is placed on the sample surface and a pencil is used to trace the features (e.g. in dendrochronology used to trace the ring-width pattern onto the paper). |
 | 22             | Poster putty                  | Poster putty is applied to the surface of the sample in order to create an imprint (e.g. in dendrochronology used to imprint the ring-width sequence).                  |
+
+# Proposed new sample types
+
+| sample\_type\_id | type\_name     | description                                                       |
+| -------------- | ------------- | ----------------------------------------------------------------- |
+| (new)          | Dating Sample | A sample analysed for radiocarbon dating (or other dating method) |
