@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entity contact.md
 created: 2026-11-02T14:43:22.682Z
-modified: 2026-11-03T06:20:29.831Z
-published: 2026-11-03T06:20:29.831Z
+modified: 2026-11-09T12:07:13.939Z
+published: 2026-11-09T12:07:13.939Z
 Entity_Name: contact
 Type: Fixed Values
 Public_ID: contact_id
@@ -22,9 +22,9 @@ status: in progress
 
 > [!info] The contact details for the people who provided the dataset
 
-- [ ] Wait for Roger's reply about how public the contact information stored in the database is
-- [ ] Get back to Ulf with that answer
-- [ ] Add the rest of the contact details, after you hear from Ulf as to what details they want included
+- [x] Wait for Roger's reply about how public the contact information stored in the database is
+- [x] Get back to Ulf with that answer
+- [ ] Add the rest of the contact details
 
 # YAML as of 2026-11-02
 

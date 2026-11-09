@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Sample/tbl_sample_types.md
 created: 2026-07-24T09:34:41.379Z
-modified: 2026-11-04T13:23:10.065Z
-published: 2026-11-04T13:23:10.065Z
+modified: 2026-11-09T12:38:42.042Z
+published: 2026-11-09T12:38:42.042Z
 table_name: tbl_sample_types
 primary_key: "[[sample_type_id]]"
 columns:
@@ -40,6 +40,6 @@ Defines the physical form or category of a sample. This can include specific sub
 
 # Proposed new sample types
 
-| sample\_type\_id | type\_name     | description                                                       |
-| -------------- | ------------- | ----------------------------------------------------------------- |
-| (new)          | Dating Sample | A sample analysed for radiocarbon dating (or other dating method) |
+| sample\_type\_id | type\_name     | description                                                                               |
+| -------------- | ------------- | ----------------------------------------------------------------------------------------- |
+| (new)          | Dating Sample | The portion of a physical sample analysed for radiocarbon dating (or other dating method) |
