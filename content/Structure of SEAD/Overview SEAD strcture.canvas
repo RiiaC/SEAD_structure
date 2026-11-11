@@ -8,7 +8,7 @@
 		{"id":"0075e6a0df5d16aa","type":"text","text":"# Locations\n[[Structure of SEAD/Tables/Location/index|Locatoins]]\n","x":-620,"y":-1490,"width":280,"height":100,"color":"#98d7ec"},
 		{"id":"5dc277b56bdaa5ed","type":"text","text":"# Analysis Entities\n[[Structure of SEAD/Tables/Analysis Entities/index|Analysis Entities]]\n","x":0,"y":-30,"width":280,"height":100,"color":"#acef92"},
 		{"id":"b641da17579b638d","type":"text","text":"# Datasets\n[[Structure of SEAD/Tables/Dataset/index|Datasets]]\n","x":300,"y":245,"width":280,"height":100,"color":"#ac5c32"},
-		{"id":"6e1e895d3c9fb96b","type":"text","text":"# Taxa Counts\n[[Structure of SEAD/Tables/Taxa Counts/index|Taxa Counts]]\n\n","x":-1220,"y":-220,"width":280,"height":100,"color":"#39f3d5"},
+		{"id":"6e1e895d3c9fb96b","type":"text","text":"# Taxa Counts\n[[Structure of SEAD/Tables/Abundance/index|Taxa Counts]]\n\n","x":-1220,"y":-220,"width":280,"height":100,"color":"#39f3d5"},
 		{"id":"14772185866add3d","type":"text","text":"# Dimensions\n[[Structure of SEAD/Tables/Dimensions/index|Dimensions]]\n","x":-480,"y":-150,"width":280,"height":100,"color":"#5f07ca"},
 		{"id":"9d136c79fc919de0","type":"text","text":"# Measured Values\n[[Structure of SEAD/Tables/Measured Values/index|Measured Values]]\n","x":-480,"y":-310,"width":280,"height":90,"color":"#4b370b"},
 		{"id":"fdb1a8a285a53e0d","type":"text","text":"# Geochronology\n[[Structure of SEAD/Tables/Geochronology/index|Geochronology]]\n","x":100,"y":-1060,"width":280,"height":100,"color":"#e6e90a"},
