@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Sample/tbl_sample_types.md
 created: 2026-07-24T09:34:41.379Z
-modified: 2026-11-11T15:21:30.791Z
-published: 2026-11-11T15:21:30.791Z
+modified: 2026-11-11T16:03:32.117Z
+published: 2026-11-11T16:03:32.117Z
 table_name: tbl_sample_types
 primary_key: "[[sample_type_id]]"
 columns:
@@ -15,7 +15,7 @@ columns:
 Defines the physical form or category of a sample. This can include specific sub-samples related to the sampling method of a sample group, or general bulk samples. Examples include 'Core Subsample', 'Grab Sample', and 'Bulk (Bag) Sample'.
 
 > \[! abstract] my suggested edit for this:
-> Defines the physical form or category of a sample from a sampling method perspective. Examples include 'Core Subsample', 'Grab Sample', and 'Bulk (Bag) Sample', but also 'Field measurement' and even 'Photograph'. For more specific information about the physical sample itself, see [[tbl_record_types]] and [[tbl_abundance_element]]
+> Defines the physical form or category of a sample from a sampling method perspective. Examples include 'Core Subsample', 'Grab Sample', and 'Bulk (Bag) Sample', but also 'Field measurement' and even 'Photograph'. For more specific information about the physical sample itself, see [[tbl_record_types]] and [[tbl_abundance_elements]]
 
 | sample\_type\_id | type\_name                     | description                                                                                                                                                             |
 | -------------- | ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

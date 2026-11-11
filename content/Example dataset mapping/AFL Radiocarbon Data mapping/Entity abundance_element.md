@@ -2,12 +2,12 @@
 publish: true
 permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/Entity abundance_element.md
 created: 2026-07-24T09:34:07.925Z
-modified: 2026-11-11T15:21:30.543Z
-published: 2026-11-11T15:21:30.543Z
+modified: 2026-11-11T16:03:31.855Z
+published: 2026-11-11T16:03:31.855Z
 Entity_Name: abundance_element
 Type: Data (Derived)
 Public_ID: "[[abundance_element_id]]"
-SEAD_table: "[[tbl_abundance_element]]"
+SEAD_table: "[[tbl_abundance_elements]]"
 status: complete
 ---
 

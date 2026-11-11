@@ -2,12 +2,12 @@
 publish: true
 permalink: /Structure of SEAD/Columns/record_type_id.md
 created: 2026-07-24T09:34:40.276Z
-modified: 2026-11-11T15:21:30.708Z
-published: 2026-11-11T15:21:30.708Z
+modified: 2026-11-11T16:03:32.021Z
+published: 2026-11-11T16:03:32.021Z
 column_name: record_type_id
 data_type: integer
 connected_tables:
-  - "[[tbl_abundance_element]]"
+  - "[[tbl_abundance_elements]]"
   - "[[tbl_methods]]"
   - "[[tbl_record_types]]"
   - "[[tbl_site_other_records]]"

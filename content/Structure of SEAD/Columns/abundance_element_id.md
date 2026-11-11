@@ -2,10 +2,10 @@
 publish: true
 permalink: /Structure of SEAD/Columns/abundance_element_id.md
 created: 2026-07-24T09:34:39.019Z
-modified: 2026-11-11T15:21:30.629Z
-published: 2026-11-11T15:21:30.629Z
+modified: 2026-11-11T16:03:31.947Z
+published: 2026-11-11T16:03:31.947Z
 connected_tables:
-  - "[[tbl_abundance_element]]"
+  - "[[tbl_abundance_elements]]"
   - "[[tbl_abundances]]"
   - "[[tbl_dating_material]]"
 column_name: abundance_element_id

@@ -2,20 +2,27 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Sites/tbl_property_type.md
 created: 2026-07-24T09:34:41.275Z
-modified: 2026-09-24T05:44:41.079Z
-published: 2026-09-24T05:44:41.079Z
+modified: 2026-11-11T17:24:23.671Z
+published: 2026-11-11T17:24:23.671Z
 table_name: tbl_site_property_type
 primary_key: "[[property_type_id]]"
-foreign_keys:
-  - "[[site_id]]"
 columns:
-  - "[[property_type]]"
   - "[[property_type_description]]"
+  - "[[property_type]]"
 connected_tables:
   - "[[tbl_site_properties]]"
+foreign_keys:
+  - "[[site_id]]"
+required: No
+role: classifier
+domain:
+  - abundance
+  - spatial
 ---
 
-> [!info] This is a new table that Roger mentioned during the [2026-03-03 shape-shifter working meeting](obsidian://open?vault=UmUArkeologi_Obsidian\&file=m%C3%B6ter%2FSEAD%20taskforce%20meetings%2F2026-03-03%20shape-shifter%20working%20meeting) as a nice solution for the fact that we have a variety of different types of [[national_site_identifier]] numbers, and that there are other sorts of properties that a site could have.
+> [!info] Shared property-type vocabulary used by SEAD property tables.
+
+This is a new table that Roger mentioned during the [2026-03-03 shape-shifter working meeting](obsidian://open?vault=UmUArkeologi_Obsidian\&file=m%C3%B6ter%2FSEAD%20taskforce%20meetings%2F2026-03-03%20shape-shifter%20working%20meeting) as a nice solution for the fact that we have a variety of different types of [[national_site_identifier]] numbers, and that there are other sorts of properties that a site could have.
 
 Various site properties that exist in the Strucke Data that will need to be added to this table:
 

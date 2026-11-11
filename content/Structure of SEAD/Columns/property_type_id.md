@@ -2,9 +2,10 @@
 publish: true
 permalink: /Structure of SEAD/Columns/property_type_id.md
 created: 2026-07-24T09:34:40.203Z
-modified: 2026-09-24T05:44:39.663Z
-published: 2026-09-24T05:44:39.663Z
+modified: 2026-11-11T16:25:17.200Z
+published: 2026-11-11T16:25:17.200Z
 connected_tables:
+  - "[[tbl_abundance_properties]]"
   - "[[tbl_property_type]]"
 column_name: property_type_id
 data_type:

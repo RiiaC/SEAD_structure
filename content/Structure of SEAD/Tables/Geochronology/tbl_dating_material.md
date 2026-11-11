@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Geochronology/tbl_dating_material.md
 created: 2026-07-24T09:34:41.543Z
-modified: 2026-11-11T15:21:30.736Z
-published: 2026-11-11T15:21:30.736Z
+modified: 2026-11-11T16:03:32.063Z
+published: 2026-11-11T16:03:32.063Z
 table_name: tbl_dating_material
 primary_key: "[[dating_material_id]]"
 foreign_keys:
@@ -15,7 +15,7 @@ columns:
   - "[[description]]"
   - "[[material_dated]]"
 connected_tables:
-  - "[[tbl_abundance_element]]"
+  - "[[tbl_abundance_elements]]"
   - "[[tbl_geochronology]]"
   - "[[tbl_taxa_tree_master]]"
 ---
