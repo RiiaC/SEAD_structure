@@ -2,12 +2,12 @@
 publish: true
 permalink: /Example dataset mapping/AFL Radiocarbon Data mapping/Entity dating_material.md
 created: 2026-10-02T08:45:47.814Z
-modified: 2026-10-02T09:26:09.429Z
-published: 2026-10-02T09:26:09.429Z
+modified: 2026-11-12T08:31:04.942Z
+published: 2026-11-12T08:31:04.942Z
 Entity_Name: dating_material
 Type: Data (Derived)
 Public_ID: "[[dating_material_id]]"
-Target_Entity: "[[Example dataset mapping/Strucke Data-mapping/Entity abundance_element|Entity abundance_element]]"
+Target_Entity: "[[Example dataset mapping/Strucke Data-mapping/Entities/Entity abundance_element|Entity abundance_element]]"
 Target_Entity_2: "[[Z_Not_plotted/original Strucke Data mapping/Entity geochronology|Entity geochronology]]"
 SEAD_table: "[[tbl_dating_material]]"
 ---

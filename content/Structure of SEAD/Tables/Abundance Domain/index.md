@@ -1,0 +1,14 @@
+---
+publish: true
+permalink: /Structure of SEAD/Tables/Abundance Domain/index.md
+title: Abundance
+description: SEAD database tables that define what was counted, and how many there were
+created: 2026-08-07T09:33:27.059Z
+modified: 2026-11-12T08:16:50.999Z
+published: 2026-11-12T08:16:50.999Z
+---
+
+> [!abstract] The Abundance Domain
+> Contains the tables that define what was counted, how many of each sort of species or thing were present, and if/how they were modified after deposition.
+>
+> It may also wind up being the place for information about the counted things that don't fit elsewhere (e.g. was the bone was from a juvenile or adult creature).
