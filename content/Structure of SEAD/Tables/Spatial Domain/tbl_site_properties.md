@@ -1,0 +1,32 @@
+---
+publish: true
+permalink: /Structure of SEAD/Tables/Spatial Domain/tbl_site_properties.md
+created: 2026-07-24T09:34:41.307Z
+modified: 2026-09-24T05:44:41.113Z
+published: 2026-09-24T05:44:41.113Z
+table_name: tbl_site_properties
+primary_key: "[[site_property_id]]"
+columns:
+  - "[[property_value]]"
+  - "[[site_property]]"
+connected_tables:
+  - "[[tbl_property_type]]"
+  - "[[tbl_sites]]"
+foreign_keys:
+  - "[[property_type_id]]"
+  - "[[site_id]]"
+---
+
+> [!info] This is a new table that Roger mentioned during the [2026-03-03 shape-shifter working meeting](obsidian://open?vault=UmUArkeologi_Obsidian\&file=m%C3%B6ter%2FSEAD%20taskforce%20meetings%2F2026-03-03%20shape-shifter%20working%20meeting) as a nice solution for the fact that we have a variety of different types of [[national_site_identifier]] numbers, and that there are other sorts of properties that a site could have.
+> The table is not yet searchable in pgAdmin as of directly after that meeting, but he says that he has given it to Johan to deploy. Therefore, the above are only my guesses as to what the table might be called, and what columns might wind up in the table
+>
+> > later that day Roger sent:
+>
+> I gave you wrong tables names. These two selects works on out staging server. Bort tables are new and empty.
+> select \*
+> from tbl\_site\_properties
+>
+> select \*
+> from tbl\_property\_types
+
+Therefore, I am suggesting the above columns and keys for this table

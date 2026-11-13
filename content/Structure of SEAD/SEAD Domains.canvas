@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"da8c548ca2a1a766","x":-482,"y":-110,"width":140,"height":101,"color":"#1132d4","type":"text","text":"## Spatial\n"},
+		{"id":"2bd51d25c2a35d44","x":-627,"y":-397,"width":250,"height":197,"color":"#39eae7","type":"text","text":"# Abundance"},
+		{"id":"a15a9c4627b1b9fd","x":-658,"y":-110,"width":140,"height":101,"color":"#3a9419","type":"text","text":"## Taxonomy\n"},
+		{"id":"4005c9e24c0c0d69","x":-279,"y":-110,"width":144,"height":101,"color":"#e6e90a","type":"text","text":"## Dating\n"},
+		{"id":"e58099d57a2bf4a3","x":85,"y":-110,"width":144,"height":101,"color":"#decfb5","type":"text","text":"## Contacts\n"},
+		{"id":"6c59e6289e50d7f5","x":-239,"y":-397,"width":250,"height":197,"color":"#ca49b3","type":"text","text":"# Analysis\n"},
+		{"id":"e270f7697ba8beeb","x":-93,"y":-110,"width":140,"height":101,"color":"#3a9419","type":"text","text":"## Taxonomy\n\n"},
+		{"id":"862e82181080cc0f","x":263,"y":-110,"width":144,"height":101,"color":"#835a01","type":"text","text":"## Excavation\n"},
+		{"id":"27d2c1ec4a73015f","x":282,"y":-397,"width":250,"height":197,"color":"#0c08e7","type":"text","text":"# Core\n"},
+		{"id":"5d53b754a9ab1c0f","x":440,"y":-110,"width":144,"height":101,"color":"#dc0404","type":"text","text":"## Provenance\n"},
+		{"id":"13550433bb9eecf1","x":617,"y":-110,"width":144,"height":101,"color":"#0b89a2","type":"text","text":"## Sample-metadata\n"}
+	],
+	"edges":[
+		{"id":"a61b765b4dea1ad4","fromNode":"2bd51d25c2a35d44","fromSide":"bottom","toNode":"da8c548ca2a1a766","toSide":"top"},
+		{"id":"71b29b8d5033b9f0","fromNode":"2bd51d25c2a35d44","fromSide":"bottom","toNode":"a15a9c4627b1b9fd","toSide":"top"},
+		{"id":"fed2837c4a7a6959","fromNode":"6c59e6289e50d7f5","fromSide":"bottom","toNode":"4005c9e24c0c0d69","toSide":"top"},
+		{"id":"12faa47bfe484119","fromNode":"6c59e6289e50d7f5","fromSide":"bottom","toNode":"e270f7697ba8beeb","toSide":"top"}
+	]
+}
