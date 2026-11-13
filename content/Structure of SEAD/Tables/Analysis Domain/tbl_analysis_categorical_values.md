@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Analysis Domain/tbl_analysis_categorical_values.md
 created: 2026-07-24T09:34:40.860Z
-modified: 2026-11-12T06:06:56.505Z
-published: 2026-11-12T06:06:56.505Z
+modified: 2026-11-13T16:40:44.285Z
+published: 2026-11-13T16:40:44.285Z
 table_name: tbl_analysis_categorical_values
 primary_key: "[[analysis_categorical_value_id]]"
 columns:
@@ -21,5 +21,5 @@ domain:
   - analysis
 ---
 
-> [!info] Categorical analysis result linked to a controlled value-type item.
+> [!abstract] Categorical analysis result linked to a controlled value-type item.
 > Storage for analysis values that represents a categorical value.

@@ -2,17 +2,23 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Spatial Domain/tbl_feature_types.md
 created: 2026-07-24T09:34:41.269Z
-modified: 2026-09-24T05:44:41.063Z
-published: 2026-09-24T05:44:41.063Z
+modified: 2026-11-13T16:29:13.068Z
+published: 2026-11-13T16:29:13.068Z
 table_name: tbl_feature_types
 primary_key: "[[feature_type_id]]"
 columns:
   - "[[date_updated]]"
   - "[[feature_type_description]]"
   - "[[feature_type_name]]"
+required: No
+role: classifier
+domain:
+  - core
+  - excavation
 ---
 
-Categorizes archaeological features by their function, shape, or construction to facilitate the study of historical human activities. Categories include: domestic structures (e.g., homes), public and ceremonial spaces (e.g., temples, public buildings), economic and industrial areas (e.g., workshops, kilns), defensive structures (e.g., fortifications, walls), agricultural modifications (e.g., terraces, irrigation systems), funerary sites (e.g., graves, tombs), transportation routes (e.g., roads, bridges), and water management systems (e.g., wells, aqueducts). These classifications provide insights into societal organization, cultural practices, and technological advancements across various eras and regions.
+> [!abstract] Controlled vocabulary for archaeological feature classification.
+> Categorizes archaeological features by their function, shape, or construction to facilitate the study of historical human activities. Categories include: domestic structures (e.g., homes), public and ceremonial spaces (e.g., temples, public buildings), economic and industrial areas (e.g., workshops, kilns), defensive structures (e.g., fortifications, walls), agricultural modifications (e.g., terraces, irrigation systems), funerary sites (e.g., graves, tombs), transportation routes (e.g., roads, bridges), and water management systems (e.g., wells, aqueducts). These classifications provide insights into societal organization, cultural practices, and technological advancements across various eras and regions.
 
 | feature\_type\_id | feature\_type\_name                       | feature\_type\_description                                                                                                                                                                                                                                                                                                                                                                 |
 | --------------- | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

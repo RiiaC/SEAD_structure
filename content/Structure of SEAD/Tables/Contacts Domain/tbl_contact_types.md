@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Contacts Domain/tbl_contact_types.md
 created: 2026-07-24T09:34:41.528Z
-modified: 2026-11-12T07:11:37.610Z
-published: 2026-11-12T07:11:37.610Z
+modified: 2026-11-13T16:31:08.707Z
+published: 2026-11-13T16:31:08.707Z
 table_name: tbl_contact_types
 primary_key: "[[contact_type_id]]"
 columns:
@@ -16,7 +16,7 @@ domain:
   - contacts
 ---
 
-> [!info] Controlled vocabulary describing a contact's role in a dataset or project context.
+> [!abstract] Controlled vocabulary describing a contact's role in a dataset or project context.
 > Specifies various contact types, categorizing them by their roles or functions such as laboratory, sample taker, or dataset creator. This categorization aids in linking contacts to their respective roles within the system.
 
 | **[[contact_type_id]]** | **[[contact_type_name]]**       | **[[description]]**                                              |

@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Analysis Domain/tbl_value_types.md
 created: 2026-07-24T09:34:40.915Z
-modified: 2026-11-12T06:18:36.848Z
-published: 2026-11-12T06:18:36.848Z
+modified: 2026-11-13T16:34:15.689Z
+published: 2026-11-13T16:34:15.689Z
 table_name: tbl_value_types
 primary_key: "[[value_type_id]]"
 columns:
@@ -24,7 +24,7 @@ domain:
   - analysis
 ---
 
-> [!info] Value-type definition describing the base storage shape and optional unit for analytical values.
+> [!abstract] Value-type definition describing the base storage shape and optional unit for analytical values.
 > Specifies actual type of values belonging to a value class
 
 | [[value_type_id]] | [[unit_id]] | [[data_type_id]] | name                | base\_type | description                                  |

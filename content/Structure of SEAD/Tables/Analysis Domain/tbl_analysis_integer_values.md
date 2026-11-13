@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Analysis Domain/tbl_analysis_integer_values.md
 created: 2026-07-24T09:34:40.876Z
-modified: 2026-11-12T06:11:00.310Z
-published: 2026-11-12T06:11:00.310Z
+modified: 2026-11-13T16:38:00.842Z
+published: 2026-11-13T16:38:00.842Z
 table_name: tbl_analysis_integer_values
 primary_key: "[[analysis_integer_value_id]]"
 columns:
@@ -21,5 +21,5 @@ domain:
   - analysis
 ---
 
-> [!info] Integer-valued analysis result with an optional qualifier symbol.
+> [!abstract] Integer-valued analysis result with an optional qualifier symbol.
 > Storage for analysis values that represents an integer value.

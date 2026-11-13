@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Analysis Domain/tbl_analysis_numerical_ranges.md
 created: 2026-07-24T09:34:40.887Z
-modified: 2026-11-12T06:12:04.277Z
-published: 2026-11-12T06:12:04.277Z
+modified: 2026-11-13T16:37:21.793Z
+published: 2026-11-13T16:37:21.793Z
 table_name: tbl_analysis_numerical_ranges
 primary_key: "[[analysis_numerical_range_id]]"
 columns:
@@ -24,5 +24,5 @@ domain:
   - analysis
 ---
 
-> [!info] Numerical range stored in the SEAD `numrange` column format and attached to an analysis value.
+> [!abstract] Numerical range stored in the SEAD `numrange` column format and attached to an analysis value.
 > Storage for analysis values that represents a numerical range.

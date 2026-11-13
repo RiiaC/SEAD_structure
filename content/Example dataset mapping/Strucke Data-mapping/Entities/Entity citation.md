@@ -2,14 +2,14 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entities/Entity citation.md
 created: 2026-09-15T10:31:11.679Z
-modified: 2026-11-12T08:31:05.077Z
-published: 2026-11-12T08:31:05.077Z
+modified: 2026-11-13T17:02:00.757Z
+published: 2026-11-13T17:02:00.757Z
 Entity_Name: biblio
 Type: Data (Derived)
 Source_entity: "[[Example dataset mapping/Strucke Data-mapping/Entities/Entity datasheet|Entity datasheet]]"
 Public_ID: "[[biblio_id]]"
 columns:
-  - "[[author]]"
+  - "[[Example dataset mapping/Strucke Data-mapping/columns/author]]"
   - "[[journal]]"
   - "[[place_of_publication]]"
   - "[[publication_year]]"

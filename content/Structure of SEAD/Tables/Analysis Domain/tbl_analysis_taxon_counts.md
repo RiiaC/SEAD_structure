@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Analysis Domain/tbl_analysis_taxon_counts.md
 created: 2026-07-24T09:34:40.896Z
-modified: 2026-11-12T06:13:15.627Z
-published: 2026-11-12T06:13:15.627Z
+modified: 2026-11-13T16:36:20.046Z
+published: 2026-11-13T16:36:20.046Z
 table_name: tbl_analysis_taxon_counts
 primary_key: "[[analysis_taxon_count_id]]"
 columns:
@@ -21,5 +21,5 @@ domain:
   - taxonomy
 ---
 
-> [!info] Taxon-specific count attached to an analysis value.
+> [!abstract] Taxon-specific count attached to an analysis value.
 > Storage for analysis values that represents a taxon counts.

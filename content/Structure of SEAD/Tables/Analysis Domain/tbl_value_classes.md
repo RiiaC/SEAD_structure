@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Analysis Domain/tbl_value_classes.md
 created: 2026-07-24T09:34:40.911Z
-modified: 2026-11-12T06:18:08.340Z
-published: 2026-11-12T06:18:08.340Z
+modified: 2026-11-13T16:34:39.518Z
+published: 2026-11-13T16:34:39.518Z
 table_name: tbl_value_classes
 primary_key: "[[value_class_id]]"
 columns:
@@ -24,7 +24,7 @@ domain:
   - analysis
 ---
 
-> [!info] Analytical value class describing a data column or measurement family.
+> [!abstact] Analytical value class describing a data column or measurement family.
 > Specifies a value class describing e.g. a data column
 
 # Dendrochronology value classes

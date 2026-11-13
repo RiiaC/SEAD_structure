@@ -1,21 +1,17 @@
 {
 	"nodes":[
-		{"id":"da8c548ca2a1a766","x":-482,"y":-110,"width":140,"height":101,"color":"#1132d4","type":"text","text":"## Spatial\n"},
-		{"id":"2bd51d25c2a35d44","x":-627,"y":-397,"width":250,"height":197,"color":"#39eae7","type":"text","text":"# Abundance"},
-		{"id":"a15a9c4627b1b9fd","x":-658,"y":-110,"width":140,"height":101,"color":"#3a9419","type":"text","text":"## Taxonomy\n"},
-		{"id":"4005c9e24c0c0d69","x":-279,"y":-110,"width":144,"height":101,"color":"#e6e90a","type":"text","text":"## Dating\n"},
-		{"id":"e58099d57a2bf4a3","x":85,"y":-110,"width":144,"height":101,"color":"#decfb5","type":"text","text":"## Contacts\n"},
-		{"id":"6c59e6289e50d7f5","x":-239,"y":-397,"width":250,"height":197,"color":"#ca49b3","type":"text","text":"# Analysis\n"},
-		{"id":"e270f7697ba8beeb","x":-93,"y":-110,"width":140,"height":101,"color":"#3a9419","type":"text","text":"## Taxonomy\n\n"},
-		{"id":"862e82181080cc0f","x":263,"y":-110,"width":144,"height":101,"color":"#835a01","type":"text","text":"## Excavation\n"},
-		{"id":"27d2c1ec4a73015f","x":282,"y":-397,"width":250,"height":197,"color":"#0c08e7","type":"text","text":"# Core\n"},
-		{"id":"5d53b754a9ab1c0f","x":440,"y":-110,"width":144,"height":101,"color":"#dc0404","type":"text","text":"## Provenance\n"},
-		{"id":"13550433bb9eecf1","x":617,"y":-110,"width":144,"height":101,"color":"#0b89a2","type":"text","text":"## Sample-metadata\n"}
+		{"id":"13550433bb9eecf1","type":"text","text":"## Sample-metadata\n","x":-332,"y":236,"width":250,"height":197,"color":"#0b89a2"},
+		{"id":"4005c9e24c0c0d69","type":"text","text":"## Dating\n","x":-332,"y":4,"width":250,"height":197,"color":"#e6e90a"},
+		{"id":"862e82181080cc0f","type":"text","text":"## Excavation\n## also in Core\n- [[tbl_features]]\n- [[tbl_feature_types]]\n- [[tbl_physical_sample_features]]","x":-30,"y":-158,"width":250,"height":197,"color":"#835a01"},
+		{"id":"da8c548ca2a1a766","type":"text","text":"## [Spatial](obsidian://open?vault=SEAD_structure_Obsidian&file=Structure%20of%20SEAD%2FTables%2FSpatial%20Domain%2Findex)\n\n- [[tbl_property_type]]","x":-30,"y":118,"width":250,"height":197,"color":"#1132d4"},
+		{"id":"14e1d583d6c1df48","type":"text","text":"# Physical-properties\n","x":276,"y":-158,"width":250,"height":197,"color":"#1e5507"},
+		{"id":"a15a9c4627b1b9fd","type":"text","text":"# Taxonomy\n\n- [[tbl_abundances]]\n- [[tbl_abundance_ident_levels]]\n","x":276,"y":118,"width":250,"height":197,"color":"#3a9419"},
+		{"id":"5d53b754a9ab1c0f","type":"text","text":"## Provenance\n\n## also in Bibliography\n- [[tbl_biblio]]\n## also in Contacts\n- [[tbl_dataset_contacts]]\n## also in Core\n- [[tbl_data_providers]]","x":654,"y":4,"width":250,"height":369,"color":"#dc0404"},
+		{"id":"6c59e6289e50d7f5","type":"text","text":"# [Analysis](obsidian://open?vault=SEAD_structure_Obsidian&file=Structure%20of%20SEAD%2FTables%2FAnalysis%20Domain%2Findex)\n- [[tbl_analysis_boolean_values]]\n- [[tbl_analysis_categorical_values]]\n- [[tbl_analysis_identifiers]]\n- [[tbl_analysis_integer_ranges]]\n- [[tbl_analysis_integer_values]]\n- [[tbl_analysis_notes]]\n- [[tbl_analysis_numerical_ranges]]\n- [[tbl_analysis_numerical_values]]\n- [[tbl_analysis_values]]\n- [[tbl_value_classes]]\n- [[tbl_value_types]]\n- [[tbl_value_type_items]] \n## also in Core\n- [[tbl_analysis_entities]]\n## also in Dating\n- [[tbl_analysis_dating_ranges]]\n## also in Spatial\n- [[tbl_analysis_value_dimensions]]\n## also in Taxonomy\n- [[tbl_analysis_taxon_counts]]","x":-799,"y":-364,"width":250,"height":737,"color":"#ca49b3"},
+		{"id":"2bd51d25c2a35d44","type":"text","text":"# [Abundance](obsidian://open?vault=SEAD_structure_Obsidian&file=Structure%20of%20SEAD%2FTables%2FAbundance%20Domain%2Findex)\n- [[tbl_abundances]]\n- [[tbl_abundance_elements]]\n- [[tbl_abundance_elements_group]]\n- [[tbl_abundance_modifications]]\n- [[tbl_abundance_properties]]\n- [[tbl_modification_types]]\n## also in Spatial\n- [[tbl_property_type]]\n## also in Taxonomy\n- [[tbl_abundance_ident_levels]]","x":-799,"y":-795,"width":250,"height":405,"color":"#39eae7"},
+		{"id":"08ec00072052dcde","type":"text","text":"# [Bibliography](obsidian://open?vault=SEAD_structure_Obsidian&file=Structure%20of%20SEAD%2FTables%2FBilbliography%20Domain%2Findex)\n- [[tbl_biblio]] (also in Provenance)","x":-517,"y":-789,"width":250,"height":197,"color":"#9cf7d0"},
+		{"id":"e58099d57a2bf4a3","type":"text","text":"## [Contacts](obsidian://open?vault=SEAD_structure_Obsidian&file=Structure%20of%20SEAD%2FTables%2FContacts%20Domain%2Findex)\n- [[tbl_contacts]]\n- [[tbl_contact_types]]\n## also in Core\n- [[tbl_method_groups]]\n## also in Provenance\n- [[tbl_dataset_contacts]]","x":-517,"y":-569,"width":250,"height":307,"color":"#decfb5"},
+		{"id":"27d2c1ec4a73015f","type":"text","text":"# [Core](obsidian://open?vault=SEAD_structure_Obsidian&file=Structure%20of%20SEAD%2FTables%2FCore%20Domain%2Findex)\n## also in Contacts\n- [[tbl_method_groups]]\n## also in Excavation\n- [[tbl_features]]\n- [[tbl_feature_types]]\n- [[tbl_physical_sample_features]]\n## also in Provenance\n- [[tbl_data_providers]]\n- [[tbl_dataset_masters]]\n- [[tbl_projects]]\n- [[tbl_project_stages]]\n- [[tbl_project_types]]\n- [[tbl_submissions]]","x":-207,"y":-781,"width":250,"height":623,"color":"#0c08e7"}
 	],
-	"edges":[
-		{"id":"a61b765b4dea1ad4","fromNode":"2bd51d25c2a35d44","fromSide":"bottom","toNode":"da8c548ca2a1a766","toSide":"top"},
-		{"id":"71b29b8d5033b9f0","fromNode":"2bd51d25c2a35d44","fromSide":"bottom","toNode":"a15a9c4627b1b9fd","toSide":"top"},
-		{"id":"fed2837c4a7a6959","fromNode":"6c59e6289e50d7f5","fromSide":"bottom","toNode":"4005c9e24c0c0d69","toSide":"top"},
-		{"id":"12faa47bfe484119","fromNode":"6c59e6289e50d7f5","fromSide":"bottom","toNode":"e270f7697ba8beeb","toSide":"top"}
-	]
+	"edges":[]
 }

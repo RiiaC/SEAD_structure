@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Analysis Domain/tbl_analysis_values.md
 created: 2026-07-24T09:34:40.900Z
-modified: 2026-11-12T06:13:45.050Z
-published: 2026-11-12T06:13:45.050Z
+modified: 2026-11-13T16:35:51.589Z
+published: 2026-11-13T16:35:51.589Z
 table_name: tbl_analysis_values
 primary_key: "[[analysis_value_id]]"
 columns:
@@ -27,5 +27,5 @@ domain:
   - analysis
 ---
 
-> [!info] Core analysis value record attached to an analysis entity.
+> [!abstract] Core analysis value record attached to an analysis entity.
 > Stores results from an analysis as a (untyped) string value.

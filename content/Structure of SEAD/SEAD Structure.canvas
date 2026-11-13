@@ -53,7 +53,7 @@
 		{"id":"60081bd8c533a348","type":"file","file":"Structure of SEAD/Tables/Core Domain/Sample/tbl_physical_samples.md","x":1810,"y":-3249,"width":400,"height":240,"color":"#eb0000"},
 		{"id":"926ada48b4fbab77","type":"file","file":"Structure of SEAD/Tables/Core Domain/Sample/tbl_sample_coordinates.md","x":2490,"y":-2677,"width":400,"height":220,"color":"#eb0000"},
 		{"id":"91bf586ed7496bf9","type":"file","file":"Structure of SEAD/Tables/Analysis Domain/tbl_analysis_entities.md","x":2690,"y":-3522,"width":400,"height":220,"color":"#acef92"},
-		{"id":"b465817cd2cfb6b8","type":"file","file":"Structure of SEAD/Tables/Core Domain/Sample/tbl_physical_sample_features.md","x":2690,"y":-3262,"width":400,"height":213,"color":"#eb0000"},
+		{"id":"b465817cd2cfb6b8","type":"file","file":"Structure of SEAD/Tables/Core Domain/tbl_physical_sample_features.md","x":2690,"y":-3262,"width":400,"height":213,"color":"#eb0000"},
 		{"id":"27cfbe93ea777219","type":"file","file":"Structure of SEAD/Tables/Core Domain/Sample/tbl_sample_colours.md","x":2690,"y":-3002,"width":400,"height":213,"color":"#eb0000"},
 		{"id":"51eaf2343ce4d14f","type":"file","file":"Structure of SEAD/Tables/Core Domain/Location/tbl_locations.md","x":240,"y":-5772,"width":400,"height":220,"color":"#98d7ec"},
 		{"id":"e9c38009ff018433","type":"file","file":"Structure of SEAD/Tables/Core Domain/Sample/tbl_alt_ref_types.md","x":1010,"y":-3509,"width":400,"height":160,"color":"#eb0000"},

@@ -2,14 +2,14 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entities/Entity datasheet.md
 created: 2026-09-15T10:31:11.700Z
-modified: 2026-09-29T08:16:40.847Z
-published: 2026-09-29T08:16:40.847Z
+modified: 2026-11-13T17:02:00.784Z
+published: 2026-11-13T17:02:00.784Z
 Entity_Name: datasheet
 Type: CSV file
 Public_ID: datasheet_id
 columns:
   - "[[assessed_relevant]]"
-  - "[[author]]"
+  - "[[Example dataset mapping/Strucke Data-mapping/columns/author]]"
   - "[[c14_age_bp]]"
   - "[[c14_data_status]]"
   - "[[c14_error]]"

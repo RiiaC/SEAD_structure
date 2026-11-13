@@ -2,14 +2,14 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entities/Entity supergeochron.md
 created: 2026-09-15T10:31:11.857Z
-modified: 2026-11-12T08:31:05.226Z
-published: 2026-11-12T08:31:05.226Z
+modified: 2026-11-13T17:02:00.818Z
+published: 2026-11-13T17:02:00.818Z
 Entity_Name: supergeochron
 Type: Data (Derived)
 Source_entity: "[[Example dataset mapping/Strucke Data-mapping/Entities/Entity datasheet|Entity datasheet]]"
 Public_ID: "[[transition_geochron_id]]"
 columns:
-  - "[[author]]"
+  - "[[Example dataset mapping/Strucke Data-mapping/columns/author]]"
   - "[[c14_age_bp]]"
   - "[[c14_error]]"
   - "[[comment]]"

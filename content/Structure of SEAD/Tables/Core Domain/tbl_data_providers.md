@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Core Domain/tbl_data_providers.md
 created: 2026-10-27T14:00:49.180Z
-modified: 2026-11-02T14:39:12.937Z
-published: 2026-11-02T14:39:12.937Z
+modified: 2026-11-13T16:26:05.345Z
+published: 2026-11-13T16:26:05.345Z
 table_name: tbl_data_providers
 primary_key: "[[data_provider_id]]"
 columns:
@@ -24,6 +24,12 @@ foreign_keys:
   - "[[contact_id]]"
   - "[[dataset_id]]"
   - "[[submission_type_id]]"
+required: Yes
+role: lookup
+domain:
+  - core
+  - provenance
 ---
 
-A new table as of 2026, as we now require information on the individual or group providing the data
+> [!abstract] Organization or individual that provides submitted data.
+> A new table as of 2026, as we now require information on the individual or group providing the data
