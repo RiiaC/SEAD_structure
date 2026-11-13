@@ -8,7 +8,7 @@
 		{"id":"ab7f7d7c38c6010a","type":"file","file":"Structure of SEAD/Tables/Dating Domain/tbl_dating_material.md","x":1123,"y":241,"width":444,"height":331},
 		{"id":"8adb1239226c7676","type":"file","file":"Structure of SEAD/Tables/Dating Domain/tbl_geochronology.md","x":639,"y":506,"width":399,"height":211},
 		{"id":"498bad454f9c9109","type":"file","file":"Structure of SEAD/Tables/Core Domain/tbl_datasets.md","x":-75,"y":877,"width":378,"height":281},
-		{"id":"9a53c6781e2bdf54","type":"file","file":"Structure of SEAD/Tables/Provenance Domain/tbl_biblio.md","x":401,"y":862,"width":469,"height":309},
+		{"id":"9a53c6781e2bdf54","type":"file","file":"Structure of SEAD/Tables/Bilbliography Domain/tbl_biblio.md","x":401,"y":862,"width":469,"height":309},
 		{"id":"6a5e973f4c9d8b54","x":955,"y":815,"width":390,"height":241,"type":"file","file":"Structure of SEAD/Tables/Dating Domain/tbl_geochron_refs.md"},
 		{"id":"cfc6ee6026009c69","type":"file","file":"Structure of SEAD/Tables/Spatial Domain/tbl_sites.md","x":-1477,"y":-84,"width":521,"height":364},
 		{"id":"dfe85582f86a5daf","x":-1163,"y":704,"width":464,"height":317,"type":"file","file":"Structure of SEAD/Tables/Core Domain/Location/tbl_locations.md"},

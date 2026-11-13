@@ -15,7 +15,7 @@
 		{"id":"3a19b2dfd6eeae1a","type":"text","text":"# Analysis Values\n[[Structure of SEAD/Tables/Analysis Domain/index|Analysis Values]]","x":-560,"y":-790,"width":280,"height":100,"color":"#ca49b3"},
 		{"id":"5ca61a4110849594","type":"text","text":"# Projects\n[[Structure of SEAD/Tables/Core Domain/Project/index|Projects]]\n\n","x":-1300,"y":145,"width":280,"height":100,"color":"#4fe8bd"},
 		{"id":"9c699f3ec818b3af","type":"text","text":"# Ecocodes\n[[Structure of SEAD/Tables/Taxonomy Domain/Ecocode/index|Ecocodes]]\n","x":-1640,"y":-170,"width":280,"height":100,"color":"#72b8ee"},
-		{"id":"538a86a90e639358","type":"text","text":"# Bibliography\n[[Structure of SEAD/Tables/Provenance Domain/index|Bibliography]]\n","x":-1960,"y":-480,"width":280,"height":100,"color":"#aa3c5d"},
+		{"id":"538a86a90e639358","type":"text","text":"# Bibliography\n[[Structure of SEAD/Tables/Bilbliography Domain/index|Bibliography]]\n","x":-1960,"y":-480,"width":280,"height":100,"color":"#aa3c5d"},
 		{"id":"6372154b1e2eca0e","type":"text","text":"# Datasets\n[[Structure of SEAD/Tables/Core Domain/index|Datasets]]\n","x":-1440,"y":393,"width":280,"height":100,"color":"#815c32"},
 		{"id":"3c495197fb502298","type":"text","text":"# RDB\n[[Structure of SEAD/Tables/Taxonomy Domain/RDB/index|RDB]]\n","x":-2100,"y":-940,"width":280,"height":100,"color":"#f09600"},
 		{"id":"ff353d364bdac982","type":"text","text":"# Taxonomy\n[[Structure of SEAD/Tables/Taxonomy Domain/index|Taxonomy]]\n","x":-1440,"y":-480,"width":280,"height":100,"color":"#3a9419"},

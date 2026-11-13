@@ -1,11 +1,12 @@
 ---
 publish: true
 permalink: /Structure of SEAD/Tables/Spatial Domain/index.md
-title: Sites
-description: SEAD database tables that have to do with sites
+title: Spatial Domain
+description: SEAD database tables that have to do with spatial information
 created: 2026-08-07T09:31:41.625Z
-modified: 2026-09-24T05:44:41.079Z
-published: 2026-09-24T05:44:41.079Z
+modified: 2026-11-13T14:24:19.343Z
+published: 2026-11-13T14:24:19.343Z
 ---
 
-This group contains the tables having to do with sites (excavation or sampling location)
+> [!Abstract] Tables in this Domain contains spatial information,
+> such as site locations, sample coordinates, and dimensions.

@@ -1,11 +1,11 @@
 ---
 publish: true
 permalink: /Structure of SEAD/Tables/Core Domain/index.md
-title: Dataset
-description: SEAD database tables that describe the datasets themselves
+title: Core Domain
+description: The SEAD tables that are mandatory for all datasets
 created: 2026-08-07T09:10:08.776Z
-modified: 2026-09-24T05:44:40.533Z
-published: 2026-09-24T05:44:40.533Z
+modified: 2026-11-13T15:12:41.531Z
+published: 2026-11-13T15:12:41.531Z
 ---
 
-This group contains the various metadata information tables about a given dataset
+> [!Abstract] The Core Domain should contain all tables that are required for every dataset.

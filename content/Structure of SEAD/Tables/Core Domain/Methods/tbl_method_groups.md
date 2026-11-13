@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Core Domain/Methods/tbl_method_groups.md
 created: 2026-07-24T09:34:41.143Z
-modified: 2026-10-02T09:16:37.093Z
-published: 2026-10-02T09:16:37.093Z
+modified: 2026-11-13T15:10:59.053Z
+published: 2026-11-13T15:10:59.053Z
 table_name: tbl_method_groups
 primary_key: "[[method_group_id]]"
 columns:
@@ -12,9 +12,10 @@ columns:
   - "[[group_name]]"
 ---
 
-> [!info] Categorizes various analysis methods into groups based on their similarities, such as dating methods, isotope analyses, palaeoentomology, or geographic location.
+> [!info]  Controlled grouping for analytical and collection methods.
+> Categorizes various analysis methods into groups based on their similarities, such as dating methods, isotope analyses, palaeoentomology, or geographic location.
 
-List copied **2026-04-20** from [https://browser.sead.se/postgrest/tbl\_methods](https://browser.sead.se/postgrest/tbl_method_groups))
+List copied **2026-11-13** from [https://browser.sead.se/postgrest/tbl\_methods](https://browser.sead.se/postgrest/tbl_method_groups))
 
 | method group | group name                           |
 | ------------ | ------------------------------------ |
