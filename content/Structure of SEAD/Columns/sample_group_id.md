@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Columns/sample_group_id.md
 created: 2026-07-24T09:34:40.390Z
-modified: 2026-10-02T09:16:36.590Z
-published: 2026-10-02T09:16:36.590Z
+modified: 2026-11-16T12:46:46.050Z
+published: 2026-11-16T12:46:46.050Z
 column_name: sample_group_id
 data_type: integer
 connected_tables:

@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Ungrouped/tbl_lithology.md
 created: 2026-07-24T09:34:41.210Z
-modified: 2026-11-16T08:32:32.566Z
-published: 2026-11-16T08:32:32.566Z
+modified: 2026-11-16T12:46:46.149Z
+published: 2026-11-16T12:46:46.149Z
 table_name: tbl_lithology
 primary_key: "[[lithology_id]]"
 columns:

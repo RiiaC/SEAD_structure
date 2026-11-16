@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Sample-metadata Domain/tbl_sample_group_images.md
 created: 2026-07-24T09:34:41.247Z
-modified: 2026-11-16T08:33:29.398Z
-published: 2026-11-16T08:33:29.398Z
+modified: 2026-11-16T12:46:46.176Z
+published: 2026-11-16T12:46:46.176Z
 table_name: tbl_sample_group_images
 primary_key: "[[sample_group_image_id]]"
 columns:

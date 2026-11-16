@@ -2,8 +2,8 @@
 publish: true
 permalink: /Example dataset mapping/Strucke Data-mapping/Entities/Entity sample_group.md
 created: 2026-09-21T05:17:11.019Z
-modified: 2026-11-12T08:31:50.414Z
-published: 2026-11-12T08:31:50.414Z
+modified: 2026-11-16T12:46:45.982Z
+published: 2026-11-16T12:46:45.982Z
 Entity_Name: sample_group
 Type: Data (Derived)
 Source_entity: "[[Entity supersite|Entity supersite]]"

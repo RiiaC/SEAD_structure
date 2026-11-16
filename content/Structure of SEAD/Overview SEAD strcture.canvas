@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"id":"fa1c566b4ee84ee6","type":"text","text":"# Relative Dating\n[[Structure of SEAD/Tables/Dating Domain/Relative Dating/index|Relative Dating]]\n","x":-560,"y":-1220,"width":280,"height":100,"color":"#d6f386"},
-		{"id":"9048eb5ed6d46ed6","type":"text","text":"# Sample\n[[Structure of SEAD/Tables/Core Domain/Sample/index|Sample]]\n","x":240,"y":-640,"width":280,"height":100,"color":"#e80000"},
+		{"id":"9048eb5ed6d46ed6","type":"text","text":"# Sample\n[[Structure of SEAD/Tables/Ungrouped/Sample/index|Sample]]\n","x":240,"y":-640,"width":280,"height":100,"color":"#e80000"},
 		{"id":"493c51db05190332","type":"text","text":"# Sample Groups\n[[Structure of SEAD/Tables/Core Domain/also in Sample-metadata/index|Sample Groups]]\n","x":-1440,"y":-960,"width":280,"height":120,"color":"#eca351"},
 		{"id":"98cf9a87fffdca0c","type":"text","text":"# Sites\n[[Structure of SEAD/Tables/Spatial Domain/index|Sites]]\n","x":-1300,"y":-1390,"width":280,"height":100,"color":"#1132d4"},
 		{"id":"eae0e8eafee24154","type":"text","text":"# Dendro\n[[Structure of SEAD/Tables/Ungrouped/Dendro/index|Dendro]]\n","x":-700,"y":-1680,"width":280,"height":100,"color":"#048b69"},
@@ -19,7 +19,7 @@
 		{"id":"6372154b1e2eca0e","type":"text","text":"# Datasets\n[[Structure of SEAD/Tables/Core Domain/index|Datasets]]\n","x":-1440,"y":393,"width":280,"height":100,"color":"#815c32"},
 		{"id":"3c495197fb502298","type":"text","text":"# RDB\n[[Structure of SEAD/Tables/Taxonomy Domain/RDB/index|RDB]]\n","x":-2100,"y":-940,"width":280,"height":100,"color":"#f09600"},
 		{"id":"ff353d364bdac982","type":"text","text":"# Taxonomy\n[[Structure of SEAD/Tables/Taxonomy Domain/index|Taxonomy]]\n","x":-1440,"y":-480,"width":280,"height":100,"color":"#3a9419"},
-		{"id":"697e19c918585e0a","type":"text","text":"# Methods\n[[Structure of SEAD/Tables/Core Domain/Methods/index|methods]]\n","x":-800,"y":250,"width":280,"height":95,"color":"#f648f9"},
+		{"id":"697e19c918585e0a","type":"text","text":"# Methods\n[[Structure of SEAD/Tables/Ungrouped/Methods/index|methods]]\n","x":-800,"y":250,"width":280,"height":95,"color":"#f648f9"},
 		{"id":"1c1f5fe5f38d4f7a","type":"text","text":"# For more details, see also\n[[SEAD Structure.canvas]]","x":-2100,"y":-1580,"width":460,"height":140},
 		{"id":"e44568756b6d3462","type":"text","text":"# Ungrouped\n[[Structure of SEAD/Tables/Ungrouped/index|Ungrouped]]\n","x":-1720,"y":720,"width":280,"height":80,"color":"#70700b"}
 	],

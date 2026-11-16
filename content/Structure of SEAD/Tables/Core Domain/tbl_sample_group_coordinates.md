@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Core Domain/tbl_sample_group_coordinates.md
 created: 2026-07-24T09:34:41.218Z
-modified: 2026-11-16T08:32:51.691Z
-published: 2026-11-16T08:32:51.691Z
+modified: 2026-11-16T12:46:46.217Z
+published: 2026-11-16T12:46:46.217Z
 table_name: tbl_sample_group_coordinates
 primary_key: "[[sample_group_position_id]]"
 columns:

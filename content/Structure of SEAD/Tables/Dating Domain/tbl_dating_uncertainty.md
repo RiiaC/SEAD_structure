@@ -2,17 +2,22 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Dating Domain/tbl_dating_uncertainty.md
 created: 2026-07-24T09:34:41.549Z
-modified: 2026-10-02T09:16:37.000Z
-published: 2026-10-02T09:16:37.000Z
+modified: 2026-11-16T13:21:29.938Z
+published: 2026-11-16T13:21:29.938Z
 table_name: tbl_dating_uncertainty
 primary_key: "[[dating_uncertainty_id]]"
 columns:
   - "[[date_updated]]"
   - "[[description]]"
   - "[[uncertainty]]"
+required: No
+role: classifier
+domain:
+  - dating
 ---
 
-Defines various types of dating uncertainties, such as 'from', 'to', 'circa (Ca.)', and '?'. These uncertainties help specify date ranges or approximate periods, such as 'from Mesolithic to Neolithic' or 'from AD 100 to AD 300'.
+> [!abstract] Uncertainty qualifiers for dating results
+> Defines various types of dating uncertainties, such as 'from', 'to', 'circa (Ca.)', and '?'. These uncertainties help specify date ranges or approximate periods, such as 'from Mesolithic to Neolithic' or 'from AD 100 to AD 300'.
 
 | dating\_uncertainty\_id | description                                                                                                                                                                                                        |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

@@ -2,22 +2,27 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Dating Domain/tbl_dating_material.md
 created: 2026-07-24T09:34:41.543Z
-modified: 2026-11-11T16:03:32.063Z
-published: 2026-11-11T16:03:32.063Z
+modified: 2026-11-16T13:20:06.285Z
+published: 2026-11-16T13:20:06.285Z
 table_name: tbl_dating_material
 primary_key: "[[dating_material_id]]"
-foreign_keys:
-  - "[[abundance_element_id]]"
-  - "[[geochron_id]]"
-  - "[[taxon_id]]"
 columns:
   - "[[date_updated]]"
   - "[[description]]"
   - "[[material_dated]]"
+foreign_keys:
+  - "[[abundance_element_id]]"
+  - "[[geochron_id]]"
+  - "[[taxon_id]]"
 connected_tables:
   - "[[tbl_abundance_elements]]"
   - "[[tbl_geochronology]]"
   - "[[tbl_taxa_tree_master]]"
+required: No
+role: lookup
+domain:
+  - dating
 ---
 
-Contains information about materials used for dating processes. Materials can be linked to a specific taxon, pseudotaxon, or described in the 'material\_dated' field. Specific components of abundance, such as seeds or elytrons, can also be indicated. A single dating instance may involve multiple materials.
+> [!abstract] Material dated in geochronological analysis
+> Contains information about materials used for dating processes. Materials can be linked to a specific taxon, pseudotaxon, or described in the 'material\_dated' field. Specific components of abundance, such as seeds or elytrons, can also be indicated. A single dating instance may involve multiple materials.
