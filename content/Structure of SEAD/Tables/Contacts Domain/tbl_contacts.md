@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Contacts Domain/tbl_contacts.md
 created: 2026-07-24T09:34:41.526Z
-modified: 2026-11-13T16:31:31.514Z
-published: 2026-11-13T16:31:31.514Z
+modified: 2026-11-16T10:43:36.394Z
+published: 2026-11-16T10:43:36.394Z
 table_name: tbl_contacts
 primary_key: "[[contact_id]]"
 columns:
@@ -16,7 +16,7 @@ columns:
   - "[[location_id]]"
   - "[[phone_number]]"
   - "[[url]]"
-required: Yes
+required: No
 role: lookup
 domain:
   - contacts

@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Analysis Domain/tbl_analysis_entities.md
 created: 2026-07-24T09:34:40.937Z
-modified: 2026-10-02T09:16:36.785Z
-published: 2026-10-02T09:16:36.785Z
+modified: 2026-11-16T10:44:13.162Z
+published: 2026-11-16T10:44:13.162Z
 table_name: tbl_analysis_entities
 primary_key: "[[analysis_entity_id]]"
 columns:
@@ -14,6 +14,12 @@ connected_tables:
 foreign_keys:
   - "[[dataset_id]]"
   - "[[physical_sample_id]]"
+required: Yes
+role: fact
+domain:
+  - analysis
+  - core
 ---
 
-> [!info] Represents analysis entities, which are virtual constructs allowing the association of multiple proxies with a single physical sample. This enables the linking of physical samples to various measurements or counts across different methods. Analysis Entities are organized by datasets, which are constructed based on proxy requirements. Refer to the 'Dataset' documentation for more details.
+> [!abstract] Analytical observation context connecting sample and dataset.
+> Represents analysis entities, which are virtual constructs allowing the association of multiple proxies with a single physical sample. This enables the linking of physical samples to various measurements or counts across different methods. Analysis Entities are organized by datasets, which are constructed based on proxy requirements. Refer to the 'Dataset' documentation for more details.

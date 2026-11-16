@@ -1,0 +1,23 @@
+views:
+  - type: table
+    name: View
+    filters:
+      and:
+        - file.path.startsWith("Structure of SEAD")
+        - file.path.contains("Tables")
+        - file.name != "index"
+    order:
+      - required
+      - file.name
+      - role
+      - domain
+      - columns
+      - primary_key
+      - foreign_keys
+      - Type
+      - connected_tables
+    sort:
+      - property: required
+        direction: DESC
+    columnSize:
+      file.name: 203

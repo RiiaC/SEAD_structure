@@ -2,15 +2,15 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Core Domain/also in Spatial/tbl_location_types.md
 created: 2026-07-24T09:34:41.052Z
-modified: 2026-11-16T08:45:27.197Z
-published: 2026-11-16T08:45:27.197Z
+modified: 2026-11-16T10:43:52.154Z
+published: 2026-11-16T10:43:52.154Z
 table_name: tbl_location_types
 primary_key: "[[location_type_id]]"
 columns:
   - "[[date_updated]]"
   - "[[description]]"
   - "[[location_type]]"
-required: Yes
+required: No
 role: classifier
 domain:
   - core
