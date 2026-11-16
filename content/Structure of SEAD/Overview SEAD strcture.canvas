@@ -2,7 +2,7 @@
 	"nodes":[
 		{"id":"fa1c566b4ee84ee6","type":"text","text":"# Relative Dating\n[[Structure of SEAD/Tables/Dating Domain/Relative Dating/index|Relative Dating]]\n","x":-560,"y":-1220,"width":280,"height":100,"color":"#d6f386"},
 		{"id":"9048eb5ed6d46ed6","type":"text","text":"# Sample\n[[Structure of SEAD/Tables/Core Domain/Sample/index|Sample]]\n","x":240,"y":-640,"width":280,"height":100,"color":"#e80000"},
-		{"id":"493c51db05190332","type":"text","text":"# Sample Groups\n[[Structure of SEAD/Tables/Core Domain/Sample Groups/index|Sample Groups]]\n","x":-1440,"y":-960,"width":280,"height":120,"color":"#eca351"},
+		{"id":"493c51db05190332","type":"text","text":"# Sample Groups\n[[Structure of SEAD/Tables/Core Domain/Sample-metadata/index|Sample Groups]]\n","x":-1440,"y":-960,"width":280,"height":120,"color":"#eca351"},
 		{"id":"98cf9a87fffdca0c","type":"text","text":"# Sites\n[[Structure of SEAD/Tables/Spatial Domain/index|Sites]]\n","x":-1300,"y":-1390,"width":280,"height":100,"color":"#1132d4"},
 		{"id":"eae0e8eafee24154","type":"text","text":"# Dendro\n[[Structure of SEAD/Tables/Ungrouped/Dendro/index|Dendro]]\n","x":-700,"y":-1680,"width":280,"height":100,"color":"#048b69"},
 		{"id":"0075e6a0df5d16aa","type":"text","text":"# Locations\n[[Structure of SEAD/Tables/Core Domain/Location/index|Locatoins]]\n","x":-620,"y":-1490,"width":280,"height":100,"color":"#98d7ec"},

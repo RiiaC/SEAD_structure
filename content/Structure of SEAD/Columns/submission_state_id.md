@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Columns/submission_state_id.md
 created: 2026-11-13T16:50:04.151Z
-modified: 2026-11-13T16:53:25.218Z
-published: 2026-11-13T16:53:25.218Z
+modified: 2026-11-16T06:26:42.498Z
+published: 2026-11-16T06:26:42.498Z
 connected_tables:
   - "[[tbl_submission_states]]"
   - "[[tbl_submissions]]"

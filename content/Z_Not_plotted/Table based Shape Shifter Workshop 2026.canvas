@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"0b4a24fc82c8d255","type":"file","file":"Structure of SEAD/Tables/Core Domain/Sample Groups/tbl_sample_groups.md","x":-762,"y":98,"width":456,"height":286},
+		{"id":"0b4a24fc82c8d255","type":"file","file":"Structure of SEAD/Tables/Core Domain/Sample-metadata/tbl_sample_groups.md","x":-762,"y":98,"width":456,"height":286},
 		{"id":"d5d9d7f2e299f92a","type":"file","file":"Structure of SEAD/Tables/Core Domain/Sample/tbl_physical_samples.md","x":-504,"y":506,"width":526,"height":316},
 		{"id":"3a90815ef2715cc0","type":"file","file":"Structure of SEAD/Tables/Analysis Domain/tbl_analysis_entities.md","x":135,"y":507,"width":337,"height":243},
 		{"id":"93782f0b1eacabbd","type":"file","file":"Structure of SEAD/Tables/Abundance Domain/tbl_abundances.md","x":170,"y":65,"width":400,"height":259},
