@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Core Domain/also in Excavation/tbl_feature_types.md
 created: 2026-07-24T09:34:41.269Z
-modified: 2026-11-13T16:29:13.068Z
-published: 2026-11-13T16:29:13.068Z
+modified: 2026-11-17T11:16:28.171Z
+published: 2026-11-17T11:16:28.171Z
 table_name: tbl_feature_types
 primary_key: "[[feature_type_id]]"
 columns:

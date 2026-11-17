@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Bilbliography Domain/tbl_biblio.md
 created: 2026-07-24T09:34:40.927Z
-modified: 2026-11-16T10:45:39.871Z
-published: 2026-11-16T10:45:39.871Z
+modified: 2026-11-17T11:19:47.092Z
+published: 2026-11-17T11:19:47.092Z
 table_name: tbl_biblio
 primary_key: "[[biblio_id]]"
 columns:
@@ -21,8 +21,9 @@ columns:
 required: Yes
 role: lookup
 domain:
-  - provenance
   - bibliography
+  - provenance
 ---
 
-> [!info] Central repository for storing bibliographic references in the SEAD database. It stores detailed citations, including author, title, year, publisher, and DOI/URL for various sources such as books and articles. This table connects to domain-specific tables via foreign keys, ensuring data integrity and supporting research by centralizing bibliographic information.
+> [!info] Bibliographic reference reused by datasets, methods, and other SEAD entities.
+> Central repository for storing bibliographic references in the SEAD database. It stores detailed citations, including author, title, year, publisher, and DOI/URL for various sources such as books and articles. This table connects to domain-specific tables via foreign keys, ensuring data integrity and supporting research by centralizing bibliographic information.

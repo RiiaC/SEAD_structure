@@ -2,8 +2,8 @@
 publish: true
 permalink: /Structure of SEAD/Tables/Core Domain/also in Provenance/tbl_dataset_masters.md
 created: 2026-07-24T09:34:40.950Z
-modified: 2026-11-13T16:25:03.612Z
-published: 2026-11-13T16:25:03.612Z
+modified: 2026-11-17T12:02:55.200Z
+published: 2026-11-17T12:02:55.200Z
 table_name: tbl_dataset_masters
 primary_key: "[[master_set_id]]"
 columns:
@@ -12,12 +12,12 @@ columns:
   - "[[master_notes]]"
   - "[[master_set_uuid]]"
   - "[[url]]"
-connected_tables:
-  - "[[tbl_biblio]]"
-  - "[[tbl_contacts]]"
 foreign_keys:
   - "[[biblio_id]]"
   - "[[contact_id]]"
+connected_tables:
+  - "[[tbl_biblio]]"
+  - "[[tbl_contacts]]"
 required: Yes
 role: lookup
 domain:
